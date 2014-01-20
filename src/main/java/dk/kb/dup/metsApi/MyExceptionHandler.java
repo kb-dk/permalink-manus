@@ -4,6 +4,7 @@ import java.lang.Exception;
 
 public class MyExceptionHandler  {
 
+
   public Object handleException(Exception exception) throws Exception {
     if ((exception instanceof Exception)){
       if( exception.getMessage().equals( "No more data to read from socket") || 
