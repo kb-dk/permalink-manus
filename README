@@ -1,0 +1,19 @@
+doc:
+ - java-doc
+ - description (txt formatted)
+ - misc
+
+java:
+ - jdev projects
+ - other
+ - jars
+
+scripts:
+ - minor scripts (sh or perl)
+
+xml:
+ - metsfiles
+ - xslt
+ - dtd
+ - xsd
+

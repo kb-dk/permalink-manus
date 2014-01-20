@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE data-sources PUBLIC "Orion data-sources" "http://xmlns.oracle.com/ias/dtds/data-sources.dtd">
+<data-sources>
+  <data-source name="jdev-connection-manus" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/manusCoreDS" xa-location="jdbc/xa/manusXADS" ejb-location="jdbc/manusDS" pooled-location="jdbc/manusPooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="manus" password="ft6yh" url="jdbc:oracle:thin:@oracledb.kb.dk:1521:prod" inactivity-timeout="30"/>
+  <data-source name="jdev-connection-e-literature" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/e-literatureCoreDS" xa-location="jdbc/xa/e-literatureXADS" ejb-location="jdbc/e-literatureDS" pooled-location="jdbc/e-literaturePooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="elit" password="elit" url="jdbc:oracle:thin:@localhost:1521:udvl" inactivity-timeout="30"/>
+  <data-source name="jdev-connection-oracledb" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/oracledbCoreDS" xa-location="jdbc/xa/oracledbXADS" ejb-location="jdbc/oracledbDS" pooled-location="jdbc/oracledbPooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="periodica2" password="tidsskrift" url="jdbc:oracle:thin:@oracledb.kb.dk:1521:prod" inactivity-timeout="30"/>
+  <data-source name="jdev-connection-cfn" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/cfnCoreDS" xa-location="jdbc/xa/cfnXADS" ejb-location="jdbc/cfnDS" pooled-location="jdbc/cfnPooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="cfn" password="cfn" url="jdbc:oracle:thin:@oracledb.kb.dk:1521:prod" inactivity-timeout="30"/>
+</data-sources>
