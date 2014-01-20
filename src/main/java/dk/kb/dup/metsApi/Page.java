@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.Namespace;
@@ -209,7 +208,7 @@ public class Page
        * We do it first for the main language
        */
      
-      cleanHtml cleaner = new cleanHtml();
+      CleanHtml cleaner = new CleanHtml();
       Metadata mods = new Metadata();
       if(row.get("PAGEINFO") != null) {
          Element pageinfo = cleaner.getBody(row.get("PAGEINFO")+"");

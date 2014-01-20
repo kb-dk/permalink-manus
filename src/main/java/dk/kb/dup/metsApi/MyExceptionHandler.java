@@ -1,20 +1,17 @@
 package dk.kb.dup.metsApi;
 
-import oracle.toplink.exceptions.DatabaseException;
-import oracle.toplink.exceptions.ExceptionHandler;
+import java.lang.Exception;
 
-public class MyExceptionHandler implements ExceptionHandler {
+public class MyExceptionHandler  {
 
-  public Object handleException(RuntimeException exception) {
-    if ((exception instanceof DatabaseException)){
+  public Object handleException(Exception exception) throws Exception {
+    if ((exception instanceof Exception)){
       if( exception.getMessage().equals( "No more data to read from socket") || 
           exception.getMessage().equals( "OALL8 is in an inconsistent state.") || 
           exception.getMessage().equals( "Broken pipe")) {
-            DatabaseException de = (DatabaseException)exception;
-            de.getAccessor().reestablishConnection(de.getSession());
-            return de.getSession().executeQuery(de.getQuery());
+	  return null;
       }
     }
-		throw exception;
+    throw exception;
   }
 }

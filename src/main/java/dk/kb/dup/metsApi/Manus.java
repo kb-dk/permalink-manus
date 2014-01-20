@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.xerces.dom.DocumentImpl;
 import org.dom4j.Document;
 import org.dom4j.Element;
@@ -276,7 +275,7 @@ public class Manus
        * a dirty hack at the time, and to preserve it is an even more dirty hack,
        * but we would not be able to reimplement the service unless we did it this way.
        */
-      cleanHtml cleaner = new cleanHtml();
+      CleanHtml cleaner = new CleanHtml();
       if(row.get("MANUSINFO") != null) {
         Element div = cleaner.getBody(row.get("MANUSINFO") +"");       
         if(div != null) {

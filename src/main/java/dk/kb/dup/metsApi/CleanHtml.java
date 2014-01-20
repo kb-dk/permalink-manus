@@ -29,7 +29,7 @@ public class CleanHtml
 
   private Map xmlns = new HashMap();
   
-  public cleanHtml()
+  public CleanHtml()
   {
   }
   

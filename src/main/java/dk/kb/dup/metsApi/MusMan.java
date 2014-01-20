@@ -2,7 +2,6 @@ package dk.kb.dup.metsApi;
 import dk.kb.dup.modsApi.Metadata;
 import java.util.Collection;
 import java.util.Iterator;
-import oracle.toplink.publicinterface.DatabaseRow;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.Namespace;
@@ -280,7 +279,7 @@ public class MusMan
       mdMods.addOriginInfo("","","",row.get("AARSTAL")+"");
       mdMods.addSignature(row.get("SIGNATUR")+"");
       mdMods.addIdentifier("thumb",row.get("THUMBNAIL")+"");
-      cleanHtml cleaner = new cleanHtml();
+      CleanHtml cleaner = new CleanHtml();
       if(row.get("PRAESENTATION_DK")!=null)
       {
         Element div = cleaner.getBody(row.get("PRAESENTATION_DK") +"");       
