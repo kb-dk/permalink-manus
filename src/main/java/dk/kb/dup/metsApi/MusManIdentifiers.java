@@ -1,6 +1,5 @@
 package dk.kb.dup.metsApi;
 
-import oracle.toplink.publicinterface.DatabaseRow;
 import java.util.Collection;
 import java.util.Iterator;
 

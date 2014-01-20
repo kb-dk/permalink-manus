@@ -24,7 +24,7 @@ import java.io.ByteArrayInputStream;
  * Last $Revision: 1.3 $ $Date: 2006/11/16 09:23:33 $ by $Author: slu $.
  * Current checkout was made as build $Name:  $
  */
-public class cleanHtml 
+public class CleanHtml 
 {
 
   private Map xmlns = new HashMap();

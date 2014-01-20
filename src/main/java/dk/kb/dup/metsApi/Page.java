@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-import oracle.toplink.publicinterface.DatabaseRow;
+
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.Namespace;

@@ -2,7 +2,7 @@ package dk.kb.dup.metsApi;
 import dk.kb.dup.modsApi.Metadata;
 import java.util.Collection;
 import java.util.Iterator;
-import oracle.toplink.publicinterface.DatabaseRow;
+
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.Namespace;
