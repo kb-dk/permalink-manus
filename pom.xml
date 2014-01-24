@@ -8,6 +8,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>mets-api Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+    <repository>
+      <id>myserver</id>
+      <name>myserver</name>
+      <url>http://code-01.kb.dk:8080/nexus/content/repositories/thirdparty</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
