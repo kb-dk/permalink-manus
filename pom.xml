@@ -12,7 +12,7 @@
     <repository>
       <id>myserver</id>
       <name>myserver</name>
-      <url>http://code-01.kb.dk:8080/nexus/content/repositories/thirdparty</url>
+      <url>http://code-01.kb.dk:8082/nexus/content/repositories/thirdparty</url>
     </repository>
   </repositories>
   <dependencies>
@@ -29,13 +29,18 @@
     </dependency>
     <dependency>
       <groupId>ojdbc</groupId>
-      <artifactId>ojdbc</artifactId>
-      <version>14</version>
+      <artifactId>ojdbc7_g</artifactId>
+      <version>7</version>
     </dependency>
     <dependency>
       <groupId>gnu.getopt</groupId>
       <artifactId>java-getopt</artifactId>
       <version>1.0.13</version>
+    </dependency>
+    <dependency>
+      <groupId>xml-apis</groupId>
+      <artifactId>xml-apis</artifactId>
+      <version>1.4.01</version>
     </dependency>
     <dependency>
       <groupId>xerces</groupId>
@@ -46,6 +51,11 @@
       <groupId>net.sf.jtidy</groupId>
       <artifactId>jtidy</artifactId>
       <version>r938</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.5</version>
     </dependency>
   </dependencies>
   <build>
