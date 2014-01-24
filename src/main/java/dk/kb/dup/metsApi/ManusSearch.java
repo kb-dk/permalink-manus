@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.sql.*;
 import java.util.Properties;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class ManusSearch 
 {
-
-    private String manusId = "";
-    private String session = "manussession";
-
-    private String user              = "manus";
-    private String password          = "ft6yh";
-    private String jdbcUri           = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
-    private java.sql.Connection conn = null;
+    private Logger     LOGGER        = LoggerFactory.getLogger(ManusSearch.class);
+    private String     manusId       = "";
+    private String     session       = "manussession"; // ????
+    private String     user          = "manus";
+    private String     password      = "ft6yh";
+    private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
+    private Connection conn          = null;
 
   
     public ManusSearch()
@@ -31,11 +32,18 @@ public class ManusSearch
 	connectionProps.put("user",     user);
 	connectionProps.put("password", password);
 	try {
+	    Class.forName ("oracle.jdbc.OracleDriver");
 	    this.conn = DriverManager.getConnection(jdbcUri,connectionProps);
 	}
-	catch(SQLException sqlproblem) {
+	catch(ClassNotFoundException e) {
+	    LOGGER.warn(e.getMessage());
+	    e.printStackTrace();
 	}
-
+	catch(SQLException sqlproblem) {
+	    LOGGER.warn(sqlproblem.getMessage());
+	    sqlproblem.printStackTrace();
+	}
+	LOGGER.debug("connection initialized???");
     }
    
     public Collection executeQuery(String query, int maximumRecords)
@@ -58,6 +66,7 @@ public class ManusSearch
 		}
 		coll.add(dbrow);
 	    }    
+	    stmt.close(); 
 	} catch (SQLException e ) {
 	    e.printStackTrace();
 	} finally {
