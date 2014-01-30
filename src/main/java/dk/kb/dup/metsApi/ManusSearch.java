@@ -49,7 +49,7 @@ public class ManusSearch
     public Collection executeQuery(String query, int maximumRecords)
     {                              
 	Collection coll = new ArrayList<DatabaseRow>();
-	Statement stmt  = null;
+	Statement  stmt = null;
 
 	try {
 	    stmt         = this.conn.createStatement();
@@ -59,7 +59,7 @@ public class ManusSearch
 	    int rows               = 0;
 	    while (result.next() && rows++ < maximumRecords) {
 		DatabaseRow dbrow = new DatabaseRow();
-		for(int col = 0; col<colCount;col++) {
+		for(int col = 1; col<=colCount;col++) {
 		    String key = rsmd.getColumnLabel(col) + "";
 		    String val = result.getString(key)    + "";
 		    dbrow.put(key,val);

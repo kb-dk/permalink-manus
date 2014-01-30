@@ -2,12 +2,12 @@
 
 org.dom4j.Document structure = null;
 
-String     docId   = "1";
+String     docId   = "253";
 if(request.getParameter("doc") != null) {
   docId = request.getParameter("doc");
 }
 
-String app ="musman";
+String app ="manus";
 if(request.getParameter("app") != null) {
   app = request.getParameter("app");
 }

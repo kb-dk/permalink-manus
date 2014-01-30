@@ -19,10 +19,11 @@
 
     <div>
       <h3>Get Metadata</h3>
-
-      get-metadata.jsp
-      get-mets-metadata.jsp
-      get-mods-metadata.jsp
+      <ul>
+	<li><a href="get-metadata.jsp">get metadata</a></li>
+	<li><a href="get-mets-metadata.jsp">get mets metadata</a></li>
+	<li><a href="get-mods-metadata.jsp">get mods metadata</a></li>
+      </ul>
     </div>
 
   </body>

@@ -38,24 +38,24 @@ import dk.kb.dup.modsApi.Metadata;
 public class Manus 
 {
 
-  private Collection data     = null;
+  private Collection     data = null;
   private Collection 
                   relatedData = null;
-  private Map xmlns           = new HashMap();
+  private Map           xmlns = new HashMap();
 
-  private ManusSearch search  = new ManusSearch();
-  private Metadata mdMods     = new Metadata();
-  private Page pageContent    = new Page();
-  private Namespace metsNS    = new Namespace("m","http://www.loc.gov/METS/");
-  private Namespace xlinkNS   = new Namespace("xlink","http://www.w3.org/1999/xlink");
-  private Namespace modsNS    = new Namespace("md","http://www.loc.gov/mods/v3");
+  private ManusSearch  search = new ManusSearch();
+  private Metadata     mdMods = new Metadata();
+  private Page    pageContent = new Page();
+  private Namespace    metsNS = new Namespace("m","http://www.loc.gov/METS/");
+  private Namespace   xlinkNS = new Namespace("xlink","http://www.w3.org/1999/xlink");
+  private Namespace    modsNS = new Namespace("md","http://www.loc.gov/mods/v3");
   
-  private String dtaSrcLbl    = "manus";
+  private String    dtaSrcLbl = "manus";
   private String imageBaseUri = "";
-  private String manusId      = "";
-  private String mainLang     = "";
-  private String altLang      = "";
-  private String projectCode  = "";
+  private String      manusId = "";
+  private String     mainLang = "";
+  private String      altLang = "";
+  private String  projectCode = "";
   
   /**
    * The constructor does two things: 1. It sets the Manuscript ID. This is
@@ -326,7 +326,7 @@ public class Manus
    */
   private Collection getData() {
     String SQL = "select * from manus.manus where manusid="+manusId;
-    Collection data = search.executeQuery(SQL,10);
+    Collection data = this.search.executeQuery(SQL,10);
     return data;
   }
   
@@ -334,12 +334,12 @@ public class Manus
     String SQL = "select * from manus.manlink where manusid=" + 
                   manusId +
                  " order by manlinkseqno";
-    Collection data = search.executeQuery(SQL,10);
+    Collection data = this.search.executeQuery(SQL,10);
     return data;
   }
   
   private Collection getRdbmsData(String SQL) {                    
-    Collection data = search.executeQuery(SQL,100);
+    Collection data = this.search.executeQuery(SQL,100);
     return data;
   }
   
