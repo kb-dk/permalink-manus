@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<!--
+reused from somewhere
+-->
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+  <!-- Appender for the application specific logfile  -->
+  <appender name="file"
+	    class="org.apache.log4j.RollingFileAppender">
+    <param name="maxFileSize" value="10000KB" />
+    <param name="maxBackupIndex" value="2" />
+    <!-- Name of the logfile -->
+    <param name="File" value="${user.home}/open_search_client.log" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+	     value="[%d{yyyy-MM-dd HH.mm:ss}] %-5p %C %M: %m %n" />
+    </layout>
+  </appender>
+
+  <!-- Appender for the general logfile, to use for all services -->
+  <appender name="commonfile"
+	    class="org.apache.log4j.RollingFileAppender">
+    <param name="maxFileSize" value="10000KB" />
+    <param name="maxBackupIndex" value="2" />
+    <!-- Logfile name -->
+    <param name="File" value="${user.home}/dk.kb.dup.services.log" />
+    <!-- Logs only warn, error and fatal  -->
+    <param name="threshold" value="warn"/>		
+    <layout class="org.apache.log4j.PatternLayout">
+      <!-- This pattern also includes the service name -->
+      <param name="ConversionPattern"
+	     value="[%d{yyyy-MM-dd HH.mm:ss}] %-5p 'syndication-image-service' %C %M: %m %n" />
+    </layout>
+  </appender>
+
+  <root>
+    <!-- Configuration of the root logger which we use -->
+    <!-- 
+	 info: appliction flow
+	 debug: debug data e.g. sql statements 
+	 warn: exeptions etc.
+	 error: critical errors that causes the syndication to have faults
+	 fatal: critical errors that couses tha application to crash, e.g. db connection errors
+	 No other levels is used
+    -->
+    <priority value="debug"></priority>
+    <appender-ref ref="commonfile" />
+    <appender-ref ref="file" />
+  </root>
+</log4j:configuration>
