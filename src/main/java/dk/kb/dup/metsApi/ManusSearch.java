@@ -48,6 +48,7 @@ public class ManusSearch
    
     public Collection executeQuery(String query, int maximumRecords)
     {                              
+	LOGGER.debug("About to execute " + query);
 	Collection coll = new ArrayList<DatabaseRow>();
 	Statement  stmt = null;
 
@@ -58,10 +59,12 @@ public class ManusSearch
 	    int colCount           = rsmd.getColumnCount();
 	    int rows               = 0;
 	    while (result.next() && rows++ < maximumRecords) {
+		LOGGER.debug("This is row number " + rows);
 		DatabaseRow dbrow = new DatabaseRow();
 		for(int col = 1; col<=colCount;col++) {
 		    String key = rsmd.getColumnLabel(col) + "";
 		    String val = result.getString(key)    + "";
+		    // LOGGER.debug(key + " : " + val);
 		    dbrow.put(key,val);
 		}
 		coll.add(dbrow);
@@ -78,6 +81,7 @@ public class ManusSearch
 		}
 	    }
 	}
+	LOGGER.debug("Done with query");
 	return coll;
     }
    

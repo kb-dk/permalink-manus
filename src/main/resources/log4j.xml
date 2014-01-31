@@ -12,7 +12,7 @@ reused from somewhere
     <param name="maxFileSize" value="10000KB" />
     <param name="maxBackupIndex" value="2" />
     <!-- Name of the logfile -->
-    <param name="File" value="${user.home}/open_search_client.log" />
+    <param name="File" value="${catalina.home}/logs/mets-api.log" />
     <layout class="org.apache.log4j.PatternLayout">
       <param name="ConversionPattern"
 	     value="[%d{yyyy-MM-dd HH.mm:ss}] %-5p %C %M: %m %n" />
@@ -25,7 +25,7 @@ reused from somewhere
     <param name="maxFileSize" value="10000KB" />
     <param name="maxBackupIndex" value="2" />
     <!-- Logfile name -->
-    <param name="File" value="${user.home}/dk.kb.dup.services.log" />
+    <param name="File" value="${catalina.home}/logs/mets-api.log" />
     <!-- Logs only warn, error and fatal  -->
     <param name="threshold" value="warn"/>		
     <layout class="org.apache.log4j.PatternLayout">

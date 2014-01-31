@@ -13,6 +13,8 @@ import org.w3c.tidy.Tidy;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.ByteArrayInputStream;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A layer on top of <a href="http://jtidy.sourceforge.net/apidocs/index.html?org/w3c/tidy/package-summary.html">org.w3c.tidy.Tidy</a>
@@ -27,67 +29,77 @@ import java.io.ByteArrayInputStream;
 public class CleanHtml 
 {
 
-  private Map xmlns = new HashMap();
+    private Logger     LOGGER        = LoggerFactory.getLogger(ManusSearch.class);
+
+    private Map xmlns = new HashMap();
   
-  public CleanHtml()
-  {
-  }
-  
-  /**
-   * This is the work horse of this class. Give it HTML and it will return xhtml 1.0
-   * @return dom4j document, i.e., you may handle this with standard XML technologies
-   * @param text - HTML text to be cleaned (could be a fragment or a whole document)
-   */
-  public Document parseAndTidy(String text) 
-  { 
-    Document doc = null;
-    
-    Document d = null;
-    Tidy tidy = new Tidy(); 
-    tidy.setXHTML(true);
-    tidy.setInputEncoding("UTF-8");
-    tidy.setOutputEncoding("UTF-8");
-    tidy.getDropProprietaryAttributes();
-    
-    try 
-    { 
-      tidy.setErrout(new PrintWriter(new java.io.FileWriter("errOut"), true)); 
-      ByteArrayInputStream ins = new ByteArrayInputStream(text.getBytes());
-      org.w3c.dom.Document tdoc = tidy.parseDOM(ins, null);
-      DOMReader    dreader   = new DOMReader();
-      doc  = dreader.read(tdoc);         
-    } catch ( IOException e ) 
-    { 
-      //System.out.println( "error" ); 
-    } 
-     return doc;
-  } 
-  
-  /**
-   * This is meant for html fragments. If you give html tidy a fragment, it will
-   * return a complete document. This method takes a fragment (a piece of html
-   * without body, head etc) and returns the body. Prior to making the cleaning
-   * the fragment is put into &lt;div&gt; ... &lt/div&gt;, so then we "just have to look
-   * that up in the document, detach it and return it.
-   * 
-   * @return the xhtml body embedded in a div tag, which is returned as a dom4j Element.
-   * @param htmlFragment
-   */
-  public Element getBody (String htmlFragment) {
-    String presentation = "<div>" + htmlFragment + "</div>";
-    Document presDoc = this.parseAndTidy(presentation);
-    XPath path       = presDoc.createXPath("/h:html/body/div");
-        
-    this.xmlns.put("h","http://www.w3.org/1999/xhtml");
-    path.setNamespaceURIs(xmlns);
-    List elelist     = path.selectNodes(presDoc);  
-    Iterator eleiter = elelist.iterator();     
-    Element div = null;
-    if(eleiter.hasNext()) {
-       div = (Element)eleiter.next();   
-       div.detach();
+    public CleanHtml()
+    {
     }
-    return div;
-  }
+  
+    /**
+     * This is the work horse of this class. Give it HTML and it will return xhtml 1.0
+     * @return dom4j document, i.e., you may handle this with standard XML technologies
+     * @param text - HTML text to be cleaned (could be a fragment or a whole document)
+     */
+    public Document parseAndTidy(String text) 
+    { 
+	Document doc = null;
+    
+	Document d = null;
+	Tidy tidy = new Tidy(); 
+	tidy.setXHTML(true);
+	tidy.setInputEncoding("UTF-8");
+	tidy.setOutputEncoding("UTF-8");
+	tidy.getDropProprietaryAttributes();
+    
+	try 
+	    { 
+		tidy.setErrout(new PrintWriter(new java.io.FileWriter("errOut"), true)); 
+		ByteArrayInputStream ins = new ByteArrayInputStream(text.getBytes());
+		org.w3c.dom.Document tdoc = tidy.parseDOM(ins, null);
+		DOMReader    dreader   = new DOMReader();
+		doc  = dreader.read(tdoc);         
+	    } catch ( IOException e ) 
+	    { 
+		//System.out.println( "error" ); 
+	    } 
+	return doc;
+    } 
+  
+    /**
+     * This is meant for html fragments. If you give html tidy a fragment, it will
+     * return a complete document. This method takes a fragment (a piece of html
+     * without body, head etc) and returns the body. Prior to making the cleaning
+     * the fragment is put into &lt;div&gt; ... &lt/div&gt;, so then we "just have to look
+     * that up in the document, detach it and return it.
+     * 
+     * @return the xhtml body embedded in a div tag, which is returned as a dom4j Element.
+     * @param htmlFragment
+     */
+    public Element getBody (String htmlFragment) {
+
+	Element div = null;
+
+	String presentation = "<div>" + htmlFragment + "<div>";
+	Document presDoc = this.parseAndTidy(presentation);
+
+	if(presDoc != null) {
+	    XPath path       = presDoc.createXPath("/h:html/body/div");
+        
+	    this.xmlns.put("h","http://www.w3.org/1999/xhtml");
+	    path.setNamespaceURIs(xmlns);
+	    List elelist     = path.selectNodes(presDoc);  
+	    Iterator eleiter = elelist.iterator();     
+
+	    if(eleiter.hasNext()) {
+		div = (Element)eleiter.next();   
+		if(div != null) {
+		    div.detach();
+		}
+	    }
+	}
+	return div;
+    }
   
 }

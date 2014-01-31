@@ -2,7 +2,7 @@
 
 org.dom4j.Document structure = null;
 
-String     docId   = "253";
+String     docId   = "41";
 if(request.getParameter("doc") != null) {
   docId = request.getParameter("doc");
 }
