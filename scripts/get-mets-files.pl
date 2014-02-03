@@ -24,11 +24,13 @@ use Getopt::Long;
 
 my $application;
 my $targetdir;
+my $baseuri;
 
 my @applications = ('manus','mus','musman','lum');
 
 my $result = GetOptions ("application=s"     => \$application,
-                         "targetdir=s"       => \$targetdir);
+                         "targetdir=s"       => \$targetdir,
+			 "baseuri=s"         => \$baseuri);
 
 if( !($application && $targetdir) ) {
     &error();
@@ -44,7 +46,7 @@ if( !($application && $targetdir) ) {
 my $parser = new XML::LibXML;
 my $ua  = LWP::UserAgent->new;
 
-my $apiurlbase    = 'http://udvikling.kb.dk:7777/manus-api';
+my $apiurlbase    = $baseuri ? $baseuri : 'http://distest.kb.dk:8081/mets-api/';
 my $repository    = $targetdir;
 my $iduri         = join '/',$apiurlbase,'get-'.$application.'-identifiers.jsp';
 my $metsscript    = join '/',$apiurlbase,'get-mets-metadata.jsp?app='.$application.'&doc=';
@@ -89,7 +91,8 @@ $0 --application <application abbreviation> --targetdir <directory>
 where the options have the following meaning
 \t--application\tshould take one of of the applications 
 \t\t\t$apps as argument
-and
+\t--baseuri\tshould take the URI of a mets-api service as an argument
+\t\t\tsuch as http://disdev-01.kb.dk:8081/mets-api/
 \t--targetdir\tthe directory where to write the files
 
 MSG
