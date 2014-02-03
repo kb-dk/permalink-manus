@@ -61,13 +61,18 @@ public class ManusSearch
 	    while (result.next() && rows++ < maximumRecords) {
 		LOGGER.debug("This is row number " + rows);
 		DatabaseRow dbrow = new DatabaseRow();
-		for(int col = 1; col<=colCount;col++) {
+		int colsAdded = 0;
+		for(int col = 1; col<=colCount;col++) {		    
 		    String key = rsmd.getColumnLabel(col) + "";
 		    String val = result.getString(key)    + "";
-		    // LOGGER.debug(key + " : " + val);
-		    dbrow.put(key,val);
+		    if(val.length() > 0 && !val.equals("null")) {
+			dbrow.put(key,val);
+			colsAdded++;
+		    }
 		}
-		coll.add(dbrow);
+		if(colsAdded > 0) {
+		    coll.add(dbrow);
+		}
 	    }    
 	    stmt.close(); 
 	} catch (SQLException e ) {
