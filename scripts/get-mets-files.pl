@@ -61,16 +61,18 @@ if($response->is_success) {
 	my $metsresponse = $ua->get($metsuri);
 
 	if($metsresponse->is_success) {
+	    print LOG "Successfully retrieved  $metsuri\n";
 	    mkpath(join('/',($repository,$id)),0,0711);
 	    my $filename = join '/',($repository,$id,'metsfile.xml');
 	    my $menufile = join '/',($repository,$id,'menu.xml');
 	    my $doc      = $parser->parse_string($metsresponse->content());
 	    if(open(XML,">$filename")) {
+		print LOG "Saving $filename\n";
 		print XML $doc->toString(1);
 		close XML;
-
 		sleep 2;
 	    } else {
+		print LOG "FATAL: Cannot open $filename: $!\n";
 		die "cannot open $filename: $!\n";
 	    }
 	} else {

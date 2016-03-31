@@ -224,6 +224,9 @@ public class Manus
 	root.add(variantMap);
 	Element structlink = pageContent.getStructLinks();
 	root.add(structlink);
+
+	this.search.close();
+
 	return doc;
     }
   

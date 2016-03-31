@@ -15,6 +15,7 @@ public class ManusIdentifiers
 	this.search        = new ManusSearch();
 	this.manusIDs      = this.getData();
 	this.manusIterator = this.getData().iterator();
+	this.search.close();
     }
   
     public String getNextItem() {

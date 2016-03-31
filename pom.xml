@@ -38,6 +38,11 @@
       <version>1.0-FCS</version>
     </dependency>
     <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.2</version> 
+    </dependency> 
+    <dependency>
       <groupId>ojdbc</groupId>
       <artifactId>ojdbc7_g</artifactId>
       <version>7</version>

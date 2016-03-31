@@ -2,7 +2,9 @@ doc:
  - java-doc
 
 src:
- - src/main/ (java  resources  webapp)
+ - src/main/java
+ - src/main/resources
+ - src/main/webapp
  
 
 scripts:
