@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet 
+      href="./create-html-list.xsl" type="text/xsl"
+    ?>
+<list>
+  <item id="div:default:6:547">
+    <title lang="dan" orderlabel="Bind" label="Bind"/>
+  </item>
+  <item id="div:default:6:543">
+    <title lang="dan" orderlabel="1 recto" label="1 recto"/>
+    <list>
+      <item id="div:default:6:544">
+        <title lang="dan" orderlabel="1 verso"/>
+      </item>
+      <item id="div:default:6:545">
+        <title lang="dan" orderlabel="2 recto"/>
+      </item>
+      <item id="div:default:6:546">
+        <title lang="dan" orderlabel="2 verso"/>
+      </item>
+    </list>
+  </item>
+</list>

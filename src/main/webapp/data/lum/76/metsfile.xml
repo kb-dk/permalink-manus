@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="lum:76">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Louisen Walzer</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1852</md:dateIssued>
+          </md:originInfo>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="danFogNr">1163</md:identifier>
+          <md:identifier type="pdf">http://img.kb.dk/ma/lum/lbm00434.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/lum/lb000434.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:structMap type="logical">
+    <m:div ID="struct-root" DMDID="md-root" xml:lang="dan"/>
+  </m:structMap>
+</m:mets>

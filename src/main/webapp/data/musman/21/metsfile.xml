@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:21">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Sulamith og Salomon, op. 52</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1847</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Sangsamlingen <i>Sulamith og Salomon</i> er skrevet til et udvalg af 34 digte af B.S. Ingemann, der var udkommet i 1839 som forspil til det dramatiske eventyr <i>Salomons Ring</i> og igen i <i>Samlede Skrifter</i> i 1843. Hartmann har sandsynligvis anvendt den sidste udgave, hvoraf han valgte at sætte 11 digte i musik i perioden oktober 1847 til april 1850. Ni af dem blev udgivet i 1850 med Hartmanns frit valgte rækkefølge, der dog følger en naturlig udvikling i teksten. I 1863 udkom endnu en af sangene, mens den sidste &quot;Salomons Sang med Brevduen&quot; ikke blev udgivet. Her ses et udvalg af sangene.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#21">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns="">Sulamith og Salomons Sange.<br/>Dateret 19.4.-23.4.1850<br/>1 sammensyet hæfte på 14 sider + 4 blade og 1 ark. Folioformat</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/flyv0064.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:21:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:21:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sula/sula0012.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:21:0" xml:lang="dan" ORDERLABEL="0" LABEL="Sulamiths Sang i Skoven">
+        <m:fptr FILEID="file:default:21:0"/>
+      </m:div>
+      <m:div ID="div:default:21:1" xml:lang="dan" ORDERLABEL="1">
+        <m:fptr FILEID="file:default:21:1"/>
+      </m:div>
+      <m:div ID="div:default:21:2" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:21:2"/>
+      </m:div>
+      <m:div ID="div:default:21:3" xml:lang="dan" ORDERLABEL="3" LABEL="Salomons Sang med Brevduen">
+        <m:fptr FILEID="file:default:21:3"/>
+      </m:div>
+      <m:div ID="div:default:21:4" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:21:4"/>
+      </m:div>
+      <m:div ID="div:default:21:5" xml:lang="dan" ORDERLABEL="5" LABEL="Sulamiths Sang i Vingaardshytten">
+        <m:fptr FILEID="file:default:21:5"/>
+      </m:div>
+      <m:div ID="div:default:21:6" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:21:6"/>
+      </m:div>
+      <m:div ID="div:default:21:7" xml:lang="dan" ORDERLABEL="7" LABEL="Salomons Sang i Teltdøren">
+        <m:fptr FILEID="file:default:21:7"/>
+      </m:div>
+      <m:div ID="div:default:21:8" xml:lang="dan" ORDERLABEL="8" LABEL="Salomons Sang mellem Bjergene">
+        <m:fptr FILEID="file:default:21:8"/>
+      </m:div>
+      <m:div ID="div:default:21:9" xml:lang="dan" ORDERLABEL="9" LABEL="Sulamiths Sang paa Bjergstien">
+        <m:fptr FILEID="file:default:21:9"/>
+      </m:div>
+      <m:div ID="div:default:21:10" xml:lang="dan" ORDERLABEL="10" LABEL="Sulamiths Sang blandt Bjergpigerne">
+        <m:fptr FILEID="file:default:21:10"/>
+      </m:div>
+      <m:div ID="div:default:21:11" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:21:11"/>
+      </m:div>
+      <m:div ID="div:default:21:12" xml:lang="dan" ORDERLABEL="12" LABEL="Salomons Sang paa Højene">
+        <m:fptr FILEID="file:default:21:12"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:41">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Impromptu-Vals</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1862</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann skrev i september 1862 en vals til sine døtre Clara på 23 og Emma på 21. Især Clara var meget musikalsk interesseret og komponerede selv. Ægteskabet med pianisten August Winding bidrog også til den stadige beskæftigelse med musik.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#41">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns="">Impromptu-Vals til Clara og Emma<br/>Dateret September 1862<br/> 1 ark, s. 1-3 beskrevet</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/sam10003.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:41:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam1/sam10003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:41:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam1/sam10004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:41:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam1/sam10005.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:41:3" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:41:3"/>
+      </m:div>
+      <m:div ID="div:default:41:4" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:41:4"/>
+      </m:div>
+      <m:div ID="div:default:41:5" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:41:5"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

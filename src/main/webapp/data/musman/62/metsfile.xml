@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:62">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Mødet</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1851</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Mødet (Min Hjertenskær igaar jeg saae) for mandsstemmer skrev Hartmann i januar 1851 til tekst af Henrik Hertz.<br/>Sangen blev dog først udgivet i samlingen <i>Sex Sange for Mandsstemmer</i>, op. 61 fra december 1860, der var tilegnet Studenter-Sangforeningen som tak for opstillingen af komponistens buste i foreningen. <i>Mødet</i> holdt sig længe på korets repertoire.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#62">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Mødet, af Henrik Hertz</i><br/>Dateret 8/1 51.<br/>1 ark og 1 blad (2 værker) 34,8 x 28,8</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/mako0012.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:62:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:62:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:62:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0012.djvu"/>
+      </m:file>
+      <m:file ID="file:default:62:13">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0013.djvu"/>
+      </m:file>
+      <m:file ID="file:default:62:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0014.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:62:10" xml:lang="dan" ORDERLABEL="11" LABEL="Mødet">
+        <m:fptr FILEID="file:default:62:10"/>
+      </m:div>
+      <m:div ID="div:default:62:11" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:62:11"/>
+      </m:div>
+      <m:div ID="div:default:62:12" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:62:12"/>
+      </m:div>
+      <m:div ID="div:default:62:13" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:62:13"/>
+      </m:div>
+      <m:div ID="div:default:62:14" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:62:14"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:25">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Kærlighed fra Gud</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1876</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Denne salme med tekst af Jens Schiørring er komponeret den 26. april 1876 og er en af de Hartmann-melodier, der stadig findes i <i>Den Danske Koralbog</i>. Den blev skrevet blandt Hartmanns bidrag på i alt syv sange til <i>Melodier til Nyt Tillæg til &quot;Psalmebog for Kirke- og Hus-Andagt&quot;, udgivne af Roeskilde Præstekonvent ved Christian Barnekow</i>, København 1878.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#25">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns="">Kjærlighed fra Gud<br/> Dateret 26.4.1876<br/>1 blad. 22,4 x 25,0</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">MA ms 649</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/jul00010.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:25:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00010.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:25:10" xml:lang="dan" ORDERLABEL="1" LABEL="Kærlighed fra Gud">
+        <m:fptr FILEID="file:default:25:10"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:58">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Dulce cum sodalibus</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1833</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann skrev mandskorsatsen <i>Dulce cum sodalibus</i> til Studenterforeningens Visebog fra 1833. Samlingen var redigeret af komponisten A.P. Berggreen, som bad flere fremtrædende komponister om bidrag til den i Danmark forholdsvis nye genre, studentervisen. Hartmanns to bidrag kom i november 1833, så visebogen er sandsynligvis først udkommet i 1834. Den var forsynet med noder til forskel fra Foreningens første visebog fra 1822.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#58">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Dulce cum sodalibus</i><br/>Dateret 9. Decbr 33.<br/>1 blad. 27,2 x 37,2</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/mako0000.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:58:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:58:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0001.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:58:0" xml:lang="dan" ORDERLABEL="1" LABEL="Dulce cum sodalibus">
+        <m:fptr FILEID="file:default:58:0"/>
+      </m:div>
+      <m:div ID="div:default:58:1" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:58:1"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

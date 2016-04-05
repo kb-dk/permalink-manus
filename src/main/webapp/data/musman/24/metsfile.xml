@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:24">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Koraler til Barnekows 1892-tillæg</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1892</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Komponisten Chr. Barnekows <i>Melodier til Nyt Tillæg til &quot;Psalmebog for Kirke- og Hus-Andagt&quot;, udgivne af Roeskilde Præstekonvent</i> fra 1892 indeholdt fem salmemelodier af Hartmann. Heraf stammede den ene, &quot;En Sædemand gik ud at saa&quot; med tekst af Grundtvig tilbage fra 1860'erne, men de resterende fire komponerede Hartmann specielt til Barnekows samling. Manuskriptet indeholder således:<br/><br/>&quot;Talsmand, som paa Jorderige&quot; (N.F.S. Grundtvig)<br/>&quot;Midt igjennem Nød og Fare&quot; (H.A. Brorson)<br/>&quot;Uforsagt, hvordan min Lykke&quot; (Ambrosius Stub)<br/>&quot;Vor Herre kom til Jordans Flod&quot; (N.F.S.Grundtvig)<br/><br/>Barnekow har i forbindelse med redaktionen tilføjet små kommentarer i satserne med blyant.<br/><br/> <a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#24">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns="">Koraler til Barnekows 1892-tillæg<br/> Uden datering<br/> 1 ark, 4 s. 34,6 x 26,2</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">MA ms 642</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/jul00011.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:24:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:24:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00012.djvu"/>
+      </m:file>
+      <m:file ID="file:default:24:13">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00013.djvu"/>
+      </m:file>
+      <m:file ID="file:default:24:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00014.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:24:11" xml:lang="dan" ORDERLABEL="1" LABEL="Koraler">
+        <m:fptr FILEID="file:default:24:11"/>
+      </m:div>
+      <m:div ID="div:default:24:12" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:24:12"/>
+      </m:div>
+      <m:div ID="div:default:24:13" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:24:13"/>
+      </m:div>
+      <m:div ID="div:default:24:14" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:24:14"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

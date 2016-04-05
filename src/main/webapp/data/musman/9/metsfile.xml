@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:9">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Langfredag - Paaskemorgen</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1847</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann skrev orgelstykket <i>Langfredag</i> i november 1847 på opfordring af den tyske kirkemusiker Carl Geissler, der ønskede at bringe en komposition af danskeren i et mindehæfte for den kendte organist og komponist J.Chr.H. Rinck. Hæftet blev dog aldrig udgivet, men Hartmann tog i marts 1886 kompositionen op igen og tilføjede anden del <i>Paaskemorgen</i>. De to orgelstykker blev udgivet samme år med tilegnelse til domorganist i Roskilde Hans Matthison-Hansen.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#9">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Langfredag - Paaskemorgen. Orgelstykke</i><br/>Datering: Nov 1847 og 19.3.1886<br/>3 ark og 1 blad, 12 s. 24,6 x 26,0</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/lang0003.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:9:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0012.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:13">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0013.djvu"/>
+      </m:file>
+      <m:file ID="file:default:9:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/lang/lang0014.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:9:0" xml:lang="dan" ORDERLABEL="0" LABEL="Langfredag.  Side 1-6">
+        <m:fptr FILEID="file:default:9:0"/>
+      </m:div>
+      <m:div ID="div:default:9:1" xml:lang="dan" ORDERLABEL="1">
+        <m:fptr FILEID="file:default:9:1"/>
+      </m:div>
+      <m:div ID="div:default:9:2" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:9:2"/>
+      </m:div>
+      <m:div ID="div:default:9:3" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:9:3"/>
+      </m:div>
+      <m:div ID="div:default:9:4" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:9:4"/>
+      </m:div>
+      <m:div ID="div:default:9:5" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:9:5"/>
+      </m:div>
+      <m:div ID="div:default:9:6" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:9:6"/>
+      </m:div>
+      <m:div ID="div:default:9:7" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:9:7"/>
+      </m:div>
+      <m:div ID="div:default:9:8" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:9:8"/>
+      </m:div>
+      <m:div ID="div:default:9:9" xml:lang="dan" ORDERLABEL="9" LABEL="Paaskemorgen  Side 7-12">
+        <m:fptr FILEID="file:default:9:9"/>
+      </m:div>
+      <m:div ID="div:default:9:10" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:9:10"/>
+      </m:div>
+      <m:div ID="div:default:9:11" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:9:11"/>
+      </m:div>
+      <m:div ID="div:default:9:12" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:9:12"/>
+      </m:div>
+      <m:div ID="div:default:9:13" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:9:13"/>
+      </m:div>
+      <m:div ID="div:default:9:14" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:9:14"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

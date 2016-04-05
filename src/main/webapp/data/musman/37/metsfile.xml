@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:37">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Liturgisk Musik, op. 46</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1847</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann skrev omkring 200 salmer og åndelige sange, hvoraf nogle blev optaget i tidens koralbøger. Flere blev også anvendt i Vor Frue Kirke i København, hvor Hartmann var organist fra april 1843 til sin død i 1900. Det var til denne kirkes menighed, at komponisten samlede disse <i>Festcollecter og Chorsange</i> med liturgiske tekster til hele kirkeåret fra bl.a. Davidssalmerne. De er komponeret over en længere årrække, disse manuskripter dog i 1847-48, og efter udgivelsen i 1881 blev de meget udbredte også i mange andre kirker.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#37">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Messe og Responsorier til Julefesten 1847</i>.<br/><i>Samtlige Collecter</i><br/>Dateret 4. November 1847 - 16. maj 1848<br/></div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/litu0001.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:37:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0012.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:13">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0013.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0014.djvu"/>
+      </m:file>
+      <m:file ID="file:default:37:15">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/litu/litu0015.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:37:1" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1-5">
+        <m:fptr FILEID="file:default:37:1"/>
+      </m:div>
+      <m:div ID="div:default:37:2" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:37:2"/>
+      </m:div>
+      <m:div ID="div:default:37:3" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:37:3"/>
+      </m:div>
+      <m:div ID="div:default:37:4" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:37:4"/>
+      </m:div>
+      <m:div ID="div:default:37:5" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:37:5"/>
+      </m:div>
+      <m:div ID="div:default:37:6" xml:lang="dan" ORDERLABEL="6" LABEL="Side 6-10">
+        <m:fptr FILEID="file:default:37:6"/>
+      </m:div>
+      <m:div ID="div:default:37:7" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:37:7"/>
+      </m:div>
+      <m:div ID="div:default:37:8" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:37:8"/>
+      </m:div>
+      <m:div ID="div:default:37:9" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:37:9"/>
+      </m:div>
+      <m:div ID="div:default:37:10" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:37:10"/>
+      </m:div>
+      <m:div ID="div:default:37:11" xml:lang="dan" ORDERLABEL="11" LABEL="Side 11-15">
+        <m:fptr FILEID="file:default:37:11"/>
+      </m:div>
+      <m:div ID="div:default:37:12" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:37:12"/>
+      </m:div>
+      <m:div ID="div:default:37:13" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:37:13"/>
+      </m:div>
+      <m:div ID="div:default:37:14" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:37:14"/>
+      </m:div>
+      <m:div ID="div:default:37:15" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:37:15"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

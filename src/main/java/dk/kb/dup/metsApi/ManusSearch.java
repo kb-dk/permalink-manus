@@ -14,11 +14,21 @@ public class ManusSearch
 
     private Connection conn          = null;
     private ManusDataSource source   = null;
+
+    private String session           = "manussession";
   
     public ManusSearch()
     {
 	this.source = ManusDataSource.getInstance();
 	this.conn   = this.source.getConnection();
+    }
+
+    public void setSession(String sess) {
+	this.session = sess;
+    }
+
+    public String getSession() {
+	return this.session;
     }
 
     public Collection executeQuery(String query, int maximumRecords)

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:31">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Novellette i sex Smaastykker, op. 55b</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1855</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann komponerede sin samling af seks småstykker, som han kaldte <i>Børnestykker</i>, fra december 1852 til juni 1855. Han havde allerede givet et par af dem overskrifter, men ved at spille dem for H.C. Andersen blev denne så inspireret, at han forsynede stykkerne med vers, der dannede en hel lille historie. Hartmanns <i>Novellette</i> er derfor ikke egentlig programmusik. Den blev udgivet i december 1855, og musikken blev rost - mere end teksten.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#31">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Børnestykker</i><br/> Dateret 15.12.1852 - 6.6.1855<br/>1 bd. 9 beskrevne sider. 35,1 x 26,2</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/jul00000.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:31:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:31:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/jul/jul00008.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:31:0" xml:lang="dan" ORDERLABEL="1" LABEL="Nr. 1">
+        <m:fptr FILEID="file:default:31:0"/>
+      </m:div>
+      <m:div ID="div:default:31:1" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:31:1"/>
+      </m:div>
+      <m:div ID="div:default:31:2" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:31:2"/>
+      </m:div>
+      <m:div ID="div:default:31:3" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:31:3"/>
+      </m:div>
+      <m:div ID="div:default:31:4" xml:lang="dan" ORDERLABEL="5" LABEL="Nr. 3">
+        <m:fptr FILEID="file:default:31:4"/>
+      </m:div>
+      <m:div ID="div:default:31:5" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:31:5"/>
+      </m:div>
+      <m:div ID="div:default:31:6" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:31:6"/>
+      </m:div>
+      <m:div ID="div:default:31:7" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:31:7"/>
+      </m:div>
+      <m:div ID="div:default:31:8" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:31:8"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

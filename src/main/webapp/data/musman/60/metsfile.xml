@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:60">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Reisen til Vinlandene</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1851</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">&quot;Vort Dagværk er til Ende&quot; med tekst af Henrik Hertz skrev Hartmann i januar 1851. I december samme år kom den på Studenter-Sangforeningens repertoire, og den holdt sig levende i en lang periode. Dette kan spores i programmerne og i det faktum, at den først blev udgivet i korets sangsamling i 1890.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#60">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Reisen til Vinlandene</i><br/>Dateret 10/1 51.<br/>1 ark og 1 blad (2 værker) 34,8 x 28,9</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/mako0014.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:60:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0014.djvu"/>
+      </m:file>
+      <m:file ID="file:default:60:15">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0015.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:60:14" xml:lang="dan" ORDERLABEL="15" LABEL="Reisen til Vinlandene">
+        <m:fptr FILEID="file:default:60:14"/>
+      </m:div>
+      <m:div ID="div:default:60:15" xml:lang="dan" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:60:15"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:35">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Sonate for klaver i g-mol</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1851</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmanns lille sonate i g-mol for klaver er dateret 31. marts 1851, kun 25 dage efter hustruen Emmas død. Den blev heller ikke noget vellykket værk fra komponistens hånd, og satserne bærer snarere præg af fire små karakterstykker. Midterstykkerne Allegretto grazioso og menuetten gav han da også navne, nemlig <i>Sang uden Ord</i> og <i>Gamle Minder</i>. Sonaten blev ikke udgivet, og først i 1878 genbrugte han de to ydersatser i samlingen <i>Klaverstykker fra ældre og nyere Tid</i>, op. 74.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#35">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Sonate for Pianoforte</i><br/> Dateret 31 Marts 1851<br/> Et sammensyet hæfte på 12 s. (nu delvis adskilt). 36,4 x 26,6</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/sona0001.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:35:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:35:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sona/sona0011.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:35:0" xml:lang="dan" ORDERLABEL="1" LABEL="Allegro non troppo">
+        <m:fptr FILEID="file:default:35:0"/>
+      </m:div>
+      <m:div ID="div:default:35:1" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:35:1"/>
+      </m:div>
+      <m:div ID="div:default:35:2" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:35:2"/>
+      </m:div>
+      <m:div ID="div:default:35:3" xml:lang="dan" ORDERLABEL="4" LABEL="Allegretto grazioso">
+        <m:fptr FILEID="file:default:35:3"/>
+      </m:div>
+      <m:div ID="div:default:35:4" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:35:4"/>
+      </m:div>
+      <m:div ID="div:default:35:5" xml:lang="dan" ORDERLABEL="6" LABEL="Tempo di Menuetto moderato">
+        <m:fptr FILEID="file:default:35:5"/>
+      </m:div>
+      <m:div ID="div:default:35:6" xml:lang="dan" ORDERLABEL="7" LABEL="Allegro grazioso">
+        <m:fptr FILEID="file:default:35:6"/>
+      </m:div>
+      <m:div ID="div:default:35:7" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:35:7"/>
+      </m:div>
+      <m:div ID="div:default:35:8" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:35:8"/>
+      </m:div>
+      <m:div ID="div:default:35:9" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:35:9"/>
+      </m:div>
+      <m:div ID="div:default:35:10" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:35:10"/>
+      </m:div>
+      <m:div ID="div:default:35:11" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:35:11"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:36">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Fantasi for orgel</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1826</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Hartmann skrev sin Fantasi for orgel som 21-årig til en koncert i Garnisonskikren, hvor han var organist. Der skulle indsamles penge til vedligeholdelse af orglet, og ved en koncert den 20. december 1826 opførtes dels Hartmanns <i>Concertouverture i d-mol</i>, op. 3, dels hans orgelfantasi i a-mol. Komponisten sad selv ved orglet, og i manuskriptet er hans registreringer bevaret. Fantasien er en af Hartmanns meget få rene orgelværker, men den blev først udgivet i midten af 1900-tallet i en samlet udgave af hans kompositioner for dette instrument.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#36">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns="">Fantasie for Orgel,</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/sam20013.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:36:13">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20013.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:14">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20014.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:15">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20015.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:16">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20016.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:17">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20017.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:18">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20018.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:19">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20019.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:20">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20020.djvu"/>
+      </m:file>
+      <m:file ID="file:default:36:21">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20021.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:36:13" xml:lang="dan" ORDERLABEL="14" LABEL="Andantino">
+        <m:fptr FILEID="file:default:36:13"/>
+      </m:div>
+      <m:div ID="div:default:36:14" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:36:14"/>
+      </m:div>
+      <m:div ID="div:default:36:15" xml:lang="dan" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:36:15"/>
+      </m:div>
+      <m:div ID="div:default:36:16" xml:lang="dan" ORDERLABEL="17">
+        <m:fptr FILEID="file:default:36:16"/>
+      </m:div>
+      <m:div ID="div:default:36:17" xml:lang="dan" ORDERLABEL="18">
+        <m:fptr FILEID="file:default:36:17"/>
+      </m:div>
+      <m:div ID="div:default:36:18" xml:lang="dan" ORDERLABEL="19">
+        <m:fptr FILEID="file:default:36:18"/>
+      </m:div>
+      <m:div ID="div:default:36:19" xml:lang="dan" ORDERLABEL="20">
+        <m:fptr FILEID="file:default:36:19"/>
+      </m:div>
+      <m:div ID="div:default:36:20" xml:lang="dan" ORDERLABEL="21">
+        <m:fptr FILEID="file:default:36:20"/>
+      </m:div>
+      <m:div ID="div:default:36:21" xml:lang="dan" ORDERLABEL="22">
+        <m:fptr FILEID="file:default:36:21"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

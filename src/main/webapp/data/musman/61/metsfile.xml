@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:61">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Mindesang over de Faldne</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1850</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">Efter krigen mod preusserne i 1848-50 vendte de danske tropper hjem til en heltemodtagelse. Der blev afholdt en stor høstfest i Rosenborg Have i 1850 med en række musikalske indslag, hvoraf J.P.E. Hartmann og H.P. Holsts <i>Mindesang for de Faldne</i> blev et af de kendteste numre. &quot;Slumrer sødt i Slesvigs Jord&quot; udkom i 1866 i en samling af <i>Ni Fleerstemmige Mandssange</i>, der blev udgivet af foreningen &quot;Fremtiden&quot; til musikeres understøttelse. Senere blev den i enstemmig udgave en del af den danske sangskat, lige som Studenter-Sangforeningen i udstrakt grad havde den på sit repertoire.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#61">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Mindesang over de Faldne</i><br/>Uden datering<br/>1 ark (kun s.1-2 beskrevet). 34,8 x 23,9</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns Samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/mako0006.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:61:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:61:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:61:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:61:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/mako/mako0009.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:61:6" xml:lang="dan" ORDERLABEL="7" LABEL="Slumrer sødt i Slesvigs Jord">
+        <m:fptr FILEID="file:default:61:6"/>
+      </m:div>
+      <m:div ID="div:default:61:7" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:61:7"/>
+      </m:div>
+      <m:div ID="div:default:61:8" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:61:8"/>
+      </m:div>
+      <m:div ID="div:default:61:9" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:61:9"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

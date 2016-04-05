@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:43">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Menuetto for klaver, 1864</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1864</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">1864 var på trods af det nationale nederlag i krigen mod Preussen et glædeligt år for Hartmann, idet tre af hans børn blev gift, nemlig Emma, Clara og Emil. Under arbejdet med <i>Suite for Klaver og Violin</i>, op. 66 fik Hartmann også tid til at skrive denne lille menuet for violin og klaver, der er dateret 10. august 1864.<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#43">English version</a></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>Menuetto, poco Allegro</i><br/>Dateret 18/8 64.<br/>2 ark, 8 sider. 34,4 x 25,6</div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">MA ms 707</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/sam20004.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:43:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20010.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:11">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20011.djvu"/>
+      </m:file>
+      <m:file ID="file:default:43:12">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/sam2/sam20012.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:43:4" xml:lang="dan" ORDERLABEL="5" LABEL="Menuetto">
+        <m:fptr FILEID="file:default:43:4"/>
+      </m:div>
+      <m:div ID="div:default:43:5" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:43:5"/>
+      </m:div>
+      <m:div ID="div:default:43:6" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:43:6"/>
+      </m:div>
+      <m:div ID="div:default:43:7" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:43:7"/>
+      </m:div>
+      <m:div ID="div:default:43:8" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:43:8"/>
+      </m:div>
+      <m:div ID="div:default:43:9" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:43:9"/>
+      </m:div>
+      <m:div ID="div:default:43:10" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:43:10"/>
+      </m:div>
+      <m:div ID="div:default:43:11" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:43:11"/>
+      </m:div>
+      <m:div ID="div:default:43:12" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:43:12"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="musman:55">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Sechs deutsche Gesänge, op. 35</md:title>
+          </md:titleInfo>
+          <md:originInfo>
+            <md:dateIssued>1839</md:dateIssued>
+          </md:originInfo>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">De seks sange til tyske tekster er den ene af Hartmanns tre samlinger af tysksprogede sange. Teksterne er skrevet af kendte tyske romantiske digtere som Heine, Mörike og Wackernagel. Kompositionsåret er ukendt - dog er den sidste sang dateret 24.10.1839 - men flere af sangene er nok skrevet kort før samlingen udkom i Tyskland i 1842. Sangene er tilegnet Studenter-Sangforeningen i København.<br/><br/>Indhold:<br/><i>Jägerlied</i> - Zierlich ist des Vogels Tritt<br/><i>Das Hüttchen</i> - Ich hab' ein kleines Hüttchen nur<br/><i>Der Tropfen</i> - Ein Tropfte fällt, es klingt das Meer<br/><i>Abendlied</i> - Herz und verlangst du nicht Ruhe?<br/><i>Die Trostlosen</i> - Mein Liebchen, wir sassen beisammen<br/><i>Die heiligen drei Könige</i> - Die heil'gen drei Könige aus Morgenland<br/><br/>samt <i>Winterabend</i>, der ikke blev trykt i denne samling, men derimod i J.C.Gebauers <i>Sangfuglen. Et Blad for Kjendere og Elskere af Musik</i>, 1. hæfte, december 1841.<br/></div>
+          </md:note>
+          <md:note type="caption" xml:lang="dan">
+            <div xmlns=""><i>6 deutsche Gesänge mit Piano-Forte Begleitung</i><br/>Efter <i>Winterabend</i> dateringen 24./10.39<br/> 2 ark og 1 blad. 27,1 x 38,3<br/><br/><a href="http://www.kb.dk/elib/noder/hartmann/worktexts/#55">English version</a></div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/musik</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Hartmanns samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/musman/nyhartmann/forsider/deut0001.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:55:0">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0000.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:1">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0001.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:2">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0002.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:3">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0003.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:4">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0004.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:5">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0005.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:6">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0006.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:7">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0007.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:8">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0008.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:9">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0009.djvu"/>
+      </m:file>
+      <m:file ID="file:default:55:10">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/musman/nyhartmann/deut/deut0010.djvu"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="struct-root" DMDID="md-root">
+      <m:div ID="div:default:55:0" xml:lang="dan" ORDERLABEL="1" LABEL="Jägerlied">
+        <m:fptr FILEID="file:default:55:0"/>
+      </m:div>
+      <m:div ID="div:default:55:1" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:55:1"/>
+      </m:div>
+      <m:div ID="div:default:55:2" xml:lang="dan" ORDERLABEL="3" LABEL="Das Hüttchen">
+        <m:fptr FILEID="file:default:55:2"/>
+      </m:div>
+      <m:div ID="div:default:55:3" xml:lang="dan" ORDERLABEL="4" LABEL="Der Tropfen">
+        <m:fptr FILEID="file:default:55:3"/>
+      </m:div>
+      <m:div ID="div:default:55:4" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:55:4"/>
+      </m:div>
+      <m:div ID="div:default:55:5" xml:lang="dan" ORDERLABEL="6" LABEL="Abendlied">
+        <m:fptr FILEID="file:default:55:5"/>
+      </m:div>
+      <m:div ID="div:default:55:6" xml:lang="dan" ORDERLABEL="7" LABEL="Die Trostlosen">
+        <m:fptr FILEID="file:default:55:6"/>
+      </m:div>
+      <m:div ID="div:default:55:7" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:55:7"/>
+      </m:div>
+      <m:div ID="div:default:55:8" xml:lang="dan" ORDERLABEL="9" LABEL="Die heiligen drei Könige">
+        <m:fptr FILEID="file:default:55:8"/>
+      </m:div>
+      <m:div ID="div:default:55:9" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:55:9"/>
+      </m:div>
+      <m:div ID="div:default:55:10" xml:lang="dan" ORDERLABEL="11" LABEL="Winterabend">
+        <m:fptr FILEID="file:default:55:10"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+</m:mets>
