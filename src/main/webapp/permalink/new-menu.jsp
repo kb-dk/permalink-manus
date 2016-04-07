@@ -1,9 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%
 
-//String metsPath ="http://img.kb.dk/mets/";
-String metsPath ="/kb/data/mets/";
-String xmlRoot = "http://"+request.getServerName() + ":" + request.getServerPort()+request.getContextPath()+"/xsl/";
+String scheme   = "http";
+String userInfo = "";
+String apihost  = request.getServerName();
+int    port     = request.getServerPort();
+String metsPath = request.getContextPath();
+String userinfo = "";
+String fragment = "";
 
 response.setContentType("text/html");
 request.setCharacterEncoding("UTF-8");
@@ -27,20 +31,33 @@ dk.kb.mets.MetsElements mElem = null;
 org.dom4j.Document doc = null;
 
 
-metsPath = metsPath + appPar + "/" +  docPar + "/metsfile.xml";
-java.io.File metsFile = new java.io.File(metsPath);
-org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
-if(!metsFile.exists()){
-  response.sendError(response.SC_NOT_FOUND);
-  return;	
+java.net.URI uri = null; 
+if(appPar.equals("manus")) {
+    metsPath = metsPath + "/api/get-mets-metadata.jsp";
+    String query = "app=" +   appPar + "&doc=" +  docPar + "";
+    uri = new java.net.URI(scheme,
+			   userinfo,
+			   apihost,
+			   port,
+			   metsPath,
+			   query,
+			   fragment);
+} else {
+    metsPath = metsPath + "/data/" +   appPar + "/" +  docPar + "/metsfile.xml";
+    String query = "";
+    uri = new java.net.URI(scheme,
+			   userinfo,
+			   apihost,
+			   port,
+			   metsPath,
+			   query,
+			   fragment);
 }
-doc = reader.read(metsFile);
+
+org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
 
 
-
-//metsPath = metsPath + appPar + "/" +  docPar + "/metsfile.xml";
-//org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
-//doc = reader.read(metsPath);
+doc = reader.read(uri.toURL());
 
 mElem = new dk.kb.mets.MetsElements(doc, "", true);
 
@@ -77,7 +94,6 @@ while(iter2.hasNext()){
  }
 }
 
-
 String cookieName = "dk.kb.www.mets.menu";
   String c = "class='contentNav'";
   Cookie cookies [] = request.getCookies ();
@@ -92,7 +108,6 @@ String cookieName = "dk.kb.www.mets.menu";
       }
     }
   }
-
 
 boolean first = false;
 int id = 0;

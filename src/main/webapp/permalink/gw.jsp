@@ -1,10 +1,15 @@
-<%@ page contentType="text/html;charset=UTF-8"%>
-<%     
+<%@ page contentType="text/html;charset=UTF-8"%><%     
 
 // String metsPath ="http://img.kb.dk/mets/";
 // String metsPath ="/kb/data/mets/";
-
-String metsPath = "http://"+request.getServerName() + ":" + request.getServerPort()+ "/" + request.getContextPath()+"/data/";
+ 
+String scheme   = "http";
+String userInfo = "";
+String apihost  = request.getServerName();
+int    port     = request.getServerPort();
+String metsPath = request.getContextPath();
+String userinfo = "";
+String fragment = "";
 
 //String xmlRoot  = "http://"+request.getServerName() + ":" + request.getServerPort()+request.getContextPath()+"/xsl/";
 
@@ -35,16 +40,36 @@ if(request.getParameter("page") != null) {
 dk.kb.mets.MetsElements mElem = null;
 org.dom4j.Document doc = null;
 
-metsPath = metsPath + appPar + "/" +  docPar + "/metsfile.xml";
-java.io.File metsFile = new java.io.File(metsPath);
-org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
-if(!metsFile.exists()){
-  response.sendError(response.SC_NOT_FOUND);
-  return;	
+java.net.URI uri = null; 
+if(appPar.equals("manus")) {
+    metsPath = metsPath + "/api/get-mets-metadata.jsp";
+    String query = "app=" +   appPar + "&doc=" +  docPar + "";
+    uri = new java.net.URI(scheme,
+			   userinfo,
+			   apihost,
+			   port,
+			   metsPath,
+			   query,
+			   fragment);
+} else {
+    metsPath = metsPath + "/data/" +   appPar + "/" +  docPar + "/metsfile.xml";
+    String query = "";
+    uri = new java.net.URI(scheme,
+			   userinfo,
+			   apihost,
+			   port,
+			   metsPath,
+			   query,
+			   fragment);
 }
-doc = reader.read(metsFile);
+
+org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
+
+
+doc = reader.read(uri.toURL());
 
 mElem = new dk.kb.mets.MetsElements(doc, "", false);
+
 
 java.util.List multiLang = mElem.getLang();
 String langPar = multiLang.get(0)+"";
@@ -154,7 +179,7 @@ String[] host = mElem.getHost();
 java.util.List menuItem = mElem.getMenuItem();
 
 %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <title><%= titleString %></title>
