@@ -3,9 +3,9 @@
 
 String scheme   = "http";
 String userInfo = "";
-String apihost  = request.getServerName();
-int    port     = request.getServerPort();
-String metsPath = request.getContextPath();
+String apihost  = "localhost";
+int    port     = 8080;
+String metsPath = "/mets-api";
 String userinfo = "";
 String fragment = "";
 
