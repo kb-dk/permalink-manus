@@ -9,6 +9,8 @@ import javax.cache.Cache;
 import javax.cache.expiry.*;
 import javax.cache.spi.*;
 import static javax.cache.expiry.Duration.ONE_HOUR;
+import static javax.cache.expiry.Duration.ONE_MINUTE;
+import static javax.cache.expiry.Duration.ZERO;
 
 public class Structure
 {
@@ -26,7 +28,7 @@ public class Structure
 	//configure the cache
 	MutableConfiguration<String, String> config = new MutableConfiguration<>();
         config.setStoreByValue(true)
-	    .setExpiryPolicyFactory(AccessedExpiryPolicy.factoryOf(ONE_HOUR))
+	    .setExpiryPolicyFactory(AccessedExpiryPolicy.factoryOf(ONE_MINUTE))
 	    .setStatisticsEnabled(true);
 
 	//create the cache
