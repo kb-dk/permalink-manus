@@ -28,7 +28,7 @@ public class Structure
 	//configure the cache
 	MutableConfiguration<String, String> config = new MutableConfiguration<>();
         config.setStoreByValue(true)
-	    .setExpiryPolicyFactory(AccessedExpiryPolicy.factoryOf(ONE_MINUTE))
+	    .setExpiryPolicyFactory(AccessedExpiryPolicy.factoryOf(ONE_HOUR))
 	    .setStatisticsEnabled(true);
 
 	//create the cache
