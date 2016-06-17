@@ -28,6 +28,10 @@ public class ManusDataSource
     }
 
     private ManusDataSource() {
+	this.configure();
+    }
+
+    private void configure() {
   	if(this.pooledDataSource == null) {
 	    try {
 		this.pooledDataSource = new com.mchange.v2.c3p0.ComboPooledDataSource(); 
@@ -57,7 +61,14 @@ public class ManusDataSource
     }
 
     public Connection getConnection() {
-	return conn;
+	String vQuery="select 1 as test";
+	try {
+	    Statement stmt   = this.conn.createStatement();
+	    ResultSet result = stmt.executeQuery(vQuery);
+	} catch(SQLException sqlproblem) {
+	    this.configure();
+	}
+	return this.conn;
     }
 
 }
