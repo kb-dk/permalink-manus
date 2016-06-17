@@ -92,10 +92,10 @@ try{
 
 mElem.setLang(langPar);
 String divid = mElem.getDivFromPage(pagePar);
-String pageid = divid;
 if(!varPar.equals("")){
   divid = mElem.getVarFromDivid(divid, varPar);
 }
+String pageid = divid;
 
 boolean var = false;
 if(divid.indexOf("variant")>0){
@@ -272,7 +272,7 @@ java.util.List menuItem = mElem.getMenuItem();
 		    <div class="borderTopRight">
 		      <div class="borderBottomRight">
 			<div class="borderBottomLeft">
-			  <form method="get" action="javascript:location='/permalink/2006/manus/<%= docPar %>/<%= langPar %>/'+encodeURI(document.getElementById('goto').value.replace(' ', '+'));+'/';">
+			  <form method="get" action="javascript:location='/permalink/2006/manus/<%= docPar %>/<%= langPar %>/'+encodeURI(document.getElementById('goto').value.replace(' ', '+'))+'/';">
 			  <p><input id="goto" value="<%= orderLabel %>" type="text" style="width:<%= orderSize %>em;" class="text" onFocus="this.value='';"/></p>
 			</form>
 		      </div>
