@@ -1,4 +1,5 @@
 package dk.kb.mets;
+import dk.kb.dup.metsApi.ManusDataSource;
 import java.sql.*;
 import java.util.Collection;
 import java.util.HashMap;
@@ -8,10 +9,7 @@ import java.util.Iterator;
 public class Term
 {
     private HashMap resMap = new HashMap();
-    //private static final String CONNECTION_URL = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
-    private static final String CONNECTION_URL = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
-    private static final String DB_USER = "sjauiga";
-    private static final String DB_PASSWD = "sjauiga";
+    private ManusDataSource source   = ManusDataSource.getInstance();
 
     public Term(){}
 
@@ -43,14 +41,9 @@ public class Term
 
     public String getStringFromDb(String query, int maximumRecords,String field)
     {
-        try {
-            Class.forName ("oracle.jdbc.driver.OracleDriver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-        try(Connection conn = DriverManager.getConnection(CONNECTION_URL,DB_USER,DB_PASSWD);
+        try{
+	    Connection conn = this.source.getConnection();
             Statement stmt = conn.createStatement();
-        ) {
             ResultSet res = stmt.executeQuery(query);
             res.next();
             return res.getString(field);
@@ -63,13 +56,8 @@ public class Term
     public void getHashMapFromDB(String query, int maximumRecords)
     {
         try {
-            Class.forName ("oracle.jdbc.driver.OracleDriver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
-        try(Connection conn = DriverManager.getConnection(CONNECTION_URL,DB_USER,DB_PASSWD);
+	    Connection conn = this.source.getConnection();
             Statement stmt = conn.createStatement();
-        ) {
             ResultSet res = stmt.executeQuery(query);
             while(res.next()) {
                 resMap.put(res.getString("TERMCODE"), res.getString("TERMTRANS"));
