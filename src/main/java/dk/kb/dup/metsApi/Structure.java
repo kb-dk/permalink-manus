@@ -55,7 +55,6 @@ public class Structure
 	}
 	return val;
     }
-    
 
     private Document cook(String app,String docId) {
 

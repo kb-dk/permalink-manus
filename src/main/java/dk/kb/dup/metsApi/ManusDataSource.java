@@ -17,7 +17,6 @@ public class ManusDataSource
 //  private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
 
     private static ManusDataSource datasource;
-    private Connection conn          = null;
     private com.mchange.v2.c3p0.ComboPooledDataSource pooledDataSource = null; 
 
     public static ManusDataSource getInstance() {
@@ -32,43 +31,41 @@ public class ManusDataSource
     }
 
     private void configure() {
-  	if(this.pooledDataSource == null) {
-	    try {
-		this.pooledDataSource = new com.mchange.v2.c3p0.ComboPooledDataSource(); 
-		this.pooledDataSource.setDriverClass("oracle.jdbc.OracleDriver"); 
-		//loads the jdbc driver 
-		this.pooledDataSource.setJdbcUrl(jdbcUri); 
-		this.pooledDataSource.setUser(user); 
-		this.pooledDataSource.setPassword(password); 
-		// the settings below are optional -- c3p0 can work with defaults 
-		this.pooledDataSource.setMinPoolSize(5); 
-		this.pooledDataSource.setAcquireIncrement(5); 
-		this.pooledDataSource.setMaxPoolSize(20);
-	    } catch (java.beans.PropertyVetoException beanNotCooked) {
-		LOGGER.warn(beanNotCooked.getMessage());
-		beanNotCooked.printStackTrace();
-	    }
-	}
-
 	try {
-	    this.conn = this.pooledDataSource.getConnection();
-	}
-	catch(SQLException sqlproblem) {
+	    this.pooledDataSource = new com.mchange.v2.c3p0.ComboPooledDataSource(); 
+	    this.pooledDataSource.setDriverClass("oracle.jdbc.OracleDriver"); 
+	    //loads the jdbc driver 
+	    this.pooledDataSource.setJdbcUrl(jdbcUri); 
+	    this.pooledDataSource.setUser(user); 
+	    this.pooledDataSource.setPassword(password); 
+	    // the settings below are optional -- c3p0 can work with defaults 
+	    this.pooledDataSource.setMinPoolSize(10); 
+	    this.pooledDataSource.setAcquireIncrement(5); 
+	    this.pooledDataSource.setMaxPoolSize(30);
+	    LOGGER.debug("configured data source");
+	} catch (java.beans.PropertyVetoException beanNotCooked) {
+	    LOGGER.warn(beanNotCooked.getMessage());
+	    beanNotCooked.printStackTrace();
+	} /* catch(SQLException sqlproblem) {
 	    LOGGER.warn(sqlproblem.getMessage());
 	    sqlproblem.printStackTrace();
-	}
-	LOGGER.debug("connection initialized???");
+	    }*/
     }
 
     public Connection getConnection() {
-	String vQuery="select 1 as test";
+	Connection conn = null;
 	try {
-	    Statement stmt   = this.conn.createStatement();
-	    ResultSet result = stmt.executeQuery(vQuery);
+	    conn = this.pooledDataSource.getConnection();
 	} catch(SQLException sqlproblem) {
+	    LOGGER.warn(sqlproblem.getMessage());
+	    sqlproblem.printStackTrace();
 	    this.configure();
 	}
-	return this.conn;
+	return conn;
+    }
+
+    public void close() {
+	this.pooledDataSource.close();
     }
 
 }

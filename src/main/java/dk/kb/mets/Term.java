@@ -46,6 +46,7 @@ public class Term
             Statement stmt = conn.createStatement();
             ResultSet res = stmt.executeQuery(query);
             res.next();
+	    conn.close();
             return res.getString(field);
         } catch(SQLException ex) {
             ex.printStackTrace();
@@ -62,6 +63,7 @@ public class Term
             while(res.next()) {
                 resMap.put(res.getString("TERMCODE"), res.getString("TERMTRANS"));
             }
+	    conn.close();
         } catch(SQLException ex) {
             ex.printStackTrace();
         }
