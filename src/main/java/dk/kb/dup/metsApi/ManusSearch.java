@@ -19,7 +19,7 @@ public class ManusSearch
   
     public ManusSearch()
     {
-	this.source = ManusDataSource.getInstance();
+	this.source = new ManusDataSource();
     }
 
     public void setSession(String sess) {
@@ -80,7 +80,9 @@ public class ManusSearch
     {
 	try {
 	    LOGGER.debug("closing connection");
+
 	    this.conn.close();
+	    this.source.close();
 	} catch(SQLException sqlproblem) {
 	    LOGGER.debug(sqlproblem.getMessage());
 	}

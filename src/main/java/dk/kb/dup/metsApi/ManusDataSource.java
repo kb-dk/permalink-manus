@@ -16,17 +16,9 @@ public class ManusDataSource
     private String     jdbcUri       = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
 //  private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
 
-    private static ManusDataSource datasource;
     private com.mchange.v2.c3p0.ComboPooledDataSource pooledDataSource = null; 
 
-    public static ManusDataSource getInstance() {
-	if(datasource == null) {
-	    datasource = new ManusDataSource();
-	}
-	return datasource;
-    }
-
-    private ManusDataSource() {
+    public ManusDataSource() {
 	this.configure();
     }
 
@@ -39,12 +31,13 @@ public class ManusDataSource
 	    this.pooledDataSource.setUser(user); 
 	    this.pooledDataSource.setPassword(password); 
 	    // the settings below are optional -- c3p0 can work with defaults 
-	    this.pooledDataSource.setMinPoolSize(10); 
-	    this.pooledDataSource.setAcquireIncrement(5); 
-	    this.pooledDataSource.setMaxPoolSize(30);
+	    // the default MaxPoolSize is 100, so why limit it more.
+	    // this.pooledDataSource.setMinPoolSize(10); 
+	    // this.pooledDataSource.setAcquireIncrement(5); 
+	    // this.pooledDataSource.setMaxPoolSize(100);
 	    LOGGER.debug("configured data source");
 	} catch (java.beans.PropertyVetoException beanNotCooked) {
-	    LOGGER.warn(beanNotCooked.getMessage());
+	    LOGGER.warn("bean not cooked " + beanNotCooked.getMessage());
 	    beanNotCooked.printStackTrace();
 	} /* catch(SQLException sqlproblem) {
 	    LOGGER.warn(sqlproblem.getMessage());
@@ -53,19 +46,24 @@ public class ManusDataSource
     }
 
     public Connection getConnection() {
+
 	Connection conn = null;
+
 	try {
+	    if(this.pooledDataSource == null) {
+		this.configure();
+	    }
 	    conn = this.pooledDataSource.getConnection();
 	} catch(SQLException sqlproblem) {
-	    LOGGER.warn(sqlproblem.getMessage());
+	    LOGGER.warn("sql problem in get connection " + sqlproblem.getMessage());
 	    sqlproblem.printStackTrace();
-	    this.configure();
 	}
 	return conn;
     }
 
     public void close() {
 	this.pooledDataSource.close();
+	this.pooledDataSource = null;
     }
 
 }

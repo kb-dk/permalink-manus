@@ -9,17 +9,18 @@ import java.util.Iterator;
 public class Term
 {
     private HashMap resMap = new HashMap();
-    private ManusDataSource source   = null; 
+    private ManusDataSource source = new ManusDataSource();
 
     public Term(){}
 
     public Term(String langcode)
     {
         String sql = "select termtrans, termcode from manus.langterm where langcode = '"+langcode+"'";
-	Connection conn = ManusDataSource.getInstance().getConnection();
+	Connection conn = source.getConnection();
         this.getHashMapFromDB(conn,sql,999);
         try{
 	    conn.close();
+	    source.close();
         } catch(SQLException ex) {
             ex.printStackTrace();
         }
@@ -34,10 +35,11 @@ public class Term
     public String getLang(String lang)
     {
         String sql = "select langdesc from manus.lang where langcode ='"+lang+"'";
-	Connection conn = ManusDataSource.getInstance().getConnection();
+	Connection conn = source.getConnection();
 	String desc = getStringFromDb(conn, sql,999, "LANGDESC");
         try{
 	    conn.close();
+	    source.close();
         } catch(SQLException ex) {
             ex.printStackTrace();
         }
@@ -47,10 +49,11 @@ public class Term
     public String getMusViewMode(String project)
     {
         String sql = "select app_mode_id from mus.mus_projekt where projekt_id='"+project+"'";
-	Connection conn = ManusDataSource.getInstance().getConnection();
+	Connection conn = source.getConnection();
 	String mode = getStringFromDb(conn,sql,999, "APP_MODE_ID");
         try{
 	    conn.close();
+	    source.close();
         } catch(SQLException ex) {
             ex.printStackTrace();
         }
