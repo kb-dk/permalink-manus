@@ -242,7 +242,7 @@ java.util.List menuItem = mElem.getMenuItem();
 	      <%
 	      
 	      double orderSize = orderLabel.length()*0.75;
-	      if(orderSize<=3.0){orderSize=3.0;}
+	      if(orderSize<=4.0){orderSize=4.0;}
 	      java.util.List links = mElem.getVarLink(pageid); 
 	      
 	      %>     
