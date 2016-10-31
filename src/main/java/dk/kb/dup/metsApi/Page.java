@@ -34,10 +34,10 @@ public class Page
 {
     private Namespace   metsNS               = new Namespace("m","http://www.loc.gov/METS/");
     private Namespace   xlinkNS              = new Namespace("xlink","http://www.w3.org/1999/xlink");
-    private ManusSearch search               = new ManusSearch();
     private Metadata    mods                 = new Metadata();
     private Collection  data                 = null;
     private Collection  variantData          = null;
+    private ManusSearch search               = null;
     private Element     fileSection          = null;
     private Element     logicalStructure     = null;
     private Element     variantStructure     = null;
@@ -62,10 +62,12 @@ public class Page
     /**
      * The constructor doesn't do any thing than, yeah, construction work...
      */
-    public Page() {}
+    public Page(ManusSearch search) {
+	this.search = search;
+    }
   
     public void init() {
-	this.getData();  
+	this.getData(search);  
     }
   
     /**
@@ -590,7 +592,7 @@ public class Page
 	return this.variantStructure;
     }
   
-    private void getData() {
+    private void getData(ManusSearch search) {
 	String SQL = "select * from manus.page where manusid=" +
 	    this.getManuscriptId() + 
 	    " order by pageseqno";

@@ -49,9 +49,10 @@ public class Manus
 	relatedData = null;
     private Map           xmlns = new HashMap();
 
-    private ManusSearch  search = new ManusSearch();
+
+    private Page pageContent    = null;
     private Metadata     mdMods = new Metadata();
-    private Page    pageContent = new Page();
+    private Document mds = null;
     private Namespace    metsNS = new Namespace("m","http://www.loc.gov/METS/");
     private Namespace   xlinkNS = new Namespace("xlink","http://www.w3.org/1999/xlink");
     private Namespace    modsNS = new Namespace("md","http://www.loc.gov/mods/v3");
@@ -73,11 +74,16 @@ public class Manus
     public Manus(String manuscriptId)
     {
 	LOGGER.debug("manuscriptId = " +  manuscriptId);
+	ManusSearch  search = new ManusSearch();
 	this.manusId = manuscriptId;
-	this.data = this.getData();
+	this.pageContent = new Page(search);
 	this.pageContent.setManuscriptId(manusId);
 	this.pageContent.setDataSourceLabel(this.dtaSrcLbl);
-	this.relatedData = this.getRelatedLinkData();
+	this.relatedData = this.getRelatedLinkData(search);
+	this.data = this.getData(search);
+	this.mds = this.mods(search);
+
+	search.close();
     }
   
   
@@ -90,7 +96,6 @@ public class Manus
      */
     public void setManuscriptId(String manuscriptId) {
 	manusId = manuscriptId;
-	this.data = this.getData();
     }
   
     /**
@@ -169,8 +174,8 @@ public class Manus
 	 * devised for entering XML metadata in a mets document.
 	 */
     
-	Document mds = this.mods();
-	Element mdsroot = mds.getRootElement();
+
+	Element mdsroot = this.mds.getRootElement();
 	mdsroot.detach();
 	Element dmds    = new DOMElement("dmdSec",metsNS); 
 	dmds.addAttribute("ID","md-root");
@@ -225,8 +230,6 @@ public class Manus
 	Element structlink = pageContent.getStructLinks();
 	root.add(structlink);
 
-	this.search.close();
-
 	return doc;
     }
   
@@ -238,7 +241,7 @@ public class Manus
      * 
      * @return <a href="http://www.dom4j.org/apidocs/org/dom4j/Document.html">Document</a> mods()  
      */
-    public Document mods() {
+    public Document mods(ManusSearch search) {
 	Iterator datarator = this.data.iterator();
 	DatabaseRow row = null;
 	if(datarator.hasNext()) {
@@ -312,7 +315,7 @@ public class Manus
 	    while(linkerator.hasNext()) {
 		mdMods.addRelatedItem("menuitem",(Metadata)linkerator.next());
 	    }
-	    mdMods.addRelatedItem("host",this.getHostData());
+	    mdMods.addRelatedItem("host",this.getHostData(search));
 	}
 	return mdMods.getModsDocument();
     }
@@ -340,41 +343,41 @@ public class Manus
      * The private method retrieving data from Oracle.
      * @return 
      */
-    private Collection getData() {
+    private Collection getData(ManusSearch search) {
 	String SQL = "select * from manus.manus where manusid="+manusId;
-	Collection data = this.search.executeQuery(SQL,10);
+	Collection data = search.executeQuery(SQL,10);
 	return data;
     }
   
-    private Collection getRelatedLinkData() {
+    private Collection getRelatedLinkData(ManusSearch search) {
 	String SQL = "select * from manus.manlink where manusid=" + 
 	    manusId +
 	    " order by manlinkseqno";
-	Collection data = this.search.executeQuery(SQL,10);
+	Collection data = search.executeQuery(SQL,10);
 	return data;
     }
   
-    private Collection getRdbmsData(String SQL) {                    
-	Collection data = this.search.executeQuery(SQL,100);
+    private Collection getRdbmsData(ManusSearch search, String SQL) {                    
+	Collection data = search.executeQuery(SQL,100);
 	return data;
     }
   
 
-    private Metadata getHostData() {
+    private Metadata getHostData(ManusSearch search) {
 	Metadata hostData = new Metadata();
     
 	String SQL = 
 	    "select * from manus.project where projectcode='" + 
 	    this.projectCode + "'"; 
       
-	Collection project = this.getRdbmsData(SQL);
+	Collection project = this.getRdbmsData(search, SQL);
 	Iterator datarator = project.iterator();    
 	if(datarator.hasNext()) {
 	    DatabaseRow row = (DatabaseRow)datarator.next();
 	    String deptCode = row.get("DEPARTMENTCODE") + "";
 	    String dptSQL      = "select * from manus.department " +
 		"where DEPARTMENTCODE='" + deptCode + "'";
-	    Collection dept = this.getRdbmsData(dptSQL);
+	    Collection dept = this.getRdbmsData(search,dptSQL);
 	    datarator = dept.iterator();
 	    if(datarator.hasNext()) {
 		row = (DatabaseRow)datarator.next();
@@ -383,7 +386,7 @@ public class Manus
 	    }       
 	    String dptTransSQL = "select * from manus.depnametrans "+
 		"where departmentcode='" + deptCode + "'";
-	    Collection deptTrans = this.getRdbmsData(dptTransSQL);
+	    Collection deptTrans = this.getRdbmsData(search,dptTransSQL);
 	    Iterator deptDatarator = deptTrans.iterator();
 	    while(deptDatarator.hasNext()) {
 		DatabaseRow drow = (DatabaseRow)deptDatarator.next();

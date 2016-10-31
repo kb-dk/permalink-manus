@@ -32,9 +32,9 @@ public class ManusDataSource
 	    this.pooledDataSource.setPassword(password); 
 	    // the settings below are optional -- c3p0 can work with defaults 
 	    // the default MaxPoolSize is 100, so why limit it more.
-	    // this.pooledDataSource.setMinPoolSize(10); 
-	    // this.pooledDataSource.setAcquireIncrement(5); 
-	    // this.pooledDataSource.setMaxPoolSize(100);
+	    this.pooledDataSource.setMinPoolSize(1); 
+	    this.pooledDataSource.setAcquireIncrement(5); 
+	    this.pooledDataSource.setMaxPoolSize(50);
 	    LOGGER.debug("configured data source");
 	} catch (java.beans.PropertyVetoException beanNotCooked) {
 	    LOGGER.warn("bean not cooked " + beanNotCooked.getMessage());

@@ -78,14 +78,14 @@ public class ManusSearch
 
     public void close()
     {
-	try {
+	//	try {
 	    LOGGER.debug("closing connection");
 
-	    this.conn.close();
+	    //	    this.conn.close();
 	    this.source.close();
-	} catch(SQLException sqlproblem) {
-	    LOGGER.debug(sqlproblem.getMessage());
-	}
+	    //	} catch(SQLException sqlproblem) {
+	    //	    LOGGER.debug(sqlproblem.getMessage());
+	    //	}
     }
    
    

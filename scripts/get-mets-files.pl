@@ -26,7 +26,8 @@ my $application;
 my $targetdir;
 my $baseuri;
 
-my @applications = ('manus','mus','musman','lum');
+# my @applications = ('manus','mus','musman','lum');
+my @applications = ('manus','mus');
 
 my $result = GetOptions ("application=s"     => \$application,
                          "targetdir=s"       => \$targetdir,
@@ -46,14 +47,14 @@ if( !($application && $targetdir) ) {
 my $parser = new XML::LibXML;
 my $ua  = LWP::UserAgent->new;
 
-my $apiurlbase    = $baseuri ? $baseuri : 'http://distest.kb.dk:8081/mets-api/';
+my $apiurlbase    = $baseuri ? $baseuri : 'http://localhost:8080/mets-api/api/';
 my $repository    = $targetdir;
 my $iduri         = join '/',$apiurlbase,'get-'.$application.'-identifiers.jsp';
 my $metsscript    = join '/',$apiurlbase,'get-mets-metadata.jsp?app='.$application.'&doc=';
 
 my $response = $ua->get($iduri);
 
-open(LOG,">mets-retrieve.log");
+open(LOG,">mets-retrieve-".$application.".log");
 if($response->is_success) {
     my @identifiers = split /[\r\n]+/, $response->content();
     foreach my $id (@identifiers) {
@@ -70,7 +71,7 @@ if($response->is_success) {
 		print LOG "Saving $filename\n";
 		print XML $doc->toString(1);
 		close XML;
-		sleep 2;
+#		sleep 2;
 	    } else {
 		print LOG "FATAL: Cannot open $filename: $!\n";
 		die "cannot open $filename: $!\n";

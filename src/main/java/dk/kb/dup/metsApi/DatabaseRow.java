@@ -12,7 +12,7 @@ public class DatabaseRow
     private HashMap<String,String> row = null;
     
     public DatabaseRow () {
-	LOGGER.debug("making new database row");
+	LOGGER.debug("making HashMap for another row");
 	this.row =  new HashMap<String,String>();
     }
 
