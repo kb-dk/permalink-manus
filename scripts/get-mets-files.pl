@@ -27,7 +27,7 @@ my $targetdir;
 my $baseuri;
 
 # my @applications = ('manus','mus','musman','lum');
-my @applications = ('manus','mus');
+my @applications = ('manus');
 
 my $result = GetOptions ("application=s"     => \$application,
                          "targetdir=s"       => \$targetdir,
