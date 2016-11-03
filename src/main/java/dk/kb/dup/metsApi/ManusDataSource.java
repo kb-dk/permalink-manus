@@ -70,7 +70,7 @@ public class ManusDataSource
     }
 
     public void close() {
-		this.pooledDataSource.close();
+	//		this.pooledDataSource.close();
 	//	this.pooledDataSource = null;
     }
 

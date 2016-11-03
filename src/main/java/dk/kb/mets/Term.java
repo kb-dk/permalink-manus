@@ -15,11 +15,12 @@ public class Term
     public Term(String langcode)
     {
         String sql = "select termtrans, termcode from manus.langterm where langcode = '"+langcode+"'";
-	ManusDataSource source = new ManusDataSource();
+	//	ManusDataSource source = new ManusDataSource();
+	ManusDataSource source = ManusDataSource.getInstance();
 	Connection conn = source.getConnection();
         this.getHashMapFromDB(conn,sql,999);
 	source.close();
-
+	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); }
     }
 
     public HashMap getLangTerm()
@@ -30,21 +31,24 @@ public class Term
     public String getLang(String lang)
     {
         String sql = "select langdesc from manus.lang where langcode ='"+lang+"'";
-	ManusDataSource source = new ManusDataSource();
+	//	ManusDataSource source = new ManusDataSource();
+	ManusDataSource source = ManusDataSource.getInstance();
 	Connection conn = source.getConnection();
 	String desc = getStringFromDb(conn, sql,999, "LANGDESC");
 	source.close();
+	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); }
         return desc;
     }
 
     public String getMusViewMode(String project)
     {
         String sql = "select app_mode_id from mus.mus_projekt where projekt_id='"+project+"'";
-	ManusDataSource source = new ManusDataSource();
+	//	ManusDataSource source = new ManusDataSource();
+	ManusDataSource source = ManusDataSource.getInstance();
 	Connection conn = source.getConnection();
 	String mode = getStringFromDb(conn,sql,999, "APP_MODE_ID");
 	source.close();
-
+	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); }
         return mode;
 
     }

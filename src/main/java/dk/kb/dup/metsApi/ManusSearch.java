@@ -12,14 +12,13 @@ public class ManusSearch
     private Logger     LOGGER        = LoggerFactory.getLogger(ManusSearch.class);
     private String     manusId       = "";
 
-    private Connection conn          = null;
     private ManusDataSource source   = null;
 
     private String session           = "manussession";
   
     public ManusSearch()
     {
-	this.source = new ManusDataSource();
+	this.source = ManusDataSource.getInstance();
     }
 
     public void setSession(String sess) {
@@ -35,10 +34,10 @@ public class ManusSearch
 	LOGGER.debug("About to execute " + query);
 	Collection coll = new ArrayList<DatabaseRow>();
 	Statement  stmt = null;
-	this.conn   = this.source.getConnection();
+	Connection conn = this.source.getConnection();
 
 	try {
-	    stmt         = this.conn.createStatement();
+	    stmt         = conn.createStatement();
 	    ResultSet result       = stmt.executeQuery(query);
 	    ResultSetMetaData rsmd = result.getMetaData();
 	    int colCount           = rsmd.getColumnCount();
@@ -60,6 +59,7 @@ public class ManusSearch
 		}
 	    }    
 	    stmt.close(); 
+	    conn.close();
 	} catch (SQLException e ) {
 	    e.printStackTrace();
 	} finally {
