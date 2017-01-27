@@ -73,7 +73,7 @@ public class Manus
      */
     public Manus(String manuscriptId)
     {
-	LOGGER.debug("manuscriptId = " +  manuscriptId);
+	LOGGER.info("manuscriptId = " +  manuscriptId);
 	ManusSearch  search = new ManusSearch();
 	this.manusId = manuscriptId;
 	this.pageContent = new Page(search);

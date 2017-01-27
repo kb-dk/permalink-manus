@@ -421,7 +421,6 @@ public class MetsElements
         }
         ret = ret + "</ul></p>";
 
-        System.out.println(app + ": " + applyHack);
         return ret;
 
     }

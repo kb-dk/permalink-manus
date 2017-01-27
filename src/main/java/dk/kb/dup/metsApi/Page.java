@@ -83,7 +83,7 @@ public class Page
 	    LOGGER.debug("ID = " + manuscriptId);
 	} else {
 	    this.manusId = "";
-	    LOGGER.debug("No manuscriptId");
+	    LOGGER.warn("No manuscriptId");
 	}
 	this.init();
 
@@ -196,7 +196,7 @@ public class Page
 	this.logicalStructure.add(logdiv);
     
 	// here we iterate over all pages
-	LOGGER.debug("starting adding to structure");    
+
 	Iterator datarator = data.iterator();
 	while(datarator.hasNext()) {
 	    DOMElement file = new DOMElement("file",metsNS);
@@ -213,7 +213,7 @@ public class Page
 		":div:physical:" + 
 		row.get("PAGEID");
 
-	    LOGGER.debug("id=" + id  + " divid=" + divid);
+	    LOGGER.info("id=" + id  + " divid=" + divid);
 
 	    div.addAttribute("ID",divid);
 	    file.addAttribute("ID",id);
@@ -223,7 +223,7 @@ public class Page
 	    file.add(flocat);
 	    fileGrp.add(file);
 
-	    LOGGER.debug("Adding file");
+
       
 	    /*
 	     * Here we gather data for the metadata secion corresponding to this object.
@@ -233,14 +233,9 @@ public class Page
 	    CleanHtml cleaner = new CleanHtml();
 	    Metadata mods = new Metadata();
 	    if(row.get("PAGEINFO") != null) {
-		LOGGER.debug("Start Adding Body");
 		Element pageinfo = cleaner.getBody(row.get("PAGEINFO")+"");
-		LOGGER.debug("Got Body");
 		if(pageinfo != null) {
 		    mods.addNote("annotation",pageinfo,this.mainLang);
-		    LOGGER.debug("Done adding Body");
-		} else {
-		    LOGGER.debug("Body is null");
 		}
 	    } else {
 		LOGGER.debug("PAGEINFO is null");
@@ -255,7 +250,6 @@ public class Page
 		Element pageinfo = cleaner.getBody(row.get("PAGEINFO_ALTLANG")+"");
 		if(pageinfo != null) {
 		    mods.addNote("annotation",pageinfo,this.altLang);
-		    LOGGER.debug("Added annotation in altLang");
 		}
 	    }
 
@@ -275,8 +269,6 @@ public class Page
 		Element mdsroot = mds.getRootElement();
 		mdsroot.detach();
 
-		LOGGER.debug("survived mdsroot.detach()");
-        
 		Element dmds    = new DOMElement("dmdSec",metsNS); 
 		String dmdId = "dmd:"+this.getManuscriptId()+":"+row.get("PAGEID");
 		dmds.addAttribute("ID",dmdId);
@@ -285,8 +277,6 @@ public class Page
 		mdwrap.addAttribute("MDTYPE","MODS");
 		Element xdata   = new DOMElement("xmlData",metsNS);
 
-		LOGGER.debug("embedded mods");
-      
 		xdata.add(mdsroot);
 		mdwrap.add(xdata);
 		dmds.add(mdwrap);
@@ -358,7 +348,6 @@ public class Page
 		altDiv.add(fptr.createCopy());
 		logdiv.add(altDiv);
 	    }
-	    LOGGER.debug("survived altDiv");
 	}
     
 	/*

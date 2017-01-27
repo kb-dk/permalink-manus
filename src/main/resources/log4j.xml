@@ -45,7 +45,7 @@ reused from somewhere
 	 fatal: critical errors that couses tha application to crash, e.g. db connection errors
 	 No other levels is used
     -->
-    <priority value="debug"></priority>
+    <priority value="info"></priority>
     <appender-ref ref="commonfile" />
     <appender-ref ref="file" />
   </root>

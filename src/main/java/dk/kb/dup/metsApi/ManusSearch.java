@@ -43,7 +43,6 @@ public class ManusSearch
 	    int colCount           = rsmd.getColumnCount();
 	    int rows               = 0;
 	    while (result.next() && rows++ < maximumRecords) {
-		LOGGER.debug("This is row number " + rows);
 		DatabaseRow dbrow = new DatabaseRow();
 		int colsAdded = 0;
 		for(int col = 1; col<=colCount;col++) {		    
@@ -61,12 +60,14 @@ public class ManusSearch
 	    stmt.close(); 
 	    conn.close();
 	} catch (SQLException e ) {
+	    LOGGER.warn(e.getMessage());
 	    e.printStackTrace();
 	} finally {
 	    if (stmt != null) { 
 		try {
 		    stmt.close(); 
 		} catch (SQLException e ) {
+		    LOGGER.warn(e.getMessage());
 		    e.printStackTrace();
 		}
 	    }
@@ -78,14 +79,8 @@ public class ManusSearch
 
     public void close()
     {
-	//	try {
-	    LOGGER.debug("closing connection");
-
-	    //	    this.conn.close();
-	    this.source.close();
-	    //	} catch(SQLException sqlproblem) {
-	    //	    LOGGER.debug(sqlproblem.getMessage());
-	    //	}
+	LOGGER.debug("closing connection");
+	this.source.close();
     }
    
    
