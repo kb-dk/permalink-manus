@@ -64,7 +64,6 @@ if(appPar.equals("manus")) {
 
 org.dom4j.io.SAXReader reader = new org.dom4j.io.SAXReader();
 
-
 doc = reader.read(uri.toURL());
 
 mElem = new dk.kb.mets.MetsElements(doc, "", false);
@@ -188,6 +187,21 @@ java.util.List menuItem = mElem.getMenuItem();
     <style type="text/css" media="print">@import "css/print.css";</style>
 
     <script src="js/manus.js" language="javascript"  type="text/javascript"></script>
+
+    <script>
+       var _gaq = _gaq || [];
+           _gaq.push(['_setAccount', 'UA-1269676-1']);
+                        _gaq.push (['_gat._anonymizeIp']);
+           _gaq.push(['_trackPageview']);
+           _gaq.push(['_setDomainName', 'www.kb.dk']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+    </script>
+
 
   </head>
   <body <%= size %>>
@@ -490,15 +504,11 @@ java.util.List menuItem = mElem.getMenuItem();
 <tr><!--FOOTER-->
   <td id="footer">
     <p>
-      Det Kongelige Bibliotek, Postbox 2149, DK-1016 København K (+45) 33 47 47 47, kb@kb.dk EAN lokations nr: 5798 000795297
+      Det Kgl. Bibliotek, Postbox 2149, DK-1016 København K (+45) 33 47 47 47, kb@kb.dk EAN lokations nr: 5798 000795297
     </p>
   </td>
 </tr>
 </table>
-
-<!-- Google Analytics www.kb.dk -->
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">_uacct ="UA-1269676-1";_udn="www.kb.dk";urchinTracker();</script>
 
 </body>
 </html>

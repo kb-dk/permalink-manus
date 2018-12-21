@@ -14,7 +14,7 @@ public class ManusDataSource
     private String     user          = "manus";
     private String     password      = "ft6yh";
     private String     jdbcUri       = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
-//  private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
+    // private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
     private static ManusDataSource instance = null;
     
 
