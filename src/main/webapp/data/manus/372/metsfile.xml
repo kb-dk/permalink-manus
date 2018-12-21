@@ -1,4 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:372"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Codices Indici Bibliothecæ Regiæ Havniensis</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Codices Indici Bibliothecæ Regiæ Havniensis</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Westergard, N. L.</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Westergard, N. L.</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">lat</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Trykt katalog på latin over Det Kongelige Biblioteks ældre samling (- 1845) af håndskrifter på indiske sprog.</p><p>Kan også ses på Center for Orientalia og Judaica. For en PDF-version til udskrift henvises til <a href="http://img.kb.dk/oja/codices%20orientales%202_pdf/Samtlige_codices%20orientales%201.pdf/">PDF vol. 1</a>.</p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns=""><p>Printed catalogue in Latin, covering The Royal Lbirary's older collection (- 1845) of manuscripts in Indic languages.</p><p>May also be consultet at the Center for Orientalia &amp; Judaica. For a printable PDF-version, see <a href="http://img.kb.dk/oja/codices%20orientales%202_pdf/Samtlige_codices%20orientales%201.pdf/">PDF vol. 1</a>.</p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="ara"><md:title>Oriental and Judaica Collections</md:title></md:titleInfo><md:titleInfo xml:lang="dan"><md:title>Orientalsk og Judaistisk Afdeling</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Oriental and Judaica Collections</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/oja/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/oja/index.html</md:identifier></md:relatedItem><md:identifier type="signature">COBRH 1</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp/><m:fileGrp/></m:fileSec><m:structMap type="physical"><m:div ID="manus:372:physical:root" DMDID="md-root"/></m:structMap><m:structMap type="variant"/><m:structLink/></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:372">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Codices Indici Bibliothecæ Regiæ Havniensis</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Codices Indici Bibliothecæ Regiæ Havniensis</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Westergard, N. L.</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Westergard, N. L.</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">lat</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Trykt katalog på latin over Det Kongelige Biblioteks ældre samling (- 1845) af håndskrifter på indiske sprog.</p>
+              <p>Kan også ses på Center for Orientalia og Judaica. For en PDF-version til udskrift henvises til <a href="http://img.kb.dk/oja/codices%20orientales%202_pdf/Samtlige_codices%20orientales%201.pdf/">PDF vol. 1</a>.</p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Printed catalogue in Latin, covering The Royal Lbirary's older collection (- 1845) of manuscripts in Indic languages.</p>
+              <p>May also be consultet at the Center for Orientalia &amp; Judaica. For a printable PDF-version, see <a href="http://img.kb.dk/oja/codices%20orientales%202_pdf/Samtlige_codices%20orientales%201.pdf/">PDF vol. 1</a>.</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="ara">
+              <md:title>Oriental and Judaica Collections</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="dan">
+              <md:title>Orientalsk og Judaistisk Afdeling</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Oriental and Judaica Collections</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/oja/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/oja/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">COBRH 1</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp/>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:372:physical:root" DMDID="md-root"/>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>

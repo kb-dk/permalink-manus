@@ -1,4 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:518"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Liturgica</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Liturgica</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Fragm. 3130</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Fragm. 3130</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns="">[olim kps. 20] <p>[under opbygning]</p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns="">[olim kps. 20] <p>[under construction]</p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Fragm. 3130</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:518:85492"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01.jpg"/></m:file><m:file ID="file:default:518:85493"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:518:66528"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01v.jpg"/></m:file><m:file ID="file:variant:518:66529"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02v.jpg"/></m:file><m:file ID="file:variant:518:66530"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01x.jpg"/></m:file><m:file ID="file:variant:518:66531"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02x.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:518:physical:root" DMDID="md-root"><m:div ID="manus:518:div:physical:85492" xml:lang="dan" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:518:85492"/></m:div><m:div ID="manus:518:div:physical:85492" xml:lang="eng" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:518:85492"/></m:div><m:div ID="manus:518:div:physical:85493" xml:lang="dan" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:518:85493"/></m:div><m:div ID="manus:518:div:physical:85493" xml:lang="eng" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:518:85493"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:518:div:variant:66528" ORDERLABEL="recto"><m:fptr FILEID="file:variant:518:66528"/></m:div><m:div ID="manus:518:div:variant:66529" ORDERLABEL="verso"><m:fptr FILEID="file:variant:518:66529"/></m:div><m:div ID="manus:518:div:variant:66530" ORDERLABEL="recto"><m:fptr FILEID="file:variant:518:66530"/></m:div><m:div ID="manus:518:div:variant:66531" ORDERLABEL="verso"><m:fptr FILEID="file:variant:518:66531"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66528"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66530"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66528"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66530"/><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66529"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66531"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66529"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66531"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:518">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Liturgica</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Liturgica</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Fragm. 3130</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Fragm. 3130</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">[olim kps. 20] <p>[under opbygning]</p></div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">[olim kps. 20] <p>[under construction]</p></div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Fragm. 3130</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:518:85492">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:518:85493">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:518:66529">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:518:66528">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:518:66531">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_02x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:518:66530">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr3130_01x.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:518:physical:root" DMDID="md-root">
+      <m:div ID="manus:518:div:physical:85492" xml:lang="dan" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:518:85492"/>
+      </m:div>
+      <m:div ID="manus:518:div:physical:85492" xml:lang="eng" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:518:85492"/>
+      </m:div>
+      <m:div ID="manus:518:div:physical:85493" xml:lang="dan" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:518:85493"/>
+      </m:div>
+      <m:div ID="manus:518:div:physical:85493" xml:lang="eng" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:518:85493"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:518:div:variant:66529" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:518:66529"/>
+    </m:div>
+    <m:div ID="manus:518:div:variant:66528" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:518:66528"/>
+    </m:div>
+    <m:div ID="manus:518:div:variant:66531" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:518:66531"/>
+    </m:div>
+    <m:div ID="manus:518:div:variant:66530" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:518:66530"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66528"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66530"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66528"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:518:div:physical:85492" xlink:to="manus:518:div:variant:66530"/>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66529"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66531"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66529"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:518:div:physical:85493" xlink:to="manus:518:div:variant:66531"/>
+  </m:structLink>
+</m:mets>

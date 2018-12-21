@@ -1,4 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:295"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Augustinus, Epistulae</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Augustinus, Epistulae</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Fragm. 2850</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Fragm. 2850</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>[olim 19b]</p><p>Pergament, 1 f., ca. 28 × 19,5 cm; saec. IX / X</p><p>Aurelius Augustinus, Epistula 127 (ad Armentarium &amp; Paulinam), 6-9 + Epistula 214 (ad Valentinum), 1-4:</p><p>recto: "<i>redditor</i>|es huic ergo quod non reddit(ur) … sed cum illam tam paratam esse aud<i>iam deo</i> dicare" = Epist. 127, 6-9</p><p>verso: "persoluat(ur) . quod ab alterutro … honorabiles et desiderabiles filii" = Epist. 127, 9 + "Augustinus Valentino. Domino dilectissimo (…) Venerunt ad nos duo iuvenes … putetur verum esse quod illi heretici" = Epist. 214, 1-4</p><p>Fragmentets signatur er skrevet på versosiden</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns=""><p>[olim 19b]</p><p>Parchment, 1 f., c. 28 × 19,5 cm; saec. IX / X</p><p>Aurelius Augustinus, Epistula 127 (ad Armentarium &amp; Paulinam), 6-9 + Epistula 214 (ad Valentinum), 1-4:</p><p>recto: "<i>redditor</i>es huic ergo quod non reddit(ur) … sed cum illam tam paratam esse aud<i>iam deo</i> dicare" = Epist. 127, 6-9</p><p>verso: "persoluat(ur) . quod ab alterutro … honorabiles et desiderabiles filii" = Epist. 127, 9 + "Augustinus Valentino. Domino dilectissimo (…) Venerunt ad nos duo iuvenes … putetur verum esse quod illi heretici" = Epist. 214, 1-4</p><p>The shelf mark has been written on the verso-side</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Fragm. 2850</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:295:49728"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02.jpg"/></m:file><m:file ID="file:default:295:49729"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:295:42543"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02v.jpg"/></m:file><m:file ID="file:variant:295:42544"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01v.jpg"/></m:file><m:file ID="file:variant:295:42545"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02x.jpg"/></m:file><m:file ID="file:variant:295:42546"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01x.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:295:physical:root" DMDID="md-root"><m:div ID="manus:295:div:physical:49728" xml:lang="dan" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:295:49728"/></m:div><m:div ID="manus:295:div:physical:49728" xml:lang="eng" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:295:49728"/></m:div><m:div ID="manus:295:div:physical:49729" xml:lang="dan" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:295:49729"/></m:div><m:div ID="manus:295:div:physical:49729" xml:lang="eng" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:295:49729"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:295:div:variant:42543" ORDERLABEL="recto"><m:fptr FILEID="file:variant:295:42543"/></m:div><m:div ID="manus:295:div:variant:42544" ORDERLABEL="verso"><m:fptr FILEID="file:variant:295:42544"/></m:div><m:div ID="manus:295:div:variant:42545" ORDERLABEL="recto"><m:fptr FILEID="file:variant:295:42545"/></m:div><m:div ID="manus:295:div:variant:42546" ORDERLABEL="verso"><m:fptr FILEID="file:variant:295:42546"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42543"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42545"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42543"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42545"/><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42544"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42546"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42544"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42546"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:295">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Augustinus, Epistulae</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Augustinus, Epistulae</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Fragm. 2850</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Fragm. 2850</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>[olim 19b]</p>
+              <p>Pergament, 1 f., ca. 28 × 19,5 cm; saec. IX / X</p>
+              <p>Aurelius Augustinus, Epistula 127 (ad Armentarium &amp; Paulinam), 6-9 + Epistula 214 (ad Valentinum), 1-4:</p>
+              <p>recto: "<i>redditor</i>|es huic ergo quod non reddit(ur) … sed cum illam tam paratam esse aud<i>iam deo</i> dicare" = Epist. 127, 6-9</p>
+              <p>verso: "persoluat(ur) . quod ab alterutro … honorabiles et desiderabiles filii" = Epist. 127, 9 + "Augustinus Valentino. Domino dilectissimo (…) Venerunt ad nos duo iuvenes … putetur verum esse quod illi heretici" = Epist. 214, 1-4</p>
+              <p>Fragmentets signatur er skrevet på versosiden</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>[olim 19b]</p>
+              <p>Parchment, 1 f., c. 28 × 19,5 cm; saec. IX / X</p>
+              <p>Aurelius Augustinus, Epistula 127 (ad Armentarium &amp; Paulinam), 6-9 + Epistula 214 (ad Valentinum), 1-4:</p>
+              <p>recto: "<i>redditor</i>es huic ergo quod non reddit(ur) … sed cum illam tam paratam esse aud<i>iam deo</i> dicare" = Epist. 127, 6-9</p>
+              <p>verso: "persoluat(ur) . quod ab alterutro … honorabiles et desiderabiles filii" = Epist. 127, 9 + "Augustinus Valentino. Domino dilectissimo (…) Venerunt ad nos duo iuvenes … putetur verum esse quod illi heretici" = Epist. 214, 1-4</p>
+              <p>The shelf mark has been written on the verso-side</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Fragm. 2850</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:295:49728">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02.jpg"/>
+      </m:file>
+      <m:file ID="file:default:295:49729">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:295:42544">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:295:42543">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:295:42546">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_01x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:295:42545">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2850_02x.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:295:physical:root" DMDID="md-root">
+      <m:div ID="manus:295:div:physical:49728" xml:lang="dan" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:295:49728"/>
+      </m:div>
+      <m:div ID="manus:295:div:physical:49728" xml:lang="eng" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:295:49728"/>
+      </m:div>
+      <m:div ID="manus:295:div:physical:49729" xml:lang="dan" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:295:49729"/>
+      </m:div>
+      <m:div ID="manus:295:div:physical:49729" xml:lang="eng" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:295:49729"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:295:div:variant:42544" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:295:42544"/>
+    </m:div>
+    <m:div ID="manus:295:div:variant:42543" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:295:42543"/>
+    </m:div>
+    <m:div ID="manus:295:div:variant:42546" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:295:42546"/>
+    </m:div>
+    <m:div ID="manus:295:div:variant:42545" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:295:42545"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42543"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42545"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42543"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:295:div:physical:49728" xlink:to="manus:295:div:variant:42545"/>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42544"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42546"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42544"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:295:div:physical:49729" xlink:to="manus:295:div:variant:42546"/>
+  </m:structLink>
+</m:mets>

@@ -4,13 +4,73 @@
     <m:agent ROLE="CREATOR">
       <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
 department at Royal Library, Copenhagen, DK.</m:name>
-      <m:note>Software release $Id: Manus.java,v 1.15 2006/11/28 10:47:25 slu Exp $</m:note>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
     </m:agent>
   </m:metsHdr>
   <m:dmdSec ID="md-root">
     <m:mdWrap MDTYPE="MODS">
       <m:xmlData>
-        <md:mods/>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>PnrManus1</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>PnrManus1-AltLang</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Peter Nybo</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Peter Nybo - AltLang</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Pergament, 108 ff. [A + 1-90 + 91 + 92-107], ca. 24 × 14 cm; Italien, 1100-1150</p>
+              <p>Blad A er resterne af håndskriftets oprindeligt første blad; det har sammen med f. 6 været det yderste dobbeltblad i en kvaternion. A er bortrevet og erstattet med det nuværende, indklæbede f. 1. Håndskriftets nuværende ff. 7 &amp; 8 har været det inderste dobbeltblad i samme kvaternion, men er siden blevet fejlanbragt. Den korrekte bladfølge er følgende: ff. 1-3 (= I.1-221), ff. 7-8 (= I.222-369) &amp; ff. 4-6 (= I.370-596)</p>
+              <p>Ff. 64r-67v, 71r-v &amp; 107r er skrevet i to spalter i en anden hånd end hovedparten af håndskriftet. F. 107 udgør sammen med f. 100, der ligeledes er skrevet i en anden hånd, det yderste dobbeltblad i håndskriftets sidste læg. F. 71 er indklæbet som det midterste blad i lægget 69-73. F. 91 er en indføjet lap med teksten IX.515-518, som er oversprunget på f. 90v (haplografi forårsaget af (H)ammon i IX.514 &amp; IX.518)</p>
+              <p>Glosser og kommentarer til Lucans tekst er nedfældet mellem linjer og i margener. Tegninger til illustration af teksten findes på f. 18v (Brundisium), 57v (Thesalia) &amp; 89r (T-kort med verdenshjørner &amp; vinde)</p>
+              <p>Håndskriftet blev sammen med flere andre håndskrifter erhvervet af Det Kongelige Bibliotek på auktionen over det hamburgske domkapitels bibliotek i 1784. Det er pagineret og påtegnet af Johann Martin Winckler, der blev udnævnt som domkapitlets sekretær i 1727. Håndskriftet er nyindbundet i Christian VIIIs regeringstid (1839-1848)</p>
+              <p>Bibl.: Bibliotheca Capitularis sive apparatus librorum ex omni parte eruditionis in reverendo Capitulo Hamburgensi huc usque asservatorum jam vero ... publica auctionis lege distrahendorum, Hamburgi 1784, p. 273, no. 3367 ("folia 103"). - Marci Annaei Lucani Pharsalia, ed. C. F. Weber, vol. 3, Lipsiae 1831, p. XII. - Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 315f. - Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, vol. 2, Paris 1985 p. 39f. - Erik Petersen, Intellectum Liberare. Johann Albert Fabricius - en humanist i Europa. København 1998, 583f.</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Parchment, 108 ff. [A + 1-90 + 91 + 92-107], c. 24 × 14 cm; Italy, 1100-1150</p>
+              <p>F. A is the remnants of what was originally the first leave of the manuscript; together with f. 6 it has been the outer bifolium of a quaternion. A has been torn out and substituted by the present f. 1, a single, inserted leave. Ff. 7 &amp; 8 was originally the inner bifolium of the same quaternion, but it has later been misplaced. The correct sequence of the leaves is: ff. 1-3 (= I.1-221), ff. 7-8 (= I.222-369) &amp; ff. 4-6 (= I.370-596)</p>
+              <p>Ff. 64r-67v, 71r-v &amp; 107r have been copied in two columns by another hand than the major part of the manuscript. F. 100, copied in a different hand, and f. 107 is the outer bifolium of the last quaternion of the manuscript. F. 71 is a single leave pasted to the bifolium 70-72. F. 91 is an insert with the text of IX.515-518, that has been left out on f. 90v (due to haplography of (H)ammon in IX.514 &amp; IX.518)</p>
+              <p>There are interlinear and marginal glosses and commentaries to the text. Sketches illustrating the text are found on f. 18v (Brundisium), 57v (Thesalia) &amp; 89r (T-map)</p>
+              <p>The manuscript was acquired by the Royal Library at the auction of the Chapter Library of Hamburg in 1784. It was paginated and signed by Johann Martin Winckler, appointed secretary to the chapter in 1727. The manuscript was rebound during the reign of King Christian VIII (1839-1848)</p>
+              <p>Bibl.: Bibliotheca Capitularis sive apparatus librorum ex omni parte eruditionis in reverendo Capitulo Hamburgensi huc usque asservatorum jam vero ... publica auctionis lege distrahendorum, Hamburgi 1784, p. 273, no. 3367 ("folia 103"). - Marci Annaei Lucani Pharsalia, ed. C. F. Weber, vol. 3, Lipsiae 1831, p. XII. - Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 315f. - Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, vol. 2, Paris 1985 p. 39f. - Erik Petersen, Intellectum Liberare. Johann Albert Fabricius - en humanist i Europa. København 1998, 583f.</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>PNR-Afdelingen</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>PNR-Department</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/pnrafd-dk/</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">http://www.kb.dk/pnrafd-uk/</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">PNR</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/oja/pnrintroimg/manustest.jpg</md:identifier>
+        </md:mods>
       </m:xmlData>
     </m:mdWrap>
   </m:dmdSec>
@@ -18,8 +78,8 @@ department at Royal Library, Copenhagen, DK.</m:name>
     <m:fileGrp/>
     <m:fileGrp/>
   </m:fileSec>
-  <m:structMap type="logical">
-    <m:div ID="struct-root" DMDID="md-root"/>
+  <m:structMap type="physical">
+    <m:div ID="manus:2:physical:root" DMDID="md-root"/>
   </m:structMap>
   <m:structMap type="variant"/>
   <m:structLink/>

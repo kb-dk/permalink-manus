@@ -1,4 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:501"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Seneca, Epistolae morales</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Seneca, Epistolae morales</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Fragm. 1622</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Fragm. 1622</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>[olim kps. 11a]</p><p>Pergament, 1 stykke, ca. 6 × 15,5 cm; saec. XII</p><p>Lucius Annaeus Seneca, Epistolae morales, slutningen af ep. 64 &amp; begyndelsen af ep. 65 [rubriceret LXVIII]:</p><p>Recto: "/// inventa sunt ab antiquis … semper assurgo. VALE. LXVIII." = Ep. mor. 64.8-10</p><p>Verso: "/// [+ 1 lin.] statua ista doryphoros … oculos. an intus." = Ep. Mor. 65.5-7</p><p>Bibl.: Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, 2, Paris 1985, p. 408</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns=""><p>[olim kps. 11a]</p><p>Parchment, 1 piece, c. 6 × 15,5 cm; saec. XII</p><p>Lucius Annaeus Seneca, Epistolae morales, end of ep. 64 &amp; beginning of ep. 65 [rubricated LXVIII]:</p><p>Recto: "/// inventa sunt ab antiquis … semper assurgo. VALE. LXVIII." = Ep. mor. 64.8-10</p><p>Verso: "/// [+ 1 lin.] statua ista doryphoros … oculos. an intus." = Ep. Mor. 65.5-7</p><p>Bibl.: Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, 2, Paris 1985, p. 408</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Fragm. 1622</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:501:84721"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_01.jpg"/></m:file><m:file ID="file:default:501:84722"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_02.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:501:65888"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_01v.jpg"/></m:file><m:file ID="file:variant:501:65889"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_02v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:501:physical:root" DMDID="md-root"><m:div ID="manus:501:div:physical:84721" xml:lang="dan" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:501:84721"/></m:div><m:div ID="manus:501:div:physical:84721" xml:lang="eng" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:501:84721"/></m:div><m:div ID="manus:501:div:physical:84722" xml:lang="dan" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:501:84722"/></m:div><m:div ID="manus:501:div:physical:84722" xml:lang="eng" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:501:84722"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:501:div:variant:65888" ORDERLABEL="recto"><m:fptr FILEID="file:variant:501:65888"/></m:div><m:div ID="manus:501:div:variant:65889" ORDERLABEL="verso"><m:fptr FILEID="file:variant:501:65889"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:501:div:physical:84721" xlink:to="manus:501:div:variant:65888"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:501:div:physical:84721" xlink:to="manus:501:div:variant:65888"/><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:501:div:physical:84722" xlink:to="manus:501:div:variant:65889"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:501:div:physical:84722" xlink:to="manus:501:div:variant:65889"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:501">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Seneca, Epistolae morales</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Seneca, Epistolae morales</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Fragm. 1622</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Fragm. 1622</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>[olim kps. 11a]</p>
+              <p>Pergament, 1 stykke, ca. 6 × 15,5 cm; saec. XII</p>
+              <p>Lucius Annaeus Seneca, Epistolae morales, slutningen af ep. 64 &amp; begyndelsen af ep. 65 [rubriceret LXVIII]:</p>
+              <p>Recto: "/// inventa sunt ab antiquis … semper assurgo. VALE. LXVIII." = Ep. mor. 64.8-10</p>
+              <p>Verso: "/// [+ 1 lin.] statua ista doryphoros … oculos. an intus." = Ep. Mor. 65.5-7</p>
+              <p>Bibl.: Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, 2, Paris 1985, p. 408</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>[olim kps. 11a]</p>
+              <p>Parchment, 1 piece, c. 6 × 15,5 cm; saec. XII</p>
+              <p>Lucius Annaeus Seneca, Epistolae morales, end of ep. 64 &amp; beginning of ep. 65 [rubricated LXVIII]:</p>
+              <p>Recto: "/// inventa sunt ab antiquis … semper assurgo. VALE. LXVIII." = Ep. mor. 64.8-10</p>
+              <p>Verso: "/// [+ 1 lin.] statua ista doryphoros … oculos. an intus." = Ep. Mor. 65.5-7</p>
+              <p>Bibl.: Birger Munk Olsen, L'Étude des auteurs classiques latins aux XIe et XIIe siècles, 2, Paris 1985, p. 408</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Fragm. 1622</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:501:84721">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:501:84722">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_02.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:501:65889">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:501:65888">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr1622_01v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:501:physical:root" DMDID="md-root">
+      <m:div ID="manus:501:div:physical:84721" xml:lang="dan" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:501:84721"/>
+      </m:div>
+      <m:div ID="manus:501:div:physical:84721" xml:lang="eng" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:501:84721"/>
+      </m:div>
+      <m:div ID="manus:501:div:physical:84722" xml:lang="dan" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:501:84722"/>
+      </m:div>
+      <m:div ID="manus:501:div:physical:84722" xml:lang="eng" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:501:84722"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:501:div:variant:65889" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:501:65889"/>
+    </m:div>
+    <m:div ID="manus:501:div:variant:65888" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:501:65888"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:501:div:physical:84721" xlink:to="manus:501:div:variant:65888"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:501:div:physical:84721" xlink:to="manus:501:div:variant:65888"/>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:501:div:physical:84722" xlink:to="manus:501:div:variant:65889"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:501:div:physical:84722" xlink:to="manus:501:div:variant:65889"/>
+  </m:structLink>
+</m:mets>

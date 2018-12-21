@@ -1,4 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:543"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>[Temperamenterne] </md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Collinske Manuskriptsamling 36, 4º V:1. 2 bl., s. 1-4.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Collin 36, 4</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:543:89623"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1305.jpg"/></m:file><m:file ID="file:default:543:89624"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1306.jpg"/></m:file><m:file ID="file:default:543:89625"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1307.jpg"/></m:file><m:file ID="file:default:543:89626"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1308.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:543:70072"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1305v.jpg"/></m:file><m:file ID="file:variant:543:70073"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1306v.jpg"/></m:file><m:file ID="file:variant:543:70074"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1307v.jpg"/></m:file><m:file ID="file:variant:543:70075"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1308v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:543:physical:root" DMDID="md-root"><m:div ID="manus:543:div:physical:89623" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:543:89623"/></m:div><m:div ID="manus:543:div:physical:89624" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:543:89624"/></m:div><m:div ID="manus:543:div:physical:89625" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:543:89625"/></m:div><m:div ID="manus:543:div:physical:89626" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:543:89626"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:543:div:variant:70072" ORDERLABEL="1"><m:fptr FILEID="file:variant:543:70072"/></m:div><m:div ID="manus:543:div:variant:70073" ORDERLABEL="2"><m:fptr FILEID="file:variant:543:70073"/></m:div><m:div ID="manus:543:div:variant:70074" ORDERLABEL="3"><m:fptr FILEID="file:variant:543:70074"/></m:div><m:div ID="manus:543:div:variant:70075" ORDERLABEL="4"><m:fptr FILEID="file:variant:543:70075"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89623" xlink:to="manus:543:div:variant:70072"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89624" xlink:to="manus:543:div:variant:70073"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89625" xlink:to="manus:543:div:variant:70074"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89626" xlink:to="manus:543:div:variant:70075"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:543">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>[Temperamenterne] </md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Collinske Manuskriptsamling 36, 4º V:1. 2 bl., s. 1-4.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Collin 36, 4</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:543:89623">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1305.jpg"/>
+      </m:file>
+      <m:file ID="file:default:543:89624">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1306.jpg"/>
+      </m:file>
+      <m:file ID="file:default:543:89625">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1307.jpg"/>
+      </m:file>
+      <m:file ID="file:default:543:89626">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1308.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:543:70072">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1305v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:543:70075">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1308v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:543:70074">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1307v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:543:70073">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/utrykte/fairy1306v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:543:physical:root" DMDID="md-root">
+      <m:div ID="manus:543:div:physical:89623" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:543:89623"/>
+      </m:div>
+      <m:div ID="manus:543:div:physical:89624" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:543:89624"/>
+      </m:div>
+      <m:div ID="manus:543:div:physical:89625" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:543:89625"/>
+      </m:div>
+      <m:div ID="manus:543:div:physical:89626" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:543:89626"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:543:div:variant:70072" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:543:70072"/>
+    </m:div>
+    <m:div ID="manus:543:div:variant:70075" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:543:70075"/>
+    </m:div>
+    <m:div ID="manus:543:div:variant:70074" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:543:70074"/>
+    </m:div>
+    <m:div ID="manus:543:div:variant:70073" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:543:70073"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89623" xlink:to="manus:543:div:variant:70072"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89624" xlink:to="manus:543:div:variant:70073"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89625" xlink:to="manus:543:div:variant:70074"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:543:div:physical:89626" xlink:to="manus:543:div:variant:70075"/>
+  </m:structLink>
+</m:mets>

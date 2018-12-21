@@ -1,4 +1,822 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:434"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Ouverture til Marsk Stig</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>P. Heise</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>I 1856 skrev Heise en koncertouverture til digteren Carsten Hauchs tragedie <i>Marsk Stig</i>, der var blevet opført på Det Kongelige Teater i 1850. Heises musik har således ikke været anvendt til Hauchs skuespil på scenen, men har derimod været opført et par gange selvstændigt i Musikforeningen, bl.a. i februar 1858. Her blev den godt modtaget:</p><p><i>Efter hvad man kunde skjønne, indeholder den mange Skjønheder, navnlig i Retning af Instrumentationen, og Slutningen gjør især en storartet Virkning; vi have ogsaa hørt Mænd af Faget udtale en meget gunstig Dom om dette Arbeide. Ouverturen blev modtagen med Bifald</i> (<i>Dagbladet</i>, 1.3. 1858).</p><p>Heise lod imidlertid skuespillet danne inspiration til sine planer om en opera, og i forbindelse med udgivelsen af klaverudtoget af ouverturen (ved Axel Grandjean i 1899) er det angivet, at den benyttedes i sin helhed ved den første opførelse af <i>Drot og Marsk</i>. Siden hen er det kun den indledende Andante, der anvendes som forspil i operaen.</p><p>Hauchs skuespil blev modtaget med stærkt bifald, men det holdt sig dog kun på repertoiret i én sæson, bl.a. på grund af de mange sceneskift. Det tiltalte imidlertid Heise, at Hauch lod kongen forføre fru Ingeborg, ikke voldtage hende, som det skildres i nogle af folkeviserne, og som tidligere dramatiske behandlinger af emnet havde skildret. Figuren Aase er også Hauchs opfindelse (her kaldes hun Sigrid). Andre ændringer i forhold til Hauchs tekst er bl.a. sammenlægning fra fem til tre akter og tilføjelse af koret.</p><p>I god overensstemmelse med tiden tiltalte det Heise, at der var et litterært forlæg til værket. Også N.W. Gade fik sit kunstneriske gennembrud via denne genre (med <i>Efterklange af Ossian</i>) og skrev flere andre siden, lige som J.P.E. Hartmann komponerede flere koncertouverturer af denne type. Af et brev fremgår det, at Gade har opmuntret og støttet Heise i kompositionsprocessen, og ouverturens musikalske stil ligger da også i forlængelse af Gades og Hartmanns.</p><p><a href="http://www.kb.dk/da/nb/samling/ma/digmus/heise.html#mars">Litteratur, cd-indspilninger og trykte udgaver</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musik- og Teaterafdelingen</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Music and Theatre Department</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">http://www.kb.dk/da/kb/nb/mta/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">http://www.kb.dk/en/kb/nb/mta/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Heises samling</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/heise/MarskStig/MarskStig-fors.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:434:72590"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-01.jpg"/></m:file><m:file ID="file:default:434:72591"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-02.jpg"/></m:file><m:file ID="file:default:434:72592"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-03.jpg"/></m:file><m:file ID="file:default:434:72593"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-04.jpg"/></m:file><m:file ID="file:default:434:72594"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-05.jpg"/></m:file><m:file ID="file:default:434:72595"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-06.jpg"/></m:file><m:file ID="file:default:434:72596"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-07.jpg"/></m:file><m:file ID="file:default:434:72597"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-08.jpg"/></m:file><m:file ID="file:default:434:72598"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-09.jpg"/></m:file><m:file ID="file:default:434:72599"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-10.jpg"/></m:file><m:file ID="file:default:434:72600"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-11.jpg"/></m:file><m:file ID="file:default:434:72601"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-12.jpg"/></m:file><m:file ID="file:default:434:72602"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-13.jpg"/></m:file><m:file ID="file:default:434:72603"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-14.jpg"/></m:file><m:file ID="file:default:434:72604"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-15.jpg"/></m:file><m:file ID="file:default:434:72605"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-16.jpg"/></m:file><m:file ID="file:default:434:72606"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-17.jpg"/></m:file><m:file ID="file:default:434:72607"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-18.jpg"/></m:file><m:file ID="file:default:434:72608"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-19.jpg"/></m:file><m:file ID="file:default:434:72609"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-20.jpg"/></m:file><m:file ID="file:default:434:72610"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-21.jpg"/></m:file><m:file ID="file:default:434:72611"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-22.jpg"/></m:file><m:file ID="file:default:434:72612"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-23.jpg"/></m:file><m:file ID="file:default:434:72613"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-24.jpg"/></m:file><m:file ID="file:default:434:72614"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-25.jpg"/></m:file><m:file ID="file:default:434:72615"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-26.jpg"/></m:file><m:file ID="file:default:434:72616"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-27.jpg"/></m:file><m:file ID="file:default:434:72617"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-28.jpg"/></m:file><m:file ID="file:default:434:72618"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-29.jpg"/></m:file><m:file ID="file:default:434:72619"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-30.jpg"/></m:file><m:file ID="file:default:434:72620"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-31.jpg"/></m:file><m:file ID="file:default:434:72621"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-32.jpg"/></m:file><m:file ID="file:default:434:72622"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-33.jpg"/></m:file><m:file ID="file:default:434:72623"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-34.jpg"/></m:file><m:file ID="file:default:434:72624"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-35.jpg"/></m:file><m:file ID="file:default:434:72625"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-36.jpg"/></m:file><m:file ID="file:default:434:72626"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-37.jpg"/></m:file><m:file ID="file:default:434:72627"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-38.jpg"/></m:file><m:file ID="file:default:434:72628"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-39.jpg"/></m:file><m:file ID="file:default:434:72629"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-40.jpg"/></m:file><m:file ID="file:default:434:72630"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-41.jpg"/></m:file><m:file ID="file:default:434:72631"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-42.jpg"/></m:file><m:file ID="file:default:434:72632"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-43.jpg"/></m:file><m:file ID="file:default:434:72633"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-44.jpg"/></m:file><m:file ID="file:default:434:72634"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-45.jpg"/></m:file><m:file ID="file:default:434:72635"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-46.jpg"/></m:file><m:file ID="file:default:434:72636"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-47.jpg"/></m:file><m:file ID="file:default:434:72637"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-48.jpg"/></m:file><m:file ID="file:default:434:72638"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-49.jpg"/></m:file><m:file ID="file:default:434:72639"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-50.jpg"/></m:file><m:file ID="file:default:434:72640"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-51.jpg"/></m:file><m:file ID="file:default:434:72641"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-52.jpg"/></m:file><m:file ID="file:default:434:72642"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-53.jpg"/></m:file><m:file ID="file:default:434:72643"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-54.jpg"/></m:file><m:file ID="file:default:434:72644"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-55.jpg"/></m:file><m:file ID="file:default:434:72645"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-56.jpg"/></m:file><m:file ID="file:default:434:72646"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-57.jpg"/></m:file><m:file ID="file:default:434:72647"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-58.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:434:63747"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-10v.jpg"/></m:file><m:file ID="file:variant:434:63748"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-11v.jpg"/></m:file><m:file ID="file:variant:434:63749"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-12v.jpg"/></m:file><m:file ID="file:variant:434:63750"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-13v.jpg"/></m:file><m:file ID="file:variant:434:63751"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-14v.jpg"/></m:file><m:file ID="file:variant:434:63752"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-15v.jpg"/></m:file><m:file ID="file:variant:434:63753"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-16v.jpg"/></m:file><m:file ID="file:variant:434:63754"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-17v.jpg"/></m:file><m:file ID="file:variant:434:63755"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-18v.jpg"/></m:file><m:file ID="file:variant:434:63756"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-19v.jpg"/></m:file><m:file ID="file:variant:434:63739"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-02v.jpg"/></m:file><m:file ID="file:variant:434:63757"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-20v.jpg"/></m:file><m:file ID="file:variant:434:63758"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-21v.jpg"/></m:file><m:file ID="file:variant:434:63759"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-22v.jpg"/></m:file><m:file ID="file:variant:434:63760"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-23v.jpg"/></m:file><m:file ID="file:variant:434:63761"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-24v.jpg"/></m:file><m:file ID="file:variant:434:63762"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-25v.jpg"/></m:file><m:file ID="file:variant:434:63763"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-26v.jpg"/></m:file><m:file ID="file:variant:434:63764"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-27v.jpg"/></m:file><m:file ID="file:variant:434:63765"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-28v.jpg"/></m:file><m:file ID="file:variant:434:63766"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-29v.jpg"/></m:file><m:file ID="file:variant:434:63740"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-03v.jpg"/></m:file><m:file ID="file:variant:434:63767"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-30v.jpg"/></m:file><m:file ID="file:variant:434:63768"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-31v.jpg"/></m:file><m:file ID="file:variant:434:63769"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-32v.jpg"/></m:file><m:file ID="file:variant:434:63770"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-33v.jpg"/></m:file><m:file ID="file:variant:434:63771"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-34v.jpg"/></m:file><m:file ID="file:variant:434:63772"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-35v.jpg"/></m:file><m:file ID="file:variant:434:63773"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-36v.jpg"/></m:file><m:file ID="file:variant:434:63774"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-37v.jpg"/></m:file><m:file ID="file:variant:434:63775"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-38v.jpg"/></m:file><m:file ID="file:variant:434:63776"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-39v.jpg"/></m:file><m:file ID="file:variant:434:63741"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-04v.jpg"/></m:file><m:file ID="file:variant:434:63777"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-40v.jpg"/></m:file><m:file ID="file:variant:434:63778"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-41v.jpg"/></m:file><m:file ID="file:variant:434:63779"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-42v.jpg"/></m:file><m:file ID="file:variant:434:63780"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-43v.jpg"/></m:file><m:file ID="file:variant:434:63781"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-44v.jpg"/></m:file><m:file ID="file:variant:434:63782"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-45v.jpg"/></m:file><m:file ID="file:variant:434:63783"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-46v.jpg"/></m:file><m:file ID="file:variant:434:63784"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-47v.jpg"/></m:file><m:file ID="file:variant:434:63785"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-48v.jpg"/></m:file><m:file ID="file:variant:434:63786"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-49v.jpg"/></m:file><m:file ID="file:variant:434:63742"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-05v.jpg"/></m:file><m:file ID="file:variant:434:63787"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-50v.jpg"/></m:file><m:file ID="file:variant:434:63788"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-51v.jpg"/></m:file><m:file ID="file:variant:434:63789"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-52v.jpg"/></m:file><m:file ID="file:variant:434:63790"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-53v.jpg"/></m:file><m:file ID="file:variant:434:63791"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-54v.jpg"/></m:file><m:file ID="file:variant:434:63792"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-55v.jpg"/></m:file><m:file ID="file:variant:434:63793"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-56v.jpg"/></m:file><m:file ID="file:variant:434:63795"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-58v.jpg"/></m:file><m:file ID="file:variant:434:63743"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-06v.jpg"/></m:file><m:file ID="file:variant:434:63744"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-07v.jpg"/></m:file><m:file ID="file:variant:434:63745"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-08v.jpg"/></m:file><m:file ID="file:variant:434:63746"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-09v.jpg"/></m:file><m:file ID="file:variant:434:63738"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-01v.jpg"/></m:file><m:file ID="file:variant:434:63794"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-57v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:434:physical:root" DMDID="md-root"><m:div ID="manus:434:div:physical:72590" xml:lang="dan" ORDERLABEL="Inders. af bind -for" LABEL="Inderside af bind - forside"><m:fptr FILEID="file:default:434:72590"/></m:div><m:div ID="manus:434:div:physical:72591" xml:lang="dan" ORDERLABEL="2" LABEL="Side 1"><m:fptr FILEID="file:default:434:72591"/></m:div><m:div ID="manus:434:div:physical:72592" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:434:72592"/></m:div><m:div ID="manus:434:div:physical:72593" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:434:72593"/></m:div><m:div ID="manus:434:div:physical:72594" xml:lang="dan" ORDERLABEL="5"><m:fptr FILEID="file:default:434:72594"/></m:div><m:div ID="manus:434:div:physical:72595" xml:lang="dan" ORDERLABEL="6"><m:fptr FILEID="file:default:434:72595"/></m:div><m:div ID="manus:434:div:physical:72596" xml:lang="dan" ORDERLABEL="7"><m:fptr FILEID="file:default:434:72596"/></m:div><m:div ID="manus:434:div:physical:72597" xml:lang="dan" ORDERLABEL="8"><m:fptr FILEID="file:default:434:72597"/></m:div><m:div ID="manus:434:div:physical:72598" xml:lang="dan" ORDERLABEL="9"><m:fptr FILEID="file:default:434:72598"/></m:div><m:div ID="manus:434:div:physical:72599" xml:lang="dan" ORDERLABEL="10"><m:fptr FILEID="file:default:434:72599"/></m:div><m:div ID="manus:434:div:physical:72600" xml:lang="dan" ORDERLABEL="11"><m:fptr FILEID="file:default:434:72600"/></m:div><m:div ID="manus:434:div:physical:72601" xml:lang="dan" ORDERLABEL="12"><m:fptr FILEID="file:default:434:72601"/></m:div><m:div ID="manus:434:div:physical:72602" xml:lang="dan" ORDERLABEL="13"><m:fptr FILEID="file:default:434:72602"/></m:div><m:div ID="manus:434:div:physical:72603" xml:lang="dan" ORDERLABEL="14"><m:fptr FILEID="file:default:434:72603"/></m:div><m:div ID="manus:434:div:physical:72604" xml:lang="dan" ORDERLABEL="15"><m:fptr FILEID="file:default:434:72604"/></m:div><m:div ID="manus:434:div:physical:72605" xml:lang="dan" ORDERLABEL="16"><m:fptr FILEID="file:default:434:72605"/></m:div><m:div ID="manus:434:div:physical:72606" xml:lang="dan" ORDERLABEL="17"><m:fptr FILEID="file:default:434:72606"/></m:div><m:div ID="manus:434:div:physical:72607" xml:lang="dan" ORDERLABEL="18"><m:fptr FILEID="file:default:434:72607"/></m:div><m:div ID="manus:434:div:physical:72608" xml:lang="dan" ORDERLABEL="19"><m:fptr FILEID="file:default:434:72608"/></m:div><m:div ID="manus:434:div:physical:72609" xml:lang="dan" ORDERLABEL="20"><m:fptr FILEID="file:default:434:72609"/></m:div><m:div ID="manus:434:div:physical:72610" xml:lang="dan" ORDERLABEL="21"><m:fptr FILEID="file:default:434:72610"/></m:div><m:div ID="manus:434:div:physical:72611" xml:lang="dan" ORDERLABEL="22"><m:fptr FILEID="file:default:434:72611"/></m:div><m:div ID="manus:434:div:physical:72612" xml:lang="dan" ORDERLABEL="23"><m:fptr FILEID="file:default:434:72612"/></m:div><m:div ID="manus:434:div:physical:72613" xml:lang="dan" ORDERLABEL="24"><m:fptr FILEID="file:default:434:72613"/></m:div><m:div ID="manus:434:div:physical:72614" xml:lang="dan" ORDERLABEL="25"><m:fptr FILEID="file:default:434:72614"/></m:div><m:div ID="manus:434:div:physical:72615" xml:lang="dan" ORDERLABEL="26"><m:fptr FILEID="file:default:434:72615"/></m:div><m:div ID="manus:434:div:physical:72616" xml:lang="dan" ORDERLABEL="27"><m:fptr FILEID="file:default:434:72616"/></m:div><m:div ID="manus:434:div:physical:72617" xml:lang="dan" ORDERLABEL="28"><m:fptr FILEID="file:default:434:72617"/></m:div><m:div ID="manus:434:div:physical:72618" xml:lang="dan" ORDERLABEL="29"><m:fptr FILEID="file:default:434:72618"/></m:div><m:div ID="manus:434:div:physical:72619" xml:lang="dan" ORDERLABEL="30"><m:fptr FILEID="file:default:434:72619"/></m:div><m:div ID="manus:434:div:physical:72620" xml:lang="dan" ORDERLABEL="31"><m:fptr FILEID="file:default:434:72620"/></m:div><m:div ID="manus:434:div:physical:72621" xml:lang="dan" ORDERLABEL="32"><m:fptr FILEID="file:default:434:72621"/></m:div><m:div ID="manus:434:div:physical:72622" xml:lang="dan" ORDERLABEL="33"><m:fptr FILEID="file:default:434:72622"/></m:div><m:div ID="manus:434:div:physical:72623" xml:lang="dan" ORDERLABEL="34"><m:fptr FILEID="file:default:434:72623"/></m:div><m:div ID="manus:434:div:physical:72624" xml:lang="dan" ORDERLABEL="35"><m:fptr FILEID="file:default:434:72624"/></m:div><m:div ID="manus:434:div:physical:72625" xml:lang="dan" ORDERLABEL="36"><m:fptr FILEID="file:default:434:72625"/></m:div><m:div ID="manus:434:div:physical:72626" xml:lang="dan" ORDERLABEL="37"><m:fptr FILEID="file:default:434:72626"/></m:div><m:div ID="manus:434:div:physical:72627" xml:lang="dan" ORDERLABEL="38"><m:fptr FILEID="file:default:434:72627"/></m:div><m:div ID="manus:434:div:physical:72628" xml:lang="dan" ORDERLABEL="39"><m:fptr FILEID="file:default:434:72628"/></m:div><m:div ID="manus:434:div:physical:72629" xml:lang="dan" ORDERLABEL="40"><m:fptr FILEID="file:default:434:72629"/></m:div><m:div ID="manus:434:div:physical:72630" xml:lang="dan" ORDERLABEL="41"><m:fptr FILEID="file:default:434:72630"/></m:div><m:div ID="manus:434:div:physical:72631" xml:lang="dan" ORDERLABEL="42"><m:fptr FILEID="file:default:434:72631"/></m:div><m:div ID="manus:434:div:physical:72632" xml:lang="dan" ORDERLABEL="43"><m:fptr FILEID="file:default:434:72632"/></m:div><m:div ID="manus:434:div:physical:72633" xml:lang="dan" ORDERLABEL="44"><m:fptr FILEID="file:default:434:72633"/></m:div><m:div ID="manus:434:div:physical:72634" xml:lang="dan" ORDERLABEL="45"><m:fptr FILEID="file:default:434:72634"/></m:div><m:div ID="manus:434:div:physical:72635" xml:lang="dan" ORDERLABEL="46"><m:fptr FILEID="file:default:434:72635"/></m:div><m:div ID="manus:434:div:physical:72636" xml:lang="dan" ORDERLABEL="47"><m:fptr FILEID="file:default:434:72636"/></m:div><m:div ID="manus:434:div:physical:72637" xml:lang="dan" ORDERLABEL="48"><m:fptr FILEID="file:default:434:72637"/></m:div><m:div ID="manus:434:div:physical:72638" xml:lang="dan" ORDERLABEL="49"><m:fptr FILEID="file:default:434:72638"/></m:div><m:div ID="manus:434:div:physical:72639" xml:lang="dan" ORDERLABEL="50"><m:fptr FILEID="file:default:434:72639"/></m:div><m:div ID="manus:434:div:physical:72640" xml:lang="dan" ORDERLABEL="51"><m:fptr FILEID="file:default:434:72640"/></m:div><m:div ID="manus:434:div:physical:72641" xml:lang="dan" ORDERLABEL="52"><m:fptr FILEID="file:default:434:72641"/></m:div><m:div ID="manus:434:div:physical:72642" xml:lang="dan" ORDERLABEL="53"><m:fptr FILEID="file:default:434:72642"/></m:div><m:div ID="manus:434:div:physical:72643" xml:lang="dan" ORDERLABEL="54"><m:fptr FILEID="file:default:434:72643"/></m:div><m:div ID="manus:434:div:physical:72644" xml:lang="dan" ORDERLABEL="55"><m:fptr FILEID="file:default:434:72644"/></m:div><m:div ID="manus:434:div:physical:72645" xml:lang="dan" ORDERLABEL="56"><m:fptr FILEID="file:default:434:72645"/></m:div><m:div ID="manus:434:div:physical:72646" xml:lang="dan" ORDERLABEL="blank"><m:fptr FILEID="file:default:434:72646"/></m:div><m:div ID="manus:434:div:physical:72647" xml:lang="dan" ORDERLABEL="58" LABEL="Indersdie af bind - bagside"><m:fptr FILEID="file:default:434:72647"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:434:div:variant:63747" ORDERLABEL="10"><m:fptr FILEID="file:variant:434:63747"/></m:div><m:div ID="manus:434:div:variant:63748" ORDERLABEL="11"><m:fptr FILEID="file:variant:434:63748"/></m:div><m:div ID="manus:434:div:variant:63749" ORDERLABEL="12"><m:fptr FILEID="file:variant:434:63749"/></m:div><m:div ID="manus:434:div:variant:63750" ORDERLABEL="13"><m:fptr FILEID="file:variant:434:63750"/></m:div><m:div ID="manus:434:div:variant:63751" ORDERLABEL="14"><m:fptr FILEID="file:variant:434:63751"/></m:div><m:div ID="manus:434:div:variant:63752" ORDERLABEL="15"><m:fptr FILEID="file:variant:434:63752"/></m:div><m:div ID="manus:434:div:variant:63753" ORDERLABEL="16"><m:fptr FILEID="file:variant:434:63753"/></m:div><m:div ID="manus:434:div:variant:63754" ORDERLABEL="17"><m:fptr FILEID="file:variant:434:63754"/></m:div><m:div ID="manus:434:div:variant:63755" ORDERLABEL="18"><m:fptr FILEID="file:variant:434:63755"/></m:div><m:div ID="manus:434:div:variant:63756" ORDERLABEL="19"><m:fptr FILEID="file:variant:434:63756"/></m:div><m:div ID="manus:434:div:variant:63739" ORDERLABEL="2"><m:fptr FILEID="file:variant:434:63739"/></m:div><m:div ID="manus:434:div:variant:63757" ORDERLABEL="20"><m:fptr FILEID="file:variant:434:63757"/></m:div><m:div ID="manus:434:div:variant:63758" ORDERLABEL="21"><m:fptr FILEID="file:variant:434:63758"/></m:div><m:div ID="manus:434:div:variant:63759" ORDERLABEL="22"><m:fptr FILEID="file:variant:434:63759"/></m:div><m:div ID="manus:434:div:variant:63760" ORDERLABEL="23"><m:fptr FILEID="file:variant:434:63760"/></m:div><m:div ID="manus:434:div:variant:63761" ORDERLABEL="24"><m:fptr FILEID="file:variant:434:63761"/></m:div><m:div ID="manus:434:div:variant:63762" ORDERLABEL="25"><m:fptr FILEID="file:variant:434:63762"/></m:div><m:div ID="manus:434:div:variant:63763" ORDERLABEL="26"><m:fptr FILEID="file:variant:434:63763"/></m:div><m:div ID="manus:434:div:variant:63764" ORDERLABEL="27"><m:fptr FILEID="file:variant:434:63764"/></m:div><m:div ID="manus:434:div:variant:63765" ORDERLABEL="28"><m:fptr FILEID="file:variant:434:63765"/></m:div><m:div ID="manus:434:div:variant:63766" ORDERLABEL="29"><m:fptr FILEID="file:variant:434:63766"/></m:div><m:div ID="manus:434:div:variant:63740" ORDERLABEL="3"><m:fptr FILEID="file:variant:434:63740"/></m:div><m:div ID="manus:434:div:variant:63767" ORDERLABEL="30"><m:fptr FILEID="file:variant:434:63767"/></m:div><m:div ID="manus:434:div:variant:63768" ORDERLABEL="31"><m:fptr FILEID="file:variant:434:63768"/></m:div><m:div ID="manus:434:div:variant:63769" ORDERLABEL="32"><m:fptr FILEID="file:variant:434:63769"/></m:div><m:div ID="manus:434:div:variant:63770" ORDERLABEL="33"><m:fptr FILEID="file:variant:434:63770"/></m:div><m:div ID="manus:434:div:variant:63771" ORDERLABEL="34"><m:fptr FILEID="file:variant:434:63771"/></m:div><m:div ID="manus:434:div:variant:63772" ORDERLABEL="35"><m:fptr FILEID="file:variant:434:63772"/></m:div><m:div ID="manus:434:div:variant:63773" ORDERLABEL="36"><m:fptr FILEID="file:variant:434:63773"/></m:div><m:div ID="manus:434:div:variant:63774" ORDERLABEL="37"><m:fptr FILEID="file:variant:434:63774"/></m:div><m:div ID="manus:434:div:variant:63775" ORDERLABEL="38"><m:fptr FILEID="file:variant:434:63775"/></m:div><m:div ID="manus:434:div:variant:63776" ORDERLABEL="39"><m:fptr FILEID="file:variant:434:63776"/></m:div><m:div ID="manus:434:div:variant:63741" ORDERLABEL="4"><m:fptr FILEID="file:variant:434:63741"/></m:div><m:div ID="manus:434:div:variant:63777" ORDERLABEL="40"><m:fptr FILEID="file:variant:434:63777"/></m:div><m:div ID="manus:434:div:variant:63778" ORDERLABEL="41"><m:fptr FILEID="file:variant:434:63778"/></m:div><m:div ID="manus:434:div:variant:63779" ORDERLABEL="42"><m:fptr FILEID="file:variant:434:63779"/></m:div><m:div ID="manus:434:div:variant:63780" ORDERLABEL="43"><m:fptr FILEID="file:variant:434:63780"/></m:div><m:div ID="manus:434:div:variant:63781" ORDERLABEL="44"><m:fptr FILEID="file:variant:434:63781"/></m:div><m:div ID="manus:434:div:variant:63782" ORDERLABEL="45"><m:fptr FILEID="file:variant:434:63782"/></m:div><m:div ID="manus:434:div:variant:63783" ORDERLABEL="46"><m:fptr FILEID="file:variant:434:63783"/></m:div><m:div ID="manus:434:div:variant:63784" ORDERLABEL="47"><m:fptr FILEID="file:variant:434:63784"/></m:div><m:div ID="manus:434:div:variant:63785" ORDERLABEL="48"><m:fptr FILEID="file:variant:434:63785"/></m:div><m:div ID="manus:434:div:variant:63786" ORDERLABEL="49"><m:fptr FILEID="file:variant:434:63786"/></m:div><m:div ID="manus:434:div:variant:63742" ORDERLABEL="5"><m:fptr FILEID="file:variant:434:63742"/></m:div><m:div ID="manus:434:div:variant:63787" ORDERLABEL="50"><m:fptr FILEID="file:variant:434:63787"/></m:div><m:div ID="manus:434:div:variant:63788" ORDERLABEL="51"><m:fptr FILEID="file:variant:434:63788"/></m:div><m:div ID="manus:434:div:variant:63789" ORDERLABEL="52"><m:fptr FILEID="file:variant:434:63789"/></m:div><m:div ID="manus:434:div:variant:63790" ORDERLABEL="53"><m:fptr FILEID="file:variant:434:63790"/></m:div><m:div ID="manus:434:div:variant:63791" ORDERLABEL="54"><m:fptr FILEID="file:variant:434:63791"/></m:div><m:div ID="manus:434:div:variant:63792" ORDERLABEL="55"><m:fptr FILEID="file:variant:434:63792"/></m:div><m:div ID="manus:434:div:variant:63793" ORDERLABEL="56"><m:fptr FILEID="file:variant:434:63793"/></m:div><m:div ID="manus:434:div:variant:63795" ORDERLABEL="58"><m:fptr FILEID="file:variant:434:63795"/></m:div><m:div ID="manus:434:div:variant:63743" ORDERLABEL="6"><m:fptr FILEID="file:variant:434:63743"/></m:div><m:div ID="manus:434:div:variant:63744" ORDERLABEL="7"><m:fptr FILEID="file:variant:434:63744"/></m:div><m:div ID="manus:434:div:variant:63745" ORDERLABEL="8"><m:fptr FILEID="file:variant:434:63745"/></m:div><m:div ID="manus:434:div:variant:63746" ORDERLABEL="9"><m:fptr FILEID="file:variant:434:63746"/></m:div><m:div ID="manus:434:div:variant:63738" ORDERLABEL="Inders. af bind -for"><m:fptr FILEID="file:variant:434:63738"/></m:div><m:div ID="manus:434:div:variant:63794" ORDERLABEL="blank"><m:fptr FILEID="file:variant:434:63794"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72590" xlink:to="manus:434:div:variant:63738"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72591" xlink:to="manus:434:div:variant:63739"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72592" xlink:to="manus:434:div:variant:63740"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72593" xlink:to="manus:434:div:variant:63741"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72594" xlink:to="manus:434:div:variant:63742"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72595" xlink:to="manus:434:div:variant:63743"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72596" xlink:to="manus:434:div:variant:63744"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72597" xlink:to="manus:434:div:variant:63745"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72598" xlink:to="manus:434:div:variant:63746"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72599" xlink:to="manus:434:div:variant:63747"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72600" xlink:to="manus:434:div:variant:63748"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72601" xlink:to="manus:434:div:variant:63749"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72602" xlink:to="manus:434:div:variant:63750"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72603" xlink:to="manus:434:div:variant:63751"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72604" xlink:to="manus:434:div:variant:63752"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72605" xlink:to="manus:434:div:variant:63753"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72606" xlink:to="manus:434:div:variant:63754"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72607" xlink:to="manus:434:div:variant:63755"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72608" xlink:to="manus:434:div:variant:63756"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72609" xlink:to="manus:434:div:variant:63757"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72610" xlink:to="manus:434:div:variant:63758"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72611" xlink:to="manus:434:div:variant:63759"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72612" xlink:to="manus:434:div:variant:63760"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72613" xlink:to="manus:434:div:variant:63761"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72614" xlink:to="manus:434:div:variant:63762"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72615" xlink:to="manus:434:div:variant:63763"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72616" xlink:to="manus:434:div:variant:63764"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72617" xlink:to="manus:434:div:variant:63765"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72618" xlink:to="manus:434:div:variant:63766"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72619" xlink:to="manus:434:div:variant:63767"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72620" xlink:to="manus:434:div:variant:63768"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72621" xlink:to="manus:434:div:variant:63769"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72622" xlink:to="manus:434:div:variant:63770"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72623" xlink:to="manus:434:div:variant:63771"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72624" xlink:to="manus:434:div:variant:63772"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72625" xlink:to="manus:434:div:variant:63773"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72626" xlink:to="manus:434:div:variant:63774"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72627" xlink:to="manus:434:div:variant:63775"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72628" xlink:to="manus:434:div:variant:63776"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72629" xlink:to="manus:434:div:variant:63777"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72630" xlink:to="manus:434:div:variant:63778"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72631" xlink:to="manus:434:div:variant:63779"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72632" xlink:to="manus:434:div:variant:63780"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72633" xlink:to="manus:434:div:variant:63781"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72634" xlink:to="manus:434:div:variant:63782"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72635" xlink:to="manus:434:div:variant:63783"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72636" xlink:to="manus:434:div:variant:63784"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72637" xlink:to="manus:434:div:variant:63785"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72638" xlink:to="manus:434:div:variant:63786"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72639" xlink:to="manus:434:div:variant:63787"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72640" xlink:to="manus:434:div:variant:63788"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72641" xlink:to="manus:434:div:variant:63789"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72642" xlink:to="manus:434:div:variant:63790"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72643" xlink:to="manus:434:div:variant:63791"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72644" xlink:to="manus:434:div:variant:63792"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72645" xlink:to="manus:434:div:variant:63793"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72646" xlink:to="manus:434:div:variant:63794"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72647" xlink:to="manus:434:div:variant:63795"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:434">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Ouverture til Marsk Stig</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>P. Heise</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>I 1856 skrev Heise en koncertouverture til digteren Carsten Hauchs tragedie <i>Marsk Stig</i>, der var blevet opført på Det Kongelige Teater i 1850. Heises musik har således ikke været anvendt til Hauchs skuespil på scenen, men har derimod været opført et par gange selvstændigt i Musikforeningen, bl.a. i februar 1858. Her blev den godt modtaget:</p>
+              <p><i>Efter hvad man kunde skjønne, indeholder den mange Skjønheder, navnlig i Retning af Instrumentationen, og Slutningen gjør især en storartet Virkning; vi have ogsaa hørt Mænd af Faget udtale en meget gunstig Dom om dette Arbeide. Ouverturen blev modtagen med Bifald</i> (<i>Dagbladet</i>, 1.3. 1858).</p>
+              <p>Heise lod imidlertid skuespillet danne inspiration til sine planer om en opera, og i forbindelse med udgivelsen af klaverudtoget af ouverturen (ved Axel Grandjean i 1899) er det angivet, at den benyttedes i sin helhed ved den første opførelse af <i>Drot og Marsk</i>. Siden hen er det kun den indledende Andante, der anvendes som forspil i operaen.</p>
+              <p>Hauchs skuespil blev modtaget med stærkt bifald, men det holdt sig dog kun på repertoiret i én sæson, bl.a. på grund af de mange sceneskift. Det tiltalte imidlertid Heise, at Hauch lod kongen forføre fru Ingeborg, ikke voldtage hende, som det skildres i nogle af folkeviserne, og som tidligere dramatiske behandlinger af emnet havde skildret. Figuren Aase er også Hauchs opfindelse (her kaldes hun Sigrid). Andre ændringer i forhold til Hauchs tekst er bl.a. sammenlægning fra fem til tre akter og tilføjelse af koret.</p>
+              <p>I god overensstemmelse med tiden tiltalte det Heise, at der var et litterært forlæg til værket. Også N.W. Gade fik sit kunstneriske gennembrud via denne genre (med <i>Efterklange af Ossian</i>) og skrev flere andre siden, lige som J.P.E. Hartmann komponerede flere koncertouverturer af denne type. Af et brev fremgår det, at Gade har opmuntret og støttet Heise i kompositionsprocessen, og ouverturens musikalske stil ligger da også i forlængelse af Gades og Hartmanns.</p>
+              <p>
+                <a href="http://www.kb.dk/da/nb/samling/ma/digmus/heise.html#mars">Litteratur, cd-indspilninger og trykte udgaver</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musik- og Teaterafdelingen</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Music and Theatre Department</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/da/kb/nb/mta/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">http://www.kb.dk/en/kb/nb/mta/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Heises samling</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/heise/MarskStig/MarskStig-fors.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:434:72590">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72591">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-02.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72592">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-03.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72593">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-04.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72594">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-05.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72595">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-06.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72596">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-07.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72597">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-08.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72598">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-09.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72599">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-10.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72600">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-11.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72601">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-12.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72602">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-13.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72603">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-14.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72604">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-15.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72605">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-16.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72606">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-17.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72607">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-18.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72608">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-19.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72609">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-20.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72610">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-21.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72611">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-22.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72612">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-23.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72613">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-24.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72614">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-25.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72615">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-26.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72616">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-27.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72617">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-28.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72618">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-29.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72619">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-30.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72620">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-31.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72621">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-32.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72622">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-33.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72623">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-34.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72624">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-35.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72625">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-36.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72626">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-37.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72627">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-38.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72628">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-39.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72629">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-40.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72630">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-41.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72631">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-42.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72632">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-43.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72633">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-44.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72634">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-45.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72635">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-46.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72636">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-47.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72637">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-48.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72638">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-49.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72639">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-50.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72640">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-51.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72641">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-52.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72642">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-53.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72643">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-54.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72644">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-55.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72645">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-56.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72646">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-57.jpg"/>
+      </m:file>
+      <m:file ID="file:default:434:72647">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-58.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:434:63747">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-10v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63794">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-57v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63749">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-12v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63750">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-13v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63751">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-14v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63752">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-15v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63753">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-16v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63754">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-17v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63755">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-18v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63756">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-19v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63739">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63757">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-20v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63758">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-21v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63759">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-22v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63760">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-23v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63761">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-24v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63762">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-25v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63763">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-26v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63764">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-27v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63765">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-28v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63766">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-29v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63740">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-03v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63767">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-30v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63768">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-31v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63769">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-32v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63770">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-33v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63771">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-34v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63772">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-35v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63773">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-36v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63774">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-37v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63775">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-38v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63776">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-39v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63741">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-04v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63777">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-40v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63778">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-41v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63779">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-42v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63780">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-43v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63781">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-44v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63782">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-45v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63783">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-46v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63784">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-47v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63785">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-48v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63786">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-49v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63742">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-05v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63787">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-50v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63788">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-51v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63789">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-52v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63790">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-53v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63791">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-54v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63792">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-55v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63793">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-56v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63795">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-58v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63743">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-06v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63744">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-07v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63745">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-08v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63746">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-09v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63738">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-01v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:434:63748">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MarskStig//MarskStig-11v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:434:physical:root" DMDID="md-root">
+      <m:div ID="manus:434:div:physical:72590" xml:lang="dan" ORDERLABEL="Inders. af bind -for" LABEL="Inderside af bind - forside">
+        <m:fptr FILEID="file:default:434:72590"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72591" xml:lang="dan" ORDERLABEL="2" LABEL="Side 1">
+        <m:fptr FILEID="file:default:434:72591"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72592" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:434:72592"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72593" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:434:72593"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72594" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:434:72594"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72595" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:434:72595"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72596" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:434:72596"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72597" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:434:72597"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72598" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:434:72598"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72599" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:434:72599"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72600" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:434:72600"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72601" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:434:72601"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72602" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:434:72602"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72603" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:434:72603"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72604" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:434:72604"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72605" xml:lang="dan" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:434:72605"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72606" xml:lang="dan" ORDERLABEL="17">
+        <m:fptr FILEID="file:default:434:72606"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72607" xml:lang="dan" ORDERLABEL="18">
+        <m:fptr FILEID="file:default:434:72607"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72608" xml:lang="dan" ORDERLABEL="19">
+        <m:fptr FILEID="file:default:434:72608"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72609" xml:lang="dan" ORDERLABEL="20">
+        <m:fptr FILEID="file:default:434:72609"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72610" xml:lang="dan" ORDERLABEL="21">
+        <m:fptr FILEID="file:default:434:72610"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72611" xml:lang="dan" ORDERLABEL="22">
+        <m:fptr FILEID="file:default:434:72611"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72612" xml:lang="dan" ORDERLABEL="23">
+        <m:fptr FILEID="file:default:434:72612"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72613" xml:lang="dan" ORDERLABEL="24">
+        <m:fptr FILEID="file:default:434:72613"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72614" xml:lang="dan" ORDERLABEL="25">
+        <m:fptr FILEID="file:default:434:72614"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72615" xml:lang="dan" ORDERLABEL="26">
+        <m:fptr FILEID="file:default:434:72615"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72616" xml:lang="dan" ORDERLABEL="27">
+        <m:fptr FILEID="file:default:434:72616"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72617" xml:lang="dan" ORDERLABEL="28">
+        <m:fptr FILEID="file:default:434:72617"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72618" xml:lang="dan" ORDERLABEL="29">
+        <m:fptr FILEID="file:default:434:72618"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72619" xml:lang="dan" ORDERLABEL="30">
+        <m:fptr FILEID="file:default:434:72619"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72620" xml:lang="dan" ORDERLABEL="31">
+        <m:fptr FILEID="file:default:434:72620"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72621" xml:lang="dan" ORDERLABEL="32">
+        <m:fptr FILEID="file:default:434:72621"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72622" xml:lang="dan" ORDERLABEL="33">
+        <m:fptr FILEID="file:default:434:72622"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72623" xml:lang="dan" ORDERLABEL="34">
+        <m:fptr FILEID="file:default:434:72623"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72624" xml:lang="dan" ORDERLABEL="35">
+        <m:fptr FILEID="file:default:434:72624"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72625" xml:lang="dan" ORDERLABEL="36">
+        <m:fptr FILEID="file:default:434:72625"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72626" xml:lang="dan" ORDERLABEL="37">
+        <m:fptr FILEID="file:default:434:72626"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72627" xml:lang="dan" ORDERLABEL="38">
+        <m:fptr FILEID="file:default:434:72627"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72628" xml:lang="dan" ORDERLABEL="39">
+        <m:fptr FILEID="file:default:434:72628"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72629" xml:lang="dan" ORDERLABEL="40">
+        <m:fptr FILEID="file:default:434:72629"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72630" xml:lang="dan" ORDERLABEL="41">
+        <m:fptr FILEID="file:default:434:72630"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72631" xml:lang="dan" ORDERLABEL="42">
+        <m:fptr FILEID="file:default:434:72631"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72632" xml:lang="dan" ORDERLABEL="43">
+        <m:fptr FILEID="file:default:434:72632"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72633" xml:lang="dan" ORDERLABEL="44">
+        <m:fptr FILEID="file:default:434:72633"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72634" xml:lang="dan" ORDERLABEL="45">
+        <m:fptr FILEID="file:default:434:72634"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72635" xml:lang="dan" ORDERLABEL="46">
+        <m:fptr FILEID="file:default:434:72635"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72636" xml:lang="dan" ORDERLABEL="47">
+        <m:fptr FILEID="file:default:434:72636"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72637" xml:lang="dan" ORDERLABEL="48">
+        <m:fptr FILEID="file:default:434:72637"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72638" xml:lang="dan" ORDERLABEL="49">
+        <m:fptr FILEID="file:default:434:72638"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72639" xml:lang="dan" ORDERLABEL="50">
+        <m:fptr FILEID="file:default:434:72639"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72640" xml:lang="dan" ORDERLABEL="51">
+        <m:fptr FILEID="file:default:434:72640"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72641" xml:lang="dan" ORDERLABEL="52">
+        <m:fptr FILEID="file:default:434:72641"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72642" xml:lang="dan" ORDERLABEL="53">
+        <m:fptr FILEID="file:default:434:72642"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72643" xml:lang="dan" ORDERLABEL="54">
+        <m:fptr FILEID="file:default:434:72643"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72644" xml:lang="dan" ORDERLABEL="55">
+        <m:fptr FILEID="file:default:434:72644"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72645" xml:lang="dan" ORDERLABEL="56">
+        <m:fptr FILEID="file:default:434:72645"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72646" xml:lang="dan" ORDERLABEL="blank">
+        <m:fptr FILEID="file:default:434:72646"/>
+      </m:div>
+      <m:div ID="manus:434:div:physical:72647" xml:lang="dan" ORDERLABEL="58" LABEL="Indersdie af bind - bagside">
+        <m:fptr FILEID="file:default:434:72647"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:434:div:variant:63747" ORDERLABEL="10">
+      <m:fptr FILEID="file:variant:434:63747"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63794" ORDERLABEL="blank">
+      <m:fptr FILEID="file:variant:434:63794"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63749" ORDERLABEL="12">
+      <m:fptr FILEID="file:variant:434:63749"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63750" ORDERLABEL="13">
+      <m:fptr FILEID="file:variant:434:63750"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63751" ORDERLABEL="14">
+      <m:fptr FILEID="file:variant:434:63751"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63752" ORDERLABEL="15">
+      <m:fptr FILEID="file:variant:434:63752"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63753" ORDERLABEL="16">
+      <m:fptr FILEID="file:variant:434:63753"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63754" ORDERLABEL="17">
+      <m:fptr FILEID="file:variant:434:63754"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63755" ORDERLABEL="18">
+      <m:fptr FILEID="file:variant:434:63755"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63756" ORDERLABEL="19">
+      <m:fptr FILEID="file:variant:434:63756"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63739" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:434:63739"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63757" ORDERLABEL="20">
+      <m:fptr FILEID="file:variant:434:63757"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63758" ORDERLABEL="21">
+      <m:fptr FILEID="file:variant:434:63758"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63759" ORDERLABEL="22">
+      <m:fptr FILEID="file:variant:434:63759"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63760" ORDERLABEL="23">
+      <m:fptr FILEID="file:variant:434:63760"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63761" ORDERLABEL="24">
+      <m:fptr FILEID="file:variant:434:63761"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63762" ORDERLABEL="25">
+      <m:fptr FILEID="file:variant:434:63762"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63763" ORDERLABEL="26">
+      <m:fptr FILEID="file:variant:434:63763"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63764" ORDERLABEL="27">
+      <m:fptr FILEID="file:variant:434:63764"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63765" ORDERLABEL="28">
+      <m:fptr FILEID="file:variant:434:63765"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63766" ORDERLABEL="29">
+      <m:fptr FILEID="file:variant:434:63766"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63740" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:434:63740"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63767" ORDERLABEL="30">
+      <m:fptr FILEID="file:variant:434:63767"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63768" ORDERLABEL="31">
+      <m:fptr FILEID="file:variant:434:63768"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63769" ORDERLABEL="32">
+      <m:fptr FILEID="file:variant:434:63769"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63770" ORDERLABEL="33">
+      <m:fptr FILEID="file:variant:434:63770"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63771" ORDERLABEL="34">
+      <m:fptr FILEID="file:variant:434:63771"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63772" ORDERLABEL="35">
+      <m:fptr FILEID="file:variant:434:63772"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63773" ORDERLABEL="36">
+      <m:fptr FILEID="file:variant:434:63773"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63774" ORDERLABEL="37">
+      <m:fptr FILEID="file:variant:434:63774"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63775" ORDERLABEL="38">
+      <m:fptr FILEID="file:variant:434:63775"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63776" ORDERLABEL="39">
+      <m:fptr FILEID="file:variant:434:63776"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63741" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:434:63741"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63777" ORDERLABEL="40">
+      <m:fptr FILEID="file:variant:434:63777"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63778" ORDERLABEL="41">
+      <m:fptr FILEID="file:variant:434:63778"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63779" ORDERLABEL="42">
+      <m:fptr FILEID="file:variant:434:63779"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63780" ORDERLABEL="43">
+      <m:fptr FILEID="file:variant:434:63780"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63781" ORDERLABEL="44">
+      <m:fptr FILEID="file:variant:434:63781"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63782" ORDERLABEL="45">
+      <m:fptr FILEID="file:variant:434:63782"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63783" ORDERLABEL="46">
+      <m:fptr FILEID="file:variant:434:63783"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63784" ORDERLABEL="47">
+      <m:fptr FILEID="file:variant:434:63784"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63785" ORDERLABEL="48">
+      <m:fptr FILEID="file:variant:434:63785"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63786" ORDERLABEL="49">
+      <m:fptr FILEID="file:variant:434:63786"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63742" ORDERLABEL="5">
+      <m:fptr FILEID="file:variant:434:63742"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63787" ORDERLABEL="50">
+      <m:fptr FILEID="file:variant:434:63787"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63788" ORDERLABEL="51">
+      <m:fptr FILEID="file:variant:434:63788"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63789" ORDERLABEL="52">
+      <m:fptr FILEID="file:variant:434:63789"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63790" ORDERLABEL="53">
+      <m:fptr FILEID="file:variant:434:63790"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63791" ORDERLABEL="54">
+      <m:fptr FILEID="file:variant:434:63791"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63792" ORDERLABEL="55">
+      <m:fptr FILEID="file:variant:434:63792"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63793" ORDERLABEL="56">
+      <m:fptr FILEID="file:variant:434:63793"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63795" ORDERLABEL="58">
+      <m:fptr FILEID="file:variant:434:63795"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63743" ORDERLABEL="6">
+      <m:fptr FILEID="file:variant:434:63743"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63744" ORDERLABEL="7">
+      <m:fptr FILEID="file:variant:434:63744"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63745" ORDERLABEL="8">
+      <m:fptr FILEID="file:variant:434:63745"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63746" ORDERLABEL="9">
+      <m:fptr FILEID="file:variant:434:63746"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63738" ORDERLABEL="Inders. af bind -for">
+      <m:fptr FILEID="file:variant:434:63738"/>
+    </m:div>
+    <m:div ID="manus:434:div:variant:63748" ORDERLABEL="11">
+      <m:fptr FILEID="file:variant:434:63748"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72590" xlink:to="manus:434:div:variant:63738"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72591" xlink:to="manus:434:div:variant:63739"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72592" xlink:to="manus:434:div:variant:63740"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72593" xlink:to="manus:434:div:variant:63741"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72594" xlink:to="manus:434:div:variant:63742"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72595" xlink:to="manus:434:div:variant:63743"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72596" xlink:to="manus:434:div:variant:63744"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72597" xlink:to="manus:434:div:variant:63745"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72598" xlink:to="manus:434:div:variant:63746"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72599" xlink:to="manus:434:div:variant:63747"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72600" xlink:to="manus:434:div:variant:63748"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72601" xlink:to="manus:434:div:variant:63749"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72602" xlink:to="manus:434:div:variant:63750"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72603" xlink:to="manus:434:div:variant:63751"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72604" xlink:to="manus:434:div:variant:63752"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72605" xlink:to="manus:434:div:variant:63753"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72606" xlink:to="manus:434:div:variant:63754"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72607" xlink:to="manus:434:div:variant:63755"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72608" xlink:to="manus:434:div:variant:63756"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72609" xlink:to="manus:434:div:variant:63757"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72610" xlink:to="manus:434:div:variant:63758"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72611" xlink:to="manus:434:div:variant:63759"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72612" xlink:to="manus:434:div:variant:63760"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72613" xlink:to="manus:434:div:variant:63761"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72614" xlink:to="manus:434:div:variant:63762"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72615" xlink:to="manus:434:div:variant:63763"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72616" xlink:to="manus:434:div:variant:63764"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72617" xlink:to="manus:434:div:variant:63765"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72618" xlink:to="manus:434:div:variant:63766"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72619" xlink:to="manus:434:div:variant:63767"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72620" xlink:to="manus:434:div:variant:63768"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72621" xlink:to="manus:434:div:variant:63769"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72622" xlink:to="manus:434:div:variant:63770"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72623" xlink:to="manus:434:div:variant:63771"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72624" xlink:to="manus:434:div:variant:63772"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72625" xlink:to="manus:434:div:variant:63773"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72626" xlink:to="manus:434:div:variant:63774"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72627" xlink:to="manus:434:div:variant:63775"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72628" xlink:to="manus:434:div:variant:63776"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72629" xlink:to="manus:434:div:variant:63777"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72630" xlink:to="manus:434:div:variant:63778"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72631" xlink:to="manus:434:div:variant:63779"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72632" xlink:to="manus:434:div:variant:63780"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72633" xlink:to="manus:434:div:variant:63781"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72634" xlink:to="manus:434:div:variant:63782"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72635" xlink:to="manus:434:div:variant:63783"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72636" xlink:to="manus:434:div:variant:63784"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72637" xlink:to="manus:434:div:variant:63785"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72638" xlink:to="manus:434:div:variant:63786"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72639" xlink:to="manus:434:div:variant:63787"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72640" xlink:to="manus:434:div:variant:63788"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72641" xlink:to="manus:434:div:variant:63789"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72642" xlink:to="manus:434:div:variant:63790"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72643" xlink:to="manus:434:div:variant:63791"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72644" xlink:to="manus:434:div:variant:63792"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72645" xlink:to="manus:434:div:variant:63793"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72646" xlink:to="manus:434:div:variant:63794"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:434:div:physical:72647" xlink:to="manus:434:div:variant:63795"/>
+  </m:structLink>
+</m:mets>

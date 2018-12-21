@@ -1,4 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:452"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Gravsang af Shakespeares Cymbeline</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>P. Heise</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Gravsangen fra <i>Cymbeline</i> udkom i en samling af tre sange for mandskor a capella i 1867 sammen med ”I skoven” og den meget populære ”De Smukke”. Det er muligt, at satsen er komponeret kort efter Peter Heises tilbagevenden til København i 1865 efter otte år som lærer ved Sorø Akademi. Heise havde en tæt forbindelse til Studenter-Sangforeningen, og disse mandskorsange kan tolkes som en gensynshilsen.</p><p>Heise var i 1860erne meget optaget af Shakespeares værker, hvilket udover denne sang gav sig udslag i udgivelsen af sange til tekster af Shakespeare. Teksten til Gravsangen er oversat af Carsten Hauch, som var en af Heises personlige venner.</p><p><a href="http://www.kb.dk/da/nb/samling/ma/digmus/heise.html#cymb">Litteratur, cd-indspilninger og trykte udgaver</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musik- og Teaterafdelingen</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Music and Theatre Department</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">http://www.kb.dk/da/kb/nb/mta/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">http://www.kb.dk/en/kb/nb/mta/index.html</md:identifier></md:relatedItem><md:identifier type="signature">MA ms 4501</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/heise/MAms4501/MAms4501-fors.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:452:73478"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-001.jpg"/></m:file><m:file ID="file:default:452:73479"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-002.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:452:64572"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-001v.jpg"/></m:file><m:file ID="file:variant:452:64573"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-002v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:452:physical:root" DMDID="md-root"><m:div ID="manus:452:div:physical:73478" xml:lang="dan" ORDERLABEL="1" LABEL="Gravsang"><m:fptr FILEID="file:default:452:73478"/></m:div><m:div ID="manus:452:div:physical:73479" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:452:73479"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:452:div:variant:64572" ORDERLABEL="1"><m:fptr FILEID="file:variant:452:64572"/></m:div><m:div ID="manus:452:div:variant:64573" ORDERLABEL="2"><m:fptr FILEID="file:variant:452:64573"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:452:div:physical:73478" xlink:to="manus:452:div:variant:64572"/><m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:452:div:physical:73479" xlink:to="manus:452:div:variant:64573"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:452">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Gravsang af Shakespeares Cymbeline</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>P. Heise</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Gravsangen fra <i>Cymbeline</i> udkom i en samling af tre sange for mandskor a capella i 1867 sammen med ”I skoven” og den meget populære ”De Smukke”. Det er muligt, at satsen er komponeret kort efter Peter Heises tilbagevenden til København i 1865 efter otte år som lærer ved Sorø Akademi. Heise havde en tæt forbindelse til Studenter-Sangforeningen, og disse mandskorsange kan tolkes som en gensynshilsen.</p>
+              <p>Heise var i 1860erne meget optaget af Shakespeares værker, hvilket udover denne sang gav sig udslag i udgivelsen af sange til tekster af Shakespeare. Teksten til Gravsangen er oversat af Carsten Hauch, som var en af Heises personlige venner.</p>
+              <p>
+                <a href="http://www.kb.dk/da/nb/samling/ma/digmus/heise.html#cymb">Litteratur, cd-indspilninger og trykte udgaver</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musik- og Teaterafdelingen</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Music and Theatre Department</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">http://www.kb.dk/da/kb/nb/mta/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">http://www.kb.dk/en/kb/nb/mta/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">MA ms 4501</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/heise/MAms4501/MAms4501-fors.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:452:73478">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:452:73479">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-002.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:452:64573">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-002v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:452:64572">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ma/heise/MAms4501//MAms4501-001v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:452:physical:root" DMDID="md-root">
+      <m:div ID="manus:452:div:physical:73478" xml:lang="dan" ORDERLABEL="1" LABEL="Gravsang">
+        <m:fptr FILEID="file:default:452:73478"/>
+      </m:div>
+      <m:div ID="manus:452:div:physical:73479" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:452:73479"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:452:div:variant:64573" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:452:64573"/>
+    </m:div>
+    <m:div ID="manus:452:div:variant:64572" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:452:64572"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:452:div:physical:73478" xlink:to="manus:452:div:variant:64572"/>
+    <m:smLink xml:lang="dan" xlink:title="Forstørrelse" xlink:from="manus:452:div:physical:73479" xlink:to="manus:452:div:variant:64573"/>
+  </m:structLink>
+</m:mets>

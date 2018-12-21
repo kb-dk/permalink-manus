@@ -1,4 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:601"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Marionetspilleren</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Abrahams'ske Manuskriptsamling 2, s. 1-5.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Abrahams 2</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0176.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:601:91669"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013.jpg"/></m:file><m:file ID="file:default:601:91674"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013a.jpg"/></m:file><m:file ID="file:default:601:91670"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_014.jpg"/></m:file><m:file ID="file:default:601:91671"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015.jpg"/></m:file><m:file ID="file:default:601:91675"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015a.jpg"/></m:file><m:file ID="file:default:601:91672"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016.jpg"/></m:file><m:file ID="file:default:601:91676"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016a.jpg"/></m:file><m:file ID="file:default:601:91673"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_017.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:601:71663"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013v.jpg"/></m:file><m:file ID="file:variant:601:71664"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013av.jpg"/></m:file><m:file ID="file:variant:601:71665"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_014v.jpg"/></m:file><m:file ID="file:variant:601:71666"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015v.jpg"/></m:file><m:file ID="file:variant:601:71667"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015av.jpg"/></m:file><m:file ID="file:variant:601:71668"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016v.jpg"/></m:file><m:file ID="file:variant:601:71669"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016av.jpg"/></m:file><m:file ID="file:variant:601:71670"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_017v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:601:physical:root" DMDID="md-root"><m:div ID="manus:601:div:physical:91669" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:601:91669"/></m:div><m:div ID="manus:601:div:physical:91674" xml:lang="dan" ORDERLABEL="1 v"><m:fptr FILEID="file:default:601:91674"/></m:div><m:div ID="manus:601:div:physical:91670" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:601:91670"/></m:div><m:div ID="manus:601:div:physical:91671" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:601:91671"/></m:div><m:div ID="manus:601:div:physical:91675" xml:lang="dan" ORDERLABEL="3 v"><m:fptr FILEID="file:default:601:91675"/></m:div><m:div ID="manus:601:div:physical:91672" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:601:91672"/></m:div><m:div ID="manus:601:div:physical:91676" xml:lang="dan" ORDERLABEL="4 v"><m:fptr FILEID="file:default:601:91676"/></m:div><m:div ID="manus:601:div:physical:91673" xml:lang="dan" ORDERLABEL="5"><m:fptr FILEID="file:default:601:91673"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:601:div:variant:71663" ORDERLABEL="1"><m:fptr FILEID="file:variant:601:71663"/></m:div><m:div ID="manus:601:div:variant:71664" ORDERLABEL="1 v"><m:fptr FILEID="file:variant:601:71664"/></m:div><m:div ID="manus:601:div:variant:71665" ORDERLABEL="2"><m:fptr FILEID="file:variant:601:71665"/></m:div><m:div ID="manus:601:div:variant:71666" ORDERLABEL="3"><m:fptr FILEID="file:variant:601:71666"/></m:div><m:div ID="manus:601:div:variant:71667" ORDERLABEL="3 v"><m:fptr FILEID="file:variant:601:71667"/></m:div><m:div ID="manus:601:div:variant:71668" ORDERLABEL="4"><m:fptr FILEID="file:variant:601:71668"/></m:div><m:div ID="manus:601:div:variant:71669" ORDERLABEL="4 v"><m:fptr FILEID="file:variant:601:71669"/></m:div><m:div ID="manus:601:div:variant:71670" ORDERLABEL="5"><m:fptr FILEID="file:variant:601:71670"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91669" xlink:to="manus:601:div:variant:71663"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91674" xlink:to="manus:601:div:variant:71664"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91670" xlink:to="manus:601:div:variant:71665"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91671" xlink:to="manus:601:div:variant:71666"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91675" xlink:to="manus:601:div:variant:71667"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91672" xlink:to="manus:601:div:variant:71668"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91676" xlink:to="manus:601:div:variant:71669"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91673" xlink:to="manus:601:div:variant:71670"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:601">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Marionetspilleren</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Abrahams'ske Manuskriptsamling 2, s. 1-5.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Abrahams 2</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0176.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:601:91669">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91674">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013a.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91670">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91671">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91675">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015a.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91672">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91676">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016a.jpg"/>
+      </m:file>
+      <m:file ID="file:default:601:91673">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_017.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:601:71663">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71664">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_013av.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71665">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_014v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71670">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_017v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71667">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015av.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71668">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71669">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_016av.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:601:71666">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams2/abrahams2_015v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:601:physical:root" DMDID="md-root">
+      <m:div ID="manus:601:div:physical:91669" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:601:91669"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91674" xml:lang="dan" ORDERLABEL="1 v">
+        <m:fptr FILEID="file:default:601:91674"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91670" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:601:91670"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91671" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:601:91671"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91675" xml:lang="dan" ORDERLABEL="3 v">
+        <m:fptr FILEID="file:default:601:91675"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91672" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:601:91672"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91676" xml:lang="dan" ORDERLABEL="4 v">
+        <m:fptr FILEID="file:default:601:91676"/>
+      </m:div>
+      <m:div ID="manus:601:div:physical:91673" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:601:91673"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:601:div:variant:71663" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:601:71663"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71664" ORDERLABEL="1 v">
+      <m:fptr FILEID="file:variant:601:71664"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71665" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:601:71665"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71670" ORDERLABEL="5">
+      <m:fptr FILEID="file:variant:601:71670"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71667" ORDERLABEL="3 v">
+      <m:fptr FILEID="file:variant:601:71667"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71668" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:601:71668"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71669" ORDERLABEL="4 v">
+      <m:fptr FILEID="file:variant:601:71669"/>
+    </m:div>
+    <m:div ID="manus:601:div:variant:71666" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:601:71666"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91669" xlink:to="manus:601:div:variant:71663"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91674" xlink:to="manus:601:div:variant:71664"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91670" xlink:to="manus:601:div:variant:71665"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91671" xlink:to="manus:601:div:variant:71666"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91675" xlink:to="manus:601:div:variant:71667"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91672" xlink:to="manus:601:div:variant:71668"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91676" xlink:to="manus:601:div:variant:71669"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:601:div:physical:91673" xlink:to="manus:601:div:variant:71670"/>
+  </m:structLink>
+</m:mets>

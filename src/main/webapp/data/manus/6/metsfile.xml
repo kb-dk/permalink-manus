@@ -1,4 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:6"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Tekster</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Melanchthon, Luther, Bugenhagen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>To blade af pergament, med tekststykker egenhændigt nedskrevet og signeret af Philipp Melanchthon, Martin Luther og Johannes Bugenhagen i 1542.</p><p>De to blade har oprindeligt siddet i et eksemplar af en bibel trykt i Wittenberg 1541 som nu befinder sig i Wolfenbüttel.</p><p>Tekststykkerne af de tre reformatorer er affattet med udgangspunkt i bibelske skriftsteder.</p><p>Signatur: NKS 24 2º.</p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">NKS 24 2º</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/BL/mela.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="dmd:6:543"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:note type="annotation" xml:lang="dan"><div xmlns="">Indklæbet portræt af Philipp Melanchthon</div></md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="dmd:6:544"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:note type="annotation" xml:lang="dan"><div xmlns="">Philip Melanchthon, tekststykke over Johannes-evangeliet kap. 1, v. 17</div></md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="dmd:6:545"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:note type="annotation" xml:lang="dan"><div xmlns="">Martin Luther, tekststykke over Johannes-evangeliet kap. 14, v. 10</div></md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="dmd:6:546"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:note type="annotation" xml:lang="dan"><div xmlns="">Johannes Bugenhagen, tekststykke over Jeremias kap. 3, v. 22-25</div></md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:6:547"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00000.jpg"/></m:file><m:file ID="file:default:6:543"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00001.jpg"/></m:file><m:file ID="file:default:6:544"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00002.jpg"/></m:file><m:file ID="file:default:6:545"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00003.jpg"/></m:file><m:file ID="file:default:6:546"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00004.jpg"/></m:file></m:fileGrp><m:fileGrp/></m:fileSec><m:structMap type="physical"><m:div ID="manus:6:physical:root" DMDID="md-root"><m:div ID="manus:6:div:physical:547" xml:lang="dan" ORDERLABEL="Bind" LABEL="Bind"><m:fptr FILEID="file:default:6:547"/></m:div><m:div ID="manus:6:div:physical:543" DMDID="dmd:6:543" xml:lang="dan" ORDERLABEL="1 recto" LABEL="1 recto"><m:fptr FILEID="file:default:6:543"/></m:div><m:div ID="manus:6:div:physical:544" DMDID="dmd:6:544" xml:lang="dan" ORDERLABEL="1 verso"><m:fptr FILEID="file:default:6:544"/></m:div><m:div ID="manus:6:div:physical:545" DMDID="dmd:6:545" xml:lang="dan" ORDERLABEL="2 recto"><m:fptr FILEID="file:default:6:545"/></m:div><m:div ID="manus:6:div:physical:546" DMDID="dmd:6:546" xml:lang="dan" ORDERLABEL="2 verso"><m:fptr FILEID="file:default:6:546"/></m:div></m:div></m:structMap><m:structMap type="variant"/><m:structLink/></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:6">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Tekster</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Melanchthon, Luther, Bugenhagen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>To blade af pergament, med tekststykker egenhændigt nedskrevet og signeret af Philipp Melanchthon, Martin Luther og Johannes Bugenhagen i 1542.</p>
+              <p>De to blade har oprindeligt siddet i et eksemplar af en bibel trykt i Wittenberg 1541 som nu befinder sig i Wolfenbüttel.</p>
+              <p>Tekststykkerne af de tre reformatorer er affattet med udgangspunkt i bibelske skriftsteder.</p>
+              <p>Signatur: NKS 24 2º.</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">NKS 24 2º</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/BL/mela.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:6:543">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">Indklæbet portræt af Philipp Melanchthon</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:6:544">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">Philip Melanchthon, tekststykke over Johannes-evangeliet kap. 1, v. 17</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:6:545">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">Martin Luther, tekststykke over Johannes-evangeliet kap. 14, v. 10</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:6:546">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">Johannes Bugenhagen, tekststykke over Jeremias kap. 3, v. 22-25</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:6:547">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00000.jpg"/>
+      </m:file>
+      <m:file ID="file:default:6:543">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:6:544">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00002.jpg"/>
+      </m:file>
+      <m:file ID="file:default:6:545">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:6:546">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/BL/DIV00004.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:6:physical:root" DMDID="md-root">
+      <m:div ID="manus:6:div:physical:547" xml:lang="dan" ORDERLABEL="Bind" LABEL="Bind">
+        <m:fptr FILEID="file:default:6:547"/>
+      </m:div>
+      <m:div ID="manus:6:div:physical:543" DMDID="dmd:6:543" xml:lang="dan" ORDERLABEL="1 recto" LABEL="1 recto">
+        <m:fptr FILEID="file:default:6:543"/>
+      </m:div>
+      <m:div ID="manus:6:div:physical:544" DMDID="dmd:6:544" xml:lang="dan" ORDERLABEL="1 verso">
+        <m:fptr FILEID="file:default:6:544"/>
+      </m:div>
+      <m:div ID="manus:6:div:physical:545" DMDID="dmd:6:545" xml:lang="dan" ORDERLABEL="2 recto">
+        <m:fptr FILEID="file:default:6:545"/>
+      </m:div>
+      <m:div ID="manus:6:div:physical:546" DMDID="dmd:6:546" xml:lang="dan" ORDERLABEL="2 verso">
+        <m:fptr FILEID="file:default:6:546"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>

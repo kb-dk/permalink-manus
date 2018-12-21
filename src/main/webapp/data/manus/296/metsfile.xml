@@ -1,4 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:296"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Praecepta medica</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Praecepta medica</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Fragm. 2861</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Fragm. 2861</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns="">[olim 19/XV.3] <p>[under opbygning]</p><p>Pergament, 1 f., ca. 24 × 15,5 cm, ca. 9.5 g; Tyskland, 865-900</p><p>[NB bemærk påskrift på versosiden: må have været brugt som forsatsblad i Lucan-hs GKS 2021 4° !]</p><p>[Bemærk tre oldsachsiske glosser til teksten på f. 1r (jf. Tiefenbach)]</p><p>Bibl.: Bernhard Bischoff, Katalog der festländischen Handschriften des neunten Jahrhunderts (mit Ausnahme der wisigotischen). Teil I: Aachen - Lambach, ed. Birgit Ebersperger, Wiesbaden 1998, p. 414 no. 1997. - Heinrich Tiefenbach, Nachträge zu den altsächsischen Glossen aus Kopenhagen und aus dem Dresden-Wiener Codex Discissus, in: Amsterdamer Beiträge zur Älteren Germanistik, 52, 1999, p.227-230</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns="">[olim 19/XV.3] <p>[under construction]</p><p>Parchment, 1 f., c. 24 × 15,5 cm, c. 9.5 g; Germany, 865-900</p><p>Bibl.: Bernhard Bischoff, Katalog der festländischen Handschriften des neunten Jahrhunderts (mit Ausnahme der wisigotischen). Teil I: Aachen - Lambach, ed. Birgit Ebersperger, Wiesbaden 1998, p. 414 no. 1997. - Heinrich Tiefenbach, Nachträge zu den altsächsischen Glossen aus Kopenhagen und aus dem Dresden-Wiener Codex Discissus, in: Amsterdamer Beiträge zur Älteren Germanistik, 52, 1999, p.227-230</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Fragm. 2861</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:296:49730"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01.jpg"/></m:file><m:file ID="file:default:296:49731"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:296:42547"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01v.jpg"/></m:file><m:file ID="file:variant:296:42548"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02v.jpg"/></m:file><m:file ID="file:variant:296:42549"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01x.jpg"/></m:file><m:file ID="file:variant:296:42550"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02x.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:296:physical:root" DMDID="md-root"><m:div ID="manus:296:div:physical:49730" xml:lang="dan" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:296:49730"/></m:div><m:div ID="manus:296:div:physical:49730" xml:lang="eng" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:296:49730"/></m:div><m:div ID="manus:296:div:physical:49731" xml:lang="dan" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:296:49731"/></m:div><m:div ID="manus:296:div:physical:49731" xml:lang="eng" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:296:49731"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:296:div:variant:42547" ORDERLABEL="recto"><m:fptr FILEID="file:variant:296:42547"/></m:div><m:div ID="manus:296:div:variant:42548" ORDERLABEL="verso"><m:fptr FILEID="file:variant:296:42548"/></m:div><m:div ID="manus:296:div:variant:42549" ORDERLABEL="recto"><m:fptr FILEID="file:variant:296:42549"/></m:div><m:div ID="manus:296:div:variant:42550" ORDERLABEL="verso"><m:fptr FILEID="file:variant:296:42550"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42547"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42549"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42547"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42549"/><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42548"/><m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42550"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42548"/><m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42550"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:296">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Praecepta medica</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Praecepta medica</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Fragm. 2861</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Fragm. 2861</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">[olim 19/XV.3] <p>[under opbygning]</p><p>Pergament, 1 f., ca. 24 × 15,5 cm, ca. 9.5 g; Tyskland, 865-900</p><p>[NB bemærk påskrift på versosiden: må have været brugt som forsatsblad i Lucan-hs GKS 2021 4° !]</p><p>[Bemærk tre oldsachsiske glosser til teksten på f. 1r (jf. Tiefenbach)]</p><p>Bibl.: Bernhard Bischoff, Katalog der festländischen Handschriften des neunten Jahrhunderts (mit Ausnahme der wisigotischen). Teil I: Aachen - Lambach, ed. Birgit Ebersperger, Wiesbaden 1998, p. 414 no. 1997. - Heinrich Tiefenbach, Nachträge zu den altsächsischen Glossen aus Kopenhagen und aus dem Dresden-Wiener Codex Discissus, in: Amsterdamer Beiträge zur Älteren Germanistik, 52, 1999, p.227-230</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">[olim 19/XV.3] <p>[under construction]</p><p>Parchment, 1 f., c. 24 × 15,5 cm, c. 9.5 g; Germany, 865-900</p><p>Bibl.: Bernhard Bischoff, Katalog der festländischen Handschriften des neunten Jahrhunderts (mit Ausnahme der wisigotischen). Teil I: Aachen - Lambach, ed. Birgit Ebersperger, Wiesbaden 1998, p. 414 no. 1997. - Heinrich Tiefenbach, Nachträge zu den altsächsischen Glossen aus Kopenhagen und aus dem Dresden-Wiener Codex Discissus, in: Amsterdamer Beiträge zur Älteren Germanistik, 52, 1999, p.227-230</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Fragm. 2861</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:296:49730">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:296:49731">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:296:42548">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:296:42547">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:296:42550">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_02x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:296:42549">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2861_01x.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:296:physical:root" DMDID="md-root">
+      <m:div ID="manus:296:div:physical:49730" xml:lang="dan" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:296:49730"/>
+      </m:div>
+      <m:div ID="manus:296:div:physical:49730" xml:lang="eng" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:296:49730"/>
+      </m:div>
+      <m:div ID="manus:296:div:physical:49731" xml:lang="dan" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:296:49731"/>
+      </m:div>
+      <m:div ID="manus:296:div:physical:49731" xml:lang="eng" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:296:49731"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:296:div:variant:42548" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:296:42548"/>
+    </m:div>
+    <m:div ID="manus:296:div:variant:42547" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:296:42547"/>
+    </m:div>
+    <m:div ID="manus:296:div:variant:42550" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:296:42550"/>
+    </m:div>
+    <m:div ID="manus:296:div:variant:42549" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:296:42549"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42547"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42549"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42547"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:296:div:physical:49730" xlink:to="manus:296:div:variant:42549"/>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42548"/>
+    <m:smLink xml:lang="dan" xlink:title="XL" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42550"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42548"/>
+    <m:smLink xml:lang="eng" xlink:title="XL" xlink:from="manus:296:div:physical:49731" xlink:to="manus:296:div:variant:42550"/>
+  </m:structLink>
+</m:mets>

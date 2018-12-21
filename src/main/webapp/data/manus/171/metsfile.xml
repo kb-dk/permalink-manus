@@ -1,4 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:171"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Fem fra en Ærtebælg (renskrift)</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H. C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Abraham'ske Manuskriptsamling 3. 2 bl., 21 x 27 cm, s. 1-4. Renskrift.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Abrahams 3</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/abrahams3/forside171.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:171:28476"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams015.jpg"/></m:file><m:file ID="file:default:171:28477"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams016.jpg"/></m:file><m:file ID="file:default:171:28478"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams017.jpg"/></m:file><m:file ID="file:default:171:28479"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams018.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:171:17714"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams015v.jpg"/></m:file><m:file ID="file:variant:171:17715"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams016v.jpg"/></m:file><m:file ID="file:variant:171:17716"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams017v.jpg"/></m:file><m:file ID="file:variant:171:17717"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams018v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:171:physical:root" DMDID="md-root"><m:div ID="manus:171:div:physical:28476" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:171:28476"/></m:div><m:div ID="manus:171:div:physical:28477" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:171:28477"/></m:div><m:div ID="manus:171:div:physical:28478" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:171:28478"/></m:div><m:div ID="manus:171:div:physical:28479" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:171:28479"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:171:div:variant:17714" ORDERLABEL="1"><m:fptr FILEID="file:variant:171:17714"/></m:div><m:div ID="manus:171:div:variant:17715" ORDERLABEL="2"><m:fptr FILEID="file:variant:171:17715"/></m:div><m:div ID="manus:171:div:variant:17716" ORDERLABEL="3"><m:fptr FILEID="file:variant:171:17716"/></m:div><m:div ID="manus:171:div:variant:17717" ORDERLABEL="4"><m:fptr FILEID="file:variant:171:17717"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28476" xlink:to="manus:171:div:variant:17714"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28477" xlink:to="manus:171:div:variant:17715"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28478" xlink:to="manus:171:div:variant:17716"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28479" xlink:to="manus:171:div:variant:17717"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:171">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Fem fra en Ærtebælg (renskrift)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H. C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Abraham'ske Manuskriptsamling 3. 2 bl., 21 x 27 cm, s. 1-4. Renskrift.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Abrahams 3</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/abrahams3/forside171.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:171:28476">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:171:28477">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:171:28478">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:171:28479">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams018.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:171:17714">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams015v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:171:17717">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams018v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:171:17716">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams017v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:171:17715">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams016v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:171:physical:root" DMDID="md-root">
+      <m:div ID="manus:171:div:physical:28476" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:171:28476"/>
+      </m:div>
+      <m:div ID="manus:171:div:physical:28477" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:171:28477"/>
+      </m:div>
+      <m:div ID="manus:171:div:physical:28478" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:171:28478"/>
+      </m:div>
+      <m:div ID="manus:171:div:physical:28479" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:171:28479"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:171:div:variant:17714" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:171:17714"/>
+    </m:div>
+    <m:div ID="manus:171:div:variant:17717" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:171:17717"/>
+    </m:div>
+    <m:div ID="manus:171:div:variant:17716" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:171:17716"/>
+    </m:div>
+    <m:div ID="manus:171:div:variant:17715" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:171:17715"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28476" xlink:to="manus:171:div:variant:17714"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28477" xlink:to="manus:171:div:variant:17715"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28478" xlink:to="manus:171:div:variant:17716"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:171:div:physical:28479" xlink:to="manus:171:div:variant:17717"/>
+  </m:structLink>
+</m:mets>

@@ -1,4 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:587"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>To  Brødre (renskrift)</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Abrahamske Manuskriptsamling 3. 2 bl., s. 1-3. Renskrift.</p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Abrahams 3</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0086.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:587:90581"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams059.jpg"/></m:file><m:file ID="file:default:587:90582"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams060.jpg"/></m:file><m:file ID="file:default:587:90583"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams061.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:587:70581"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams059v.jpg"/></m:file><m:file ID="file:variant:587:70582"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams060v.jpg"/></m:file><m:file ID="file:variant:587:70583"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams061v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:587:physical:root" DMDID="md-root"><m:div ID="manus:587:div:physical:90581" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:587:90581"/></m:div><m:div ID="manus:587:div:physical:90582" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:587:90582"/></m:div><m:div ID="manus:587:div:physical:90583" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:587:90583"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:587:div:variant:70581" ORDERLABEL="1"><m:fptr FILEID="file:variant:587:70581"/></m:div><m:div ID="manus:587:div:variant:70582" ORDERLABEL="2"><m:fptr FILEID="file:variant:587:70582"/></m:div><m:div ID="manus:587:div:variant:70583" ORDERLABEL="3"><m:fptr FILEID="file:variant:587:70583"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90581" xlink:to="manus:587:div:variant:70581"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90582" xlink:to="manus:587:div:variant:70582"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90583" xlink:to="manus:587:div:variant:70583"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:587">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>To  Brødre (renskrift)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Abrahamske Manuskriptsamling 3. 2 bl., s. 1-3. Renskrift.</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Abrahams 3</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0086.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:587:90581">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams059.jpg"/>
+      </m:file>
+      <m:file ID="file:default:587:90582">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams060.jpg"/>
+      </m:file>
+      <m:file ID="file:default:587:90583">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams061.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:587:70581">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams059v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:587:70583">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams061v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:587:70582">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/abrahams3/abrahams060v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:587:physical:root" DMDID="md-root">
+      <m:div ID="manus:587:div:physical:90581" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:587:90581"/>
+      </m:div>
+      <m:div ID="manus:587:div:physical:90582" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:587:90582"/>
+      </m:div>
+      <m:div ID="manus:587:div:physical:90583" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:587:90583"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:587:div:variant:70581" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:587:70581"/>
+    </m:div>
+    <m:div ID="manus:587:div:variant:70583" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:587:70583"/>
+    </m:div>
+    <m:div ID="manus:587:div:variant:70582" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:587:70582"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90581" xlink:to="manus:587:div:variant:70581"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90582" xlink:to="manus:587:div:variant:70582"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:587:div:physical:90583" xlink:to="manus:587:div:variant:70583"/>
+  </m:structLink>
+</m:mets>

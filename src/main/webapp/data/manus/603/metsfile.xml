@@ -1,4 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:603"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Hvad gamle Johanne fortalte (koncept)</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>NKS 2586, 2º, s. 1-8. Fra side 183, linje 11: "og der" til side 185, linje 34: "viste sig", samt fra side 189, linje 24: "tog over" til side 192, linje 18: "i Fattighuset". Koncept.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">NKS 2586, 2</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0177.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:603:91683"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_011.jpg"/></m:file><m:file ID="file:default:603:91684"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_012.jpg"/></m:file><m:file ID="file:default:603:91685"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_013.jpg"/></m:file><m:file ID="file:default:603:91686"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_014.jpg"/></m:file><m:file ID="file:default:603:91687"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_015.jpg"/></m:file><m:file ID="file:default:603:91688"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_016.jpg"/></m:file><m:file ID="file:default:603:91689"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_017.jpg"/></m:file><m:file ID="file:default:603:91690"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_018.jpg"/></m:file></m:fileGrp><m:fileGrp/></m:fileSec><m:structMap type="physical"><m:div ID="manus:603:physical:root" DMDID="md-root"><m:div ID="manus:603:div:physical:91683" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:603:91683"/></m:div><m:div ID="manus:603:div:physical:91684" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:603:91684"/></m:div><m:div ID="manus:603:div:physical:91685" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:603:91685"/></m:div><m:div ID="manus:603:div:physical:91686" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:603:91686"/></m:div><m:div ID="manus:603:div:physical:91687" xml:lang="dan" ORDERLABEL="5"><m:fptr FILEID="file:default:603:91687"/></m:div><m:div ID="manus:603:div:physical:91688" xml:lang="dan" ORDERLABEL="6"><m:fptr FILEID="file:default:603:91688"/></m:div><m:div ID="manus:603:div:physical:91689" xml:lang="dan" ORDERLABEL="7"><m:fptr FILEID="file:default:603:91689"/></m:div><m:div ID="manus:603:div:physical:91690" xml:lang="dan" ORDERLABEL="8"><m:fptr FILEID="file:default:603:91690"/></m:div></m:div></m:structMap><m:structMap type="variant"/><m:structLink/></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:603">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Hvad gamle Johanne fortalte (koncept)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>NKS 2586, 2º, s. 1-8. Fra side 183, linje 11: "og der" til side 185, linje 34: "viste sig", samt fra side 189, linje 24: "tog over" til side 192, linje 18: "i Fattighuset". Koncept.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">NKS 2586, 2</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0177.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:603:91683">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_011.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91684">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_012.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91685">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91686">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91687">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91688">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91689">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:603:91690">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks2586/nks2586_018.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:603:physical:root" DMDID="md-root">
+      <m:div ID="manus:603:div:physical:91683" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:603:91683"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91684" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:603:91684"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91685" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:603:91685"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91686" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:603:91686"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91687" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:603:91687"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91688" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:603:91688"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91689" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:603:91689"/>
+      </m:div>
+      <m:div ID="manus:603:div:physical:91690" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:603:91690"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>

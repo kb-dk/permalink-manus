@@ -1,4 +1,585 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:505"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Gudfaders Billedbog (rettet koncept)</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Collinske Manuskriptsamling 36, 4º IV:103. 18 bl., 17 x 22 cm, s. 1-36. Rettet koncept.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Collin 36, 4</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0124.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:505:84810"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0001.jpg"/></m:file><m:file ID="file:default:505:84811"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0002.jpg"/></m:file><m:file ID="file:default:505:84812"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0003.jpg"/></m:file><m:file ID="file:default:505:84813"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0004.jpg"/></m:file><m:file ID="file:default:505:84814"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0005.jpg"/></m:file><m:file ID="file:default:505:84815"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0006.jpg"/></m:file><m:file ID="file:default:505:84816"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0007.jpg"/></m:file><m:file ID="file:default:505:84817"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0008.jpg"/></m:file><m:file ID="file:default:505:84818"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0009.jpg"/></m:file><m:file ID="file:default:505:84819"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0010.jpg"/></m:file><m:file ID="file:default:505:84820"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0011.jpg"/></m:file><m:file ID="file:default:505:84821"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0012.jpg"/></m:file><m:file ID="file:default:505:84822"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0013.jpg"/></m:file><m:file ID="file:default:505:84823"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0014.jpg"/></m:file><m:file ID="file:default:505:84824"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0015.jpg"/></m:file><m:file ID="file:default:505:84825"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0016.jpg"/></m:file><m:file ID="file:default:505:84826"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0017.jpg"/></m:file><m:file ID="file:default:505:84846"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0908.jpg"/></m:file><m:file ID="file:default:505:84827"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0018.jpg"/></m:file><m:file ID="file:default:505:84828"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0019.jpg"/></m:file><m:file ID="file:default:505:84847"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0911.jpg"/></m:file><m:file ID="file:default:505:84829"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0020.jpg"/></m:file><m:file ID="file:default:505:84830"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0021.jpg"/></m:file><m:file ID="file:default:505:84831"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0022.jpg"/></m:file><m:file ID="file:default:505:84832"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0023.jpg"/></m:file><m:file ID="file:default:505:84848"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0917.jpg"/></m:file><m:file ID="file:default:505:84833"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0024.jpg"/></m:file><m:file ID="file:default:505:84834"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0025.jpg"/></m:file><m:file ID="file:default:505:84835"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0026.jpg"/></m:file><m:file ID="file:default:505:84836"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0027.jpg"/></m:file><m:file ID="file:default:505:84837"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0028.jpg"/></m:file><m:file ID="file:default:505:84838"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0029.jpg"/></m:file><m:file ID="file:default:505:84839"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0030.jpg"/></m:file><m:file ID="file:default:505:84840"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0031.jpg"/></m:file><m:file ID="file:default:505:84841"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0032.jpg"/></m:file><m:file ID="file:default:505:84842"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0033.jpg"/></m:file><m:file ID="file:default:505:84843"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0034.jpg"/></m:file><m:file ID="file:default:505:84849"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0929.jpg"/></m:file><m:file ID="file:default:505:84844"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0035.jpg"/></m:file><m:file ID="file:default:505:84845"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0036.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:505:65819"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0001v.jpg"/></m:file><m:file ID="file:variant:505:65828"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0010v.jpg"/></m:file><m:file ID="file:variant:505:65829"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0011v.jpg"/></m:file><m:file ID="file:variant:505:65830"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0012v.jpg"/></m:file><m:file ID="file:variant:505:65831"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0013v.jpg"/></m:file><m:file ID="file:variant:505:65832"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0014v.jpg"/></m:file><m:file ID="file:variant:505:65833"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0015v.jpg"/></m:file><m:file ID="file:variant:505:65834"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0016v.jpg"/></m:file><m:file ID="file:variant:505:65835"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0017v.jpg"/></m:file><m:file ID="file:variant:505:65836"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0908v.jpg"/></m:file><m:file ID="file:variant:505:65837"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0018v.jpg"/></m:file><m:file ID="file:variant:505:65838"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0019v.jpg"/></m:file><m:file ID="file:variant:505:65839"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0911v.jpg"/></m:file><m:file ID="file:variant:505:65820"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0002v.jpg"/></m:file><m:file ID="file:variant:505:65840"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0020v.jpg"/></m:file><m:file ID="file:variant:505:65841"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0021v.jpg"/></m:file><m:file ID="file:variant:505:65842"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0022v.jpg"/></m:file><m:file ID="file:variant:505:65843"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0023v.jpg"/></m:file><m:file ID="file:variant:505:65844"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0917v.jpg"/></m:file><m:file ID="file:variant:505:65845"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0024v.jpg"/></m:file><m:file ID="file:variant:505:65846"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0025v.jpg"/></m:file><m:file ID="file:variant:505:65847"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0026v.jpg"/></m:file><m:file ID="file:variant:505:65848"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0027v.jpg"/></m:file><m:file ID="file:variant:505:65849"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0028v.jpg"/></m:file><m:file ID="file:variant:505:65850"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0029v.jpg"/></m:file><m:file ID="file:variant:505:65821"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0003v.jpg"/></m:file><m:file ID="file:variant:505:65851"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0030v.jpg"/></m:file><m:file ID="file:variant:505:65852"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0031v.jpg"/></m:file><m:file ID="file:variant:505:65853"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0032v.jpg"/></m:file><m:file ID="file:variant:505:65854"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0033v.jpg"/></m:file><m:file ID="file:variant:505:65855"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0034v.jpg"/></m:file><m:file ID="file:variant:505:65856"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0929v.jpg"/></m:file><m:file ID="file:variant:505:65857"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0035v.jpg"/></m:file><m:file ID="file:variant:505:65858"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0036v.jpg"/></m:file><m:file ID="file:variant:505:65822"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0004v.jpg"/></m:file><m:file ID="file:variant:505:65823"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0005v.jpg"/></m:file><m:file ID="file:variant:505:65824"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0006v.jpg"/></m:file><m:file ID="file:variant:505:65825"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0007v.jpg"/></m:file><m:file ID="file:variant:505:65826"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0008v.jpg"/></m:file><m:file ID="file:variant:505:65827"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0009v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:505:physical:root" DMDID="md-root"><m:div ID="manus:505:div:physical:84810" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:505:84810"/></m:div><m:div ID="manus:505:div:physical:84811" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:505:84811"/></m:div><m:div ID="manus:505:div:physical:84812" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:505:84812"/></m:div><m:div ID="manus:505:div:physical:84813" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:505:84813"/></m:div><m:div ID="manus:505:div:physical:84814" xml:lang="dan" ORDERLABEL="5"><m:fptr FILEID="file:default:505:84814"/></m:div><m:div ID="manus:505:div:physical:84815" xml:lang="dan" ORDERLABEL="6"><m:fptr FILEID="file:default:505:84815"/></m:div><m:div ID="manus:505:div:physical:84816" xml:lang="dan" ORDERLABEL="7"><m:fptr FILEID="file:default:505:84816"/></m:div><m:div ID="manus:505:div:physical:84817" xml:lang="dan" ORDERLABEL="8"><m:fptr FILEID="file:default:505:84817"/></m:div><m:div ID="manus:505:div:physical:84818" xml:lang="dan" ORDERLABEL="9"><m:fptr FILEID="file:default:505:84818"/></m:div><m:div ID="manus:505:div:physical:84819" xml:lang="dan" ORDERLABEL="10"><m:fptr FILEID="file:default:505:84819"/></m:div><m:div ID="manus:505:div:physical:84820" xml:lang="dan" ORDERLABEL="11"><m:fptr FILEID="file:default:505:84820"/></m:div><m:div ID="manus:505:div:physical:84821" xml:lang="dan" ORDERLABEL="12"><m:fptr FILEID="file:default:505:84821"/></m:div><m:div ID="manus:505:div:physical:84822" xml:lang="dan" ORDERLABEL="13"><m:fptr FILEID="file:default:505:84822"/></m:div><m:div ID="manus:505:div:physical:84823" xml:lang="dan" ORDERLABEL="14"><m:fptr FILEID="file:default:505:84823"/></m:div><m:div ID="manus:505:div:physical:84824" xml:lang="dan" ORDERLABEL="15"><m:fptr FILEID="file:default:505:84824"/></m:div><m:div ID="manus:505:div:physical:84825" xml:lang="dan" ORDERLABEL="16"><m:fptr FILEID="file:default:505:84825"/></m:div><m:div ID="manus:505:div:physical:84826" xml:lang="dan" ORDERLABEL="17"><m:fptr FILEID="file:default:505:84826"/></m:div><m:div ID="manus:505:div:physical:84846" xml:lang="dan" ORDERLABEL="17 v"><m:fptr FILEID="file:default:505:84846"/></m:div><m:div ID="manus:505:div:physical:84827" xml:lang="dan" ORDERLABEL="18"><m:fptr FILEID="file:default:505:84827"/></m:div><m:div ID="manus:505:div:physical:84828" xml:lang="dan" ORDERLABEL="19"><m:fptr FILEID="file:default:505:84828"/></m:div><m:div ID="manus:505:div:physical:84847" xml:lang="dan" ORDERLABEL="19 v"><m:fptr FILEID="file:default:505:84847"/></m:div><m:div ID="manus:505:div:physical:84829" xml:lang="dan" ORDERLABEL="20"><m:fptr FILEID="file:default:505:84829"/></m:div><m:div ID="manus:505:div:physical:84830" xml:lang="dan" ORDERLABEL="21"><m:fptr FILEID="file:default:505:84830"/></m:div><m:div ID="manus:505:div:physical:84831" xml:lang="dan" ORDERLABEL="22"><m:fptr FILEID="file:default:505:84831"/></m:div><m:div ID="manus:505:div:physical:84832" xml:lang="dan" ORDERLABEL="23"><m:fptr FILEID="file:default:505:84832"/></m:div><m:div ID="manus:505:div:physical:84848" xml:lang="dan" ORDERLABEL="23 v"><m:fptr FILEID="file:default:505:84848"/></m:div><m:div ID="manus:505:div:physical:84833" xml:lang="dan" ORDERLABEL="24"><m:fptr FILEID="file:default:505:84833"/></m:div><m:div ID="manus:505:div:physical:84834" xml:lang="dan" ORDERLABEL="25"><m:fptr FILEID="file:default:505:84834"/></m:div><m:div ID="manus:505:div:physical:84835" xml:lang="dan" ORDERLABEL="26"><m:fptr FILEID="file:default:505:84835"/></m:div><m:div ID="manus:505:div:physical:84836" xml:lang="dan" ORDERLABEL="27"><m:fptr FILEID="file:default:505:84836"/></m:div><m:div ID="manus:505:div:physical:84837" xml:lang="dan" ORDERLABEL="28"><m:fptr FILEID="file:default:505:84837"/></m:div><m:div ID="manus:505:div:physical:84838" xml:lang="dan" ORDERLABEL="29"><m:fptr FILEID="file:default:505:84838"/></m:div><m:div ID="manus:505:div:physical:84839" xml:lang="dan" ORDERLABEL="30"><m:fptr FILEID="file:default:505:84839"/></m:div><m:div ID="manus:505:div:physical:84840" xml:lang="dan" ORDERLABEL="31"><m:fptr FILEID="file:default:505:84840"/></m:div><m:div ID="manus:505:div:physical:84841" xml:lang="dan" ORDERLABEL="32"><m:fptr FILEID="file:default:505:84841"/></m:div><m:div ID="manus:505:div:physical:84842" xml:lang="dan" ORDERLABEL="33"><m:fptr FILEID="file:default:505:84842"/></m:div><m:div ID="manus:505:div:physical:84843" xml:lang="dan" ORDERLABEL="34"><m:fptr FILEID="file:default:505:84843"/></m:div><m:div ID="manus:505:div:physical:84849" xml:lang="dan" ORDERLABEL="34 v"><m:fptr FILEID="file:default:505:84849"/></m:div><m:div ID="manus:505:div:physical:84844" xml:lang="dan" ORDERLABEL="35"><m:fptr FILEID="file:default:505:84844"/></m:div><m:div ID="manus:505:div:physical:84845" xml:lang="dan" ORDERLABEL="36"><m:fptr FILEID="file:default:505:84845"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:505:div:variant:65819" ORDERLABEL="1"><m:fptr FILEID="file:variant:505:65819"/></m:div><m:div ID="manus:505:div:variant:65828" ORDERLABEL="10"><m:fptr FILEID="file:variant:505:65828"/></m:div><m:div ID="manus:505:div:variant:65829" ORDERLABEL="11"><m:fptr FILEID="file:variant:505:65829"/></m:div><m:div ID="manus:505:div:variant:65830" ORDERLABEL="12"><m:fptr FILEID="file:variant:505:65830"/></m:div><m:div ID="manus:505:div:variant:65831" ORDERLABEL="13"><m:fptr FILEID="file:variant:505:65831"/></m:div><m:div ID="manus:505:div:variant:65832" ORDERLABEL="14"><m:fptr FILEID="file:variant:505:65832"/></m:div><m:div ID="manus:505:div:variant:65833" ORDERLABEL="15"><m:fptr FILEID="file:variant:505:65833"/></m:div><m:div ID="manus:505:div:variant:65834" ORDERLABEL="16"><m:fptr FILEID="file:variant:505:65834"/></m:div><m:div ID="manus:505:div:variant:65835" ORDERLABEL="17"><m:fptr FILEID="file:variant:505:65835"/></m:div><m:div ID="manus:505:div:variant:65836" ORDERLABEL="17 v"><m:fptr FILEID="file:variant:505:65836"/></m:div><m:div ID="manus:505:div:variant:65837" ORDERLABEL="18"><m:fptr FILEID="file:variant:505:65837"/></m:div><m:div ID="manus:505:div:variant:65838" ORDERLABEL="19"><m:fptr FILEID="file:variant:505:65838"/></m:div><m:div ID="manus:505:div:variant:65839" ORDERLABEL="19 v"><m:fptr FILEID="file:variant:505:65839"/></m:div><m:div ID="manus:505:div:variant:65820" ORDERLABEL="2"><m:fptr FILEID="file:variant:505:65820"/></m:div><m:div ID="manus:505:div:variant:65840" ORDERLABEL="20"><m:fptr FILEID="file:variant:505:65840"/></m:div><m:div ID="manus:505:div:variant:65841" ORDERLABEL="21"><m:fptr FILEID="file:variant:505:65841"/></m:div><m:div ID="manus:505:div:variant:65842" ORDERLABEL="22"><m:fptr FILEID="file:variant:505:65842"/></m:div><m:div ID="manus:505:div:variant:65843" ORDERLABEL="23"><m:fptr FILEID="file:variant:505:65843"/></m:div><m:div ID="manus:505:div:variant:65844" ORDERLABEL="23 v"><m:fptr FILEID="file:variant:505:65844"/></m:div><m:div ID="manus:505:div:variant:65845" ORDERLABEL="24"><m:fptr FILEID="file:variant:505:65845"/></m:div><m:div ID="manus:505:div:variant:65846" ORDERLABEL="25"><m:fptr FILEID="file:variant:505:65846"/></m:div><m:div ID="manus:505:div:variant:65847" ORDERLABEL="26"><m:fptr FILEID="file:variant:505:65847"/></m:div><m:div ID="manus:505:div:variant:65848" ORDERLABEL="27"><m:fptr FILEID="file:variant:505:65848"/></m:div><m:div ID="manus:505:div:variant:65849" ORDERLABEL="28"><m:fptr FILEID="file:variant:505:65849"/></m:div><m:div ID="manus:505:div:variant:65850" ORDERLABEL="29"><m:fptr FILEID="file:variant:505:65850"/></m:div><m:div ID="manus:505:div:variant:65821" ORDERLABEL="3"><m:fptr FILEID="file:variant:505:65821"/></m:div><m:div ID="manus:505:div:variant:65851" ORDERLABEL="30"><m:fptr FILEID="file:variant:505:65851"/></m:div><m:div ID="manus:505:div:variant:65852" ORDERLABEL="31"><m:fptr FILEID="file:variant:505:65852"/></m:div><m:div ID="manus:505:div:variant:65853" ORDERLABEL="32"><m:fptr FILEID="file:variant:505:65853"/></m:div><m:div ID="manus:505:div:variant:65854" ORDERLABEL="33"><m:fptr FILEID="file:variant:505:65854"/></m:div><m:div ID="manus:505:div:variant:65855" ORDERLABEL="34"><m:fptr FILEID="file:variant:505:65855"/></m:div><m:div ID="manus:505:div:variant:65856" ORDERLABEL="34 v"><m:fptr FILEID="file:variant:505:65856"/></m:div><m:div ID="manus:505:div:variant:65857" ORDERLABEL="35"><m:fptr FILEID="file:variant:505:65857"/></m:div><m:div ID="manus:505:div:variant:65858" ORDERLABEL="36"><m:fptr FILEID="file:variant:505:65858"/></m:div><m:div ID="manus:505:div:variant:65822" ORDERLABEL="4"><m:fptr FILEID="file:variant:505:65822"/></m:div><m:div ID="manus:505:div:variant:65823" ORDERLABEL="5"><m:fptr FILEID="file:variant:505:65823"/></m:div><m:div ID="manus:505:div:variant:65824" ORDERLABEL="6"><m:fptr FILEID="file:variant:505:65824"/></m:div><m:div ID="manus:505:div:variant:65825" ORDERLABEL="7"><m:fptr FILEID="file:variant:505:65825"/></m:div><m:div ID="manus:505:div:variant:65826" ORDERLABEL="8"><m:fptr FILEID="file:variant:505:65826"/></m:div><m:div ID="manus:505:div:variant:65827" ORDERLABEL="9"><m:fptr FILEID="file:variant:505:65827"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84810" xlink:to="manus:505:div:variant:65819"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84811" xlink:to="manus:505:div:variant:65820"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84812" xlink:to="manus:505:div:variant:65821"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84813" xlink:to="manus:505:div:variant:65822"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84814" xlink:to="manus:505:div:variant:65823"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84815" xlink:to="manus:505:div:variant:65824"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84816" xlink:to="manus:505:div:variant:65825"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84817" xlink:to="manus:505:div:variant:65826"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84818" xlink:to="manus:505:div:variant:65827"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84819" xlink:to="manus:505:div:variant:65828"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84820" xlink:to="manus:505:div:variant:65829"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84821" xlink:to="manus:505:div:variant:65830"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84822" xlink:to="manus:505:div:variant:65831"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84823" xlink:to="manus:505:div:variant:65832"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84824" xlink:to="manus:505:div:variant:65833"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84825" xlink:to="manus:505:div:variant:65834"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84826" xlink:to="manus:505:div:variant:65835"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84846" xlink:to="manus:505:div:variant:65836"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84827" xlink:to="manus:505:div:variant:65837"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84828" xlink:to="manus:505:div:variant:65838"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84847" xlink:to="manus:505:div:variant:65839"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84829" xlink:to="manus:505:div:variant:65840"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84830" xlink:to="manus:505:div:variant:65841"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84831" xlink:to="manus:505:div:variant:65842"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84832" xlink:to="manus:505:div:variant:65843"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84848" xlink:to="manus:505:div:variant:65844"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84833" xlink:to="manus:505:div:variant:65845"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84834" xlink:to="manus:505:div:variant:65846"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84835" xlink:to="manus:505:div:variant:65847"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84836" xlink:to="manus:505:div:variant:65848"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84837" xlink:to="manus:505:div:variant:65849"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84838" xlink:to="manus:505:div:variant:65850"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84839" xlink:to="manus:505:div:variant:65851"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84840" xlink:to="manus:505:div:variant:65852"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84841" xlink:to="manus:505:div:variant:65853"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84842" xlink:to="manus:505:div:variant:65854"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84843" xlink:to="manus:505:div:variant:65855"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84849" xlink:to="manus:505:div:variant:65856"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84844" xlink:to="manus:505:div:variant:65857"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84845" xlink:to="manus:505:div:variant:65858"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:505">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Gudfaders Billedbog (rettet koncept)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Collinske Manuskriptsamling 36, 4º IV:103. 18 bl., 17 x 22 cm, s. 1-36. Rettet koncept.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Collin 36, 4</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0124.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:505:84810">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84811">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0002.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84812">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84813">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0004.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84814">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84815">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0006.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84816">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0007.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84817">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0008.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84818">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0009.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84819">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0010.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84820">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0011.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84821">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0012.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84822">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84823">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84824">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84825">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84826">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84846">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0908.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84827">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0018.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84828">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0019.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84847">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0911.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84829">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0020.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84830">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0021.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84831">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0022.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84832">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0023.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84848">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0917.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84833">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0024.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84834">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0025.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84835">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0026.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84836">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0027.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84837">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0028.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84838">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0029.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84839">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0030.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84840">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0031.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84841">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0032.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84842">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0033.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84843">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0034.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84849">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0929.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84844">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0035.jpg"/>
+      </m:file>
+      <m:file ID="file:default:505:84845">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0036.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:505:65819">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0001v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65827">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0009v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65829">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0011v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65830">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0012v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65831">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0013v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65832">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0014v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65833">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0015v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65834">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0016v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65835">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0017v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65836">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0908v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65837">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0018v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65838">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0019v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65839">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0911v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65820">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0002v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65840">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0020v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65841">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0021v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65842">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0022v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65843">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0023v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65844">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0917v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65845">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0024v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65846">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0025v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65847">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0026v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65848">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0027v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65849">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0028v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65850">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0029v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65821">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0003v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65851">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0030v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65852">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0031v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65853">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0032v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65854">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0033v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65855">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0034v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65856">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0929v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65857">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0035v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65858">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0036v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65822">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0004v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65823">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0005v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65824">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0006v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65825">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0007v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65826">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0008v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:505:65828">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.103/fairy0010v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:505:physical:root" DMDID="md-root">
+      <m:div ID="manus:505:div:physical:84810" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:505:84810"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84811" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:505:84811"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84812" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:505:84812"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84813" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:505:84813"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84814" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:505:84814"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84815" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:505:84815"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84816" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:505:84816"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84817" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:505:84817"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84818" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:505:84818"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84819" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:505:84819"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84820" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:505:84820"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84821" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:505:84821"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84822" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:505:84822"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84823" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:505:84823"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84824" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:505:84824"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84825" xml:lang="dan" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:505:84825"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84826" xml:lang="dan" ORDERLABEL="17">
+        <m:fptr FILEID="file:default:505:84826"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84846" xml:lang="dan" ORDERLABEL="17 v">
+        <m:fptr FILEID="file:default:505:84846"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84827" xml:lang="dan" ORDERLABEL="18">
+        <m:fptr FILEID="file:default:505:84827"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84828" xml:lang="dan" ORDERLABEL="19">
+        <m:fptr FILEID="file:default:505:84828"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84847" xml:lang="dan" ORDERLABEL="19 v">
+        <m:fptr FILEID="file:default:505:84847"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84829" xml:lang="dan" ORDERLABEL="20">
+        <m:fptr FILEID="file:default:505:84829"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84830" xml:lang="dan" ORDERLABEL="21">
+        <m:fptr FILEID="file:default:505:84830"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84831" xml:lang="dan" ORDERLABEL="22">
+        <m:fptr FILEID="file:default:505:84831"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84832" xml:lang="dan" ORDERLABEL="23">
+        <m:fptr FILEID="file:default:505:84832"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84848" xml:lang="dan" ORDERLABEL="23 v">
+        <m:fptr FILEID="file:default:505:84848"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84833" xml:lang="dan" ORDERLABEL="24">
+        <m:fptr FILEID="file:default:505:84833"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84834" xml:lang="dan" ORDERLABEL="25">
+        <m:fptr FILEID="file:default:505:84834"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84835" xml:lang="dan" ORDERLABEL="26">
+        <m:fptr FILEID="file:default:505:84835"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84836" xml:lang="dan" ORDERLABEL="27">
+        <m:fptr FILEID="file:default:505:84836"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84837" xml:lang="dan" ORDERLABEL="28">
+        <m:fptr FILEID="file:default:505:84837"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84838" xml:lang="dan" ORDERLABEL="29">
+        <m:fptr FILEID="file:default:505:84838"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84839" xml:lang="dan" ORDERLABEL="30">
+        <m:fptr FILEID="file:default:505:84839"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84840" xml:lang="dan" ORDERLABEL="31">
+        <m:fptr FILEID="file:default:505:84840"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84841" xml:lang="dan" ORDERLABEL="32">
+        <m:fptr FILEID="file:default:505:84841"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84842" xml:lang="dan" ORDERLABEL="33">
+        <m:fptr FILEID="file:default:505:84842"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84843" xml:lang="dan" ORDERLABEL="34">
+        <m:fptr FILEID="file:default:505:84843"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84849" xml:lang="dan" ORDERLABEL="34 v">
+        <m:fptr FILEID="file:default:505:84849"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84844" xml:lang="dan" ORDERLABEL="35">
+        <m:fptr FILEID="file:default:505:84844"/>
+      </m:div>
+      <m:div ID="manus:505:div:physical:84845" xml:lang="dan" ORDERLABEL="36">
+        <m:fptr FILEID="file:default:505:84845"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:505:div:variant:65819" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:505:65819"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65827" ORDERLABEL="9">
+      <m:fptr FILEID="file:variant:505:65827"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65829" ORDERLABEL="11">
+      <m:fptr FILEID="file:variant:505:65829"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65830" ORDERLABEL="12">
+      <m:fptr FILEID="file:variant:505:65830"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65831" ORDERLABEL="13">
+      <m:fptr FILEID="file:variant:505:65831"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65832" ORDERLABEL="14">
+      <m:fptr FILEID="file:variant:505:65832"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65833" ORDERLABEL="15">
+      <m:fptr FILEID="file:variant:505:65833"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65834" ORDERLABEL="16">
+      <m:fptr FILEID="file:variant:505:65834"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65835" ORDERLABEL="17">
+      <m:fptr FILEID="file:variant:505:65835"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65836" ORDERLABEL="17 v">
+      <m:fptr FILEID="file:variant:505:65836"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65837" ORDERLABEL="18">
+      <m:fptr FILEID="file:variant:505:65837"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65838" ORDERLABEL="19">
+      <m:fptr FILEID="file:variant:505:65838"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65839" ORDERLABEL="19 v">
+      <m:fptr FILEID="file:variant:505:65839"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65820" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:505:65820"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65840" ORDERLABEL="20">
+      <m:fptr FILEID="file:variant:505:65840"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65841" ORDERLABEL="21">
+      <m:fptr FILEID="file:variant:505:65841"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65842" ORDERLABEL="22">
+      <m:fptr FILEID="file:variant:505:65842"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65843" ORDERLABEL="23">
+      <m:fptr FILEID="file:variant:505:65843"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65844" ORDERLABEL="23 v">
+      <m:fptr FILEID="file:variant:505:65844"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65845" ORDERLABEL="24">
+      <m:fptr FILEID="file:variant:505:65845"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65846" ORDERLABEL="25">
+      <m:fptr FILEID="file:variant:505:65846"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65847" ORDERLABEL="26">
+      <m:fptr FILEID="file:variant:505:65847"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65848" ORDERLABEL="27">
+      <m:fptr FILEID="file:variant:505:65848"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65849" ORDERLABEL="28">
+      <m:fptr FILEID="file:variant:505:65849"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65850" ORDERLABEL="29">
+      <m:fptr FILEID="file:variant:505:65850"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65821" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:505:65821"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65851" ORDERLABEL="30">
+      <m:fptr FILEID="file:variant:505:65851"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65852" ORDERLABEL="31">
+      <m:fptr FILEID="file:variant:505:65852"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65853" ORDERLABEL="32">
+      <m:fptr FILEID="file:variant:505:65853"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65854" ORDERLABEL="33">
+      <m:fptr FILEID="file:variant:505:65854"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65855" ORDERLABEL="34">
+      <m:fptr FILEID="file:variant:505:65855"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65856" ORDERLABEL="34 v">
+      <m:fptr FILEID="file:variant:505:65856"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65857" ORDERLABEL="35">
+      <m:fptr FILEID="file:variant:505:65857"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65858" ORDERLABEL="36">
+      <m:fptr FILEID="file:variant:505:65858"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65822" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:505:65822"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65823" ORDERLABEL="5">
+      <m:fptr FILEID="file:variant:505:65823"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65824" ORDERLABEL="6">
+      <m:fptr FILEID="file:variant:505:65824"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65825" ORDERLABEL="7">
+      <m:fptr FILEID="file:variant:505:65825"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65826" ORDERLABEL="8">
+      <m:fptr FILEID="file:variant:505:65826"/>
+    </m:div>
+    <m:div ID="manus:505:div:variant:65828" ORDERLABEL="10">
+      <m:fptr FILEID="file:variant:505:65828"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84810" xlink:to="manus:505:div:variant:65819"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84811" xlink:to="manus:505:div:variant:65820"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84812" xlink:to="manus:505:div:variant:65821"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84813" xlink:to="manus:505:div:variant:65822"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84814" xlink:to="manus:505:div:variant:65823"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84815" xlink:to="manus:505:div:variant:65824"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84816" xlink:to="manus:505:div:variant:65825"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84817" xlink:to="manus:505:div:variant:65826"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84818" xlink:to="manus:505:div:variant:65827"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84819" xlink:to="manus:505:div:variant:65828"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84820" xlink:to="manus:505:div:variant:65829"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84821" xlink:to="manus:505:div:variant:65830"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84822" xlink:to="manus:505:div:variant:65831"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84823" xlink:to="manus:505:div:variant:65832"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84824" xlink:to="manus:505:div:variant:65833"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84825" xlink:to="manus:505:div:variant:65834"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84826" xlink:to="manus:505:div:variant:65835"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84846" xlink:to="manus:505:div:variant:65836"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84827" xlink:to="manus:505:div:variant:65837"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84828" xlink:to="manus:505:div:variant:65838"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84847" xlink:to="manus:505:div:variant:65839"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84829" xlink:to="manus:505:div:variant:65840"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84830" xlink:to="manus:505:div:variant:65841"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84831" xlink:to="manus:505:div:variant:65842"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84832" xlink:to="manus:505:div:variant:65843"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84848" xlink:to="manus:505:div:variant:65844"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84833" xlink:to="manus:505:div:variant:65845"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84834" xlink:to="manus:505:div:variant:65846"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84835" xlink:to="manus:505:div:variant:65847"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84836" xlink:to="manus:505:div:variant:65848"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84837" xlink:to="manus:505:div:variant:65849"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84838" xlink:to="manus:505:div:variant:65850"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84839" xlink:to="manus:505:div:variant:65851"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84840" xlink:to="manus:505:div:variant:65852"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84841" xlink:to="manus:505:div:variant:65853"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84842" xlink:to="manus:505:div:variant:65854"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84843" xlink:to="manus:505:div:variant:65855"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84849" xlink:to="manus:505:div:variant:65856"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84844" xlink:to="manus:505:div:variant:65857"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:505:div:physical:84845" xlink:to="manus:505:div:variant:65858"/>
+  </m:structLink>
+</m:mets>

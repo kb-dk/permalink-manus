@@ -1,4 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:694"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Hugo de Sancto Victore, Didascalicon</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Hugo de Sancto Victore, Didascalicon</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Fragm. 2835-2836</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:name xml:lang="eng"><md:partName>Fragm. 2835-2836</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Pergament, 2 stykker af 1 blad, ca. 8,5 × 16,5 cm; saec. XIII</p><p>Fragmentets to stykker er sammenføjet, således at de nu fremstår som ét fragment, den øvre del af et blad</p><p>Det sammenføjede fragment rummer to passager fra Hugo de Sancto Victore, Didascalicon de studio legendi, liber V cap. iv, på recto-siden: “corpore uero permixto ... lege per quem precepta ///” (ed. Buttimer, 1939, p. 98), og på verso-siden: ”egipty totum uult ... annos egressi sunt” (ed. Buttimer, 1939, p. 100). Teksten er tidligere blevet bestemt som hørende til en klosterregel</p><p>Det oprindelige blad har haft ca. 25 linier pr. side; mindre end halvdelen er således bevaret</p><p>Fragmentet er ikke anført i R. Goy, Die Überlieferung der Werke Hugos von St. Viktor. Ein Beitrag zur Kommunikationsgeschichte des Mitttelalters, 1976</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:note type="presentation" xml:lang="eng"><div xmlns=""><p>Parchment, 2 pieces of 1 leaf, c. 8,5 × 16,5 cm; saec. XIII</p><p>Two pieces of the upper part of a leaf. The two pieces have been pasted together to form what appears to be one fragment</p><p>The fragments contain two sequences from Hugo de Sancto Victore, Didascalicon de studio legendi, liber V cap. iv, on the recto: “corpore uero permixto ... lege per quem precepta ///” (ed. Buttimer, 1939, p. 98), and on the verso: ”egipty totum uult ... annos egressi sunt” (ed. Buttimer, 1939, p. 100). - The text has formerly been identified as part of a "regula monastica"</p><p>The original leaf must have had c. 25 lines of written text per page; thus less than half has been preserved</p><p>The fragment is not mentioned in R. Goy, Die Überlieferung der Werke Hugos von St. Viktor. Ein Beitrag zur Kommunikationsgeschichte des Mitttelalters, 1976</p><p><a href="mailto:ep@kb.dk">Erik Petersen</a></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Fragm. 2835-2836</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:694:102341"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_01.jpg"/></m:file><m:file ID="file:default:694:102342"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_02.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:694:80602"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_01v.jpg"/></m:file><m:file ID="file:variant:694:80603"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_02v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:694:physical:root" DMDID="md-root"><m:div ID="manus:694:div:physical:102341" xml:lang="dan" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:694:102341"/></m:div><m:div ID="manus:694:div:physical:102341" xml:lang="eng" ORDERLABEL="recto" LABEL="recto"><m:fptr FILEID="file:default:694:102341"/></m:div><m:div ID="manus:694:div:physical:102342" xml:lang="dan" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:694:102342"/></m:div><m:div ID="manus:694:div:physical:102342" xml:lang="eng" ORDERLABEL="verso" LABEL="verso"><m:fptr FILEID="file:default:694:102342"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:694:div:variant:80602" ORDERLABEL="recto"><m:fptr FILEID="file:variant:694:80602"/></m:div><m:div ID="manus:694:div:variant:80603" ORDERLABEL="verso"><m:fptr FILEID="file:variant:694:80603"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:694:div:physical:102341" xlink:to="manus:694:div:variant:80602"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:694:div:physical:102341" xlink:to="manus:694:div:variant:80602"/><m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:694:div:physical:102342" xlink:to="manus:694:div:variant:80603"/><m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:694:div:physical:102342" xlink:to="manus:694:div:variant:80603"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:694">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Hugo de Sancto Victore, Didascalicon</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Hugo de Sancto Victore, Didascalicon</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Fragm. 2835-2836</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>Fragm. 2835-2836</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Pergament, 2 stykker af 1 blad, ca. 8,5 × 16,5 cm; saec. XIII</p>
+              <p>Fragmentets to stykker er sammenføjet, således at de nu fremstår som ét fragment, den øvre del af et blad</p>
+              <p>Det sammenføjede fragment rummer to passager fra Hugo de Sancto Victore, Didascalicon de studio legendi, liber V cap. iv, på recto-siden: “corpore uero permixto ... lege per quem precepta ///” (ed. Buttimer, 1939, p. 98), og på verso-siden: ”egipty totum uult ... annos egressi sunt” (ed. Buttimer, 1939, p. 100). Teksten er tidligere blevet bestemt som hørende til en klosterregel</p>
+              <p>Det oprindelige blad har haft ca. 25 linier pr. side; mindre end halvdelen er således bevaret</p>
+              <p>Fragmentet er ikke anført i R. Goy, Die Überlieferung der Werke Hugos von St. Viktor. Ein Beitrag zur Kommunikationsgeschichte des Mitttelalters, 1976</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Parchment, 2 pieces of 1 leaf, c. 8,5 × 16,5 cm; saec. XIII</p>
+              <p>Two pieces of the upper part of a leaf. The two pieces have been pasted together to form what appears to be one fragment</p>
+              <p>The fragments contain two sequences from Hugo de Sancto Victore, Didascalicon de studio legendi, liber V cap. iv, on the recto: “corpore uero permixto ... lege per quem precepta ///” (ed. Buttimer, 1939, p. 98), and on the verso: ”egipty totum uult ... annos egressi sunt” (ed. Buttimer, 1939, p. 100). - The text has formerly been identified as part of a "regula monastica"</p>
+              <p>The original leaf must have had c. 25 lines of written text per page; thus less than half has been preserved</p>
+              <p>The fragment is not mentioned in R. Goy, Die Überlieferung der Werke Hugos von St. Viktor. Ein Beitrag zur Kommunikationsgeschichte des Mitttelalters, 1976</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Fragm. 2835-2836</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:694:102341">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:694:102342">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_02.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:694:80603">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:694:80602">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/fragmenta/fr2835-2836_01v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:694:physical:root" DMDID="md-root">
+      <m:div ID="manus:694:div:physical:102341" xml:lang="dan" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:694:102341"/>
+      </m:div>
+      <m:div ID="manus:694:div:physical:102341" xml:lang="eng" ORDERLABEL="recto" LABEL="recto">
+        <m:fptr FILEID="file:default:694:102341"/>
+      </m:div>
+      <m:div ID="manus:694:div:physical:102342" xml:lang="dan" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:694:102342"/>
+      </m:div>
+      <m:div ID="manus:694:div:physical:102342" xml:lang="eng" ORDERLABEL="verso" LABEL="verso">
+        <m:fptr FILEID="file:default:694:102342"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:694:div:variant:80603" ORDERLABEL="verso">
+      <m:fptr FILEID="file:variant:694:80603"/>
+    </m:div>
+    <m:div ID="manus:694:div:variant:80602" ORDERLABEL="recto">
+      <m:fptr FILEID="file:variant:694:80602"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:694:div:physical:102341" xlink:to="manus:694:div:variant:80602"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:694:div:physical:102341" xlink:to="manus:694:div:variant:80602"/>
+    <m:smLink xml:lang="dan" xlink:title="Større" xlink:from="manus:694:div:physical:102342" xlink:to="manus:694:div:variant:80603"/>
+    <m:smLink xml:lang="eng" xlink:title="Larger" xlink:from="manus:694:div:physical:102342" xlink:to="manus:694:div:variant:80603"/>
+  </m:structLink>
+</m:mets>

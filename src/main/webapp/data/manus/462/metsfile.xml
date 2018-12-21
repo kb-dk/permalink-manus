@@ -1,4 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:462"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Laserne (koncept A) ("I Kludebunken")</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Collinske Manuskriptsamling 36, 4º IV:104. 2 bl., 16,5 x 21,5 cm, s. 1-4. Koncept A.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Collin 36, 4</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0145.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:462:73661"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0933.jpg"/></m:file><m:file ID="file:default:462:73662"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0934.jpg"/></m:file><m:file ID="file:default:462:73663"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0935.jpg"/></m:file><m:file ID="file:default:462:73664"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0936.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:462:64707"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0933v.jpg"/></m:file><m:file ID="file:variant:462:64708"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0934v.jpg"/></m:file><m:file ID="file:variant:462:64709"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0935v.jpg"/></m:file><m:file ID="file:variant:462:64710"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0936v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:462:physical:root" DMDID="md-root"><m:div ID="manus:462:div:physical:73661" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:462:73661"/></m:div><m:div ID="manus:462:div:physical:73662" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:462:73662"/></m:div><m:div ID="manus:462:div:physical:73663" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:462:73663"/></m:div><m:div ID="manus:462:div:physical:73664" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:462:73664"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:462:div:variant:64707" ORDERLABEL="1"><m:fptr FILEID="file:variant:462:64707"/></m:div><m:div ID="manus:462:div:variant:64708" ORDERLABEL="2"><m:fptr FILEID="file:variant:462:64708"/></m:div><m:div ID="manus:462:div:variant:64709" ORDERLABEL="3"><m:fptr FILEID="file:variant:462:64709"/></m:div><m:div ID="manus:462:div:variant:64710" ORDERLABEL="4"><m:fptr FILEID="file:variant:462:64710"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73661" xlink:to="manus:462:div:variant:64707"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73662" xlink:to="manus:462:div:variant:64708"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73663" xlink:to="manus:462:div:variant:64709"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73664" xlink:to="manus:462:div:variant:64710"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:462">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Laserne (koncept A) ("I Kludebunken")</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Collinske Manuskriptsamling 36, 4º IV:104. 2 bl., 16,5 x 21,5 cm, s. 1-4. Koncept A.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Collin 36, 4</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0145.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:462:73661">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0933.jpg"/>
+      </m:file>
+      <m:file ID="file:default:462:73662">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0934.jpg"/>
+      </m:file>
+      <m:file ID="file:default:462:73663">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0935.jpg"/>
+      </m:file>
+      <m:file ID="file:default:462:73664">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0936.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:462:64707">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0933v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:462:64710">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0936v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:462:64709">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0935v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:462:64708">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/IV.104/0934v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:462:physical:root" DMDID="md-root">
+      <m:div ID="manus:462:div:physical:73661" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:462:73661"/>
+      </m:div>
+      <m:div ID="manus:462:div:physical:73662" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:462:73662"/>
+      </m:div>
+      <m:div ID="manus:462:div:physical:73663" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:462:73663"/>
+      </m:div>
+      <m:div ID="manus:462:div:physical:73664" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:462:73664"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:462:div:variant:64707" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:462:64707"/>
+    </m:div>
+    <m:div ID="manus:462:div:variant:64710" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:462:64710"/>
+    </m:div>
+    <m:div ID="manus:462:div:variant:64709" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:462:64709"/>
+    </m:div>
+    <m:div ID="manus:462:div:variant:64708" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:462:64708"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73661" xlink:to="manus:462:div:variant:64707"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73662" xlink:to="manus:462:div:variant:64708"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73663" xlink:to="manus:462:div:variant:64709"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:462:div:physical:73664" xlink:to="manus:462:div:variant:64710"/>
+  </m:structLink>
+</m:mets>

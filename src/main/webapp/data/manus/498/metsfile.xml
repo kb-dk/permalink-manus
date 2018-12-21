@@ -1,4 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:498"><m:metsHdr><m:agent ROLE="CREATOR"><m:name>dk.kb.dup.metsApi software agent using data from Manuscript
-department at Royal Library, Copenhagen, DK.</m:name><m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note></m:agent></m:metsHdr><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Den gamle Kirkeklokke (koncept)</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>H.C. Andersen</md:partName><md:role><md:roleTerm>author</md:roleTerm></md:role></md:name><md:language><md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm></md:language><md:note type="presentation" xml:lang="dan"><div xmlns=""><p>Den Collinske Manuskriptsamling 36, 4º III:67a. 3 bl., 21 x 28 cm, s. 1-6. Koncept.</p><p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p></div></md:note><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Center for Manuskripter &amp; Boghistorie</md:title></md:titleInfo><md:titleInfo xml:lang="eng"><md:title>Center for Manuscripts &amp; Rare Books</md:title></md:titleInfo><md:titleInfo xml:lang="esp"><md:title>Departamento de Manuscritos</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier><md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier></md:relatedItem><md:identifier type="signature">Collin 36, 4</md:identifier><md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0087.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:fileSec><m:fileGrp><m:file ID="file:default:498:84649"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0496.jpg"/></m:file><m:file ID="file:default:498:84650"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0497.jpg"/></m:file><m:file ID="file:default:498:84651"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0498.jpg"/></m:file><m:file ID="file:default:498:84652"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0499.jpg"/></m:file><m:file ID="file:default:498:84653"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0500.jpg"/></m:file><m:file ID="file:default:498:84654"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0501.jpg"/></m:file></m:fileGrp><m:fileGrp><m:file ID="file:variant:498:65667"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0496v.jpg"/></m:file><m:file ID="file:variant:498:65668"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0497v.jpg"/></m:file><m:file ID="file:variant:498:65669"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0498v.jpg"/></m:file><m:file ID="file:variant:498:65670"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0499v.jpg"/></m:file><m:file ID="file:variant:498:65671"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0500v.jpg"/></m:file><m:file ID="file:variant:498:65672"><m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0501v.jpg"/></m:file></m:fileGrp></m:fileSec><m:structMap type="physical"><m:div ID="manus:498:physical:root" DMDID="md-root"><m:div ID="manus:498:div:physical:84649" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1"><m:fptr FILEID="file:default:498:84649"/></m:div><m:div ID="manus:498:div:physical:84650" xml:lang="dan" ORDERLABEL="2"><m:fptr FILEID="file:default:498:84650"/></m:div><m:div ID="manus:498:div:physical:84651" xml:lang="dan" ORDERLABEL="3"><m:fptr FILEID="file:default:498:84651"/></m:div><m:div ID="manus:498:div:physical:84652" xml:lang="dan" ORDERLABEL="4"><m:fptr FILEID="file:default:498:84652"/></m:div><m:div ID="manus:498:div:physical:84653" xml:lang="dan" ORDERLABEL="5"><m:fptr FILEID="file:default:498:84653"/></m:div><m:div ID="manus:498:div:physical:84654" xml:lang="dan" ORDERLABEL="6"><m:fptr FILEID="file:default:498:84654"/></m:div></m:div></m:structMap><m:structMap type="variant"><m:div ID="manus:498:div:variant:65667" ORDERLABEL="1"><m:fptr FILEID="file:variant:498:65667"/></m:div><m:div ID="manus:498:div:variant:65668" ORDERLABEL="2"><m:fptr FILEID="file:variant:498:65668"/></m:div><m:div ID="manus:498:div:variant:65669" ORDERLABEL="3"><m:fptr FILEID="file:variant:498:65669"/></m:div><m:div ID="manus:498:div:variant:65670" ORDERLABEL="4"><m:fptr FILEID="file:variant:498:65670"/></m:div><m:div ID="manus:498:div:variant:65671" ORDERLABEL="5"><m:fptr FILEID="file:variant:498:65671"/></m:div><m:div ID="manus:498:div:variant:65672" ORDERLABEL="6"><m:fptr FILEID="file:variant:498:65672"/></m:div></m:structMap><m:structLink><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84649" xlink:to="manus:498:div:variant:65667"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84650" xlink:to="manus:498:div:variant:65668"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84651" xlink:to="manus:498:div:variant:65669"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84652" xlink:to="manus:498:div:variant:65670"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84653" xlink:to="manus:498:div:variant:65671"/><m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84654" xlink:to="manus:498:div:variant:65672"/></m:structLink></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:498">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Den gamle Kirkeklokke (koncept)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>H.C. Andersen</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den Collinske Manuskriptsamling 36, 4º III:67a. 3 bl., 21 x 28 cm, s. 1-6. Koncept.</p>
+              <p><br/><a href="http://www.kb.dk/elib/mss/hcaeventyr/oversigt.htm">Tilbage til 'Oversigt'</a>.<br/></p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">Collin 36, 4</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/hca_ill/hca_ill_0087.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:498:84649">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0496.jpg"/>
+      </m:file>
+      <m:file ID="file:default:498:84650">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0497.jpg"/>
+      </m:file>
+      <m:file ID="file:default:498:84651">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0498.jpg"/>
+      </m:file>
+      <m:file ID="file:default:498:84652">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0499.jpg"/>
+      </m:file>
+      <m:file ID="file:default:498:84653">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0500.jpg"/>
+      </m:file>
+      <m:file ID="file:default:498:84654">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0501.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:498:65667">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0496v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:498:65668">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0497v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:498:65672">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0501v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:498:65670">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0499v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:498:65671">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0500v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:498:65669">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/collin36-4/III.67a/fairy0498v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:498:physical:root" DMDID="md-root">
+      <m:div ID="manus:498:div:physical:84649" xml:lang="dan" ORDERLABEL="1" LABEL="Side 1">
+        <m:fptr FILEID="file:default:498:84649"/>
+      </m:div>
+      <m:div ID="manus:498:div:physical:84650" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:498:84650"/>
+      </m:div>
+      <m:div ID="manus:498:div:physical:84651" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:498:84651"/>
+      </m:div>
+      <m:div ID="manus:498:div:physical:84652" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:498:84652"/>
+      </m:div>
+      <m:div ID="manus:498:div:physical:84653" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:498:84653"/>
+      </m:div>
+      <m:div ID="manus:498:div:physical:84654" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:498:84654"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:498:div:variant:65667" ORDERLABEL="1">
+      <m:fptr FILEID="file:variant:498:65667"/>
+    </m:div>
+    <m:div ID="manus:498:div:variant:65668" ORDERLABEL="2">
+      <m:fptr FILEID="file:variant:498:65668"/>
+    </m:div>
+    <m:div ID="manus:498:div:variant:65672" ORDERLABEL="6">
+      <m:fptr FILEID="file:variant:498:65672"/>
+    </m:div>
+    <m:div ID="manus:498:div:variant:65670" ORDERLABEL="4">
+      <m:fptr FILEID="file:variant:498:65670"/>
+    </m:div>
+    <m:div ID="manus:498:div:variant:65671" ORDERLABEL="5">
+      <m:fptr FILEID="file:variant:498:65671"/>
+    </m:div>
+    <m:div ID="manus:498:div:variant:65669" ORDERLABEL="3">
+      <m:fptr FILEID="file:variant:498:65669"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84649" xlink:to="manus:498:div:variant:65667"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84650" xlink:to="manus:498:div:variant:65668"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84651" xlink:to="manus:498:div:variant:65669"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84652" xlink:to="manus:498:div:variant:65670"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84653" xlink:to="manus:498:div:variant:65671"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:498:div:physical:84654" xlink:to="manus:498:div:variant:65672"/>
+  </m:structLink>
+</m:mets>
