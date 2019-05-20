@@ -48,73 +48,67 @@ This document is a description of how to build and install mets api and permalin
 * clone from github
 * configure
 
-<pre>
+```
  src/main/java/dk/kb/dup/metsApi/ManusDataSource.java
- </pre>
-	  <p>with respect to the variables:</p>
-<pre>
+```
+
+with respect to the variables:
+
+```
  private String     user     = "oracle user/schema name";
  private String     password = "very secret password for that user";
  private String     jdbcUri  = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
-</pre>
-</li>
+```
 
-<li>Running API and UI on different servers
+### Running API and UI on different servers
 
-<p>If the applications are rebuilt such that permalink and mets-api are
+If the applications are rebuilt such that permalink and mets-api are
 to be running on two different hosts, then set the variable apihost</p>
 
-<pre>
+```
  src/main/webapp/permalink/new-menu.jsp
-</pre>
+```
 
-<p>and</p>
+and
 
-<pre>
+```
  src/main/webapp/permalink/gw.jsp
-</pre>
+```
 
-<p>search for</p>
+search for
 
-<pre>
+```
  String apihost  = "localhost";
-</pre>
-</li>
-<li>
+```
+
 If need be, configure the ExpiryPolicy in the cache used by the API. The default is one hour
 
-<pre>
+```
  config.setStoreByValue(true)
    .setExpiryPolicyFactory(AccessedExpiryPolicy.factoryOf(ONE_HOUR))
    .setStatisticsEnabled(true);
-</pre>
+```
 
-<p>Other durations can be set to ZERO, ONE_MINUTE, ONE_DAY or any one defined on <a href="http://ignite.apache.org/jcache/1.0.0/javadoc/javax/cache/expiry/class-use/Duration.html">ignite web site</a></p>
-</li>
-	</ul>
-      </li>
-      <li>
-	Build 
+Other durations can be set to ZERO, ONE_MINUTE, ONE_DAY or any one defined on http://ignite.apache.org/jcache/1.0.0/javadoc/javax/cache/expiry/class-use/Duration.html
 
-<pre>
- cd mets-api/trunk
+Build 
+
+```
+ cd permalink-manus
  mvn install
-</pre>
+```
 
-<p>This creates a file called</p>
+This creates a file called
 
-<pre>
+```
  target/mets-api.war
-</pre>
+```
 
-<p>which can be installed as usual</p>
-      </li>
-    </ol>
-  </div>
+which can be installed as usual
 
-  <div>
-  <h3>How to configure Apache</h3>
-  <pre>
+## How to configure Apache
+
+```
 RewriteEngine on
 
 RewriteCond %{REQUEST_URI}  .*permalink.*(css|img|js)
@@ -123,36 +117,32 @@ RewriteRule   /.*(css|img|js)/(.*)$ http://localhost:8080/mets-api/permalink/$1/
 RewriteCond %{REQUEST_URI} (manus|lum|lum.proj|musman|musman.proj|mus)/.*/$
 RewriteRule /.*(manus|lum|lum.proj|musman|musman.proj|mus)/([^/]*)/([^/]*)/?([^/]*)/?  http://localhost:8080/mets-api/permalink/gw.jsp?app=$1&amp;doc=$2&amp;lang=$3&amp;page=$4&amp;%{QUERY_STRING} [P,L]
 
-  </pre>
-  </div>
+```
 
-  <div>
-  <h3>On how to close the MANUS oracle schema</h3>
+## On how to close the MANUS oracle schema
 
-  <p>Several datasets delivered through permalink and its APIs are no
-  longer alive and just available as static XML documents. There are
-  some 2000 files in the directories</p>
+Several datasets delivered through permalink and its APIs are no longer alive and just available as static XML documents. There are some 2000 files in the directories
 
-<pre>
+```
  src/main/webapp/data/lum
  src/main/webapp/data/mus
  src/main/webapp/data/musik
  src/main/webapp/data/musman
-</pre>
+```
 
-<p>and 750+ in</p>
+and 750+ in
 
-<pre>
+```
  src/main/webapp/data/manus  
-</pre>
+```
 
-<p>The data in the former four are used directly in the running service,
+The data in the former four are used directly in the running service,
 whereas the manus application is still live and its data is still
-delivered from an Oracle database.</p>
+delivered from an Oracle database.
 
-<p>The data directory has been maintained by the command</p>
+The data directory has been maintained by the command
 
-<pre>
+```
  scripts/get-mets-files.pl --application &lt;application abbreviation> --targetdir &lt;directory>
  where the options have the following meaning
 	--application	should take one of of the applications 
@@ -160,21 +150,18 @@ delivered from an Oracle database.</p>
 	--baseuri	should take the URI of a mets-api service as an argument
 			such as http://disdev-01.kb.dk:8081/mets-api/
 	--targetdir	the directory where to write the files
-</pre>
+```
 
-<p>The permalink application can be made independent of Oracle by running
+The permalink application can be made independent of Oracle by running
 the script mentioned and editing the metsPath variable in the jsp
-scripts</p>
+scripts
 
-<pre>
+```
  src/main/webapp/permalink/new-menu.jsp
  src/main/webapp/permalink/menu.jsp
  src/main/webapp/permalink/gw.jsp
-</pre>
+```
 
-<p>Once this is done, the system is independent of Oracle, but the data
-cannot be edited using a forms based system.</p>
+Once this is done, the system is independent of Oracle, but the data
+cannot be edited using a forms based system.
 
-</div>
-</body>
-</html>
