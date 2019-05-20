@@ -14,7 +14,7 @@ such that they could use
 * a single metadata framework
 * a common set of applications
 
-This goal was achieved in by Jacob Larsen &amp; Sigfrid Lundberg in
+This goal was achieved in by Jacob Larsen & Sigfrid Lundberg in
 aproject called __Sjauiga__ 2006. The name of the project was an
 acronym for _Sigges og Jacobs arkæologiske udgravninger i gamle
 applikationer_.
