@@ -38,7 +38,7 @@ http://www.kb.dk/permalink/2006/manus/7/ara/
 
 Which should be a proxy for a service with a URI on the form (not available on the open):
 
-http://oraapp-test.kb.dk:8080/mets-api/permalink/gw.jsp?doc=7&amp;app=manus&amp;lang=ara
+http://oraapp-test.kb.dk:8080/mets-api/permalink/gw.jsp?doc=7&&app=manus&lang=ara
 
 This document is a description of how to build and install mets api and permalink
 
