@@ -11,10 +11,11 @@ public class ManusDataSource
 {
     private Logger     LOGGER        = LoggerFactory.getLogger(ManusDataSource.class);
     private String     manusId       = "";
-    private String     user          = "manus";
-    private String     password      = "ft6yh";
-    private String     jdbcUri       = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
-    // private String     jdbcUri       = "jdbc:oracle:thin:@oracledb.kb.dk:1521:prod";
+
+    private String     user     = "oracle user/schema name";
+    private String     password = "very secret password for that user";
+    private String     jdbcUri  = "data_uri";
+
     private static ManusDataSource instance = null;
     
 
