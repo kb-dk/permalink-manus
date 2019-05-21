@@ -11,7 +11,7 @@
     <xsl:variable name="iiif_document">
     <fn:map>
       <fn:string key="@context">http://iiif.io/api/presentation/2/context.json</fn:string>
-      <fn:string key="@id">https://labs.kb.dk/fake/consolations/info.json</fn:string>
+      <fn:string key="@id">https://labs.kb.dk/fake-uri/consolations/info.json</fn:string>
       <fn:string key="@type">sc:Manifest</fn:string>
       <fn:array  key="metadata">
 	  <xsl:for-each select="//m:dmdSec[@ID='md-root']/m:mdWrap[@MDTYPE='MODS']/m:xmlData/md:mods">
