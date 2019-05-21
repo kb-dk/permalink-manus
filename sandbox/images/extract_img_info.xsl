@@ -15,37 +15,39 @@
     <xsl:for-each select="m:div">
       <xsl:variable name="div_id" select="@ID"/>
       <xsl:for-each select="m:fptr">
-      <xsl:variable name="id" select="@FILEID"/>
+	<xsl:variable name="id" select="@FILEID"/>
 
-      <xsl:variable name="fid">
-	<xsl:choose>
-	  <xsl:when test="//m:smLink[@xlink:title='XL' and @xlink:from=$div_id]/@xlink:to">
-	    <xsl:variable name="variant">
-	      <xsl:value-of select="//m:smLink[@xlink:title='XL' and @xlink:from=$div_id][1]/@xlink:to"/>
-	    </xsl:variable>
-	    <xsl:value-of select="//m:div[@ID=$variant]/m:fptr/@FILEID"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:choose>
-	      <xsl:when test="//m:smLink[(@xlink:title='Larger' or 
-			                  @xlink:title='Større') and @xlink:from=$div_id][1]/@xlink:to">
-		<xsl:variable name="variant">
-		  <xsl:value-of select="//m:smLink[(@xlink:title='Larger' or @xlink:title='Større') 
-					and @xlink:from=$div_id][1]/@xlink:to"/>
-		</xsl:variable>
-		<xsl:value-of select="//m:div[@ID=$variant]/m:fptr/@FILEID"/>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:value-of select="$id"/>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:otherwise>
-	</xsl:choose>
-      </xsl:variable>
+	<xsl:variable name="fid">
+	  <xsl:choose>
+	    <xsl:when test="//m:smLink[@xlink:title='XL' and @xlink:from=$div_id]/@xlink:to">
+	      <xsl:variable name="variant">
+		<xsl:value-of select="//m:smLink[@xlink:title='XL' and @xlink:from=$div_id][1]/@xlink:to"/>
+	      </xsl:variable>
+	      <xsl:value-of select="//m:div[@ID=$variant]/m:fptr/@FILEID"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:choose>
+		<xsl:when test="//m:smLink[(@xlink:title='Larger' or 
+				@xlink:title='Større') and @xlink:from=$div_id][1]/@xlink:to">
+		  <xsl:variable name="variant">
+		    <xsl:value-of select="//m:smLink[(@xlink:title='Larger' or @xlink:title='Større') 
+					  and @xlink:from=$div_id][1]/@xlink:to"/>
+		  </xsl:variable>
+		  <xsl:value-of select="//m:div[@ID=$variant]/m:fptr/@FILEID"/>
+		</xsl:when>
+		<xsl:otherwise>
+		  <xsl:value-of select="$id"/>
+		</xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
 
-      <xsl:value-of select="$id"/><xsl:text> </xsl:text><xsl:value-of select="//m:file[@ID=$fid]/m:FLocat/@xlink:href"/><xsl:text>
+<xsl:variable name="file"><xsl:value-of select="substring-after(//m:file[@ID=$fid]/m:FLocat/@xlink:href,'manus/')"/></xsl:variable>
+<xsl:text># </xsl:text><xsl:value-of select="$id"/><xsl:text>
+GET </xsl:text><xsl:value-of select="//m:file[@ID=$fid]/m:FLocat/@xlink:href"/><xsl:text> &gt; </xsl:text><xsl:value-of select="$file"/><xsl:text>
 </xsl:text>
-    </xsl:for-each>
+      </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
 
