@@ -1,0 +1,32 @@
+{
+  "@id" : "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/canvas/p0002",
+  "@type" : "sc:Canvas",
+  "label" : "IIv.[02.fn.0000]",
+  "width" : 1780,
+  "height" : 2039,
+  "images" : [ {
+    "@id" : "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/res/anno0002",
+    "@type" : "oa:Annotation",
+    "motivation" : "sc:painting",
+    "resource" : {
+      "@id" : "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/res/img0002",
+      "@type" : "dctypes:Image",
+      "format" : "image/jpeg",
+      "service" : {
+        "@context" : "http://iiif.io/api/image/2/context.json",
+        "@id" : "https://digi.vatlib.it/iiifimage/MSS_Vat.lat.3225/Vat.lat.3225_0002_cr_0002v.%5B02.fn.0000%5D.jp2",
+        "profile" : "http://iiif.io/api/image/2/level2.json"
+      },
+      "width" : 1780,
+      "height" : 2039
+    },
+    "on" : "https://digi.vatlib.it/iiif/MSS_Vat.lat.3225/canvas/p0002"
+  } ],
+  "thumbnail" : {
+    "@id" : "https://digi.vatlib.it/pub/digit/MSS_Vat.lat.3225/thumb/Vat.lat.3225_0002_cr_0002v.%5B02.fn.0000%5D.tif.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg",
+    "width" : 140,
+    "height" : 150
+  }
+}
