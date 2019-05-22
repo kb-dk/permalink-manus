@@ -116,7 +116,8 @@
 	    <fn:string key="@id">
 	      <xsl:call-template name="get_uri">
 		<xsl:with-param name="div_id" select="$id"/>
-		<xsl:with-param name="mets" select="$mets"/>
+		<xsl:with-param name="suffix" select="'/full/full/0/default.jpg'"/>
+		<xsl:with-param name="mets" select="$mets"/>		
 	      </xsl:call-template>
 	    </fn:string>
 	    <fn:string key="@type">sc:Canvas</fn:string>
@@ -132,7 +133,13 @@
 	      <xsl:for-each select="distinct-values($mets//m:div[preceding-sibling::m:div[@LABEL]/@ID=$id]/@ID)">
 		<fn:map>
 		  <xsl:variable name="image_id" select="."/>
-		  <fn:string key="@id"><xsl:value-of select="$image_id"/></fn:string>
+		  <fn:string key="@id">
+		    <xsl:call-template name="get_uri">
+		      <xsl:with-param name="div_id" select="$image_id"/>
+		      <xsl:with-param name="suffix" select="'/full/full/0/default.jpg'"/>
+		      <xsl:with-param name="mets" select="$mets"/>		
+		    </xsl:call-template>
+		  </fn:string>
 		  <fn:array key="label">
 		    <xsl:for-each select="$mets//m:div[@ID=$id]">
 		      <fn:map>
@@ -170,6 +177,7 @@
   <xsl:template name="get_uri">
     <xsl:param name="div_id"/>
     <xsl:param name="mets"/>
+    <xsl:param name="suffix" select="'/info.json'"/>
 
     <xsl:variable name="id"> 
       <xsl:value-of select="$mets//m:div[@ID=$div_id][1]/m:fptr/@FILEID"/>
@@ -207,7 +215,7 @@
       <xsl:value-of select="substring-before(substring-after($mets//m:file[@ID=$fid]/m:FLocat/@xlink:href,'anus/'),'.jpg')"/>
     </xsl:variable>
 
-    <xsl:value-of select="concat('http://kb-images.kb.dk/public/Manus/',$path,'/info.json')"/>
+    <xsl:value-of select="concat('http://kb-images.kb.dk/public/Manus/',$path,$suffix)"/>
 
   </xsl:template>
 
