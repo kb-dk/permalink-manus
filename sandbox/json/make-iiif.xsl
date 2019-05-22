@@ -110,14 +110,26 @@
 	      </xsl:for-each>
 	    </fn:array>
 	    <fn:array key="images">
-	      <xsl:for-each select="$mets//m:div[preceding-sibling::m:div[@LABEL]/@ID=$id]">
+	      <xsl:for-each select="distinct-values($mets//m:div[preceding-sibling::m:div[@LABEL]/@ID=$id]/@ID)">
 		<fn:map>
-		  <fn:string key="@id">
-		    <xsl:call-template name="get_uri">
-		      <xsl:with-param name="div_id" select="$id"/>
-		      <xsl:with-param name="mets" select="$mets"/>
-		    </xsl:call-template>
-		  </fn:string>
+		  <xsl:variable name="image_id" select="."/>
+		  <fn:string key="@id"><xsl:value-of select="$image_id"/></fn:string>
+		  <fn:array key="label">
+		    <xsl:for-each select="$mets//m:div[@ID=$id]">
+		      <fn:map>
+			<fn:string key="value"><xsl:value-of select="@ORDERLABEL"/></fn:string>
+			<fn:string key="language"><xsl:value-of select="@xml:lang"/></fn:string>
+		      </fn:map>
+		    </xsl:for-each>
+		  </fn:array>
+		  <fn:map key="resource">
+		    <fn:string key="@id">
+		      <xsl:call-template name="get_uri">
+			<xsl:with-param name="div_id" select="$image_id"/>
+			<xsl:with-param name="mets" select="$mets"/>
+		      </xsl:call-template>
+		    </fn:string>
+		  </fn:map>
 		</fn:map>
 	      </xsl:for-each>
 	    </fn:array>
