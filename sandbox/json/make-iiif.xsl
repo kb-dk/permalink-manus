@@ -109,6 +109,18 @@
 		</fn:map>
 	      </xsl:for-each>
 	    </fn:array>
+	    <fn:array key="images">
+	      <xsl:for-each select="$mets//m:div[preceding-sibling::m:div[@LABEL]/@ID=$id]">
+		<fn:map>
+		  <fn:string key="@id">
+		    <xsl:call-template name="get_uri">
+		      <xsl:with-param name="div_id" select="$id"/>
+		      <xsl:with-param name="mets" select="$mets"/>
+		    </xsl:call-template>
+		  </fn:string>
+		</fn:map>
+	      </xsl:for-each>
+	    </fn:array>
 	  </fn:map>
 	</xsl:for-each>
       </fn:array>
