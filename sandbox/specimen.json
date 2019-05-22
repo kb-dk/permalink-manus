@@ -1,0 +1,255 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://labs.kb.dk/fake-uri/consolations/info.json",
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "label": "Shelfmark",
+      "value": "GKS 1911 4°"
+    },
+    {
+      "label": "title",
+      "value": "Boethius, Consolatio Philosophiae",
+      "language": "dan"
+    },
+    {
+      "label": "title",
+      "value": "Boethius, Consolatio Philosophiae",
+      "language": "eng"
+    }
+  ],
+  "label": "GKS 1911 4°",
+  "description": [
+    {
+      "value": "Pergament, 38 ff. (4×IV + III), ca. 21 × 14 cm; saec. XII",
+      "language": "dan"
+    },
+    {
+      "value": "Håndskriftets første fire læg er nummereret med romertal nederst på sidste side af hvert læg. Det 3. og 4. læg er talt forkert, idet det faktiske læg 3 har tallet IV og faktiske læg 4 har tallet III. Læggene er anbragt i overensstemmelse med tællingen, og folieringen følger læggenes placering. En yngre hånd har på første side af hvert læg angivet den rette følge med bogstaver i rækkefølgen A B D C E, svarende til tekstens korrekte sammenhæng: 1-16, 25-32, 17-24, 33-38. Fejlen, der synes opstået ved bogens fremstilling, har skabt tekstlige sammenstød ved 16v-17r, 24v-25r og 32v-33r",
+      "language": "dan"
+    },
+    {
+      "value": "En yderligere komplikation er fremkommet ved at værkets femte bog – modsat de fire forudgående – ikke er markeret med bogtælling, incipit eller anden synlig sektionering. Teksten til femte bog begynder på f. 23v-24v. De resterende sider findes på f. 33v-38r. På f. 31v optræder den rubricerede begyndelse af Liber IIII. Håndskriftets irregulariteter må have bibragt ukyndige læsere den opfattelse, at Boethius’ værk bestod af fire bøger, hvoraf den tredje var uforholdsmæssig lang",
+      "language": "dan"
+    },
+    {
+      "value": "Håndskriftet har i nyere tid tilhørt biblioteket på Gottorp Slot ved Schleswig. Det kan være kommet dertil via Fridericus Lindenbrogius (1573-1648), som vides at have skaffet adskillige håndskrifter fra biblioteker i Paris til Gottorp, og hvis hånd har stor lighed med den, der prentede bogstaverne på læggene. Det fulgte med Gottorperbiblioteketes øvrige håndskrifter til Det Kongelige Bibliotek i København i 1735. Det har fået sit nuværende bind i Christian VIIIs regeringstid (1839-1848)",
+      "language": "dan"
+    },
+    {
+      "value": "Bibl.: Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 365. - Codices Boethiani. A conspectus of manuscripts of the works of Boethius, II, ed. Lesley Smith, London 2001 (= Warburg Institute surveys and texts, 27), p. 132",
+      "language": "dan"
+    },
+    {
+      "value": "\n                Erik Petersen\n              ",
+      "language": "dan"
+    },
+    {
+      "value": "Parchment, 38 ff. (4×IV + III), ca. 21 × 14 cm; saec. XII",
+      "language": "eng"
+    },
+    {
+      "value": "The first four quires are numbered in Roman numerals at the bottom of the last page of each quire. The third and fourth quires are counted incorrectly. The quire marked IIII is, in fact, the third, and the one marked III the fourth. The quires were put together in the sequence of the Roman numerals, and the leaves were foliated accordingly. A younger hand has pointed out the correct order of the quires by adding letters on the first page of each quire in the sequence A B D C E (= ff. 1-16, 25-32, 17-24, 33-38). The fault, which seems to have arisen when the book was produced, has caused textual collisions at 16v-17r, 24v-25r og 32v-33r",
+      "language": "eng"
+    },
+    {
+      "value": "A further complication can be observed at the beginning of the fifth book, which is not marked by a title, an incipit or by other visible signals of a new book. The first part of the book is copied on f. 23v-24v, the remaining part on f. 33v-38r. On f. 31v the rubricated beginning of Liber IIII occurs. The irregularities of the manuscript may well have given a new reader the impression that Boethius’ Consolatio consisted of four books, the third of which was disproportionately long",
+      "language": "eng"
+    },
+    {
+      "value": "From the mid sixteenth to the early part of the seventeenth centuries the manuscript was in the library of Gottorp Castle near Schleswig. It may have arrived there via Fridericus Lindenbrogius (1573-1648), who is known to have acquired several manuscripts from libraries in Paris that were soon to be included in the Gottorp Library, and whose handwriting resembles the letters added on the quires. In 1735 all the manuscripts of Gottorp were brought to Copenhagen and incorporated in the Royal Library. The Boethius-volume got its present binding during the reign of king Christian VIII (1839-1848)",
+      "language": "eng"
+    },
+    {
+      "value": "Bibl.: Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 365. - Codices Boethiani. A conspectus of manuscripts of the works of Boethius, II, ed. Lesley Smith, London 2001 (= Warburg Institute surveys and texts, 27), p. 132",
+      "language": "eng"
+    },
+    {
+      "value": "\n                Erik Petersen\n              ",
+      "language": "eng"
+    }
+  ],
+  "thumbnail": {
+    "@id": "http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/!225,/0/native.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg"
+  },
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "attribution": "Det Kgl. Bibliotek",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_002v.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "[a recto]",
+              "language": "dan"
+            },
+            {
+              "value": "[a recto]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_006x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "1r: I [\"A\"]",
+              "language": "dan"
+            },
+            {
+              "value": "1r: I [\"A\"]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_017x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "6v: II",
+              "language": "dan"
+            },
+            {
+              "value": "6v: II",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_022x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "[9r: \"B\"]",
+              "language": "dan"
+            },
+            {
+              "value": "[9r: \"B\"]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_030x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "13r: III",
+              "language": "dan"
+            },
+            {
+              "value": "13r: III",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_038x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "[17r: \"D\"]",
+              "language": "dan"
+            },
+            {
+              "value": "[17r: \"D\"]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_051x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "23v: V",
+              "language": "dan"
+            },
+            {
+              "value": "23v: V",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_054x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "[25r: \"C\"]",
+              "language": "dan"
+            },
+            {
+              "value": "[25r: \"C\"]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_066x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "31r: IV",
+              "language": "dan"
+            },
+            {
+              "value": "31r: IV",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_070x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "[33r: \"E\"]",
+              "language": "dan"
+            },
+            {
+              "value": "[33r: \"E\"]",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_080x.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "38r: explicit",
+              "language": "dan"
+            },
+            {
+              "value": "38r: explicit",
+              "language": "eng"
+            }
+          ]
+        },
+        {
+          "@id": "http://img.kb.dk/ha/manus/gks1911/gks1911_087v.jpg",
+          "@type": "sc:Canvas",
+          "label": [
+            {
+              "value": "Bind",
+              "language": "dan"
+            },
+            {
+              "value": "Binding",
+              "language": "eng"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
