@@ -178,7 +178,13 @@
       </xsl:choose>
     </xsl:variable>
 
-    <xsl:value-of select="$mets//m:file[@ID=$fid]/m:FLocat/@xlink:href"/>
+
+
+    <xsl:variable name="path">
+      <xsl:value-of select="substring-before(substring-after($mets//m:file[@ID=$fid]/m:FLocat/@xlink:href,'anus/'),'.jpg')"/>
+    </xsl:variable>
+
+    <xsl:value-of select="concat('http://kb-images.kb.dk/public/Manus/',$path,'/info.json')"/>
 
   </xsl:template>
 
