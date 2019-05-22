@@ -127,12 +127,20 @@
 		    </xsl:for-each>
 		  </fn:array>
 		  <fn:map key="resource">
-		    <fn:string key="@id">
+		    <xsl:variable name="uri">
 		      <xsl:call-template name="get_uri">
 			<xsl:with-param name="div_id" select="$image_id"/>
 			<xsl:with-param name="mets" select="$mets"/>
 		      </xsl:call-template>
+		    </xsl:variable>
+		    <fn:string key="@id">
+		      <xsl:value-of select="concat(substring-before($uri,'/info'),'/full/full/0/default.jpg')"/>
 		    </fn:string>
+		    <fn:map key="service">
+		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
+		      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
+		      <fn:string key="profile">http://iiif.io/api/image/2/context.json</fn:string>
+		    </fn:map>
 		  </fn:map>
 		</fn:map>
 	      </xsl:for-each>
