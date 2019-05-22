@@ -17,6 +17,19 @@
       <fn:string key="@type">sc:Manifest</fn:string>
 
       <xsl:for-each select="//m:dmdSec[@ID='md-root']/m:mdWrap[@MDTYPE='MODS']/m:xmlData/md:mods">
+	<xsl:for-each select="md:name[md:role/md:roleTerm='author'][1]">
+	  <fn:string key="label"><xsl:value-of select="md:partName"/></fn:string>
+	</xsl:for-each>
+      </xsl:for-each>
+
+      <fn:map key="logo">
+	<fn:string key="@id">http://www.kb.dk/export/system/modules/dk.kb.responsive.local/resources/img/kb_logo_smallX2.png</fn:string>
+	<fn:map key="service">
+	  <fn:string key="@id">http://www.kb.dk/export/system/modules/dk.kb.responsive.local/resources/img/kb_logo_small.png</fn:string>
+	</fn:map>
+      </fn:map>
+
+      <xsl:for-each select="//m:dmdSec[@ID='md-root']/m:mdWrap[@MDTYPE='MODS']/m:xmlData/md:mods">
 	<fn:array  key="metadata">
 	  <xsl:for-each select="md:name[md:role/md:roleTerm='author'][1]">
 	    <fn:map>
@@ -37,9 +50,6 @@
 	  </fn:map>
 	</fn:array>
 
-      <xsl:for-each select="md:name[md:role/md:roleTerm='author'][1]">
-	<fn:string key="label"><xsl:value-of select="md:partName"/></fn:string>
-      </xsl:for-each>
 
       <fn:array key="description">
 	<xsl:for-each select="md:note[@type='presentation']">
@@ -59,6 +69,11 @@
 	<fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/!225,/0/native.jpg</fn:string>
 	<fn:string key="@type">dctypes:Image</fn:string>
 	<fn:string key="format">image/jpeg</fn:string>
+	<fn:map key="service">
+	  <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
+	  <fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json</fn:string>
+	  <fn:string key="profile">http://iiif.io/api/image/2/context.json</fn:string>
+	</fn:map>
       </fn:map>
 
       <fn:string key="viewingDirection">left-to-right</fn:string>
