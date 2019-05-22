@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://labs.kb.dk/fake-uri/consolations/info.json",
+  "@id": "https://raw.githubusercontent.com/Det-Kongelige-Bibliotek/permalink-manus/iiif_presentation/sandbox/specimen.json",
   "@type": "sc:Manifest",
   "metadata": [
     {
@@ -9,13 +9,16 @@
     },
     {
       "label": "title",
-      "value": "Boethius, Consolatio Philosophiae",
-      "language": "dan"
-    },
-    {
-      "label": "title",
-      "value": "Boethius, Consolatio Philosophiae",
-      "language": "eng"
+      "value": [
+        {
+          "@value": "Boethius, Consolatio Philosophiae",
+          "@language": "dan"
+        },
+        {
+          "@value": "Boethius, Consolatio Philosophiae",
+          "@language": "eng"
+        }
+      ]
     }
   ],
   "label": "GKS 1911 4°",

@@ -13,7 +13,7 @@
     <fn:map>
 
       <fn:string key="@context">http://iiif.io/api/presentation/2/context.json</fn:string>
-      <fn:string key="@id">https://labs.kb.dk/fake-uri/consolations/info.json</fn:string>
+      <fn:string key="@id">https://raw.githubusercontent.com/Det-Kongelige-Bibliotek/permalink-manus/iiif_presentation/sandbox/specimen.json</fn:string>
       <fn:string key="@type">sc:Manifest</fn:string>
 
       <xsl:for-each select="//m:dmdSec[@ID='md-root']/m:mdWrap[@MDTYPE='MODS']/m:xmlData/md:mods">
@@ -24,13 +24,17 @@
 		<fn:string key="value"><xsl:value-of select="md:partName"/></fn:string>
 	    </fn:map>
 	  </xsl:for-each>
-	  <xsl:for-each select="md:titleInfo">
-	    <fn:map>
-	      <fn:string key="label">title</fn:string>
-	      <fn:string key="value"><xsl:value-of select="md:title"/></fn:string>
-	      <fn:string key="language"><xsl:value-of select="@xml:lang"/></fn:string>
-	    </fn:map>
-	  </xsl:for-each>
+	  <fn:map>
+	    <fn:string key="label">title</fn:string>
+	    <fn:array key="value">
+	      <xsl:for-each select="md:titleInfo">
+		<fn:map>
+		  <fn:string key="@value"><xsl:value-of select="md:title"/></fn:string>
+		  <fn:string key="@language"><xsl:value-of select="@xml:lang"/></fn:string>
+		</fn:map>
+	      </xsl:for-each>
+	    </fn:array>
+	  </fn:map>
 	</fn:array>
 
       <xsl:for-each select="md:name[md:role/md:roleTerm='author'][1]">
