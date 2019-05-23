@@ -158,7 +158,7 @@
 		      <xsl:call-template name="get_uri">
 			<xsl:with-param name="div_id" select="$image_id"/>
 			<xsl:with-param name="mets" select="$mets"/>
-			<xsl:with-param name="suffix"></xsl:with-param>
+			<xsl:with-param name="suffix">/full/full/0/native.jpg</xsl:with-param>
 		      </xsl:call-template>
  		    </xsl:variable>
 		    <fn:string key="@label">
@@ -170,10 +170,8 @@
 		    <fn:string key="@id">
 		      <xsl:value-of select="$uri"/>
 		    </fn:string>
-
-		    <fn:number key="width">1400</fn:number>
-		    <fn:number key="height">2047</fn:number>
-
+		    <fn:string key="@type">dctypes:Image</fn:string>
+		    <fn:string key="format">image/jpeg</fn:string>
 		    <fn:map key="service">
 		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 		      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
