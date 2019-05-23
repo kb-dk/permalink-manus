@@ -116,7 +116,7 @@
 	    <fn:string key="@id">
 	      <xsl:call-template name="get_uri">
 		<xsl:with-param name="div_id" select="$id"/>
-		<xsl:with-param name="suffix">/!225,/0/native.jpg</xsl:with-param>
+		<xsl:with-param name="suffix">/full/!225,/0/native.jpg</xsl:with-param>
 		<xsl:with-param name="mets" select="$mets"/>		
 	      </xsl:call-template>
 	    </fn:string>
@@ -139,7 +139,7 @@
 		  <fn:string key="@id">
 		    <xsl:call-template name="get_uri">
 		      <xsl:with-param name="div_id" select="$image_id"/>
-		      <xsl:with-param name="suffix">/!225,/0/native.jpg</xsl:with-param>
+		      <xsl:with-param name="suffix">/full/!225,/0/native.jpg</xsl:with-param>
 		      <xsl:with-param name="mets" select="$mets"/>		
 		    </xsl:call-template>
 		  </fn:string>
