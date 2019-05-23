@@ -69,6 +69,8 @@
 	<fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/full/full/0/native.jpg</fn:string>
 	<fn:string key="@type">dctypes:Image</fn:string>
 	<fn:string key="format">image/jpeg</fn:string>
+	<fn:number key="width">1400</fn:number>
+	<fn:number key="height">2047</fn:number>
 	<fn:map key="service">
 	  <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 	  <fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/</fn:string>
@@ -168,6 +170,10 @@
 		    <fn:string key="@id">
 		      <xsl:value-of select="$uri"/>
 		    </fn:string>
+
+		    <fn:number key="width">1400</fn:number>
+		    <fn:number key="height">2047</fn:number>
+
 		    <fn:map key="service">
 		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 		      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
