@@ -66,12 +66,12 @@
       </xsl:for-each>
       <!-- obviously, we should select these in a more clever ways. -->
       <fn:map key="thumbnail">
-	<fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/full/0/native.jpg</fn:string>
+	<fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/full/full/0/native.jpg</fn:string>
 	<fn:string key="@type">dctypes:Image</fn:string>
 	<fn:string key="format">image/jpeg</fn:string>
 	<fn:map key="service">
 	  <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
-	  <fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json</fn:string>
+	  <fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/info.json</fn:string>
 	  <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 	</fn:map>
       </fn:map>
@@ -232,7 +232,7 @@
       <xsl:value-of select="substring-before(substring-after($mets//m:file[@ID=$fid]/m:FLocat/@xlink:href,'anus/'),'.jpg')"/>
     </xsl:variable>
 
-    <xsl:value-of select="concat('http://kb-images.kb.dk/public/Manus/',$path,$suffix)"/>
+    <xsl:value-of select="concat('http://localhost/iiif/Manus/',$path,$suffix)"/>
 
   </xsl:template>
 
