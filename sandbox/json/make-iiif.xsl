@@ -118,7 +118,7 @@
 	    <fn:string key="@id">
 	      <xsl:call-template name="get_uri">
 		<xsl:with-param name="div_id" select="$id"/>
-		<xsl:with-param name="suffix">/full/full/0/native.jpg</xsl:with-param>
+		<xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
 		<xsl:with-param name="mets" select="$mets"/>		
 	      </xsl:call-template>
 	    </fn:string>
@@ -141,7 +141,7 @@
 		  <fn:string key="@id">
 		    <xsl:call-template name="get_uri">
 		      <xsl:with-param name="div_id" select="$image_id"/>
-		      <xsl:with-param name="suffix">/full/full/0/native.jpg</xsl:with-param>
+		      <xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
 		      <xsl:with-param name="mets" select="$mets"/>		
 		    </xsl:call-template>
 		  </fn:string>
@@ -158,7 +158,7 @@
 		      <xsl:call-template name="get_uri">
 			<xsl:with-param name="div_id" select="$image_id"/>
 			<xsl:with-param name="mets" select="$mets"/>
-			<xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
+			<xsl:with-param name="suffix"></xsl:with-param>
 		      </xsl:call-template>
  		    </xsl:variable>
 		    <fn:string key="@label">
@@ -168,7 +168,7 @@
 		      </xsl:call-template>
 		    </fn:string>
 		    <fn:string key="@id">
-		      <xsl:value-of select="$uri"/>
+		      <xsl:value-of select="concat($uri,'/full/full/0/default.jpg')"/>
 		    </fn:string>
 		    <fn:string key="@type">dctypes:Image</fn:string>
 		    <fn:string key="format">image/jpeg</fn:string>
