@@ -172,6 +172,9 @@
 		    </fn:string>
 		    <fn:string key="@type">dctypes:Image</fn:string>
 		    <fn:string key="format">image/jpeg</fn:string>
+		    <xsl:call-template name="get_resolution">
+		      <xsl:with-param name="uri" select="$uri"/>		      
+		    </xsl:call-template>
 		    <fn:map key="service">
 		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 		      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
@@ -238,6 +241,20 @@
 
     <xsl:value-of select="concat('http://localhost/iiif/Manus/',$path,$suffix)"/>
 
+  </xsl:template>
+
+  <xsl:template name="get_resolution">
+    <xsl:param name="uri"/>
+      <xsl:choose>
+	<xsl:when test="matches($uri,'x$')">
+	  <fn:number key="width">1400</fn:number>
+	  <fn:number key="height">2049</fn:number>
+	</xsl:when>
+	<xsl:otherwise>
+	  <fn:number key="width">830</fn:number>
+	  <fn:number key="height">1225</fn:number>
+	</xsl:otherwise>
+      </xsl:choose>
   </xsl:template>
 
 
