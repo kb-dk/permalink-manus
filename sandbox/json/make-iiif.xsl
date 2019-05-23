@@ -116,19 +116,22 @@
 	    <fn:string key="@id">
 	      <xsl:call-template name="get_uri">
 		<xsl:with-param name="div_id" select="$id"/>
-		<xsl:with-param name="suffix" select="'/full/full/0/default.jpg'"/>
+		<xsl:with-param name="suffix">/!225,/0/native.jpg</xsl:with-param>
 		<xsl:with-param name="mets" select="$mets"/>		
 	      </xsl:call-template>
 	    </fn:string>
 	    <fn:string key="@type">sc:Canvas</fn:string>
-	    <fn:array key="label">
+	    <fn:string key="label">
+	      <xsl:value-of select="$mets//m:div[@ID=$id][1]/@LABEL"/>
+	    </fn:string>
+	    <!-- fn:array key="label">
 	      <xsl:for-each select="$mets//m:div[@ID=$id]">
 		<fn:map>
 		  <fn:string key="value"><xsl:value-of select="@LABEL"/></fn:string>
 		  <fn:string key="language"><xsl:value-of select="@xml:lang"/></fn:string>
 		</fn:map>
 	      </xsl:for-each>
-	    </fn:array>
+	    </fn:array -->
 	    <fn:array key="images">
 	      <xsl:for-each select="distinct-values($mets//m:div[preceding-sibling::m:div[@LABEL]/@ID=$id]/@ID)">
 		<fn:map>
@@ -136,7 +139,7 @@
 		  <fn:string key="@id">
 		    <xsl:call-template name="get_uri">
 		      <xsl:with-param name="div_id" select="$image_id"/>
-		      <xsl:with-param name="suffix" select="'/full/full/0/default.jpg'"/>
+		      <xsl:with-param name="suffix">/!225,/0/native.jpg</xsl:with-param>
 		      <xsl:with-param name="mets" select="$mets"/>		
 		    </xsl:call-template>
 		  </fn:string>
@@ -153,11 +156,17 @@
 		      <xsl:call-template name="get_uri">
 			<xsl:with-param name="div_id" select="$image_id"/>
 			<xsl:with-param name="mets" select="$mets"/>
-			<xsl:with-param name="suffix" select="'/'"/>
+			<xsl:with-param name="suffix"></xsl:with-param>
 		      </xsl:call-template>
-		    </xsl:variable>
+ 		    </xsl:variable>
+		    <fn:string key="@label">
+		      <xsl:call-template name="get_lbl">
+			<xsl:with-param name="mets" select="$mets"/>
+			<xsl:with-param name="div_id" select="$image_id"/>
+		      </xsl:call-template>
+		    </fn:string>
 		    <fn:string key="@id">
-		      <xsl:value-of select="concat(substring-before($uri,'/info'),'/full/full/0/default.jpg')"/>
+		      <xsl:value-of select="$uri"/>
 		    </fn:string>
 		    <fn:map key="service">
 		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
@@ -175,10 +184,17 @@
     <xsl:message><xsl:value-of select="$mets/local-name(.)"/></xsl:message>
   </xsl:template>
 
+ <xsl:template name="get_lbl">
+    <xsl:param name="div_id"/>
+    <xsl:param name="mets"/>
+    <xsl:value-of select="$mets//m:div[@ID=$div_id][1]/@ORDERLABEL"/>
+ </xsl:template>
+
+
   <xsl:template name="get_uri">
     <xsl:param name="div_id"/>
     <xsl:param name="mets"/>
-    <xsl:param name="suffix" select="'/info.json'"/>
+    <xsl:param name="suffix" />
 
     <xsl:variable name="id"> 
       <xsl:value-of select="$mets//m:div[@ID=$div_id][1]/m:fptr/@FILEID"/>
