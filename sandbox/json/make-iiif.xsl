@@ -72,7 +72,7 @@
 	<fn:map key="service">
 	  <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 	  <fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json</fn:string>
-	  <fn:string key="profile">http://iiif.io/api/image/2/context.json</fn:string>
+	  <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 	</fn:map>
       </fn:map>
 
@@ -171,7 +171,7 @@
 		    <fn:map key="service">
 		      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
 		      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
-		      <fn:string key="profile">http://iiif.io/api/image/2/context.json</fn:string>
+		      <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 		    </fn:map>
 		  </fn:map>
 		</fn:map>
