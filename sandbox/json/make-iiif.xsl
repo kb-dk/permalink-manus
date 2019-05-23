@@ -156,7 +156,7 @@
 		      <xsl:call-template name="get_uri">
 			<xsl:with-param name="div_id" select="$image_id"/>
 			<xsl:with-param name="mets" select="$mets"/>
-			<xsl:with-param name="suffix"></xsl:with-param>
+			<xsl:with-param name="suffix">/info.json</xsl:with-param>
 		      </xsl:call-template>
  		    </xsl:variable>
 		    <fn:string key="@label">
