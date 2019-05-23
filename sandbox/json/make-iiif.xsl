@@ -66,7 +66,7 @@
       </xsl:for-each>
       <!-- obviously, we should select these in a more clever ways. -->
       <fn:map key="thumbnail">
-	<fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/225/0/native.jpg</fn:string>
+	<fn:string key="@id">http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/full/0/native.jpg</fn:string>
 	<fn:string key="@type">dctypes:Image</fn:string>
 	<fn:string key="format">image/jpeg</fn:string>
 	<fn:map key="service">
@@ -116,7 +116,7 @@
 	    <fn:string key="@id">
 	      <xsl:call-template name="get_uri">
 		<xsl:with-param name="div_id" select="$id"/>
-		<xsl:with-param name="suffix">/full/225/0/native.jpg</xsl:with-param>
+		<xsl:with-param name="suffix">/full/full/0/native.jpg</xsl:with-param>
 		<xsl:with-param name="mets" select="$mets"/>		
 	      </xsl:call-template>
 	    </fn:string>
@@ -139,7 +139,7 @@
 		  <fn:string key="@id">
 		    <xsl:call-template name="get_uri">
 		      <xsl:with-param name="div_id" select="$image_id"/>
-		      <xsl:with-param name="suffix">/full/225/0/native.jpg</xsl:with-param>
+		      <xsl:with-param name="suffix">/full/full/0/native.jpg</xsl:with-param>
 		      <xsl:with-param name="mets" select="$mets"/>		
 		    </xsl:call-template>
 		  </fn:string>
