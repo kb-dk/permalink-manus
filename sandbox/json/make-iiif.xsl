@@ -116,7 +116,7 @@
   <xsl:template match="m:div[@DMDID='md-root']">
     <xsl:param name="mets"/>
     <fn:map>
-      <fn:string key="@id"><xsl:call-template name="mk_manus_uri"/></fn:string>
+      <fn:string key="@id"><xsl:call-template name="mk_manus_uri"/>#sequence-1</fn:string>
       <fn:string key="@type">sc:Sequence</fn:string>
       <fn:array key="canvases">
 	<xsl:for-each select="distinct-values(m:div[@LABEL]/@ID)">
