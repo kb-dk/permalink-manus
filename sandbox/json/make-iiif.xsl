@@ -122,6 +122,8 @@
       <fn:string key="@id"><xsl:call-template name="mk_manus_uri"/></fn:string>
       <fn:string key="@type">sc:Sequence</fn:string>
       <fn:string key="label">Default</fn:string>
+      <fn:string key="viewingDirection">left-to-right</fn:string>
+      <fn:string key="viewingHint">paged</fn:string>
       <fn:array key="canvases">
 	<xsl:for-each select="m:div[not(@ID = preceding-sibling::m:div/@ID)]">
 	  <xsl:variable name="id" select="@ID"/>
