@@ -156,14 +156,15 @@
 	  </xsl:call-template>
 	</fn:string>
       </fn:map>
-      <fn:array key="label">
+      <fn:string key="label"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
+      <!-- fn:array key="label">
 	<xsl:for-each select="$mets//m:div[@ID=$id]">
 	  <fn:map>
 	    <fn:string key="value"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
 	    <xsl:call-template name="string_lang"/>
 	  </fn:map>
 	</xsl:for-each>
-      </fn:array>
+      </fn:array -->
       <fn:array key="images">
 	<fn:map>
 	  <xsl:variable name="image_id" select="$id"/>
@@ -174,14 +175,15 @@
 	      <xsl:with-param name="mets" select="$mets"/>		
 	    </xsl:call-template>
 	  </fn:string>
-	  <fn:array key="label">
+	  <fn:string key="label"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
+	  <!-- fn:array key="label">
 	    <xsl:for-each select="$mets//m:div[@ID=$id]">
 	      <fn:map>
 		<fn:string key="value"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
 		<xsl:call-template name="string_lang"/>
 	      </fn:map>
 	    </xsl:for-each>
-	  </fn:array>
+	  </fn:array -->
 	 
 	  <fn:map key="resource">
 	    <xsl:variable name="uri">
