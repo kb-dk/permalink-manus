@@ -222,7 +222,7 @@
 
       </fn:array>
     </fn:map>
-    <xsl:message><xsl:value-of select="$mets/local-name(.)"/></xsl:message>
+
   </xsl:template>
 
   <xsl:template name="get_lbl">
