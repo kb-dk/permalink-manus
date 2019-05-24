@@ -125,9 +125,6 @@
       <fn:array key="canvases">
 	<xsl:for-each select="m:div[not(@ID = preceding-sibling::m:div/@ID)]">
 	  <xsl:variable name="id" select="@ID"/>
-	  <xsl:message>
-	    <xsl:value-of select="@ID"/>
-	  </xsl:message>
 	  <xsl:call-template name="mdiv">
 	    <xsl:with-param name="mets" select="$mets"/>
 	  </xsl:call-template>
@@ -150,11 +147,20 @@
 	</xsl:call-template>
       </fn:string>
       <fn:string key="@type">sc:Canvas</fn:string>
+      <fn:map key="thumbnail">	  
+	<fn:string key="@id">
+	  <xsl:call-template name="get_uri">
+	    <xsl:with-param name="div_id" select="$id"/>
+	    <xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
+	    <xsl:with-param name="mets" select="$mets"/>		
+	  </xsl:call-template>
+	</fn:string>
+      </fn:map>
       <fn:array key="label">
 	<xsl:for-each select="$mets//m:div[@ID=$id]">
 	  <fn:map>
 	    <fn:string key="value"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
-	    <fn:string key="language"><xsl:value-of select="@xml:lang"/></fn:string>
+	    <xsl:call-template name="string_lang"/>
 	  </fn:map>
 	</xsl:for-each>
       </fn:array>
@@ -176,15 +182,7 @@
 	      </fn:map>
 	    </xsl:for-each>
 	  </fn:array>
-	  <fn:map key="thumbnail">	  
-	    <fn:string key="@id">
-	      <xsl:call-template name="get_uri">
-		<xsl:with-param name="div_id" select="$image_id"/>
-		<xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
-		<xsl:with-param name="mets" select="$mets"/>		
-	      </xsl:call-template>
-	  </fn:string>
-	  </fn:map>
+	 
 	  <fn:map key="resource">
 	    <xsl:variable name="uri">
 	      <xsl:call-template name="get_uri">
