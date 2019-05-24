@@ -142,7 +142,7 @@
       <fn:string key="@id">
 	<xsl:call-template name="get_uri">
 	  <xsl:with-param name="div_id" select="$id"/>
-	  <xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
+	  <xsl:with-param name="suffix"></xsl:with-param>
 	  <xsl:with-param name="mets" select="$mets"/>		
 	</xsl:call-template>
       </fn:string>
