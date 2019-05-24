@@ -7,6 +7,12 @@
 
   <xsl:output indent="yes" method="text"/>
 
+  <!-- These hare hard-coded here, need to be passed or calculated in the real world -->
+
+  <xsl:param name="manus_number" select="'642'"/>
+  <xsl:param name="manus_base_uri" select="'http://www.kb.dk'"/>
+  <xsl:param name="manus_lang" select="'dan'"/>
+
   <xsl:template match="/">
     <xsl:variable name="iiif_document">
     <xsl:variable name="mets"><xsl:copy-of select="."/></xsl:variable>
@@ -110,6 +116,7 @@
   <xsl:template match="m:div[@DMDID='md-root']">
     <xsl:param name="mets"/>
     <fn:map>
+      <fn:string key="@id"><xsl:call-template name="mk_manus_uri"/></fn:string>
       <fn:string key="@type">sc:Sequence</fn:string>
       <fn:array key="canvases">
 	<xsl:for-each select="distinct-values(m:div[@LABEL]/@ID)">
@@ -257,6 +264,9 @@
       </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="mk_manus_uri">
+    <xsl:value-of select="concat($manus_base_uri,'/permalink/2006/manus/',$manus_number,'/',$manus_lang,'/')"/>
+  </xsl:template>
 
 </xsl:stylesheet>
 
