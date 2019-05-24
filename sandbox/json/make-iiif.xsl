@@ -11,6 +11,9 @@
 
   <xsl:param name="manus_number" select="'642'"/>
   <xsl:param name="manus_base_uri" select="'http://www.kb.dk'"/>
+  <!-- xsl:param name="iiif_host">http://localhost/iiif/Manus</xsl:param -->
+  <xsl:param name="iiif_host">http://kb-images.kb.dk/public/Manus</xsl:param>
+
   <xsl:param name="manus_lang" select="'dan'"/>
 
   <xsl:template match="/">
@@ -75,14 +78,14 @@
 	</xsl:for-each>
 	<!-- obviously, we should select these in a more clever ways. -->
 	<fn:map key="thumbnail">
-	  <fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/full/full/0/default.jpg</fn:string>
+	  <fn:string key="@id"><xsl:value-of select="$iiif_host"/>/gks1911/gks1911_006x/full/full/0/default.jpg</fn:string>
 	  <fn:string key="@type">dctypes:Image</fn:string>
 	  <fn:string key="format">image/jpeg</fn:string>
 	  <fn:number key="width">1400</fn:number>
 	  <fn:number key="height">2047</fn:number>
 	  <fn:map key="service">
 	    <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
-	    <fn:string key="@id">http://localhost/iiif/Manus/gks1911/gks1911_006x/</fn:string>
+	    <fn:string key="@id"><xsl:value-of select="$iiif_host"/>/gks1911/gks1911_006x/info.json</fn:string>
 	    <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 	  </fn:map>
 	</fn:map>
@@ -142,7 +145,7 @@
       <fn:string key="@id">
 	<xsl:call-template name="get_uri">
 	  <xsl:with-param name="div_id" select="$id"/>
-	  <xsl:with-param name="suffix"></xsl:with-param>
+	  <xsl:with-param name="suffix">/info.json</xsl:with-param>
 	  <xsl:with-param name="mets" select="$mets"/>		
 	</xsl:call-template>
       </fn:string>
@@ -161,7 +164,7 @@
 	  <fn:string key="@id">
 	    <xsl:call-template name="get_uri">
 	      <xsl:with-param name="div_id" select="$image_id"/>
-	      <xsl:with-param name="suffix"></xsl:with-param>
+	      <xsl:with-param name="suffix">/info.json</xsl:with-param>
 	      <xsl:with-param name="mets" select="$mets"/>		
 	    </xsl:call-template>
 	  </fn:string>
@@ -197,7 +200,7 @@
 	    </xsl:call-template>
 	    <fn:map key="service">
 	      <fn:string key="@context">http://iiif.io/api/image/2/context.json</fn:string>
-	      <fn:string key="@id"><xsl:value-of select="$uri"/></fn:string>
+	      <fn:string key="@id"><xsl:value-of select="$uri"/>/info.json</fn:string>
 	      <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 	    </fn:map>
 	  </fn:map>
@@ -256,7 +259,7 @@
       <xsl:value-of select="substring-before(substring-after($mets//m:file[@ID=$fid]/m:FLocat/@xlink:href,'anus/'),'.jpg')"/>
     </xsl:variable>
 
-    <xsl:value-of select="concat('http://localhost/iiif/Manus/',$path,$suffix)"/>
+    <xsl:value-of select="concat($iiif_host,$path,$suffix)"/>
 
   </xsl:template>
 
