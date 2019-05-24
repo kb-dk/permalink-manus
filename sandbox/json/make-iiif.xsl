@@ -118,7 +118,7 @@
     <fn:map>
       <fn:string key="@id"><xsl:call-template name="mk_manus_uri"/></fn:string>
       <fn:string key="@type">sc:Sequence</fn:string>
-      <fn:string key="label">pages</fn:string>
+      <fn:string key="label">Default</fn:string>
       <fn:array key="canvases">
 	<xsl:for-each select="m:div[not(@ID = preceding-sibling::m:div/@ID)]">
 	  <xsl:variable name="id" select="@ID"/>
@@ -150,7 +150,7 @@
       <fn:array key="label">
 	<xsl:for-each select="$mets//m:div[@ID=$id]">
 	  <fn:map>
-	    <fn:string key="value"><xsl:value-of select="@LABEL"/></fn:string>
+	    <fn:string key="value"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
 	    <fn:string key="language"><xsl:value-of select="@xml:lang"/></fn:string>
 	  </fn:map>
 	</xsl:for-each>
@@ -161,7 +161,7 @@
 	  <fn:string key="@id">
 	    <xsl:call-template name="get_uri">
 	      <xsl:with-param name="div_id" select="$image_id"/>
-	      <xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
+	      <xsl:with-param name="suffix"></xsl:with-param>
 	      <xsl:with-param name="mets" select="$mets"/>		
 	    </xsl:call-template>
 	  </fn:string>
