@@ -12,7 +12,7 @@
   <xsl:param name="manus_number" select="'642'"/>
   <xsl:param name="manus_base_uri" select="'http://www.kb.dk'"/>
   <!-- xsl:param name="iiif_host">http://localhost/iiif/Manus</xsl:param -->
-  <xsl:param name="iiif_host">http://kb-images.kb.dk/public/Manus</xsl:param>
+  <xsl:param name="iiif_host">http://kb-images.kb.dk/public/Manus/</xsl:param>
 
   <xsl:param name="manus_lang" select="'dan'"/>
 
