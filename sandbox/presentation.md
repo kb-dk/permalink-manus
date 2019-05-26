@@ -9,3 +9,8 @@ I opted for the only book I've actually read, namely Boethius [De Consolatione P
 ## Made a quick and dirty migration 
 
 
+[Wrote a transform METS to Bash](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/images/extract_img_info.xsl) creating a shell script that retrieves all the images in a 
+manus document, transforms them to tiff and from that to jp2000.
+
+The jp2000 files were installed on IIP Image
+
