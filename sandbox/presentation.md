@@ -31,11 +31,24 @@ JSON tech md http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json
 * My transform is oneway, METS -> IIIF. The use case for the latter is presentation and end user annotation. Not replacing the former METS. 
 * [make-iiif.xsl](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/json/make-iiif.xsl)
 * [specimen.json](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/specimen.json)
-* Works, almost. Still unfinished [Mirador](https://projectmirador.org/demo/)
+* Works, almost. Still unfinished. Lets check with [Mirador](https://projectmirador.org/demo/)
+
+To get a mirador in production requires 
+
+* Completing this transform
+* Move this into the running application, such that it be used for all 750+ manuscripts in it.
+* Deliver Mirador form JSP in tomcat
+* Perhaps style Mirador.
+
+About a week and a half left to get there.
 
 
 ## Experiences
 
-* IMHO, JSON LD has the basic complications of XML
-* IMHO, JSON LD does not provide a technology stack
+* IMHO, JSON-LD has the basic complications of XML, is not even close provide a comparable technology stack can still not encode text.
+* IIIF doesn't really handle chapters and sections. Only headings.
 * IMHO, IIIF need a validator.
+
+__Next Innovation week I might write a IIIF presentation API validator using Schematron.__
+
+
