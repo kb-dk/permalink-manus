@@ -28,7 +28,10 @@ JSON tech md http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json
 ## A transform from METS to IIIF Presentation API json
 
 * XSLT 3.0 transforms with ease to and from JSON
-
+* My transform is oneway, METS -> IIIF. The use case for the latter is presentation and end user annotation. Not replacing the former METS. 
+* [make-iiif.xsl](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/json/make-iiif.xsl)
+* [specimen.json](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/specimen.json)
+* Works, almost. Still unfinished [
 
 
 ## Experiences
