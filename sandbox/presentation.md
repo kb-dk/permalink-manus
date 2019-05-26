@@ -1,3 +1,11 @@
+
+## What is a manuscript, anyway?
+
+* Means "handwritten"
+* In a library context it is a contunuoum with two endpoints: Goes from (i) A handwritten work to (ii) archival records. 
+* These things are usually unique. There is one or a few copies that may differ.
+* Medieval manuscrpts are handwritten copies, usually manufactured in a special Scriptorium, written by pupils in schools or archival records.
+
 # What I actuallly did
 
 ## Worked with one manuscript
@@ -17,3 +25,14 @@ JPG http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/full/full/0/default
 
 JSON tech md http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json
 
+## A transform from METS to IIIF Presentation API json
+
+* XSLT 3.0 transforms with ease to and from JSON
+
+
+
+## Experiences
+
+* IMHO, JSON LD has the basic complications of XML
+* IMHO, JSON LD does not provide a technology stack
+* IMHO, IIIF need a validator.
