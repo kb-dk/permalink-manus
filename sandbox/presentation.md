@@ -45,9 +45,10 @@ About a week and a half left to get there.
 
 ## Experiences
 
+* I really like what you can do with IIIF and in particular Mirador
 * IMHO, JSON-LD has the basic complications of XML, is not even close provide a comparable technology stack can still not encode text.
 * IIIF doesn't really handle chapters and sections. Only headings.
-* IMHO, IIIF need a validator.
+* IMHO, IIIF need a working validator. One that tells you what's wrong with you JSON document.
 
 __Next Innovation week I might write a IIIF presentation API validator using Schematron.__
 
