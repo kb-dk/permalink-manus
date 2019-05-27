@@ -3,7 +3,7 @@
 
 * Means "handwritten"
 * In a library context it is a contunuoum with two endpoints: 
-stuff rom (i) A handwritten work to (ii) archival records. 
+stuff from (i) handwritten works to (ii) archival records. 
 * These things are usually unique. There is one or a few copies that may differ.
 * Medieval manuscrpts are handwritten copies, usually manufactured in a special Scriptorium, written by pupils in schools or archival records.
 
