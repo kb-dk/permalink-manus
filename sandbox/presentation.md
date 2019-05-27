@@ -49,11 +49,4 @@ About a week and a half left to get there.
 * IIIF doesn't really handle chapters and sections. Only headings.
 * IMHO, IIIF need a working validator. One that tells you what's wrong with you JSON document. Next Innovation week I might write a IIIF presentation API validator using Schematron.
 
-### Imager data vs metadata
 
-The metadata is still maintained; and is the fruit of many man years of research by people knowing the languages, paleography and whatever is needed.
-
-* Software is cheap
-* Images and OCRs modestly expensive
-* Metadata is expensive
-* Edited text is like indian ink on parchment
