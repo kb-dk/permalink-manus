@@ -7,8 +7,6 @@ stuff from (i) handwritten works to (ii) archival records.
 * These things are usually unique. There is one or a few copies that may differ.
 * Medieval manuscrpts are handwritten copies, usually manufactured in a special Scriptorium, written by pupils in schools or archival records.
 
-# What I actuallly did
-
 ## Worked with one manuscript
 
 I wanted return to [CODICES LATINI HAUNIENSES](http://www.kb.dk/en/nb/materialer/haandskrifter/HA/e-mss/clh.html), both for looking at the data I worked with for more than ten years ago, and hopefully demonstrate that they can still be useful.
