@@ -57,4 +57,4 @@ The metadata is still maintained; and is the fruit of many man years of research
 * Software is cheap
 * Images and OCRs modestly expensive
 * Metadata is expensive
-* Edited text is gold
+* Edited text is like indian ink on parchment
