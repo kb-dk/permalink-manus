@@ -2,7 +2,8 @@
 ## What is a manuscript, anyway?
 
 * Means "handwritten"
-* In a library context it is a contunuoum with two endpoints: Goes from (i) A handwritten work to (ii) archival records. 
+* In a library context it is a contunuoum with two endpoints: 
+stuff rom (i) A handwritten work to (ii) archival records. 
 * These things are usually unique. There is one or a few copies that may differ.
 * Medieval manuscrpts are handwritten copies, usually manufactured in a special Scriptorium, written by pupils in schools or archival records.
 
@@ -37,19 +38,23 @@ To get a mirador in production requires
 
 * Completing this transform
 * Move this into the running application, such that it be used for all 750+ manuscripts in it.
-* Deliver Mirador form JSP in tomcat
+* Deliver Mirador from JSP in tomcat
 * Perhaps style Mirador.
 
 About a week and a half left to get there.
-
 
 ## Experiences
 
 * I really like what you can do with IIIF and in particular Mirador
 * IMHO, JSON-LD has the basic complications of XML, is not even close provide a comparable technology stack can still not encode text.
 * IIIF doesn't really handle chapters and sections. Only headings.
-* IMHO, IIIF need a working validator. One that tells you what's wrong with you JSON document.
+* IMHO, IIIF need a working validator. One that tells you what's wrong with you JSON document. Next Innovation week I might write a IIIF presentation API validator using Schematron.
 
-__Next Innovation week I might write a IIIF presentation API validator using Schematron.__
+## Imager data vs metadata
 
+The metadata is still maintained; and is the fruit of many man years of research by people knowing the languages, paleography and whatever is needed.
 
+* Software is cheap
+* Images and OCRs modestly expensive
+* Metadata is expensive
+* Edited text is gold
