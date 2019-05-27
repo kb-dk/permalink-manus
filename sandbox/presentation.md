@@ -31,6 +31,7 @@ JSON tech md http://kb-images.kb.dk/public/Manus/gks1911/gks1911_006x/info.json
 * [make-iiif.xsl](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/json/make-iiif.xsl)
 * [specimen.json](https://github.com/Det-Kongelige-Bibliotek/permalink-manus/blob/iiif_presentation/sandbox/specimen.json)
 * Works, almost. Still unfinished. Lets check with [Mirador](https://projectmirador.org/demo/)
+* [Ben Albritton commented](https://twitter.com/bla222/status/1132704573871624193?s=19)
 
 To get a mirador in production requires 
 
