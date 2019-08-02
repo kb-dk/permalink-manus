@@ -68,7 +68,7 @@
 	    <xsl:for-each select="md:note[@type='presentation']">
 	      <xsl:for-each select="div/p">
 		<fn:map>
-		  <fn:string key="value"><xsl:value-of select="."/></fn:string>
+		  <fn:string key="@value"><xsl:value-of select="."/></fn:string>
 		  <xsl:call-template name="string_lang"/>
 		</fn:map>
 	      </xsl:for-each>
