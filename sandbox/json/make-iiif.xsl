@@ -42,13 +42,13 @@
 	  <fn:array  key="metadata">
 	    <xsl:for-each select="md:name[md:role/md:roleTerm='author'][1]">
 	      <fn:map>
-		<fn:string key="label">Shelfmark</fn:string>
-		<fn:string key="value"><xsl:value-of select="md:partName"/></fn:string>
+		<fn:string key="@label">Shelfmark</fn:string>
+		<fn:string key="@value"><xsl:value-of select="md:partName"/></fn:string>
 	      </fn:map>
 	    </xsl:for-each>
 	    <fn:map>
-	      <fn:string key="label">title</fn:string>
-	      <fn:array key="value">
+	      <fn:string key="@label">title</fn:string>
+	      <fn:array key="@value">
 		<xsl:for-each select="md:titleInfo">
 		  <fn:map>
 		    <fn:string key="@value"><xsl:value-of select="md:title"/></fn:string>
@@ -58,8 +58,8 @@
 	      </fn:array>
 	    </fn:map>
 	    <fn:map>
-	      <fn:string key="label">Source</fn:string>
-	      <fn:string key="value">http://www.kb.dk/da/nb/materialer/haandskrifter/HA/e-mss/clh.html</fn:string>
+	      <fn:string key="@label">Source</fn:string>
+	      <fn:string key="@value">http://www.kb.dk/da/nb/materialer/haandskrifter/HA/e-mss/clh.html</fn:string>
 	    </fn:map>
 	  </fn:array>
 
