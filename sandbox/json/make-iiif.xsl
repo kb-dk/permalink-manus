@@ -155,15 +155,6 @@
 	<xsl:with-param name="uri" select="$id"/>		      
       </xsl:call-template>
 
-      <fn:map key="thumbnail">	  
-	<fn:string key="@id">
-	  <xsl:call-template name="get_uri">
-	    <xsl:with-param name="div_id" select="$id"/>
-	    <xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
-	    <xsl:with-param name="mets" select="$mets"/>		
-	  </xsl:call-template>
-	</fn:string>
-      </fn:map>
       <fn:string key="label"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
       <!-- fn:array key="label">
 	<xsl:for-each select="$mets//m:div[@ID=$id]">
@@ -184,14 +175,17 @@
 	      <xsl:with-param name="mets" select="$mets"/>		
 	    </xsl:call-template>
 	  </fn:string>
-	  <fn:array key="label">
+
+	  <fn:string key="@type">oa:Annotation</fn:string>
+
+	  <!-- fn:array key="label">
 	    <xsl:for-each select="$mets//m:div[@ID=$id]">
 	      <fn:map>
 		<fn:string key="value"><xsl:value-of select="(@LABEL|@ORDERLABEL)[1]"/></fn:string>
 		<xsl:call-template name="string_lang"/>
 	      </fn:map>
 	    </xsl:for-each>
-	  </fn:array>
+	  </fn:array -->
 	 
 	  <fn:map key="resource">
 	    <xsl:variable name="uri">
@@ -224,6 +218,18 @@
 	    </fn:map>
 	    <fn:string key="on"><xsl:value-of select="$uri"/></fn:string>
 	  </fn:map>
+
+	  <fn:map key="thumbnail">	  
+	    <fn:string key="@id">
+	      <xsl:call-template name="get_uri">
+		<xsl:with-param name="div_id" select="$id"/>
+		<xsl:with-param name="suffix">/full/full/0/default.jpg</xsl:with-param>
+		<xsl:with-param name="mets" select="$mets"/>		
+	      </xsl:call-template>
+	    </fn:string>
+	  </fn:map>
+
+
 	</fn:map>
 
       </fn:array>
