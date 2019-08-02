@@ -222,6 +222,7 @@
 	      <!-- fn:string key="@id"><xsl:value-of select="$iiif_host"/><xsl:value-of select="$uri"/>/full/full/0/default.jpg</fn:string -->
 	      <fn:string key="profile">http://iiif.io/api/image/2/level2.json</fn:string>
 	    </fn:map>
+	    <fn:string key="on"><xsl:value-of select="$uri"/></fn:string>
 	  </fn:map>
 	</fn:map>
 
