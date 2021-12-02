@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:785">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Arkivalier vedr. Hollands historie, 1903</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>G. W. Kernkamp</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">CMB</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:785:126404">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126358">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126359">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0004.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126360">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126361">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0006.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126362">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0007.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126363">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0008.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126364">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0009.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126365">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0010.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126366">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0011.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126367">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0012.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126368">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126369">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126370">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126371">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126372">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126373">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0018.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126374">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0019.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126375">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0020.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126376">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0021.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126377">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0022.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126378">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0023.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126379">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0024.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126380">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0025.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126381">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0026.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126382">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0027.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126383">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0028.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126384">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0029.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126385">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0030.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126386">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0031.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126387">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0032.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126388">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0033.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126389">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0034.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126390">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0035.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126391">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0036.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126392">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0037.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126393">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0038.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126394">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0039.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126395">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0040.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126396">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0041.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126397">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0042.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126398">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0043.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126399">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0044.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126400">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0045.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126401">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0046.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126402">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0047.jpg"/>
+      </m:file>
+      <m:file ID="file:default:785:126403">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/kernkamp/kernkamp_0048.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:785:physical:root" DMDID="md-root">
+      <m:div ID="manus:785:div:physical:126404" xml:lang="dan" ORDERLABEL="Bind" LABEL="Bind">
+        <m:fptr FILEID="file:default:785:126404"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126358" xml:lang="dan" ORDERLABEL="183" LABEL="Side 183">
+        <m:fptr FILEID="file:default:785:126358"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126359" xml:lang="dan" ORDERLABEL="184">
+        <m:fptr FILEID="file:default:785:126359"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126360" xml:lang="dan" ORDERLABEL="185">
+        <m:fptr FILEID="file:default:785:126360"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126361" xml:lang="dan" ORDERLABEL="186">
+        <m:fptr FILEID="file:default:785:126361"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126362" xml:lang="dan" ORDERLABEL="187">
+        <m:fptr FILEID="file:default:785:126362"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126363" xml:lang="dan" ORDERLABEL="188">
+        <m:fptr FILEID="file:default:785:126363"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126364" xml:lang="dan" ORDERLABEL="189">
+        <m:fptr FILEID="file:default:785:126364"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126365" xml:lang="dan" ORDERLABEL="190">
+        <m:fptr FILEID="file:default:785:126365"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126366" xml:lang="dan" ORDERLABEL="191">
+        <m:fptr FILEID="file:default:785:126366"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126367" xml:lang="dan" ORDERLABEL="192">
+        <m:fptr FILEID="file:default:785:126367"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126368" xml:lang="dan" ORDERLABEL="193">
+        <m:fptr FILEID="file:default:785:126368"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126369" xml:lang="dan" ORDERLABEL="194">
+        <m:fptr FILEID="file:default:785:126369"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126370" xml:lang="dan" ORDERLABEL="195">
+        <m:fptr FILEID="file:default:785:126370"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126371" xml:lang="dan" ORDERLABEL="196">
+        <m:fptr FILEID="file:default:785:126371"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126372" xml:lang="dan" ORDERLABEL="197">
+        <m:fptr FILEID="file:default:785:126372"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126373" xml:lang="dan" ORDERLABEL="198">
+        <m:fptr FILEID="file:default:785:126373"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126374" xml:lang="dan" ORDERLABEL="199">
+        <m:fptr FILEID="file:default:785:126374"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126375" xml:lang="dan" ORDERLABEL="200">
+        <m:fptr FILEID="file:default:785:126375"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126376" xml:lang="dan" ORDERLABEL="201">
+        <m:fptr FILEID="file:default:785:126376"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126377" xml:lang="dan" ORDERLABEL="202">
+        <m:fptr FILEID="file:default:785:126377"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126378" xml:lang="dan" ORDERLABEL="203">
+        <m:fptr FILEID="file:default:785:126378"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126379" xml:lang="dan" ORDERLABEL="204">
+        <m:fptr FILEID="file:default:785:126379"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126380" xml:lang="dan" ORDERLABEL="205">
+        <m:fptr FILEID="file:default:785:126380"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126381" xml:lang="dan" ORDERLABEL="206">
+        <m:fptr FILEID="file:default:785:126381"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126382" xml:lang="dan" ORDERLABEL="207">
+        <m:fptr FILEID="file:default:785:126382"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126383" xml:lang="dan" ORDERLABEL="208">
+        <m:fptr FILEID="file:default:785:126383"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126384" xml:lang="dan" ORDERLABEL="209">
+        <m:fptr FILEID="file:default:785:126384"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126385" xml:lang="dan" ORDERLABEL="210">
+        <m:fptr FILEID="file:default:785:126385"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126386" xml:lang="dan" ORDERLABEL="211">
+        <m:fptr FILEID="file:default:785:126386"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126387" xml:lang="dan" ORDERLABEL="212">
+        <m:fptr FILEID="file:default:785:126387"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126388" xml:lang="dan" ORDERLABEL="213">
+        <m:fptr FILEID="file:default:785:126388"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126389" xml:lang="dan" ORDERLABEL="214">
+        <m:fptr FILEID="file:default:785:126389"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126390" xml:lang="dan" ORDERLABEL="215">
+        <m:fptr FILEID="file:default:785:126390"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126391" xml:lang="dan" ORDERLABEL="216">
+        <m:fptr FILEID="file:default:785:126391"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126392" xml:lang="dan" ORDERLABEL="217">
+        <m:fptr FILEID="file:default:785:126392"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126393" xml:lang="dan" ORDERLABEL="218">
+        <m:fptr FILEID="file:default:785:126393"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126394" xml:lang="dan" ORDERLABEL="219">
+        <m:fptr FILEID="file:default:785:126394"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126395" xml:lang="dan" ORDERLABEL="220">
+        <m:fptr FILEID="file:default:785:126395"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126396" xml:lang="dan" ORDERLABEL="221">
+        <m:fptr FILEID="file:default:785:126396"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126397" xml:lang="dan" ORDERLABEL="222">
+        <m:fptr FILEID="file:default:785:126397"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126398" xml:lang="dan" ORDERLABEL="223">
+        <m:fptr FILEID="file:default:785:126398"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126399" xml:lang="dan" ORDERLABEL="224">
+        <m:fptr FILEID="file:default:785:126399"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126400" xml:lang="dan" ORDERLABEL="225">
+        <m:fptr FILEID="file:default:785:126400"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126401" xml:lang="dan" ORDERLABEL="226">
+        <m:fptr FILEID="file:default:785:126401"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126402" xml:lang="dan" ORDERLABEL="227">
+        <m:fptr FILEID="file:default:785:126402"/>
+      </m:div>
+      <m:div ID="manus:785:div:physical:126403" xml:lang="dan" ORDERLABEL="228">
+        <m:fptr FILEID="file:default:785:126403"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>

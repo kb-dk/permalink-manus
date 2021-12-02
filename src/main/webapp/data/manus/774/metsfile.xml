@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:774">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Libellus narrationum</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Libellus narrationum</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>NKS 135 c 8°</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>NKS 135 c 8°</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Papir, 8 ff., ca. 19 × 13 cm; Tyskland (?), saec. XV</p>
+              <p>Håndskriftet består af en enkelt kvaternion og er i sin nuværende form et fragment. Det rummer fire hele fortællinger og begyndelsen til en femte. Hver fortælling begynder i ny linje og er markeret med rubriceret initial. Den første fortælling begynder øverst på f. 1r. Den sidste fortælling ender abrupt og har haft sin fortsættelse i et følgende læg. Nederst på f. 8v er der tilføjet en linje skrevet i runer, der hos Ellen Jørgensen er transskriberet således: "æftærsom at iæg kiæræ mæstær læurits mortænsøn i arnakki". Den grafiske tolkning af <i>i arnakki</i> er blevet draget i tvivl. Med henvisning til håndskriftets latinske palæografi og forekomsten af runelinjen bestemte Jørgensen dets proveniens som dansk</p>
+              <p>De fem fortællinger i NKS 135 c 8° indgår også i det mere omfattende værk Viaticum Narrationum, hvis tekst er overleveret i håndskriftet GKS 380 2°. Den overleveringsmæssige relation mellem GKS 380 2° og NKS 135 c 8° er ikke fastslået</p>
+              <p>NKS 135 c 8° er indgået i Ny Kongelig Samling mellem 1832 og 1891. Hvor det har befundet sig inden da, er ikke oplyst</p>
+              <p>Bibl.: Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 354f. - Beiträge zur lateinischen Erzählungsliteratur des Mittelalters, III. Das Viaticum narrationum des Henmannus Bononiensis, mit literargeschichtlichen Anmerkungen herausgegeben von Alfons Hilka, Berlin 1935 (= Abhandlungen der Gesellschaft der Wissenschaften zu Göttingen, Philologisch-Historische Klasse, dritte Folge, Nr. 16), p. 2f., 53-56, 83-86 &amp; 103-111 (siglum B)</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Paper, 8 ff., ca. 19 × 13 cm; Germany (?), saec. XV</p>
+              <p>The manuscript is a single quire. It contains four edifying stories and the beginning of a fifth. The beginning of each story is marked by new line and a simple, rubricated initial. The first story begins on top of f. 1r. The fifth ends abruptly and has had a continuation in a following quire, now lost. Below the Latin text on f. 8v a line in Danish, written in runes, has been added, in Jørgensen's Catalogus transcribed as: "æftærsom at iæg kiæræ mæstær læurits mortænsøn i arnakki", the meaning of which is not clear but may perhaps be rendered ’inasmuch as I dear master Laurits Mortensen in Arnakke’. The graphic interpretation of <i>i arnakki</i> has been challenged. Referring to the paleography of the Latin text and the runic line, Jørgensen defined the provenance of the manuscript as Danish</p>
+              <p>The five stories in NKS 135 c 8° are also part of a major compilation, entitled Viaticum Narrationum, the text of which has been transmitted in ms GKS 380 2° in the RL. The precise relation between GKS 380 2° and NKS 135 c 8° has not been established</p>
+              <p>NKS 135 c 8° was incorporated in the New Royal Collection between 1832 and 1891. Its previous history is not known</p>
+              <p>Bibl.: Ellen Jørgensen, Catalogus codicum Latinorum medii ævi Bibliothecæ Regiæ Hafniensis, Hafniæ 1926, p. 354f. - Beiträge zur lateinischen Erzählungsliteratur des Mittelalters, III. Das Viaticum narrationum des Henmannus Bononiensis, mit literargeschichtlichen Anmerkungen herausgegeben von Alfons Hilka, Berlin 1935 (= Abhandlungen der Gesellschaft der Wissenschaften zu Göttingen, Philologisch-Historische Klasse, dritte Folge, Nr. 16), p. 2f., 53-56, 83-86 &amp; 103-111 (siglum B)</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">NKS 135 c 8°</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:774:121672">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_03.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121673">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_04.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121650">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_05.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121651">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_06.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121652">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_07.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121653">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_08.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121654">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_09.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121655">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_10.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121656">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_11.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121657">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_12.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121658">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_13.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121659">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_14.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121660">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_15.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121661">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_16.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121662">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_17.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121663">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_18.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121664">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_19.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121665">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_20.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121666">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_21.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121667">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_22.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121670">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_01.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121671">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_02.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121668">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_23.jpg"/>
+      </m:file>
+      <m:file ID="file:default:774:121669">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_24.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:774:85317">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_05v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85338">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_24v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85319">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_07v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85320">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_08v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85321">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_09v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85322">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_10v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85323">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_11v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85324">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_12v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85325">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_13v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85326">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_14v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85327">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_15v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85328">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_16v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85329">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_17v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85330">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_18v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85331">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_19v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85332">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_20v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85315">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_03v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85316">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_04v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85333">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_21v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85334">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_22v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85335">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_01v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85336">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_02v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85337">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_23v.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:774:85318">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks135c-8//nks135c-8_06v.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:774:physical:root" DMDID="md-root">
+      <m:div ID="manus:774:div:physical:121672" xml:lang="dan" ORDERLABEL="A-r" LABEL="[a-r]">
+        <m:fptr FILEID="file:default:774:121672"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121672" xml:lang="eng" ORDERLABEL="A-r" LABEL="[a-r]">
+        <m:fptr FILEID="file:default:774:121672"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121673" xml:lang="dan" ORDERLABEL="A-v">
+        <m:fptr FILEID="file:default:774:121673"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121673" xml:lang="eng" ORDERLABEL="A-v">
+        <m:fptr FILEID="file:default:774:121673"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121650" xml:lang="dan" ORDERLABEL="1 recto" LABEL="1r">
+        <m:fptr FILEID="file:default:774:121650"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121650" xml:lang="eng" ORDERLABEL="1 recto" LABEL="1r">
+        <m:fptr FILEID="file:default:774:121650"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121651" xml:lang="dan" ORDERLABEL="1 verso">
+        <m:fptr FILEID="file:default:774:121651"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121651" xml:lang="eng" ORDERLABEL="1 verso">
+        <m:fptr FILEID="file:default:774:121651"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121652" xml:lang="dan" ORDERLABEL="2 recto" LABEL="2r">
+        <m:fptr FILEID="file:default:774:121652"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121652" xml:lang="eng" ORDERLABEL="2 recto" LABEL="2r">
+        <m:fptr FILEID="file:default:774:121652"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121653" xml:lang="dan" ORDERLABEL="2 verso">
+        <m:fptr FILEID="file:default:774:121653"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121653" xml:lang="eng" ORDERLABEL="2 verso">
+        <m:fptr FILEID="file:default:774:121653"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121654" xml:lang="dan" ORDERLABEL="3 recto">
+        <m:fptr FILEID="file:default:774:121654"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121654" xml:lang="eng" ORDERLABEL="3 recto">
+        <m:fptr FILEID="file:default:774:121654"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121655" xml:lang="dan" ORDERLABEL="3 verso" LABEL="3v">
+        <m:fptr FILEID="file:default:774:121655"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121655" xml:lang="eng" ORDERLABEL="3 verso" LABEL="3v">
+        <m:fptr FILEID="file:default:774:121655"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121656" xml:lang="dan" ORDERLABEL="4 recto">
+        <m:fptr FILEID="file:default:774:121656"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121656" xml:lang="eng" ORDERLABEL="4 recto">
+        <m:fptr FILEID="file:default:774:121656"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121657" xml:lang="dan" ORDERLABEL="4 verso">
+        <m:fptr FILEID="file:default:774:121657"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121657" xml:lang="eng" ORDERLABEL="4 verso">
+        <m:fptr FILEID="file:default:774:121657"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121658" xml:lang="dan" ORDERLABEL="5 recto" LABEL="5r">
+        <m:fptr FILEID="file:default:774:121658"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121658" xml:lang="eng" ORDERLABEL="5 recto" LABEL="5r">
+        <m:fptr FILEID="file:default:774:121658"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121659" xml:lang="dan" ORDERLABEL="5 verso">
+        <m:fptr FILEID="file:default:774:121659"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121659" xml:lang="eng" ORDERLABEL="5 verso">
+        <m:fptr FILEID="file:default:774:121659"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121660" xml:lang="dan" ORDERLABEL="6 recto">
+        <m:fptr FILEID="file:default:774:121660"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121660" xml:lang="eng" ORDERLABEL="6 recto">
+        <m:fptr FILEID="file:default:774:121660"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121661" xml:lang="dan" ORDERLABEL="6 verso">
+        <m:fptr FILEID="file:default:774:121661"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121661" xml:lang="eng" ORDERLABEL="6 verso">
+        <m:fptr FILEID="file:default:774:121661"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121662" xml:lang="dan" ORDERLABEL="7 recto">
+        <m:fptr FILEID="file:default:774:121662"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121662" xml:lang="eng" ORDERLABEL="7 recto">
+        <m:fptr FILEID="file:default:774:121662"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121663" xml:lang="dan" ORDERLABEL="7 verso" LABEL="7v">
+        <m:fptr FILEID="file:default:774:121663"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121663" xml:lang="eng" ORDERLABEL="7 verso" LABEL="7v">
+        <m:fptr FILEID="file:default:774:121663"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121664" xml:lang="dan" ORDERLABEL="8 recto">
+        <m:fptr FILEID="file:default:774:121664"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121664" xml:lang="eng" ORDERLABEL="8 recto">
+        <m:fptr FILEID="file:default:774:121664"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121665" xml:lang="dan" ORDERLABEL="8 verso" LABEL="8v">
+        <m:fptr FILEID="file:default:774:121665"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121665" xml:lang="eng" ORDERLABEL="8 verso" LABEL="8v">
+        <m:fptr FILEID="file:default:774:121665"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121666" xml:lang="dan" ORDERLABEL="B-r">
+        <m:fptr FILEID="file:default:774:121666"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121666" xml:lang="eng" ORDERLABEL="B-r">
+        <m:fptr FILEID="file:default:774:121666"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121667" xml:lang="dan" ORDERLABEL="B-v">
+        <m:fptr FILEID="file:default:774:121667"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121667" xml:lang="eng" ORDERLABEL="B-v">
+        <m:fptr FILEID="file:default:774:121667"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121670" xml:lang="dan" ORDERLABEL="bind (1)" LABEL="bind">
+        <m:fptr FILEID="file:default:774:121670"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121670" xml:lang="eng" ORDERLABEL="binding (1)" LABEL="binding">
+        <m:fptr FILEID="file:default:774:121670"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121671" xml:lang="dan" ORDERLABEL="bind (2)">
+        <m:fptr FILEID="file:default:774:121671"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121671" xml:lang="eng" ORDERLABEL="binding (2)">
+        <m:fptr FILEID="file:default:774:121671"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121668" xml:lang="dan" ORDERLABEL="bind (3)">
+        <m:fptr FILEID="file:default:774:121668"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121668" xml:lang="eng" ORDERLABEL="binding (3)">
+        <m:fptr FILEID="file:default:774:121668"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121669" xml:lang="dan" ORDERLABEL="bind (4)">
+        <m:fptr FILEID="file:default:774:121669"/>
+      </m:div>
+      <m:div ID="manus:774:div:physical:121669" xml:lang="eng" ORDERLABEL="binding (4)">
+        <m:fptr FILEID="file:default:774:121669"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:774:div:variant:85317" ORDERLABEL="1 recto">
+      <m:fptr FILEID="file:variant:774:85317"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85338" ORDERLABEL="bind (4)">
+      <m:fptr FILEID="file:variant:774:85338"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85319" ORDERLABEL="2 recto">
+      <m:fptr FILEID="file:variant:774:85319"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85320" ORDERLABEL="2 verso">
+      <m:fptr FILEID="file:variant:774:85320"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85321" ORDERLABEL="3 recto">
+      <m:fptr FILEID="file:variant:774:85321"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85322" ORDERLABEL="3 verso">
+      <m:fptr FILEID="file:variant:774:85322"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85323" ORDERLABEL="4 recto">
+      <m:fptr FILEID="file:variant:774:85323"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85324" ORDERLABEL="4 verso">
+      <m:fptr FILEID="file:variant:774:85324"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85325" ORDERLABEL="5 recto">
+      <m:fptr FILEID="file:variant:774:85325"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85326" ORDERLABEL="5 verso">
+      <m:fptr FILEID="file:variant:774:85326"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85327" ORDERLABEL="6 recto">
+      <m:fptr FILEID="file:variant:774:85327"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85328" ORDERLABEL="6 verso">
+      <m:fptr FILEID="file:variant:774:85328"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85329" ORDERLABEL="7 recto">
+      <m:fptr FILEID="file:variant:774:85329"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85330" ORDERLABEL="7 verso">
+      <m:fptr FILEID="file:variant:774:85330"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85331" ORDERLABEL="8 recto">
+      <m:fptr FILEID="file:variant:774:85331"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85332" ORDERLABEL="8 verso">
+      <m:fptr FILEID="file:variant:774:85332"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85315" ORDERLABEL="A-r">
+      <m:fptr FILEID="file:variant:774:85315"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85316" ORDERLABEL="A-v">
+      <m:fptr FILEID="file:variant:774:85316"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85333" ORDERLABEL="B-r">
+      <m:fptr FILEID="file:variant:774:85333"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85334" ORDERLABEL="B-v">
+      <m:fptr FILEID="file:variant:774:85334"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85335" ORDERLABEL="bind (1)">
+      <m:fptr FILEID="file:variant:774:85335"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85336" ORDERLABEL="bind (2)">
+      <m:fptr FILEID="file:variant:774:85336"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85337" ORDERLABEL="bind (3)">
+      <m:fptr FILEID="file:variant:774:85337"/>
+    </m:div>
+    <m:div ID="manus:774:div:variant:85318" ORDERLABEL="1 verso">
+      <m:fptr FILEID="file:variant:774:85318"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121672" xlink:to="manus:774:div:variant:85315"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121672" xlink:to="manus:774:div:variant:85315"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121673" xlink:to="manus:774:div:variant:85316"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121673" xlink:to="manus:774:div:variant:85316"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121650" xlink:to="manus:774:div:variant:85317"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121650" xlink:to="manus:774:div:variant:85317"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121651" xlink:to="manus:774:div:variant:85318"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121651" xlink:to="manus:774:div:variant:85318"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121652" xlink:to="manus:774:div:variant:85319"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121652" xlink:to="manus:774:div:variant:85319"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121653" xlink:to="manus:774:div:variant:85320"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121653" xlink:to="manus:774:div:variant:85320"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121654" xlink:to="manus:774:div:variant:85321"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121654" xlink:to="manus:774:div:variant:85321"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121655" xlink:to="manus:774:div:variant:85322"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121655" xlink:to="manus:774:div:variant:85322"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121656" xlink:to="manus:774:div:variant:85323"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121656" xlink:to="manus:774:div:variant:85323"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121657" xlink:to="manus:774:div:variant:85324"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121657" xlink:to="manus:774:div:variant:85324"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121658" xlink:to="manus:774:div:variant:85325"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121658" xlink:to="manus:774:div:variant:85325"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121659" xlink:to="manus:774:div:variant:85326"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121659" xlink:to="manus:774:div:variant:85326"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121660" xlink:to="manus:774:div:variant:85327"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121660" xlink:to="manus:774:div:variant:85327"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121661" xlink:to="manus:774:div:variant:85328"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121661" xlink:to="manus:774:div:variant:85328"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121662" xlink:to="manus:774:div:variant:85329"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121662" xlink:to="manus:774:div:variant:85329"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121663" xlink:to="manus:774:div:variant:85330"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121663" xlink:to="manus:774:div:variant:85330"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121664" xlink:to="manus:774:div:variant:85331"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121664" xlink:to="manus:774:div:variant:85331"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121665" xlink:to="manus:774:div:variant:85332"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121665" xlink:to="manus:774:div:variant:85332"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121666" xlink:to="manus:774:div:variant:85333"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121666" xlink:to="manus:774:div:variant:85333"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121667" xlink:to="manus:774:div:variant:85334"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121667" xlink:to="manus:774:div:variant:85334"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121670" xlink:to="manus:774:div:variant:85335"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121670" xlink:to="manus:774:div:variant:85335"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121671" xlink:to="manus:774:div:variant:85336"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121671" xlink:to="manus:774:div:variant:85336"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121668" xlink:to="manus:774:div:variant:85337"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121668" xlink:to="manus:774:div:variant:85337"/>
+    <m:smLink xml:lang="dan" xlink:title="stor" xlink:from="manus:774:div:physical:121669" xlink:to="manus:774:div:variant:85338"/>
+    <m:smLink xml:lang="eng" xlink:title="large" xlink:from="manus:774:div:physical:121669" xlink:to="manus:774:div:variant:85338"/>
+  </m:structLink>
+</m:mets>

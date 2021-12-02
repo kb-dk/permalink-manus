@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:762">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Slavonic Manuscripts in The Royal Library. A Catalogue</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="eng">
+            <md:partName>Gunnar Svane</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">eng</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Der er 41 slaviske håndskrifter i Det kgl. Biblioteks samlinger. I 1917-18 blev de registreret og undersøgt af den århusianske professor Adolf Stender-Petersen. Arbejdet resulterede i en håndskrevet katalog samt en artikel, der blev publiceret i <i>Nordisk Tidskrift for bok- og biblioteksvæsen</i>.</p>
+              <p>Den håndskrevne Katalog over de slaviske Manuskripter i Det kongelige Bibliotek har været ivrigt brugt af forskere, som kendte til den i forvejen. Men da den aldrig har været publiceret, har det hidtil kun været meget få, der vidste, hvilke slaviske håndskrifter, der kunne findes i Danmark.</p>
+              <p>Professor Gunnar Svane fra Århus Universitet tog imidlertid udfordringen op. Han har gennemgået katalogen og har på baggrund af den nyere forskning i den oldslaviske tradition kunnet udarbejde en fyldigere og mere nøjagtig beskrivelse af de 41 slaviske manuskripter.</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">HA</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:762:118894">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118902">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0006.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118901">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0007.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118900">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0008.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118895">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0009.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118896">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0010.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118897">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0011.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118898">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0012.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118899">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118759">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118760">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118761">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118762">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118763">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0018.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118764">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0019.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118765">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0020.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118766">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0021.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118767">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0022.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118768">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0023.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118769">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0024.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118770">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0025.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118771">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0026.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118772">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0027.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118773">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0028.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118774">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0029.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118775">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0030.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118776">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0031.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118777">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0032.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118778">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0033.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118779">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0034.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118780">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0035.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118781">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0036.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118782">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0037.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118783">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0038.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118784">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0039.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118785">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0040.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118786">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0041.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118787">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0042.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118788">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0043.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118789">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0044.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118790">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0045.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118791">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0046.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118792">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0047.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118793">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0048.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118794">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0049.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118795">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0050.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118796">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0051.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118797">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0052.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118798">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0053.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118799">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0054.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118800">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0055.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118801">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0056.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118802">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0057.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118803">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0058.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118804">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0059.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118805">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0060.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118806">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0061.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118807">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0062.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118808">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0063.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118809">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0064.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118810">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0065.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118811">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0066.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118812">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0067.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118813">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0068.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118814">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0069.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118815">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0070.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118816">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0071.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118817">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0072.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118818">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0073.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118819">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0074.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118820">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0075.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118821">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0076.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118822">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0077.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118823">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0078.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118824">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0079.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118825">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0080.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118826">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0081.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118827">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0082.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118828">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0083.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118829">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0084.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118830">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0085.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118831">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0086.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118832">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0087.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118833">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0088.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118834">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0089.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118835">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0090.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118836">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0091.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118837">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0092.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118838">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0093.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118839">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0094.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118840">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0095.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118841">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0096.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118842">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0097.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118843">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0098.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118844">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0099.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118845">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0100.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118846">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0101.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118847">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0102.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118848">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0103.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118849">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0104.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118850">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0105.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118851">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0106.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118852">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0107.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118853">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0108.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118854">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0109.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118855">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0110.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118856">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0111.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118857">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0112.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118858">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0113.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118859">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0114.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118860">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0115.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118861">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0116.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118862">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0117.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118863">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0118.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118864">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0119.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118865">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0120.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118866">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0121.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118867">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0122.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118868">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0123.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118869">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0124.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118870">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0125.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118871">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0126.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118872">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0127.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118873">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0128.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118874">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0129.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118875">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0130.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118876">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0131.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118877">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0132.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118878">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0133.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118879">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0134.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118880">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0135.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118881">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0136.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118882">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0137.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118883">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0138.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118884">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0139.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118885">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0140.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118886">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0141.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118887">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0142.jpg"/>
+      </m:file>
+      <m:file ID="file:default:762:118888">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/svane/svane0143.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:762:physical:root" DMDID="md-root">
+      <m:div ID="manus:762:div:physical:118894" xml:lang="eng" ORDERLABEL="Title Page" LABEL="Title Page">
+        <m:fptr FILEID="file:default:762:118894"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118902" xml:lang="eng" ORDERLABEL="VI">
+        <m:fptr FILEID="file:default:762:118902"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118901" xml:lang="eng" ORDERLABEL="VII" LABEL="Forord">
+        <m:fptr FILEID="file:default:762:118901"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118900" xml:lang="eng" ORDERLABEL="VIII">
+        <m:fptr FILEID="file:default:762:118900"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118895" xml:lang="eng" ORDERLABEL="IX" LABEL="Preface">
+        <m:fptr FILEID="file:default:762:118895"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118896" xml:lang="eng" ORDERLABEL="X">
+        <m:fptr FILEID="file:default:762:118896"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118897" xml:lang="eng" ORDERLABEL="XI">
+        <m:fptr FILEID="file:default:762:118897"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118898" xml:lang="eng" ORDERLABEL="XII" LABEL="Contents">
+        <m:fptr FILEID="file:default:762:118898"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118899" xml:lang="eng" ORDERLABEL="XIII">
+        <m:fptr FILEID="file:default:762:118899"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118759" xml:lang="eng" ORDERLABEL="2" LABEL="Russian Preface">
+        <m:fptr FILEID="file:default:762:118759"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118760" xml:lang="eng" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:762:118760"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118761" xml:lang="eng" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:762:118761"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118762" xml:lang="eng" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:762:118762"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118763" xml:lang="eng" ORDERLABEL="6" LABEL="Theological texts">
+        <m:fptr FILEID="file:default:762:118763"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118764" xml:lang="eng" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:762:118764"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118765" xml:lang="eng" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:762:118765"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118766" xml:lang="eng" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:762:118766"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118767" xml:lang="eng" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:762:118767"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118768" xml:lang="eng" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:762:118768"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118769" xml:lang="eng" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:762:118769"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118770" xml:lang="eng" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:762:118770"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118771" xml:lang="eng" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:762:118771"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118772" xml:lang="eng" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:762:118772"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118773" xml:lang="eng" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:762:118773"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118774" xml:lang="eng" ORDERLABEL="17">
+        <m:fptr FILEID="file:default:762:118774"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118775" xml:lang="eng" ORDERLABEL="18">
+        <m:fptr FILEID="file:default:762:118775"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118776" xml:lang="eng" ORDERLABEL="19">
+        <m:fptr FILEID="file:default:762:118776"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118777" xml:lang="eng" ORDERLABEL="20">
+        <m:fptr FILEID="file:default:762:118777"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118778" xml:lang="eng" ORDERLABEL="21">
+        <m:fptr FILEID="file:default:762:118778"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118779" xml:lang="eng" ORDERLABEL="22">
+        <m:fptr FILEID="file:default:762:118779"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118780" xml:lang="eng" ORDERLABEL="23">
+        <m:fptr FILEID="file:default:762:118780"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118781" xml:lang="eng" ORDERLABEL="24">
+        <m:fptr FILEID="file:default:762:118781"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118782" xml:lang="eng" ORDERLABEL="25">
+        <m:fptr FILEID="file:default:762:118782"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118783" xml:lang="eng" ORDERLABEL="26">
+        <m:fptr FILEID="file:default:762:118783"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118784" xml:lang="eng" ORDERLABEL="27">
+        <m:fptr FILEID="file:default:762:118784"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118785" xml:lang="eng" ORDERLABEL="28">
+        <m:fptr FILEID="file:default:762:118785"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118786" xml:lang="eng" ORDERLABEL="29">
+        <m:fptr FILEID="file:default:762:118786"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118787" xml:lang="eng" ORDERLABEL="30">
+        <m:fptr FILEID="file:default:762:118787"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118788" xml:lang="eng" ORDERLABEL="31">
+        <m:fptr FILEID="file:default:762:118788"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118789" xml:lang="eng" ORDERLABEL="32">
+        <m:fptr FILEID="file:default:762:118789"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118790" xml:lang="eng" ORDERLABEL="33">
+        <m:fptr FILEID="file:default:762:118790"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118791" xml:lang="eng" ORDERLABEL="34">
+        <m:fptr FILEID="file:default:762:118791"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118792" xml:lang="eng" ORDERLABEL="35">
+        <m:fptr FILEID="file:default:762:118792"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118793" xml:lang="eng" ORDERLABEL="36">
+        <m:fptr FILEID="file:default:762:118793"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118794" xml:lang="eng" ORDERLABEL="37">
+        <m:fptr FILEID="file:default:762:118794"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118795" xml:lang="eng" ORDERLABEL="38">
+        <m:fptr FILEID="file:default:762:118795"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118796" xml:lang="eng" ORDERLABEL="39">
+        <m:fptr FILEID="file:default:762:118796"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118797" xml:lang="eng" ORDERLABEL="40">
+        <m:fptr FILEID="file:default:762:118797"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118798" xml:lang="eng" ORDERLABEL="41">
+        <m:fptr FILEID="file:default:762:118798"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118799" xml:lang="eng" ORDERLABEL="42">
+        <m:fptr FILEID="file:default:762:118799"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118800" xml:lang="eng" ORDERLABEL="43">
+        <m:fptr FILEID="file:default:762:118800"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118801" xml:lang="eng" ORDERLABEL="44">
+        <m:fptr FILEID="file:default:762:118801"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118802" xml:lang="eng" ORDERLABEL="45">
+        <m:fptr FILEID="file:default:762:118802"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118803" xml:lang="eng" ORDERLABEL="46">
+        <m:fptr FILEID="file:default:762:118803"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118804" xml:lang="eng" ORDERLABEL="47">
+        <m:fptr FILEID="file:default:762:118804"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118805" xml:lang="eng" ORDERLABEL="48">
+        <m:fptr FILEID="file:default:762:118805"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118806" xml:lang="eng" ORDERLABEL="49">
+        <m:fptr FILEID="file:default:762:118806"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118807" xml:lang="eng" ORDERLABEL="50">
+        <m:fptr FILEID="file:default:762:118807"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118808" xml:lang="eng" ORDERLABEL="51">
+        <m:fptr FILEID="file:default:762:118808"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118809" xml:lang="eng" ORDERLABEL="52">
+        <m:fptr FILEID="file:default:762:118809"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118810" xml:lang="eng" ORDERLABEL="53" LABEL="Legal texts">
+        <m:fptr FILEID="file:default:762:118810"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118811" xml:lang="eng" ORDERLABEL="54">
+        <m:fptr FILEID="file:default:762:118811"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118812" xml:lang="eng" ORDERLABEL="55">
+        <m:fptr FILEID="file:default:762:118812"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118813" xml:lang="eng" ORDERLABEL="56">
+        <m:fptr FILEID="file:default:762:118813"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118814" xml:lang="eng" ORDERLABEL="57" LABEL="Scientific texts">
+        <m:fptr FILEID="file:default:762:118814"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118815" xml:lang="eng" ORDERLABEL="58">
+        <m:fptr FILEID="file:default:762:118815"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118816" xml:lang="eng" ORDERLABEL="59">
+        <m:fptr FILEID="file:default:762:118816"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118817" xml:lang="eng" ORDERLABEL="60">
+        <m:fptr FILEID="file:default:762:118817"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118818" xml:lang="eng" ORDERLABEL="61">
+        <m:fptr FILEID="file:default:762:118818"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118819" xml:lang="eng" ORDERLABEL="62">
+        <m:fptr FILEID="file:default:762:118819"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118820" xml:lang="eng" ORDERLABEL="63">
+        <m:fptr FILEID="file:default:762:118820"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118821" xml:lang="eng" ORDERLABEL="64">
+        <m:fptr FILEID="file:default:762:118821"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118822" xml:lang="eng" ORDERLABEL="65">
+        <m:fptr FILEID="file:default:762:118822"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118823" xml:lang="eng" ORDERLABEL="66">
+        <m:fptr FILEID="file:default:762:118823"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118824" xml:lang="eng" ORDERLABEL="67">
+        <m:fptr FILEID="file:default:762:118824"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118825" xml:lang="eng" ORDERLABEL="68">
+        <m:fptr FILEID="file:default:762:118825"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118826" xml:lang="eng" ORDERLABEL="69">
+        <m:fptr FILEID="file:default:762:118826"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118827" xml:lang="eng" ORDERLABEL="70">
+        <m:fptr FILEID="file:default:762:118827"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118828" xml:lang="eng" ORDERLABEL="71">
+        <m:fptr FILEID="file:default:762:118828"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118829" xml:lang="eng" ORDERLABEL="72">
+        <m:fptr FILEID="file:default:762:118829"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118830" xml:lang="eng" ORDERLABEL="73">
+        <m:fptr FILEID="file:default:762:118830"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118831" xml:lang="eng" ORDERLABEL="74">
+        <m:fptr FILEID="file:default:762:118831"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118832" xml:lang="eng" ORDERLABEL="75">
+        <m:fptr FILEID="file:default:762:118832"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118833" xml:lang="eng" ORDERLABEL="76">
+        <m:fptr FILEID="file:default:762:118833"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118834" xml:lang="eng" ORDERLABEL="77">
+        <m:fptr FILEID="file:default:762:118834"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118835" xml:lang="eng" ORDERLABEL="78" LABEL="Miscellaneous texts">
+        <m:fptr FILEID="file:default:762:118835"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118836" xml:lang="eng" ORDERLABEL="79">
+        <m:fptr FILEID="file:default:762:118836"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118837" xml:lang="eng" ORDERLABEL="80">
+        <m:fptr FILEID="file:default:762:118837"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118838" xml:lang="eng" ORDERLABEL="81">
+        <m:fptr FILEID="file:default:762:118838"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118839" xml:lang="eng" ORDERLABEL="82">
+        <m:fptr FILEID="file:default:762:118839"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118840" xml:lang="eng" ORDERLABEL="83">
+        <m:fptr FILEID="file:default:762:118840"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118841" xml:lang="eng" ORDERLABEL="84">
+        <m:fptr FILEID="file:default:762:118841"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118842" xml:lang="eng" ORDERLABEL="85">
+        <m:fptr FILEID="file:default:762:118842"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118843" xml:lang="eng" ORDERLABEL="86">
+        <m:fptr FILEID="file:default:762:118843"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118844" xml:lang="eng" ORDERLABEL="87">
+        <m:fptr FILEID="file:default:762:118844"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118845" xml:lang="eng" ORDERLABEL="88">
+        <m:fptr FILEID="file:default:762:118845"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118846" xml:lang="eng" ORDERLABEL="89">
+        <m:fptr FILEID="file:default:762:118846"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118847" xml:lang="eng" ORDERLABEL="90">
+        <m:fptr FILEID="file:default:762:118847"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118848" xml:lang="eng" ORDERLABEL="91">
+        <m:fptr FILEID="file:default:762:118848"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118849" xml:lang="eng" ORDERLABEL="92">
+        <m:fptr FILEID="file:default:762:118849"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118850" xml:lang="eng" ORDERLABEL="93">
+        <m:fptr FILEID="file:default:762:118850"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118851" xml:lang="eng" ORDERLABEL="94">
+        <m:fptr FILEID="file:default:762:118851"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118852" xml:lang="eng" ORDERLABEL="95">
+        <m:fptr FILEID="file:default:762:118852"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118853" xml:lang="eng" ORDERLABEL="96">
+        <m:fptr FILEID="file:default:762:118853"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118854" xml:lang="eng" ORDERLABEL="97">
+        <m:fptr FILEID="file:default:762:118854"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118855" xml:lang="eng" ORDERLABEL="98">
+        <m:fptr FILEID="file:default:762:118855"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118856" xml:lang="eng" ORDERLABEL="99">
+        <m:fptr FILEID="file:default:762:118856"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118857" xml:lang="eng" ORDERLABEL="100" LABEL="Selected watermarks">
+        <m:fptr FILEID="file:default:762:118857"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118858" xml:lang="eng" ORDERLABEL="101">
+        <m:fptr FILEID="file:default:762:118858"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118859" xml:lang="eng" ORDERLABEL="102">
+        <m:fptr FILEID="file:default:762:118859"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118860" xml:lang="eng" ORDERLABEL="103">
+        <m:fptr FILEID="file:default:762:118860"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118861" xml:lang="eng" ORDERLABEL="104">
+        <m:fptr FILEID="file:default:762:118861"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118862" xml:lang="eng" ORDERLABEL="105">
+        <m:fptr FILEID="file:default:762:118862"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118863" xml:lang="eng" ORDERLABEL="106">
+        <m:fptr FILEID="file:default:762:118863"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118864" xml:lang="eng" ORDERLABEL="107">
+        <m:fptr FILEID="file:default:762:118864"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118865" xml:lang="eng" ORDERLABEL="108">
+        <m:fptr FILEID="file:default:762:118865"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118866" xml:lang="eng" ORDERLABEL="109">
+        <m:fptr FILEID="file:default:762:118866"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118867" xml:lang="eng" ORDERLABEL="110">
+        <m:fptr FILEID="file:default:762:118867"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118868" xml:lang="eng" ORDERLABEL="111">
+        <m:fptr FILEID="file:default:762:118868"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118869" xml:lang="eng" ORDERLABEL="112">
+        <m:fptr FILEID="file:default:762:118869"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118870" xml:lang="eng" ORDERLABEL="113">
+        <m:fptr FILEID="file:default:762:118870"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118871" xml:lang="eng" ORDERLABEL="114">
+        <m:fptr FILEID="file:default:762:118871"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118872" xml:lang="eng" ORDERLABEL="115">
+        <m:fptr FILEID="file:default:762:118872"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118873" xml:lang="eng" ORDERLABEL="116">
+        <m:fptr FILEID="file:default:762:118873"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118874" xml:lang="eng" ORDERLABEL="117">
+        <m:fptr FILEID="file:default:762:118874"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118875" xml:lang="eng" ORDERLABEL="118">
+        <m:fptr FILEID="file:default:762:118875"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118876" xml:lang="eng" ORDERLABEL="119">
+        <m:fptr FILEID="file:default:762:118876"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118877" xml:lang="eng" ORDERLABEL="120">
+        <m:fptr FILEID="file:default:762:118877"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118878" xml:lang="eng" ORDERLABEL="121">
+        <m:fptr FILEID="file:default:762:118878"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118879" xml:lang="eng" ORDERLABEL="122">
+        <m:fptr FILEID="file:default:762:118879"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118880" xml:lang="eng" ORDERLABEL="123">
+        <m:fptr FILEID="file:default:762:118880"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118881" xml:lang="eng" ORDERLABEL="124">
+        <m:fptr FILEID="file:default:762:118881"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118882" xml:lang="eng" ORDERLABEL="125">
+        <m:fptr FILEID="file:default:762:118882"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118883" xml:lang="eng" ORDERLABEL="126">
+        <m:fptr FILEID="file:default:762:118883"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118884" xml:lang="eng" ORDERLABEL="127">
+        <m:fptr FILEID="file:default:762:118884"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118885" xml:lang="eng" ORDERLABEL="128">
+        <m:fptr FILEID="file:default:762:118885"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118886" xml:lang="eng" ORDERLABEL="129" LABEL="English Summary">
+        <m:fptr FILEID="file:default:762:118886"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118887" xml:lang="eng" ORDERLABEL="130">
+        <m:fptr FILEID="file:default:762:118887"/>
+      </m:div>
+      <m:div ID="manus:762:div:physical:118888" xml:lang="eng" ORDERLABEL="131">
+        <m:fptr FILEID="file:default:762:118888"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>
