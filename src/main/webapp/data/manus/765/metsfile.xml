@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:765">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Bondealmanak </md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>NKS 901 8º</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>En dansk bondealmanak (evighedskalender på latin) på pergament fra 1513, muligvis fremstillet i Skåne. I sammenfoldet stand fylder almanakken 5 x 5 cm., udrullet 63 cm.</p>
+              <p>Kalenderen indeholder månedsbilleder fra januar til december. I rosetter vises døgnets lyse og mørke timer med henholdsvis røde og sorte streger, og hver måned er illustreret med et billede, der viser månedens typiske arbejdssyssel.</p>
+              <p>Derudover findes en oversigt over månedernes mærkedage, der er illustreret med billeder til hjælp for læseukyndige, dels portætter af helgener og lignenede, dels rebusagtige figurer. F.eks. står Tre kroner for helligtrekongersdag (6. januar) og en løve for evangelisten Markus' dag (25. april). Særlig morsomt illustreret er den 10. februar, som hed scolastica (virgo), dvs. den lærde jomfrus dag. Dagen findes angivet med den danske betydning af navnets først stavelse - en sko!</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">NKS 901 8º</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ha/manus/nks-8_901/mayus.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:765:119656">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:765:119657">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_002.jpg"/>
+      </m:file>
+      <m:file ID="file:default:765:119658">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:765:119659">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_004.jpg"/>
+      </m:file>
+      <m:file ID="file:default:765:119660">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:765:119661">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/nks-8_901/nks-8_901_006.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp/>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:765:physical:root" DMDID="md-root">
+      <m:div ID="manus:765:div:physical:119656" xml:lang="dan" ORDERLABEL="1" LABEL="Bindet">
+        <m:fptr FILEID="file:default:765:119656"/>
+      </m:div>
+      <m:div ID="manus:765:div:physical:119657" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:765:119657"/>
+      </m:div>
+      <m:div ID="manus:765:div:physical:119658" xml:lang="dan" ORDERLABEL="3">
+        <m:fptr FILEID="file:default:765:119658"/>
+      </m:div>
+      <m:div ID="manus:765:div:physical:119659" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:765:119659"/>
+      </m:div>
+      <m:div ID="manus:765:div:physical:119660" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:765:119660"/>
+      </m:div>
+      <m:div ID="manus:765:div:physical:119661" xml:lang="dan" ORDERLABEL="6">
+        <m:fptr FILEID="file:default:765:119661"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant"/>
+  <m:structLink/>
+</m:mets>

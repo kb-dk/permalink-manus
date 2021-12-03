@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:761">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Biblioteksfortegnelse, "Schumachers liste" (1665)</md:title>
+          </md:titleInfo>
+          <md:titleInfo xml:lang="eng">
+            <md:title>Library records, "List of Schumacher" (1665)</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>KBs Arkiv E 8 a</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:name xml:lang="eng">
+            <md:partName>RL Archive E 8 a</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Papir, 4ff. (2 dobbeltblade), ca. 33 × 20,7 cm; København (1665)</p>
+              <p><i>E 8 a</i> i Det Kongelige Biblioteks Arkiv er et internt arbejdsdokument med oversigter over bøger og håndskrifter i kong Frederik IIIs bibliotek. Dokumentet er anonymt og udateret, men kan på grundlag af skrift og indhold bestemmes som værende udarbejdet af kongens bibliotekar Peder Schumacher (senere Griffenfeld) sent i 1665</p>
+              <p>Dokumentets f. A2 verso er en liste over 45 håndskrifter, daterbare eller daterede fra ca. 1000 til 1665. Det er den ældste fortegnelse over håndskrifterne i kongens bibliotek og afspejler den historiske kerne i Det Kongelige Biblioteks Håndskriftafdeling</p>
+              <p>Siderne A2 recto, B1 verso og B2 recto er blanke</p>
+              <p>Bibl.: Chr. Bruun, Det store kongelige Bibliotheks Stiftelse under Kong Frederik den Tredie og Kong Christian den Femte, København 1873, p. 60. - Erik Petersen, Wulfstans kodex og Schumachers liste. Om den ældste fortegnelse over håndskrifter i Det Kongelige Bibliotek, in: Fund og Forskning 48, København 2009, p. 7-56 (Summary p. 54-56: Wulfstan’s Codex and Schumacher’s List. On the Oldest Record of Manuscripts in the Royal Library) [også tilgængelig <a href="http://img.kb.dk/ha/div/FF2009_Wulfstan_offprint.pdf" target="_new">online</a>]</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:note type="presentation" xml:lang="eng">
+            <div xmlns="">
+              <p>Paper, 4ff. (2 bifolia), ca. 33 × 20,7 cm; Copenhagen (1665)</p>
+              <p><i>E 8 a</i> in the the archive of the Royal Library is an internal document with records of books and manuscripts in the library of king Frederik III. The document is anonymous and undated, but can be identified as written by the king’s librarian Peder Schumacher (later Griffenfeld) at the end of 1665</p>
+              <p>The document includes a list of 45 manuscripts, datable or dated from around 1000 to 1665. It is the earliest known list of manuscripts in the kings library, and reflects the historical nucleus of the collection of manuscripts in the Royal Library</p>
+              <p>The pages A2 recto, B1 verso and B2 recto are blank</p>
+              <p>Bibl.: Chr. Bruun, Det store kongelige Bibliotheks Stiftelse under Kong Frederik den Tredie og Kong Christian den Femte, København 1873, p. 60. - Erik Petersen, Wulfstans kodex og Schumachers liste. Om den ældste fortegnelse over håndskrifter i Det Kongelige Bibliotek, in: Fund og Forskning 48, København 2009, p. 7-56 (Summary p. 54-56: Wulfstan’s Codex and Schumacher’s List. On the Oldest Record of Manuscripts in the Royal Library) [offprint <a href="http://img.kb.dk/ha/div/FF2009_Wulfstan_offprint.pdf" target="_new">online</a>]</p>
+              <p>
+                <a href="mailto:ep@kb.dk">Erik Petersen</a>
+              </p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">KBs Arkiv E 8 a</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118616">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">A1 recto</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">A1 recto</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118617">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">A1 verso</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">A1 verso</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118618">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">A2 recto: blank</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">A2 recto: blank</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118619">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">A2 verso: "M.sti"</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">A2 verso: "M.sti"</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118620">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">B1 recto</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">B1 recto</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118621">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">B1 verso: blank</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">B1 verso: blank</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118622">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">B2 recto: blank</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">B2 recto: blank</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="dmd:761:118623">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:note type="annotation" xml:lang="dan">
+            <div xmlns="">B2 verso</div>
+          </md:note>
+          <md:note type="annotation" xml:lang="eng">
+            <div xmlns="">B2 verso</div>
+          </md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:761:118616">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118617">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_002.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118618">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118619">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_004.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118620">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118621">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_006.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118622">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_007.jpg"/>
+      </m:file>
+      <m:file ID="file:default:761:118623">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_008.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:761:84523">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_001x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84524">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_002x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84525">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_003x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84530">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_008x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84527">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_005x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84528">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_006x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84529">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_007x.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:761:84526">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/KB-arkiv_E8a/KB-arkiv_E8a_004x.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:761:physical:root" DMDID="md-root">
+      <m:div ID="manus:761:div:physical:118616" DMDID="dmd:761:118616" xml:lang="dan" ORDERLABEL="1 recto" LABEL="A1 recto">
+        <m:fptr FILEID="file:default:761:118616"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118616" DMDID="dmd:761:118616" xml:lang="eng" ORDERLABEL="1 recto" LABEL="A1 recto">
+        <m:fptr FILEID="file:default:761:118616"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118617" DMDID="dmd:761:118617" xml:lang="dan" ORDERLABEL="1 verso" LABEL="A1 verso">
+        <m:fptr FILEID="file:default:761:118617"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118617" DMDID="dmd:761:118617" xml:lang="eng" ORDERLABEL="1 verso" LABEL="A1 verso">
+        <m:fptr FILEID="file:default:761:118617"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118618" DMDID="dmd:761:118618" xml:lang="dan" ORDERLABEL="2 recto" LABEL="A2 recto">
+        <m:fptr FILEID="file:default:761:118618"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118618" DMDID="dmd:761:118618" xml:lang="eng" ORDERLABEL="2 recto" LABEL="A2 recto">
+        <m:fptr FILEID="file:default:761:118618"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118619" DMDID="dmd:761:118619" xml:lang="dan" ORDERLABEL="2 verso" LABEL="A2 verso: &quot;M.sti&quot;">
+        <m:fptr FILEID="file:default:761:118619"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118619" DMDID="dmd:761:118619" xml:lang="eng" ORDERLABEL="2 verso" LABEL="A2 verso: &quot;M.sti&quot;">
+        <m:fptr FILEID="file:default:761:118619"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118620" DMDID="dmd:761:118620" xml:lang="dan" ORDERLABEL="3 recto" LABEL="B1 recto">
+        <m:fptr FILEID="file:default:761:118620"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118620" DMDID="dmd:761:118620" xml:lang="eng" ORDERLABEL="3 recto" LABEL="B1 recto">
+        <m:fptr FILEID="file:default:761:118620"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118621" DMDID="dmd:761:118621" xml:lang="dan" ORDERLABEL="3 verso" LABEL="B1 verso">
+        <m:fptr FILEID="file:default:761:118621"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118621" DMDID="dmd:761:118621" xml:lang="eng" ORDERLABEL="3 verso" LABEL="B1 verso">
+        <m:fptr FILEID="file:default:761:118621"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118622" DMDID="dmd:761:118622" xml:lang="dan" ORDERLABEL="4 recto" LABEL="B2 recto">
+        <m:fptr FILEID="file:default:761:118622"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118622" DMDID="dmd:761:118622" xml:lang="eng" ORDERLABEL="4 recto" LABEL="B2 recto">
+        <m:fptr FILEID="file:default:761:118622"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118623" DMDID="dmd:761:118623" xml:lang="dan" ORDERLABEL="4 verso" LABEL="B2 verso">
+        <m:fptr FILEID="file:default:761:118623"/>
+      </m:div>
+      <m:div ID="manus:761:div:physical:118623" DMDID="dmd:761:118623" xml:lang="eng" ORDERLABEL="4 verso" LABEL="B2 verso">
+        <m:fptr FILEID="file:default:761:118623"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:761:div:variant:84523" ORDERLABEL="1 recto">
+      <m:fptr FILEID="file:variant:761:84523"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84524" ORDERLABEL="1 verso">
+      <m:fptr FILEID="file:variant:761:84524"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84525" ORDERLABEL="2 recto">
+      <m:fptr FILEID="file:variant:761:84525"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84530" ORDERLABEL="4 verso">
+      <m:fptr FILEID="file:variant:761:84530"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84527" ORDERLABEL="3 recto">
+      <m:fptr FILEID="file:variant:761:84527"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84528" ORDERLABEL="3 verso">
+      <m:fptr FILEID="file:variant:761:84528"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84529" ORDERLABEL="4 recto">
+      <m:fptr FILEID="file:variant:761:84529"/>
+    </m:div>
+    <m:div ID="manus:761:div:variant:84526" ORDERLABEL="2 verso">
+      <m:fptr FILEID="file:variant:761:84526"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118616" xlink:to="manus:761:div:variant:84523"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118616" xlink:to="manus:761:div:variant:84523"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118617" xlink:to="manus:761:div:variant:84524"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118617" xlink:to="manus:761:div:variant:84524"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118618" xlink:to="manus:761:div:variant:84525"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118618" xlink:to="manus:761:div:variant:84525"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118619" xlink:to="manus:761:div:variant:84526"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118619" xlink:to="manus:761:div:variant:84526"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118620" xlink:to="manus:761:div:variant:84527"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118620" xlink:to="manus:761:div:variant:84527"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118621" xlink:to="manus:761:div:variant:84528"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118621" xlink:to="manus:761:div:variant:84528"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118622" xlink:to="manus:761:div:variant:84529"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118622" xlink:to="manus:761:div:variant:84529"/>
+    <m:smLink xml:lang="dan" xlink:title="Stor" xlink:from="manus:761:div:physical:118623" xlink:to="manus:761:div:variant:84530"/>
+    <m:smLink xml:lang="eng" xlink:title="Large" xlink:from="manus:761:div:physical:118623" xlink:to="manus:761:div:variant:84530"/>
+  </m:structLink>
+</m:mets>

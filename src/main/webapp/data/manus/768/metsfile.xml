@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1999/xhtml" xmlns:md="http://www.loc.gov/mods/v3" OBJID="manus:768">
+  <m:metsHdr>
+    <m:agent ROLE="CREATOR">
+      <m:name>dk.kb.dup.metsApi software agent using data from Manuscript
+department at Royal Library, Copenhagen, DK.</m:name>
+      <m:note>Software release $Id: Manus.java,v 1.19 2007/01/19 14:40:44 jac Exp $</m:note>
+    </m:agent>
+  </m:metsHdr>
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Den ledreborgske Haandskriftsamling</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>T. A. Becker</md:partName>
+            <md:role>
+              <md:roleTerm>author</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:language>
+            <md:languageTerm type="code" authority="iso639-2b">dan</md:languageTerm>
+          </md:language>
+          <md:note type="presentation" xml:lang="dan">
+            <div xmlns="">
+              <p>Den ledreborgske håndskriftsamling blev "genfundet" og ordnet og registreret i årene 1844-45 af professor og arkivar for det historisk-genealogiske Arkiv ved Ordenskapitlet, T. A. Becker. Registranten blev udgivet i 1848 sammen med kammerjunker W. Benzons <i>Catalog over Manuscripter tilhørende det forrige Kongelige genealogisk-heraldiske Selskab</i>. Også denne katalog er medtaget her, selv om samlingen gik til grunde ved Christianborg Slots brand i 1884.</p>
+              <p>Den ledreborgske håndskriftsamling blev i 1926 doneret til Det Kongelige Bibliotek.</p>
+            </div>
+          </md:note>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Center for Manuskripter &amp; Boghistorie</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="eng">
+              <md:title>Center for Manuscripts &amp; Rare Books</md:title>
+            </md:titleInfo>
+            <md:titleInfo xml:lang="esp">
+              <md:title>Departamento de Manuscritos</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/ha/index.html</md:identifier>
+            <md:identifier type="uri" xml:lang="eng">/en/kb/nb/ha/index.html</md:identifier>
+          </md:relatedItem>
+          <md:identifier type="signature">CMB</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:fileSec>
+    <m:fileGrp>
+      <m:file ID="file:default:768:120298">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_001.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120299">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_002.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120301">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_003.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120302">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_004.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120116">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_005.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120117">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_006.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120118">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_007.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120119">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_008.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120120">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_009.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120121">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_010.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120122">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_011.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120123">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_012.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120124">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_013.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120125">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_014.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120126">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_015.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120127">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_016.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120128">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_017.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120129">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_018.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120130">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_019.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120131">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_020.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120132">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_021.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120133">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_022.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120134">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_023.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120135">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_024.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120136">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_025.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120137">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_026.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120138">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_027.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120139">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_028.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120140">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_029.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120141">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_030.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120142">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_031.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120143">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_032.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120144">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_033.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120145">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_034.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120146">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_035.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120147">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_036.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120148">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_037.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120149">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_038.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120150">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_039.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120151">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_040.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120152">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_041.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120153">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_042.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120154">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_043.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120155">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_044.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120156">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_045.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120157">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_046.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120158">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_047.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120159">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_048.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120160">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_049.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120161">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_050.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120162">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_051.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120163">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_052.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120164">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_053.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120165">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_054.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120166">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_055.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120167">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_056.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120168">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_057.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120169">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_058.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120170">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_059.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120171">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_060.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120172">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_061.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120173">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_062.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120174">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_063.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120175">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_064.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120176">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_065.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120177">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_066.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120178">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_067.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120179">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_068.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120180">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_069.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120181">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_070.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120182">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_071.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120183">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_072.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120184">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_073.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120185">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_074.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120186">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_075.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120187">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_076.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120188">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_077.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120189">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_078.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120190">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_079.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120191">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_080.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120192">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_081.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120193">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_082.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120194">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_083.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120195">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_084.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120196">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_085.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120197">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_086.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120198">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_087.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120199">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_088.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120200">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_089.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120201">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_090.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120202">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_091.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120203">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_092.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120204">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_093.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120205">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_094.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120206">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_095.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120207">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_096.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120208">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_097.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120209">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_098.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120210">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_099.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120211">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_100.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120212">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_101.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120213">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_102.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120214">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_103.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120215">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_104.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120216">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_105.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120217">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_106.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120218">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_107.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120219">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_108.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120220">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_109.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120221">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_110.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120222">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_111.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120223">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_112.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120224">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_113.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120225">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_114.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120226">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_115.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120227">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_116.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120228">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_117.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120229">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_118.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120230">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_119.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120231">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_120.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120232">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_121.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120233">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_122.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120234">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_123.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120235">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_124.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120236">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_125.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120237">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_126.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120238">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_127.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120239">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_128.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120240">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_129.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120241">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_130.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120242">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_131.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120243">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_132.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120244">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_133.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120245">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_134.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120246">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_135.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120247">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_136.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120248">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_137.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120249">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_138.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120250">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_139.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120251">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_140.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120252">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_141.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120253">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_142.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120254">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_143.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120255">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_144.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120256">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_145.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120257">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_146.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120258">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_147.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120259">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_148.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120260">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_149.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120261">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_150.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120262">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_151.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120263">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_152.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120264">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_153.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120265">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_154.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120266">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_155.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120267">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_156.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120268">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_157.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120269">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_158.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120270">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_159.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120271">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_160.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120272">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_161.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120273">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_162.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120274">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_163.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120275">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_164.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120276">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_165.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120277">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_166.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120278">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_167.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120279">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_168.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120280">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_169.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120281">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_170.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120282">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_171.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120283">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_172.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120284">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_173.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120285">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_174.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120286">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_175.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120287">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_176.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120288">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_177.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120289">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_178.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120290">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_179.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120291">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_180.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120292">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_181.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120293">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_182.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120294">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_183.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120295">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_184.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120296">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_185.jpg"/>
+      </m:file>
+      <m:file ID="file:default:768:120297">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_186.jpg"/>
+      </m:file>
+    </m:fileGrp>
+    <m:fileGrp>
+      <m:file ID="file:variant:768:84535">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_188.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:768:84534">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_187.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:768:84536">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_189.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:768:84537">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_190.jpg"/>
+      </m:file>
+      <m:file ID="file:variant:768:84538">
+        <m:FLocat LOCTYPE="URL" xlink:href="http://img.kb.dk/ha/manus/ledreborg/ledreborg_191.jpg"/>
+      </m:file>
+    </m:fileGrp>
+  </m:fileSec>
+  <m:structMap type="physical">
+    <m:div ID="manus:768:physical:root" DMDID="md-root">
+      <m:div ID="manus:768:div:physical:120298" xml:lang="dan" ORDERLABEL="Bind" LABEL="Bind">
+        <m:fptr FILEID="file:default:768:120298"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120299" xml:lang="dan" ORDERLABEL="Bind (inderside)">
+        <m:fptr FILEID="file:default:768:120299"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120301" xml:lang="dan" ORDERLABEL="Titelblad" LABEL="Omslag">
+        <m:fptr FILEID="file:default:768:120301"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120302" xml:lang="dan" ORDERLABEL="Omslag (bagside)">
+        <m:fptr FILEID="file:default:768:120302"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120116" xml:lang="dan" ORDERLABEL="1" LABEL="Titelblad">
+        <m:fptr FILEID="file:default:768:120116"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120117" xml:lang="dan" ORDERLABEL="2">
+        <m:fptr FILEID="file:default:768:120117"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120118" xml:lang="dan" ORDERLABEL="3" LABEL="Forord">
+        <m:fptr FILEID="file:default:768:120118"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120119" xml:lang="dan" ORDERLABEL="4">
+        <m:fptr FILEID="file:default:768:120119"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120120" xml:lang="dan" ORDERLABEL="5">
+        <m:fptr FILEID="file:default:768:120120"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120121" xml:lang="dan" ORDERLABEL="6" LABEL="Folio 1-487">
+        <m:fptr FILEID="file:default:768:120121"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120122" xml:lang="dan" ORDERLABEL="7">
+        <m:fptr FILEID="file:default:768:120122"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120123" xml:lang="dan" ORDERLABEL="8">
+        <m:fptr FILEID="file:default:768:120123"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120124" xml:lang="dan" ORDERLABEL="9">
+        <m:fptr FILEID="file:default:768:120124"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120125" xml:lang="dan" ORDERLABEL="10">
+        <m:fptr FILEID="file:default:768:120125"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120126" xml:lang="dan" ORDERLABEL="11">
+        <m:fptr FILEID="file:default:768:120126"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120127" xml:lang="dan" ORDERLABEL="12">
+        <m:fptr FILEID="file:default:768:120127"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120128" xml:lang="dan" ORDERLABEL="13">
+        <m:fptr FILEID="file:default:768:120128"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120129" xml:lang="dan" ORDERLABEL="14">
+        <m:fptr FILEID="file:default:768:120129"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120130" xml:lang="dan" ORDERLABEL="15">
+        <m:fptr FILEID="file:default:768:120130"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120131" xml:lang="dan" ORDERLABEL="16">
+        <m:fptr FILEID="file:default:768:120131"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120132" xml:lang="dan" ORDERLABEL="17">
+        <m:fptr FILEID="file:default:768:120132"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120133" xml:lang="dan" ORDERLABEL="18">
+        <m:fptr FILEID="file:default:768:120133"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120134" xml:lang="dan" ORDERLABEL="19">
+        <m:fptr FILEID="file:default:768:120134"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120135" xml:lang="dan" ORDERLABEL="20">
+        <m:fptr FILEID="file:default:768:120135"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120136" xml:lang="dan" ORDERLABEL="21">
+        <m:fptr FILEID="file:default:768:120136"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120137" xml:lang="dan" ORDERLABEL="22">
+        <m:fptr FILEID="file:default:768:120137"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120138" xml:lang="dan" ORDERLABEL="23">
+        <m:fptr FILEID="file:default:768:120138"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120139" xml:lang="dan" ORDERLABEL="24">
+        <m:fptr FILEID="file:default:768:120139"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120140" xml:lang="dan" ORDERLABEL="25">
+        <m:fptr FILEID="file:default:768:120140"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120141" xml:lang="dan" ORDERLABEL="26">
+        <m:fptr FILEID="file:default:768:120141"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120142" xml:lang="dan" ORDERLABEL="27">
+        <m:fptr FILEID="file:default:768:120142"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120143" xml:lang="dan" ORDERLABEL="28">
+        <m:fptr FILEID="file:default:768:120143"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120144" xml:lang="dan" ORDERLABEL="29">
+        <m:fptr FILEID="file:default:768:120144"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120145" xml:lang="dan" ORDERLABEL="30">
+        <m:fptr FILEID="file:default:768:120145"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120146" xml:lang="dan" ORDERLABEL="31">
+        <m:fptr FILEID="file:default:768:120146"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120147" xml:lang="dan" ORDERLABEL="32">
+        <m:fptr FILEID="file:default:768:120147"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120148" xml:lang="dan" ORDERLABEL="33">
+        <m:fptr FILEID="file:default:768:120148"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120149" xml:lang="dan" ORDERLABEL="34">
+        <m:fptr FILEID="file:default:768:120149"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120150" xml:lang="dan" ORDERLABEL="35">
+        <m:fptr FILEID="file:default:768:120150"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120151" xml:lang="dan" ORDERLABEL="36">
+        <m:fptr FILEID="file:default:768:120151"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120152" xml:lang="dan" ORDERLABEL="37">
+        <m:fptr FILEID="file:default:768:120152"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120153" xml:lang="dan" ORDERLABEL="38">
+        <m:fptr FILEID="file:default:768:120153"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120154" xml:lang="dan" ORDERLABEL="39">
+        <m:fptr FILEID="file:default:768:120154"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120155" xml:lang="dan" ORDERLABEL="40">
+        <m:fptr FILEID="file:default:768:120155"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120156" xml:lang="dan" ORDERLABEL="41">
+        <m:fptr FILEID="file:default:768:120156"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120157" xml:lang="dan" ORDERLABEL="42">
+        <m:fptr FILEID="file:default:768:120157"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120158" xml:lang="dan" ORDERLABEL="43">
+        <m:fptr FILEID="file:default:768:120158"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120159" xml:lang="dan" ORDERLABEL="44">
+        <m:fptr FILEID="file:default:768:120159"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120160" xml:lang="dan" ORDERLABEL="45">
+        <m:fptr FILEID="file:default:768:120160"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120161" xml:lang="dan" ORDERLABEL="46">
+        <m:fptr FILEID="file:default:768:120161"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120162" xml:lang="dan" ORDERLABEL="47">
+        <m:fptr FILEID="file:default:768:120162"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120163" xml:lang="dan" ORDERLABEL="48">
+        <m:fptr FILEID="file:default:768:120163"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120164" xml:lang="dan" ORDERLABEL="49">
+        <m:fptr FILEID="file:default:768:120164"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120165" xml:lang="dan" ORDERLABEL="50" LABEL="Qvart og Octav 1-576">
+        <m:fptr FILEID="file:default:768:120165"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120166" xml:lang="dan" ORDERLABEL="51">
+        <m:fptr FILEID="file:default:768:120166"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120167" xml:lang="dan" ORDERLABEL="52">
+        <m:fptr FILEID="file:default:768:120167"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120168" xml:lang="dan" ORDERLABEL="53">
+        <m:fptr FILEID="file:default:768:120168"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120169" xml:lang="dan" ORDERLABEL="54">
+        <m:fptr FILEID="file:default:768:120169"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120170" xml:lang="dan" ORDERLABEL="55">
+        <m:fptr FILEID="file:default:768:120170"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120171" xml:lang="dan" ORDERLABEL="56">
+        <m:fptr FILEID="file:default:768:120171"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120172" xml:lang="dan" ORDERLABEL="57">
+        <m:fptr FILEID="file:default:768:120172"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120173" xml:lang="dan" ORDERLABEL="58">
+        <m:fptr FILEID="file:default:768:120173"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120174" xml:lang="dan" ORDERLABEL="59">
+        <m:fptr FILEID="file:default:768:120174"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120175" xml:lang="dan" ORDERLABEL="60">
+        <m:fptr FILEID="file:default:768:120175"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120176" xml:lang="dan" ORDERLABEL="61">
+        <m:fptr FILEID="file:default:768:120176"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120177" xml:lang="dan" ORDERLABEL="62">
+        <m:fptr FILEID="file:default:768:120177"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120178" xml:lang="dan" ORDERLABEL="63">
+        <m:fptr FILEID="file:default:768:120178"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120179" xml:lang="dan" ORDERLABEL="64">
+        <m:fptr FILEID="file:default:768:120179"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120180" xml:lang="dan" ORDERLABEL="65">
+        <m:fptr FILEID="file:default:768:120180"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120181" xml:lang="dan" ORDERLABEL="66">
+        <m:fptr FILEID="file:default:768:120181"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120182" xml:lang="dan" ORDERLABEL="67">
+        <m:fptr FILEID="file:default:768:120182"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120183" xml:lang="dan" ORDERLABEL="68">
+        <m:fptr FILEID="file:default:768:120183"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120184" xml:lang="dan" ORDERLABEL="69">
+        <m:fptr FILEID="file:default:768:120184"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120185" xml:lang="dan" ORDERLABEL="70">
+        <m:fptr FILEID="file:default:768:120185"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120186" xml:lang="dan" ORDERLABEL="71">
+        <m:fptr FILEID="file:default:768:120186"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120187" xml:lang="dan" ORDERLABEL="72">
+        <m:fptr FILEID="file:default:768:120187"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120188" xml:lang="dan" ORDERLABEL="73">
+        <m:fptr FILEID="file:default:768:120188"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120189" xml:lang="dan" ORDERLABEL="74">
+        <m:fptr FILEID="file:default:768:120189"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120190" xml:lang="dan" ORDERLABEL="75">
+        <m:fptr FILEID="file:default:768:120190"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120191" xml:lang="dan" ORDERLABEL="76">
+        <m:fptr FILEID="file:default:768:120191"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120192" xml:lang="dan" ORDERLABEL="77">
+        <m:fptr FILEID="file:default:768:120192"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120193" xml:lang="dan" ORDERLABEL="78">
+        <m:fptr FILEID="file:default:768:120193"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120194" xml:lang="dan" ORDERLABEL="79">
+        <m:fptr FILEID="file:default:768:120194"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120195" xml:lang="dan" ORDERLABEL="80">
+        <m:fptr FILEID="file:default:768:120195"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120196" xml:lang="dan" ORDERLABEL="81">
+        <m:fptr FILEID="file:default:768:120196"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120197" xml:lang="dan" ORDERLABEL="82">
+        <m:fptr FILEID="file:default:768:120197"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120198" xml:lang="dan" ORDERLABEL="83">
+        <m:fptr FILEID="file:default:768:120198"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120199" xml:lang="dan" ORDERLABEL="84">
+        <m:fptr FILEID="file:default:768:120199"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120200" xml:lang="dan" ORDERLABEL="85">
+        <m:fptr FILEID="file:default:768:120200"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120201" xml:lang="dan" ORDERLABEL="86">
+        <m:fptr FILEID="file:default:768:120201"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120202" xml:lang="dan" ORDERLABEL="87">
+        <m:fptr FILEID="file:default:768:120202"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120203" xml:lang="dan" ORDERLABEL="88">
+        <m:fptr FILEID="file:default:768:120203"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120204" xml:lang="dan" ORDERLABEL="89">
+        <m:fptr FILEID="file:default:768:120204"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120205" xml:lang="dan" ORDERLABEL="90">
+        <m:fptr FILEID="file:default:768:120205"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120206" xml:lang="dan" ORDERLABEL="91">
+        <m:fptr FILEID="file:default:768:120206"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120207" xml:lang="dan" ORDERLABEL="92">
+        <m:fptr FILEID="file:default:768:120207"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120208" xml:lang="dan" ORDERLABEL="93">
+        <m:fptr FILEID="file:default:768:120208"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120209" xml:lang="dan" ORDERLABEL="94">
+        <m:fptr FILEID="file:default:768:120209"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120210" xml:lang="dan" ORDERLABEL="95">
+        <m:fptr FILEID="file:default:768:120210"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120211" xml:lang="dan" ORDERLABEL="96">
+        <m:fptr FILEID="file:default:768:120211"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120212" xml:lang="dan" ORDERLABEL="97">
+        <m:fptr FILEID="file:default:768:120212"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120213" xml:lang="dan" ORDERLABEL="98">
+        <m:fptr FILEID="file:default:768:120213"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120214" xml:lang="dan" ORDERLABEL="99">
+        <m:fptr FILEID="file:default:768:120214"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120215" xml:lang="dan" ORDERLABEL="100">
+        <m:fptr FILEID="file:default:768:120215"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120216" xml:lang="dan" ORDERLABEL="101" LABEL="Ledreborg slut">
+        <m:fptr FILEID="file:default:768:120216"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120217" xml:lang="dan" ORDERLABEL="102">
+        <m:fptr FILEID="file:default:768:120217"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120218" xml:lang="dan" ORDERLABEL="103" LABEL="Benzons Catalog">
+        <m:fptr FILEID="file:default:768:120218"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120219" xml:lang="dan" ORDERLABEL="104">
+        <m:fptr FILEID="file:default:768:120219"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120220" xml:lang="dan" ORDERLABEL="105">
+        <m:fptr FILEID="file:default:768:120220"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120221" xml:lang="dan" ORDERLABEL="106">
+        <m:fptr FILEID="file:default:768:120221"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120222" xml:lang="dan" ORDERLABEL="107">
+        <m:fptr FILEID="file:default:768:120222"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120223" xml:lang="dan" ORDERLABEL="108">
+        <m:fptr FILEID="file:default:768:120223"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120224" xml:lang="dan" ORDERLABEL="109">
+        <m:fptr FILEID="file:default:768:120224"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120225" xml:lang="dan" ORDERLABEL="110">
+        <m:fptr FILEID="file:default:768:120225"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120226" xml:lang="dan" ORDERLABEL="111">
+        <m:fptr FILEID="file:default:768:120226"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120227" xml:lang="dan" ORDERLABEL="112">
+        <m:fptr FILEID="file:default:768:120227"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120228" xml:lang="dan" ORDERLABEL="113">
+        <m:fptr FILEID="file:default:768:120228"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120229" xml:lang="dan" ORDERLABEL="114">
+        <m:fptr FILEID="file:default:768:120229"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120230" xml:lang="dan" ORDERLABEL="115">
+        <m:fptr FILEID="file:default:768:120230"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120231" xml:lang="dan" ORDERLABEL="116">
+        <m:fptr FILEID="file:default:768:120231"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120232" xml:lang="dan" ORDERLABEL="117">
+        <m:fptr FILEID="file:default:768:120232"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120233" xml:lang="dan" ORDERLABEL="118">
+        <m:fptr FILEID="file:default:768:120233"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120234" xml:lang="dan" ORDERLABEL="119">
+        <m:fptr FILEID="file:default:768:120234"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120235" xml:lang="dan" ORDERLABEL="120">
+        <m:fptr FILEID="file:default:768:120235"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120236" xml:lang="dan" ORDERLABEL="121">
+        <m:fptr FILEID="file:default:768:120236"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120237" xml:lang="dan" ORDERLABEL="122">
+        <m:fptr FILEID="file:default:768:120237"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120238" xml:lang="dan" ORDERLABEL="123">
+        <m:fptr FILEID="file:default:768:120238"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120239" xml:lang="dan" ORDERLABEL="124">
+        <m:fptr FILEID="file:default:768:120239"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120240" xml:lang="dan" ORDERLABEL="125">
+        <m:fptr FILEID="file:default:768:120240"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120241" xml:lang="dan" ORDERLABEL="126">
+        <m:fptr FILEID="file:default:768:120241"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120242" xml:lang="dan" ORDERLABEL="127">
+        <m:fptr FILEID="file:default:768:120242"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120243" xml:lang="dan" ORDERLABEL="128">
+        <m:fptr FILEID="file:default:768:120243"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120244" xml:lang="dan" ORDERLABEL="129">
+        <m:fptr FILEID="file:default:768:120244"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120245" xml:lang="dan" ORDERLABEL="130">
+        <m:fptr FILEID="file:default:768:120245"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120246" xml:lang="dan" ORDERLABEL="131">
+        <m:fptr FILEID="file:default:768:120246"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120247" xml:lang="dan" ORDERLABEL="132">
+        <m:fptr FILEID="file:default:768:120247"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120248" xml:lang="dan" ORDERLABEL="133">
+        <m:fptr FILEID="file:default:768:120248"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120249" xml:lang="dan" ORDERLABEL="134">
+        <m:fptr FILEID="file:default:768:120249"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120250" xml:lang="dan" ORDERLABEL="135">
+        <m:fptr FILEID="file:default:768:120250"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120251" xml:lang="dan" ORDERLABEL="136">
+        <m:fptr FILEID="file:default:768:120251"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120252" xml:lang="dan" ORDERLABEL="137">
+        <m:fptr FILEID="file:default:768:120252"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120253" xml:lang="dan" ORDERLABEL="138">
+        <m:fptr FILEID="file:default:768:120253"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120254" xml:lang="dan" ORDERLABEL="139">
+        <m:fptr FILEID="file:default:768:120254"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120255" xml:lang="dan" ORDERLABEL="140">
+        <m:fptr FILEID="file:default:768:120255"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120256" xml:lang="dan" ORDERLABEL="141">
+        <m:fptr FILEID="file:default:768:120256"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120257" xml:lang="dan" ORDERLABEL="142">
+        <m:fptr FILEID="file:default:768:120257"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120258" xml:lang="dan" ORDERLABEL="143">
+        <m:fptr FILEID="file:default:768:120258"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120259" xml:lang="dan" ORDERLABEL="144">
+        <m:fptr FILEID="file:default:768:120259"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120260" xml:lang="dan" ORDERLABEL="145">
+        <m:fptr FILEID="file:default:768:120260"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120261" xml:lang="dan" ORDERLABEL="146">
+        <m:fptr FILEID="file:default:768:120261"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120262" xml:lang="dan" ORDERLABEL="147">
+        <m:fptr FILEID="file:default:768:120262"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120263" xml:lang="dan" ORDERLABEL="148">
+        <m:fptr FILEID="file:default:768:120263"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120264" xml:lang="dan" ORDERLABEL="149">
+        <m:fptr FILEID="file:default:768:120264"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120265" xml:lang="dan" ORDERLABEL="150">
+        <m:fptr FILEID="file:default:768:120265"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120266" xml:lang="dan" ORDERLABEL="151">
+        <m:fptr FILEID="file:default:768:120266"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120267" xml:lang="dan" ORDERLABEL="152">
+        <m:fptr FILEID="file:default:768:120267"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120268" xml:lang="dan" ORDERLABEL="153">
+        <m:fptr FILEID="file:default:768:120268"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120269" xml:lang="dan" ORDERLABEL="154">
+        <m:fptr FILEID="file:default:768:120269"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120270" xml:lang="dan" ORDERLABEL="155">
+        <m:fptr FILEID="file:default:768:120270"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120271" xml:lang="dan" ORDERLABEL="156">
+        <m:fptr FILEID="file:default:768:120271"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120272" xml:lang="dan" ORDERLABEL="157">
+        <m:fptr FILEID="file:default:768:120272"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120273" xml:lang="dan" ORDERLABEL="158">
+        <m:fptr FILEID="file:default:768:120273"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120274" xml:lang="dan" ORDERLABEL="159">
+        <m:fptr FILEID="file:default:768:120274"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120275" xml:lang="dan" ORDERLABEL="160">
+        <m:fptr FILEID="file:default:768:120275"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120276" xml:lang="dan" ORDERLABEL="161">
+        <m:fptr FILEID="file:default:768:120276"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120277" xml:lang="dan" ORDERLABEL="162">
+        <m:fptr FILEID="file:default:768:120277"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120278" xml:lang="dan" ORDERLABEL="163">
+        <m:fptr FILEID="file:default:768:120278"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120279" xml:lang="dan" ORDERLABEL="164">
+        <m:fptr FILEID="file:default:768:120279"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120280" xml:lang="dan" ORDERLABEL="165">
+        <m:fptr FILEID="file:default:768:120280"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120281" xml:lang="dan" ORDERLABEL="166">
+        <m:fptr FILEID="file:default:768:120281"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120282" xml:lang="dan" ORDERLABEL="167">
+        <m:fptr FILEID="file:default:768:120282"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120283" xml:lang="dan" ORDERLABEL="168">
+        <m:fptr FILEID="file:default:768:120283"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120284" xml:lang="dan" ORDERLABEL="169">
+        <m:fptr FILEID="file:default:768:120284"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120285" xml:lang="dan" ORDERLABEL="170">
+        <m:fptr FILEID="file:default:768:120285"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120286" xml:lang="dan" ORDERLABEL="171">
+        <m:fptr FILEID="file:default:768:120286"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120287" xml:lang="dan" ORDERLABEL="172">
+        <m:fptr FILEID="file:default:768:120287"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120288" xml:lang="dan" ORDERLABEL="173">
+        <m:fptr FILEID="file:default:768:120288"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120289" xml:lang="dan" ORDERLABEL="174">
+        <m:fptr FILEID="file:default:768:120289"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120290" xml:lang="dan" ORDERLABEL="175">
+        <m:fptr FILEID="file:default:768:120290"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120291" xml:lang="dan" ORDERLABEL="176">
+        <m:fptr FILEID="file:default:768:120291"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120292" xml:lang="dan" ORDERLABEL="177">
+        <m:fptr FILEID="file:default:768:120292"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120293" xml:lang="dan" ORDERLABEL="178">
+        <m:fptr FILEID="file:default:768:120293"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120294" xml:lang="dan" ORDERLABEL="179">
+        <m:fptr FILEID="file:default:768:120294"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120295" xml:lang="dan" ORDERLABEL="180">
+        <m:fptr FILEID="file:default:768:120295"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120296" xml:lang="dan" ORDERLABEL="181">
+        <m:fptr FILEID="file:default:768:120296"/>
+      </m:div>
+      <m:div ID="manus:768:div:physical:120297" xml:lang="dan" ORDERLABEL="182">
+        <m:fptr FILEID="file:default:768:120297"/>
+      </m:div>
+    </m:div>
+  </m:structMap>
+  <m:structMap type="variant">
+    <m:div ID="manus:768:div:variant:84535" ORDERLABEL="101">
+      <m:fptr FILEID="file:variant:768:84535"/>
+    </m:div>
+    <m:div ID="manus:768:div:variant:84534" ORDERLABEL="50">
+      <m:fptr FILEID="file:variant:768:84534"/>
+    </m:div>
+    <m:div ID="manus:768:div:variant:84536" ORDERLABEL="101">
+      <m:fptr FILEID="file:variant:768:84536"/>
+    </m:div>
+    <m:div ID="manus:768:div:variant:84537" ORDERLABEL="101">
+      <m:fptr FILEID="file:variant:768:84537"/>
+    </m:div>
+    <m:div ID="manus:768:div:variant:84538" ORDERLABEL="101">
+      <m:fptr FILEID="file:variant:768:84538"/>
+    </m:div>
+  </m:structMap>
+  <m:structLink>
+    <m:smLink xml:lang="dan" xlink:title="Tillæg: folio 476-487" xlink:from="manus:768:div:physical:120165" xlink:to="manus:768:div:variant:84534"/>
+    <m:smLink xml:lang="dan" xlink:title="Tillæg: kvart 525-536" xlink:from="manus:768:div:physical:120216" xlink:to="manus:768:div:variant:84535"/>
+    <m:smLink xml:lang="dan" xlink:title="Tillæg: kvart 537-553" xlink:from="manus:768:div:physical:120216" xlink:to="manus:768:div:variant:84536"/>
+    <m:smLink xml:lang="dan" xlink:title="Tillæg: kvart 554-568" xlink:from="manus:768:div:physical:120216" xlink:to="manus:768:div:variant:84537"/>
+    <m:smLink xml:lang="dan" xlink:title="Tillæg: kvart 569-576" xlink:from="manus:768:div:physical:120216" xlink:to="manus:768:div:variant:84538"/>
+  </m:structLink>
+</m:mets>

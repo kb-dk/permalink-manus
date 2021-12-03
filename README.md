@@ -15,27 +15,31 @@ such that they could use
 * a common set of applications
 
 This goal was achieved in by Jacob Larsen & Sigfrid Lundberg in
-aproject called __Sjauiga__ 2006. The name of the project was an
-acronym for _Sigges og Jacobs arkæologiske udgravninger i gamle
-applikationer_.
+aproject called
+[__Sjauiga__](https://github.com/kb-dk/data-migration-2014/tree/master/sjauiga) 2006. The
+name of the project was an acronym for _Sigges og Jacobs arkæologiske
+udgravninger i gamle applikationer_.
 
 To my knowledge that project has been the only one at KB that has
 successfully merged older applications.
 
 More than 2800 objects with detailed metadata are available throught this system.
 
-http://www5.kb.dk/permalink/2006/manus/XXX/eng/ where XXX = 1 ... 758
+http://www5.kb.dk/permalink/2006/manus/XXX/eng/ where XXX = 1 ... 800
+(give or take a few dozen in the sequence).
 
 For instance in the Copenhagen Maimonides, i.e., manus 293, on folio 110a 
 there is a portrait of Yoda in the right margin
 
 http://www5.kb.dk/permalink/2006/manus/293/eng/110a/
 
+There is a large table with all [manus documents in this project](src/main/webapp/data/manus/all_manus.md).
+
 ## About this document
 
 mets-api and permalink now runs using
 
-* the new Oracle version
+* the new Oracle version at KB
 * they are independent of OpenCMS
 * compiles and runs under JAVA 8
     
@@ -84,6 +88,7 @@ with respect to the variables:
  private String     password = "very secret password for that user";
  private String     jdbcUri  = "jdbc:oracle:thin:@oracle-test-03.kb.dk:1521:TEST3";
 ```
+Yes, those parameters are hardcoded in Java. Sorry.
 
 ### Running API and UI on different servers
 
@@ -146,7 +151,9 @@ RewriteRule /.*(manus|lum|lum.proj|musman|musman.proj|mus)/([^/]*)/([^/]*)/?([^/
 
 ## On how to close the MANUS oracle schema
 
-Several datasets delivered through permalink and its APIs are no longer alive and just available as static XML documents. There are some 2000 files in the directories
+Several datasets delivered through permalink and its APIs are no
+longer alive and just available as static XML documents. There are
+some 2000 files in the directories
 
 ```
  src/main/webapp/data/lum
@@ -165,7 +172,12 @@ The data in the former four are used directly in the running service,
 whereas the manus application is still live and its data is still
 delivered from an Oracle database.
 
+The data here today December 2021 are up to date.  Last time we made a
+METS dump from the Oracle database was 2018 and the data has changed
+since then, so there are people working on them occasionally.
+
 The data directory has been maintained by the command
+
 
 ```
  scripts/get-mets-files.pl --application &lt;application abbreviation> --targetdir &lt;directory>
@@ -188,5 +200,5 @@ scripts
 ```
 
 Once this is done, the system is independent of Oracle, but the data
-cannot be edited using a forms based system.
+can no longer be edited using a forms based system.
 
