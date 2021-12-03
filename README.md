@@ -15,9 +15,10 @@ such that they could use
 * a common set of applications
 
 This goal was achieved in by Jacob Larsen & Sigfrid Lundberg in
-aproject called __Sjauiga__ 2006. The name of the project was an
-acronym for _Sigges og Jacobs arkæologiske udgravninger i gamle
-applikationer_.
+aproject called
+[__Sjauiga__](https://github.com/kb-dk/data-migration-2014/tree/master/sjauiga) 2006. The
+name of the project was an acronym for _Sigges og Jacobs arkæologiske
+udgravninger i gamle applikationer_.
 
 To my knowledge that project has been the only one at KB that has
 successfully merged older applications.

@@ -1,6 +1,6 @@
 # All MANUS documents
 
-| FILE | Title | Author | URI |
+|METS File | Title | Author | URI |
 |---|---|---|---|
 [./703/metsfile.xml](./703/metsfile.xml)|dan=E don var 140 4º eng=E don var 140 4to  | dan=Esrum Klosters brevbog eng=Codex Esromensis  | http://www5.kb.dk/permalink/2006/manus/703/dan/|
 [./39/metsfile.xml](./39/metsfile.xml)|dan=Sallustius, opera eng=Sallustius, opera  | dan=GKS 2154 4° eng=GKS 2154 4°  | http://www5.kb.dk/permalink/2006/manus/39/dan/|
