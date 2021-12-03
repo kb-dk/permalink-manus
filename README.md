@@ -172,7 +172,12 @@ The data in the former four are used directly in the running service,
 whereas the manus application is still live and its data is still
 delivered from an Oracle database.
 
+The data here today December 2021 are up to date.  Last time we made a
+METS dump from the Oracle database was 2018 and the data has changed
+since then, so there are people working on them occasionally.
+
 The data directory has been maintained by the command
+
 
 ```
  scripts/get-mets-files.pl --application &lt;application abbreviation> --targetdir &lt;directory>
@@ -195,5 +200,5 @@ scripts
 ```
 
 Once this is done, the system is independent of Oracle, but the data
-cannot be edited using a forms based system.
+can no longer be edited using a forms based system.
 
