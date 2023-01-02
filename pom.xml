@@ -8,14 +8,29 @@
   <version>1.0-SNAPSHOT</version>
   <name>mets-api Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <repositories>
-    <repository>
-      <id>myserver</id>
-      <name>myserver</name>
-      <url>http://code-01.kb.dk:8082/nexus/content/repositories/thirdparty</url>
-    </repository>
-  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-compiler-plugin</artifactId>
+	<version>2.4</version>
+	<configuration>
+	  <source>1.8</source>
+	  <target>1.8</target>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
   <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+      <scope>test</scope>
+    </dependency>
+    
     <dependency>
       <groupId>javax.cache</groupId>
       <artifactId>cache-api</artifactId>
@@ -27,11 +42,15 @@
       <version>[2.6,)</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
+      <groupId>com.github.ben-manes.caffeine</groupId>
+      <artifactId>jcache</artifactId>
+      <version>2.7.0</version>
     </dependency>
+    <!-- dependency>
+        <groupId>org.ehcache</groupId>
+        <artifactId>ehcache</artifactId>
+    </dependency -->
+    
     <dependency>
       <groupId>dom4j</groupId>
       <artifactId>dom4j</artifactId>
@@ -52,11 +71,14 @@
       <artifactId>c3p0</artifactId>
       <version>[0.9.5.3,)</version>
     </dependency>
+
     <dependency>
-      <groupId>ojdbc</groupId>
-      <artifactId>ojdbc7_g</artifactId>
-      <version>7</version>
+      <groupId>com.oracle.database.jdbc</groupId>
+      <artifactId>ojdbc6</artifactId>
+      <version>11.2.0.4</version>
     </dependency>
+    
+   
     <dependency>
       <groupId>gnu.getopt</groupId>
       <artifactId>java-getopt</artifactId>
@@ -83,17 +105,5 @@
       <version>1.7.5</version>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>mets-api</finalName>
-    <plugins>
-      <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<configuration>
-	  <source>1.8</source>
-	  <target>1.8</target>
-	</configuration>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>

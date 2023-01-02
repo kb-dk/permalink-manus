@@ -32,7 +32,8 @@ org.dom4j.Document doc = null;
 
 
 java.net.URI uri = null; 
-if(appPar.equals("manus")) {
+if(false) {
+// if(appPar.equals("manus")) {
     metsPath = metsPath + "/api/get-mets-metadata.jsp";
     String query = "app=" +   appPar + "&doc=" +  docPar + "";
     uri = new java.net.URI(scheme,
