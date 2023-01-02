@@ -12,6 +12,8 @@ public class ManusDataSource
     private Logger     LOGGER        = LoggerFactory.getLogger(ManusDataSource.class);
     private String     manusId       = "";
 
+    // OK, this is called hard-coding and it arose when moving the applications out of openCms. Not proud of it.
+
     private String     user     = "oracle user/schema name";
     private String     password = "very secret password for that user";
     private String     jdbcUri  = "data_uri";
