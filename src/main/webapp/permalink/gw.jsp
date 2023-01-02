@@ -40,8 +40,8 @@ dk.kb.mets.MetsElements mElem = null;
 org.dom4j.Document doc = null;
 
 java.net.URI uri = null; 
-if(false) {
-// if(appPar.equals("manus")) {
+// if(false) {
+if(appPar.equals("manus")) {
     metsPath = metsPath + "/api/get-mets-metadata.jsp";
     String query = "app=" +   appPar + "&doc=" +  docPar + "";
     uri = new java.net.URI(scheme,
@@ -143,11 +143,11 @@ if (cookies != null){
 
 String pdf = mElem.getPdf(); 
    
-// dk.kb.mets.Term t =  new dk.kb.mets.Term(langPar);
+dk.kb.mets.Term t =  new dk.kb.mets.Term(langPar);
 String secondLangString ="";
-java.util.HashMap h = new java.util.HashMap(); //  t.getLangTerm();
+java.util.HashMap h =  t.getLangTerm(); // new java.util.HashMap(); 
 if(!secondLang.equals("")){
-  secondLangString = "lat"; // t.getLang(secondLang);
+    secondLangString = t.getLang(secondLang); // "lat";
 }
 
 String depCol = "e-manuskripter";
