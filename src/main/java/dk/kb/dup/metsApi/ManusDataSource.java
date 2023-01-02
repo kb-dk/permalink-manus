@@ -17,7 +17,7 @@ public class ManusDataSource
     private String     jdbcUri  = "data_uri";
 
     private static ManusDataSource instance = null;
-    
+ 
 
     private static com.mchange.v2.c3p0.ComboPooledDataSource pooledDataSource = null; 
 

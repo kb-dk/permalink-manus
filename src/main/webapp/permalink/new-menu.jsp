@@ -70,8 +70,8 @@ if(request.getParameter("lang") != null) {
  }
 }
 
-dk.kb.mets.Term t = new dk.kb.mets.Term(langPar);
-java.util.HashMap h = t.getLangTerm();
+// dk.kb.mets.Term t = new dk.kb.mets.Term(langPar);
+java.util.HashMap h = new java.util.HashMap(); // t.getLangTerm();
 
 mElem.setLang(langPar);
 
