@@ -143,11 +143,11 @@ if (cookies != null){
 
 String pdf = mElem.getPdf(); 
    
-dk.kb.mets.Term t = new dk.kb.mets.Term(langPar);
+// dk.kb.mets.Term t =  new dk.kb.mets.Term(langPar);
 String secondLangString ="";
-java.util.HashMap h = t.getLangTerm();
+java.util.HashMap h = new java.util.HashMap(); //  t.getLangTerm();
 if(!secondLang.equals("")){
-  secondLangString = t.getLang(secondLang);
+  secondLangString = "lat"; // t.getLang(secondLang);
 }
 
 String depCol = "e-manuskripter";
