@@ -14,13 +14,14 @@ such that they could use
 * a single metadata framework.
 * a common set of applications
 
-This goal was achieved in by Jacob Larsen &amp; Sigfrid
-Lundberg in aproject called <strong>Sjauiga</strong> 2006. The
-name of the project was an acronym for <em>Sigges og Jacobs
-arkæologiske udgravninger i gamle applikationer</em>.
+This goal was achieved in by Jacob Larsen &amp; Sigfrid Lundberg in
+aproject called <strong>Sjauiga</strong> 2006. The name of the project
+was an acronym for <em>Sigges og Jacobs arkæologiske udgravninger i
+gamle applikationer</em>. [See the project
+plan](https://github.com/kb-dk/data-migration-2014/tree/master/sjauiga),
+which is in HTML and hence not very readable on github.
 
-To my knowledge that project has been the only one at KB that
-    has successfully merged older applications.
+To my knowledge that project was one of very few in which  KB was able to successfully merge older applications.
 
 More than 2800 objects with detailed metadata are available throught this system.
 
