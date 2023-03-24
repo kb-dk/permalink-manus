@@ -9,18 +9,23 @@ import java.util.Iterator;
 public class Term
 {
     private HashMap resMap = new HashMap();
-
+    String choosenLanguage;
     public Term(){}
+
+    MultilingualTerms terms = new  MultilingualTerms();
 
     public Term(String langcode)
     {
-        String sql = "select termtrans, termcode from manus.langterm where langcode = '"+langcode+"'";
+
+	this.resMap = terms.termMap(langcode);
+	
+        /* String sql = "select termtrans, termcode from manus.langterm where langcode = '"+langcode+"'";
 	//	ManusDataSource source = new ManusDataSource();
 	ManusDataSource source = ManusDataSource.getInstance();
 	Connection conn = source.getConnection();
         this.getHashMapFromDB(conn,sql,999);
 	source.close();
-	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); }
+	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); } */
     }
 
     public HashMap getLangTerm()
@@ -30,6 +35,8 @@ public class Term
 
     public String getLang(String lang)
     {
+
+	/*
         String sql = "select langdesc from manus.lang where langcode ='"+lang+"'";
 	//	ManusDataSource source = new ManusDataSource();
 	ManusDataSource source = ManusDataSource.getInstance();
@@ -37,7 +44,13 @@ public class Term
 	String desc = getStringFromDb(conn, sql,999, "LANGDESC");
 	source.close();
 	try {conn.close();} catch(SQLException ex) { ex.printStackTrace(); }
+
         return desc;
+	*/
+
+	return terms.getLang(lang);
+	
+
     }
 
     public String getMusViewMode(String project)

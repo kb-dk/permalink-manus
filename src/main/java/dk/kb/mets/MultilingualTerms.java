@@ -76,4 +76,12 @@ public class MultilingualTerms {
 	
     }
 
+    public String getLang(String lang) {
+	return languages.get(lang);
+    }
+
+    public HashMap<String,String> termMap(String lang) {
+	return termMap.get(lang);
+    }
+
 }
