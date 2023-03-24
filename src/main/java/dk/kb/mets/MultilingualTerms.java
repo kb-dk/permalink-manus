@@ -62,7 +62,7 @@ public class MultilingualTerms {
 	languages.put("dan","Dansk");
 	languages.put("eng","English");
 	languages.put("heb","Hebrew");
-	languages.put("ara","ﻲﺒﺮﻋ");
+	languages.put("ara","عَرَبِيّ");
 	languages.put("esp","Español");
 	languages.put("chi","Chinese");
 	languages.put("jpn","Japanese");
