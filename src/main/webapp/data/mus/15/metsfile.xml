@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:15"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Sangene af Sommerrevuen 1887: Fra Pjaltenborg til Rosenborg </md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Indhold: Middagskur. Skovshovedpigen. Før og nu. Det kan De faa skriftligt. Nu skær' en. Milinita. Spøgeri. Kærnepigens Vise. Tivolis Fremtid. Sportskvindevise. Fra Revuen. Lidt lyver jeg selv. Uskyldigheden fra Gjentofte. Indeholder desuden teksten til En fra Kongens Nytorv, En fraNørregade, En fra Jernbanegade, En fra Amaliegade. / Musik af bl.a. Carl Erichsen. - Opført på Frederiksberg Morskabstheater </md:note><md:identifier type="pdf">http://img.kb.dk/ma/revy/revy1-225-253.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0014.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:15">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Sangene af Sommerrevuen 1887: Fra Pjaltenborg til Rosenborg </md:title>
+          </md:titleInfo>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Indhold: Middagskur. Skovshovedpigen. Før og nu. Det kan De faa skriftligt. Nu skær' en. Milinita. Spøgeri. Kærnepigens Vise. Tivolis Fremtid. Sportskvindevise. Fra Revuen. Lidt lyver jeg selv. Uskyldigheden fra Gjentofte. Indeholder desuden teksten til En fra Kongens Nytorv, En fraNørregade, En fra Jernbanegade, En fra Amaliegade. / Musik af bl.a. Carl Erichsen. - Opført på Frederiksberg Morskabstheater </md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/revy/revy1-225-253.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0014.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

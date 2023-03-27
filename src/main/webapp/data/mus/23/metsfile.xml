@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:23"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Københavns officielle Album eller ; Sommerrevuen 1893 (F. W. Bergstrøm's Honnørmarsch)</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Indhold: Nødder ; Det gør jeg og Julle med ; Et skikkeligt Folk ; Tingeningenater ; Hjemme til Te ; De smaa Soldater ; Til hvilken Side hveranden Gang ; Hvor Fan'en har du faaet den Hat / Olfert Jespersen. Direktørens Klagesang. Det bli'er sidste Gang. Min Krinoline. Vers. Vedlagt: Sange af Københavns officielle Album. - København : Gustav Larsen, &lt;1893?&gt;. - Heri: F. W. Bergstrøm's Honnørmarsch / August Etlinger. - Opført på Nørrebros Teater</md:note><md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-361-384.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0022.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:23">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Københavns officielle Album eller ; Sommerrevuen 1893 (F. W. Bergstrøm's Honnørmarsch)</md:title>
+          </md:titleInfo>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Indhold: Nødder ; Det gør jeg og Julle med ; Et skikkeligt Folk ; Tingeningenater ; Hjemme til Te ; De smaa Soldater ; Til hvilken Side hveranden Gang ; Hvor Fan'en har du faaet den Hat / Olfert Jespersen. Direktørens Klagesang. Det bli'er sidste Gang. Min Krinoline. Vers. Vedlagt: Sange af Københavns officielle Album. - København : Gustav Larsen, &lt;1893?&gt;. - Heri: F. W. Bergstrøm's Honnørmarsch / August Etlinger. - Opført på Nørrebros Teater</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-361-384.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0022.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

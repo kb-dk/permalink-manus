@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:13"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Paa Kometen eller ; Sommerrevuen 1886 </md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Indhold: Entreprenøren / Offenbach. Billet-Groserens Sang / N. K. Madsen-Stensgaard. Paa Liv eller Død. Hvad man kan bygge paa / E. Linderer. Det, der dikker / Max Wolf. Kjærlighed paa Kometen. To Sjæle og en Tanke / Carl Erichsen. Farvel og Tak / H. C. Lumbye. - Opført på Revuetheatret i Tivoli</md:note><md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-317-336.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0012.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:13">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Paa Kometen eller ; Sommerrevuen 1886 </md:title>
+          </md:titleInfo>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Indhold: Entreprenøren / Offenbach. Billet-Groserens Sang / N. K. Madsen-Stensgaard. Paa Liv eller Død. Hvad man kan bygge paa / E. Linderer. Det, der dikker / Max Wolf. Kjærlighed paa Kometen. To Sjæle og en Tanke / Carl Erichsen. Farvel og Tak / H. C. Lumbye. - Opført på Revuetheatret i Tivoli</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-317-336.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0012.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

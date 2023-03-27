@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:870"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Thrymsqviden, Op. 67</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>J.P.E. Hartmann</md:partName><md:role><md:roleTerm>komponist</md:roleTerm></md:role></md:name><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Vala og Ildaanderne ; Sandsernes Prøve ; Valas Fosterdøttre ; Sigyn ; Sigyn og Loke ; Thrym og Thurserne ; Freias Hal ; Skirner kommer til Jothunheim ; Indledning (2. Akt) ; Gudeernes Triumphmarsch ; Sigyn og Ternerne ; Lokes Hevn ved Ægirs Gilde (Vals, Galop og Finale) ; Sigyn i Freias Lund (3. Akt) ; Skirner overbringer Thryms Frieri ; Einheriernes Indtog - Lokes Forklædning ; Vaabendands af Valkyrier og Einherier ; Thors Brudefærd i Jotunheim (4. Akt) ; Lokes Straf ; Gimle</md:note><md:identifier type="pdf">http://img.kb.dk/ma/bournon/thrymsqviden.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/bournon/fors/thrymsqviden.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:870">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Thrymsqviden, Op. 67</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>J.P.E. Hartmann</md:partName>
+            <md:role>
+              <md:roleTerm>komponist</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Vala og Ildaanderne ; Sandsernes Prøve ; Valas Fosterdøttre ; Sigyn ; Sigyn og Loke ; Thrym og Thurserne ; Freias Hal ; Skirner kommer til Jothunheim ; Indledning (2. Akt) ; Gudeernes Triumphmarsch ; Sigyn og Ternerne ; Lokes Hevn ved Ægirs Gilde (Vals, Galop og Finale) ; Sigyn i Freias Lund (3. Akt) ; Skirner overbringer Thryms Frieri ; Einheriernes Indtog - Lokes Forklædning ; Vaabendands af Valkyrier og Einherier ; Thors Brudefærd i Jotunheim (4. Akt) ; Lokes Straf ; Gimle</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/bournon/thrymsqviden.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/bournon/fors/thrymsqviden.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

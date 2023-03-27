@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:865"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Fjernt fra Danmark</md:title></md:titleInfo><md:name xml:lang="dan"><md:partName>Jos. Glæser ; Gottschalk ; J.B.E. Dupuy ; A.F. Lincke</md:partName><md:role><md:roleTerm>komponist</md:roleTerm></md:role></md:name><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Charakteerstykker og Dandse. - Introduction ; Bolero ; Afskedsdands før Bortgangen til Ballet ; Negerdands ; Polonaise ; Contradands (Vals-Polka) ; Dands om Viften ; Fandango ; Engelsk Dands ; Finale Galop</md:note><md:identifier type="pdf">http://img.kb.dk/ma/bournon/fjfdk.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/bournon/fors/fjfdk.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:865">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Fjernt fra Danmark</md:title>
+          </md:titleInfo>
+          <md:name xml:lang="dan">
+            <md:partName>Jos. Glæser ; Gottschalk ; J.B.E. Dupuy ; A.F. Lincke</md:partName>
+            <md:role>
+              <md:roleTerm>komponist</md:roleTerm>
+            </md:role>
+          </md:name>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Charakteerstykker og Dandse. - Introduction ; Bolero ; Afskedsdands før Bortgangen til Ballet ; Negerdands ; Polonaise ; Contradands (Vals-Polka) ; Dands om Viften ; Fandango ; Engelsk Dands ; Finale Galop</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/bournon/fjfdk.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/bournon/fors/fjfdk.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

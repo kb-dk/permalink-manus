@@ -1,3 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:KUHLAU"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title></md:title></md:titleInfo><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musik- og Teaterafdelingen</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier></md:relatedItem><md:relatedItem type="menuitem"><md:titleInfo xml:lang="dan"><md:title></md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">null</md:identifier></md:relatedItem></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="mus:KUHLAU:dmdl:1964"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Op. 004. Sonate pour le piano-forte. (Br.&amp; H., pl.nr.: 1576)</md:title></md:titleInfo><md:dateIssued>1810</md:dateIssued><md:note type="pdf">http://img.kb.dk/ma/kuhlau/kuhl_op004.pdf</md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:dmdSec ID="mus:KUHLAU:dmdl:1963"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Op. 039. Trois grands duos pour deux flûtes. (Br.&amp; H., pl.nr.: 4956)</md:title></md:titleInfo><md:dateIssued>1822</md:dateIssued><md:note type="pdf">http://img.kb.dk/ma/kuhlau/kuhl_op039.pdf</md:note></md:mods></m:xmlData></m:mdWrap></m:dmdSec><m:structMap type="logical"><m:div xml:lang="dan" ID="mus:KUHLAU:div:logical:1964" DMDID="mus:KUHLAU:dmd:1964"/><m:div xml:lang="dan" ID="mus:KUHLAU:div:logical:1963" DMDID="mus:KUHLAU:dmd:1963"/></m:structMap></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:KUHLAU">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title/>
+          </md:titleInfo>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musik- og Teaterafdelingen</md:title>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          </md:relatedItem>
+          <md:relatedItem type="menuitem">
+            <md:titleInfo xml:lang="dan">
+              <md:title/>
+            </md:titleInfo>
+            <md:identifier type="uri" xml:lang="dan">null</md:identifier>
+          </md:relatedItem>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="mus:KUHLAU:dmdl:1964">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Op. 004. Sonate pour le piano-forte. (Br.&amp; H., pl.nr.: 1576)</md:title>
+          </md:titleInfo>
+          <md:dateIssued>1810</md:dateIssued>
+          <md:note type="pdf">http://img.kb.dk/ma/kuhlau/kuhl_op004.pdf</md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:dmdSec ID="mus:KUHLAU:dmdl:1963">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Op. 039. Trois grands duos pour deux flûtes. (Br.&amp; H., pl.nr.: 4956)</md:title>
+          </md:titleInfo>
+          <md:dateIssued>1822</md:dateIssued>
+          <md:note type="pdf">http://img.kb.dk/ma/kuhlau/kuhl_op039.pdf</md:note>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+  <m:structMap type="logical">
+    <m:div xml:lang="dan" ID="mus:KUHLAU:div:logical:1964" DMDID="mus:KUHLAU:dmd:1964"/>
+    <m:div xml:lang="dan" ID="mus:KUHLAU:div:logical:1963" DMDID="mus:KUHLAU:dmd:1963"/>
+  </m:structMap>
+</m:mets>

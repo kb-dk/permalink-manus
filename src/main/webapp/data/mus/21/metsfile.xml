@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:21"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Kjøbenhavn N eller ; Sommerrevuen 1892</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Indhold: Skærslibervise ; Cyclevise ; Drej om ad lille Kongensgade ; Forholdsvis temmelig go' ; No'et falder der jo altid af / Olfert Jespersen. Frederik, er du oppe. Guld. Ta' Poten væk. Ja Gudskelov / Otto Teich. Stop nu lidt Smit. Vedkommende</md:note><md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-233-253.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0020.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:21">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Kjøbenhavn N eller ; Sommerrevuen 1892</md:title>
+          </md:titleInfo>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Indhold: Skærslibervise ; Cyclevise ; Drej om ad lille Kongensgade ; Forholdsvis temmelig go' ; No'et falder der jo altid af / Olfert Jespersen. Frederik, er du oppe. Guld. Ta' Poten væk. Ja Gudskelov / Otto Teich. Stop nu lidt Smit. Vedkommende</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/revy/revy2-233-253.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0020.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>

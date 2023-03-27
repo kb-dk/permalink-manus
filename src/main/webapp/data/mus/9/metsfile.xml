@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:9"><m:dmdSec ID="md-root"><m:mdWrap MDTYPE="MODS"><m:xmlData><md:mods><md:titleInfo xml:lang="dan"><md:title>Det Kjøbenhavn der kommer ; eller Sommerrevuen 1884</md:title></md:titleInfo><md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier><md:relatedItem type="host"><md:titleInfo xml:lang="dan"><md:title>Musikafdelingen</md:title></md:titleInfo></md:relatedItem><md:note xml:lang="dan" type="presentation">Indhold: Ondt for Tænder. Adamine's Kjærester. Md. Bollerups Sværmeri. En Vise om Ingenting. Den glade "Varieté". Tyroler-Vise.Det er Løgn. En Halvdød. Friervise. De spanske Trak-Tatere / F. Jørgensen. &lt;Teksten til&gt; Hvad der kilder. - Opført på Revuetheatret i Tivoli</md:note><md:identifier type="pdf">http://img.kb.dk/ma/revy/revy1-159-180.pdf</md:identifier><md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0008.jpg</md:identifier></md:mods></m:xmlData></m:mdWrap></m:dmdSec></m:mets>
-
+<m:mets xmlns:m="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:md="http://www.loc.gov/mods/v3" xmlns="http://www.w3.org/1999/xhtml" OBJID="mus:9">
+  <m:dmdSec ID="md-root">
+    <m:mdWrap MDTYPE="MODS">
+      <m:xmlData>
+        <md:mods>
+          <md:titleInfo xml:lang="dan">
+            <md:title>Det Kjøbenhavn der kommer ; eller Sommerrevuen 1884</md:title>
+          </md:titleInfo>
+          <md:identifier type="uri" xml:lang="dan">/da/kb/nb/mta/</md:identifier>
+          <md:relatedItem type="host">
+            <md:titleInfo xml:lang="dan">
+              <md:title>Musikafdelingen</md:title>
+            </md:titleInfo>
+          </md:relatedItem>
+          <md:note xml:lang="dan" type="presentation">Indhold: Ondt for Tænder. Adamine's Kjærester. Md. Bollerups Sværmeri. En Vise om Ingenting. Den glade "Varieté". Tyroler-Vise.Det er Løgn. En Halvdød. Friervise. De spanske Trak-Tatere / F. Jørgensen. &lt;Teksten til&gt; Hvad der kilder. - Opført på Revuetheatret i Tivoli</md:note>
+          <md:identifier type="pdf">http://img.kb.dk/ma/revy/revy1-159-180.pdf</md:identifier>
+          <md:identifier type="thumb">http://img.kb.dk/ma/revy/FORS0008.jpg</md:identifier>
+        </md:mods>
+      </m:xmlData>
+    </m:mdWrap>
+  </m:dmdSec>
+</m:mets>
